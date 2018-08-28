@@ -1,7 +1,7 @@
 # Directories.
 .idea/
 src/dist
-src/backend/venv
+src/backend/cdb-env
 
 # Common operating system files.
 .DS_Store
