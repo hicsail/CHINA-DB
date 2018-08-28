@@ -1,6 +1,7 @@
 # Directories.
 .idea/
 src/dist
+src/backend/venv
 
 # Common operating system files.
 .DS_Store
