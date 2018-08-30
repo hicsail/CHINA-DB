@@ -9,6 +9,7 @@ mkdir backend
 cd backend
 virtualenv -p python3 cdb-env
 cd ..
+source backend/cdb-env/bin/activate
 pip install -r requirements.txt
 cd frontend
 npm install

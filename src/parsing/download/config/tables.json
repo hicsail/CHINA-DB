@@ -1,0 +1,33 @@
+{
+  "TABLES":
+          [
+            "corporate_entity",
+            "corporate_entity_type",
+            "event",
+            "event_type",
+            "institution",
+            "institution_type",
+            "nationality",
+            "organization_organization",
+            "organization_organization_rel_type",
+            "organization_organization_role",
+            "participation",
+            "participation_role",
+            "person",
+            "person_organization",
+            "person_organization_rel_type",
+            "person_organization_role",
+            "person_person",
+            "person_person_rel_type",
+            "person_person_role",
+            "source",
+            "source_entity",
+            "geography",
+            "village_address",
+            "township",
+            "county",
+            "prefecture",
+            "province",
+            "religious_family"
+          ]
+}
