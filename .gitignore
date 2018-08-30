@@ -84,3 +84,6 @@ pip-selfcheck.json
 # Files specific to this project.
 *.ipynb
 *.swp
+
+# sensitive
+src/parsing/download/config/auth.json
