@@ -5,28 +5,25 @@ involved with, along with other relevant information.
 """
 
 import json
-import os
 import pystache
 import ast
 
+from src.parsing.geo import Parser
 
-class PersonParser:
+
+class PersonParser(Parser):
 
     def __init__(self, input_dir='/tmp/table_data/'):
 
-        self.input_dir = input_dir
-        self.template_dir = "{}/templates/".format(os.path.dirname(os.path.realpath(__file__)))
+        super(PersonParser, self).__init__(input_dir)
 
         self.person_table = self.load_record("person")
-        self.person_org_table = self.load_record("person_organization")
-        self.institution_table = self.load_record("institution")
-        self.geo_table = self.load_record("geography")
-        self.township_table = self.load_record("township")
-        self.county_table = self.load_record("county")
-        self.prefecture_table = self.load_record("prefecture")
-        self.province_table = self.load_record("province")
+        self.records = None
 
     def load_record(self, rec_type):
+        """
+        Load a table from file.
+        """
 
         with open("{0}/{1}.json".format(self.input_dir, rec_type), 'r') as f:
 
@@ -34,7 +31,10 @@ class PersonParser:
 
         return ret
 
-    def build_json_person(self, pid, inst_name, start_year, lat, lon, name, loc_type):
+    def build_json(self, pid, inst_name, start_year, lat, lon, name, loc_type):
+        """
+        Basic Json record for an individual's participation.
+        """
 
         template = open("{}/person.tmpl".format(self.template_dir)).read()
 
@@ -71,7 +71,7 @@ class PersonParser:
                 lon = t_rec["longitude"]
                 name = t_rec["township_id"]
 
-                rec = self.build_json_person(pid, inst_name, start_year, lat, lon, name, "Township")
+                rec = self.build_json(pid, inst_name, start_year, lat, lon, name, "Township")
                 ret.append(rec)
 
                 continue
@@ -90,7 +90,7 @@ class PersonParser:
                 lon = c_rec["longitude"]
                 name = c_rec["county_id"]
 
-                rec = self.build_json_person(pid, inst_name, start_year, lat, lon, name, "County")
+                rec = self.build_json(pid, inst_name, start_year, lat, lon, name, "County")
                 ret.append(rec)
 
                 continue
@@ -109,7 +109,7 @@ class PersonParser:
                 lon = p_rec["longitude"]
                 name = p_rec["prefecture_id"]
 
-                rec = self.build_json_person(pid, inst_name, start_year, lat, lon, name, "Prefecture")
+                rec = self.build_json(pid, inst_name, start_year, lat, lon, name, "Prefecture")
                 ret.append(rec)
 
                 continue
@@ -128,7 +128,7 @@ class PersonParser:
                 lon = p_rec["longitude"]
                 name = p_rec["province_id"]
 
-                rec = self.build_json_person(pid, inst_name, start_year, lat, lon, name, "Province")
+                rec = self.build_json(pid, inst_name, start_year, lat, lon, name, "Province")
                 ret.append(rec)
 
                 continue
@@ -139,7 +139,11 @@ class PersonParser:
 
         return ret
 
-    def map_person_to_coords(self):
+    def map_to_coords(self):
+        """
+        For each Person record, build a record of each institutions/organization that
+        they participated in, where they were located, and what time they did it.
+        """
 
         ret = []
 
@@ -172,6 +176,69 @@ class PersonParser:
 
         return ret
 
+    def build_records(self):
+        """
+        Maps each Person record to its set of institutions / coordinates / time data,
+        then consolidates that list into a GeoJson formatted list of points with all
+        matching objects for each point stored in a list on that point.
+        """
+
+        records = self.map_to_coords()
+
+        ret = {}
+        all_coords = set()
+
+        for r in records:
+
+            coords = " ".join(str(i) for i in r["coordinates"])
+
+            if coords in all_coords:
+
+                new_dict = \
+                    {
+                        "type": "person",
+                        "person_id": r["person_id"],
+                        "institution_name": r["institution_name"],
+                        "start_year": r["start_year"],
+                        "location_type": r["location_type"],
+                        "location_name": r["location_name"]
+                    }
+
+                ret[coords]["properties"]["objects"].append(new_dict)
+
+            else:
+
+                all_coords.add(coords)
+
+                new_dict = \
+                    {
+                        "type": "Feature",
+                        "geometry":
+                        {
+                            "type": "Point",
+                            "coordinates": r["coordinates"]
+                        },
+                        "properties":
+                        {
+                            "objects":
+                            [
+                                {
+                                    "type": "person",
+                                    "person_id": r["person_id"],
+                                    "institution_name": r["institution_name"],
+                                    "start_year": r["start_year"],
+                                    "location_type": r["location_type"],
+                                    "location_name": r["location_name"]
+                                }
+                            ]
+                        }
+                    }
+
+                ret[coords] = new_dict
+
+        self.records = list(ret.values())
+
+        return self
 
 
 
