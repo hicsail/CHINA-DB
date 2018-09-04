@@ -3,9 +3,11 @@ OrgParser class -- Iterates over 'organization' table and produces a separate Ge
 JSON object for each with geographical coordinates, along with other relevant information.
 """
 
+from src.parsing.geo import Parser
 
-class OrgParser:
+
+class OrgParser(Parser):
 
     def __init__(self, input_dir='/tmp/table_data/'):
 
-        self.input_dir = input_dir
+        super(OrgParser, self).__init__(input_dir)
