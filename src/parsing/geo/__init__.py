@@ -29,3 +29,26 @@ class Parser:
             ret = json.loads(f.read())
 
         return ret
+
+    def build_records(self):
+
+        # overridden in subclasses
+
+        pass
+
+    def write_records(self, out_path="/tmp/person_geo.json"):
+        """
+        Write GeoJson formatted records to file
+        """
+
+        if self.records is None:
+            self.build_records()
+
+        geo_data = \
+            {
+                "features": self.records
+            }
+
+        with open(out_path, 'w') as f:
+
+            json.dump(geo_data, f, indent=4, sort_keys=True)
