@@ -18,7 +18,6 @@ class PersonParser(Parser):
         super(PersonParser, self).__init__(input_dir)
 
         self.person_table = self.load_record("person")
-        self.records = None
 
     def load_record(self, rec_type):
         """
@@ -62,9 +61,7 @@ class PersonParser(Parser):
         for g in geo:
 
             try:
-
                 g_rec = self.geo_table[g]["township_id"][0]
-
                 t_rec = self.township_table[g_rec]
 
                 lat = t_rec["latitutde"]
@@ -77,13 +74,10 @@ class PersonParser(Parser):
                 continue
 
             except KeyError:
-
                 pass
 
             try:
-
                 g_rec = self.geo_table[g]["county_id"][0]
-
                 c_rec = self.county_table[g_rec]
 
                 lat = c_rec["latitude"]
@@ -96,13 +90,10 @@ class PersonParser(Parser):
                 continue
 
             except KeyError:
-
                 pass
 
             try:
-
                 g_rec = self.geo_table[g]["perfecture_id"][0]
-
                 p_rec = self.prefecture_table[g_rec]
 
                 lat = p_rec["latitude"]
@@ -115,13 +106,10 @@ class PersonParser(Parser):
                 continue
 
             except KeyError:
-
                 pass
 
             try:
-
                 g_rec = self.geo_table[g]["province_id"][0]
-
                 p_rec = self.province_table[g_rec]
 
                 lat = p_rec["latitude"]
@@ -134,7 +122,6 @@ class PersonParser(Parser):
                 continue
 
             except KeyError:
-
                 pass
 
         return ret
@@ -150,12 +137,10 @@ class PersonParser(Parser):
         for p in self.person_table:
 
             try:
-
                 pid = self.person_table[p]["person_id"]
                 orgs = self.person_table[p]["person_organization"]
 
             except KeyError:
-
                 continue
 
             for org in orgs:
@@ -163,7 +148,6 @@ class PersonParser(Parser):
                 current_org = self.person_org_table[org]
 
                 try:
-
                     inst_id = current_org["inst_id"][0]
                     start_year = current_org["start_year"]
 
@@ -171,7 +155,6 @@ class PersonParser(Parser):
                     ret.extend(rec)
 
                 except KeyError:
-
                     pass
 
         return ret
@@ -239,6 +222,7 @@ class PersonParser(Parser):
         self.records = list(ret.values())
 
         return self
+
 
 
 
