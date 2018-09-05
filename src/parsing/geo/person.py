@@ -51,6 +51,9 @@ class PersonParser(Parser):
         return ast.literal_eval(pystache.render(template, data))
 
     def build_record(self, pid, inst_id, start_year):
+        """
+        Create json records, search in decreasing level of granularity
+        """
 
         ret = []
 
@@ -176,6 +179,7 @@ class PersonParser(Parser):
             coords = " ".join(str(i) for i in r["coordinates"])
 
             if coords in all_coords:
+                # merge this record with an existing Point
 
                 new_dict = \
                     {
@@ -190,6 +194,7 @@ class PersonParser(Parser):
                 ret[coords]["properties"]["objects"].append(new_dict)
 
             else:
+                # create a new Point
 
                 all_coords.add(coords)
 

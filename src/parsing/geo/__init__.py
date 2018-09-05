@@ -21,7 +21,7 @@ class Parser:
 
     def load_record(self, rec_type):
         """
-        Load a table from file.
+        Load a table from file
         """
 
         with open("{0}/{1}.json".format(self.input_dir, rec_type), 'r') as f:
@@ -31,8 +31,9 @@ class Parser:
         return ret
 
     def build_records(self):
-
-        # overridden in subclasses
+        """
+        Overridden in subclasses
+        """
 
         pass
 
