@@ -1,5 +1,6 @@
 import json
 import os
+import pystache
 
 
 class Parser:
@@ -37,7 +38,7 @@ class Parser:
 
         pass
 
-    def write_records(self, out_path="/tmp/person_geo.json"):
+    def write_records(self, out_path="/tmp/person_geo.js"):
         """
         Write GeoJson formatted records to file
         """
@@ -45,11 +46,13 @@ class Parser:
         if self.records is None:
             self.build_records()
 
-        geo_data = \
+        template = open("{}/geo.tmpl".format(self.template_dir)).read()
+
+        data = \
             {
-                "features": self.records
+                "DATA": json.dumps(self.records, indent=4, sort_keys=False)
             }
 
         with open(out_path, 'w') as f:
 
-            json.dump(geo_data, f, indent=4, sort_keys=True)
+            f.write(pystache.render(template, data))
