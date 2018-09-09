@@ -1,15 +1,18 @@
 <template>
-    <div id="full_div">
-        <div>
+    <div>
+        <div id="map-window">
             <h3>Shanxi Province, China</h3>
+            <div id="map">
+            <l-map style="height: 100%" :zoom="zoom" :center="center">
+                <l-tile-layer :url="url" :attribution="attribution">
+                </l-tile-layer>
+                <l-geo-json :geojson="coors.geojson" :options="coors.options">
+                </l-geo-json>
+            </l-map>
+            </div>
         </div>
-        <div id="map">
-        <l-map style="height: 100%" :zoom="zoom" :center="center">
-            <l-tile-layer :url="url" :attribution="attribution">
-            </l-tile-layer>
-            <l-geo-json :geojson="coors.geojson" :options="coors.options">
-            </l-geo-json>
-        </l-map>
+        <div id="results-box">
+            HEEYYYYY Hell yea
         </div>
     </div>
 </template>
@@ -58,7 +61,18 @@
                         });
                       }
                     }
-                }
+                },
+                pointData: [{}]
+
+              /*
+                       "type": "person",
+                    "institution_name": "Luanfu Mission (CIM)",
+                    "start_year": 1919,
+                    "location_type": "County",
+                    "location_name": "Luzhou District",
+                    "first_name": "H.",
+                    "last_name": "Lyons"
+               */
 			}
 		}
 	}
@@ -68,13 +82,21 @@
 
     @import "../../node_modules/leaflet/dist/leaflet.css";
 
-    #full_div {
+    #results-box {
+        position: absolute;
+        top: 950px;
+        bottom: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #map-window {
         position: absolute;
         overflow-x: auto;
         top: 170px;
         right: 30px;
         left: 30px;
-        bottom: 0;
+        bottom: 20px;
         padding-left: 10px;
         padding-right: 10px;
     }
