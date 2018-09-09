@@ -30,7 +30,7 @@ class PersonParser(Parser):
 
         return ret
 
-    def build_json(self, pid, inst_name, start_year, lat, lon, name, loc_type):
+    def build_json(self, inst_name, start_year, lat, lon, name, loc_type, first_name, last_name):
         """
         Basic Json record for an individual's participation.
         """
@@ -41,16 +41,17 @@ class PersonParser(Parser):
             {
                 "LAT": lat,
                 "LON": lon,
-                "PID": pid,
                 "INST_NAME": inst_name,
                 "START_YEAR": start_year,
                 "LOC_TYPE": loc_type,
-                "LOC_NAME": name
+                "LOC_NAME": name,
+                "FIRST_NAME": first_name,
+                "LAST_NAME": last_name
             }
 
         return ast.literal_eval(pystache.render(template, data))
 
-    def build_record(self, pid, inst_id, start_year):
+    def build_record(self, inst_id, start_year, first_name, last_name):
         """
         Create json records, search in decreasing level of granularity
         """
@@ -60,6 +61,11 @@ class PersonParser(Parser):
         current_institution = self.institution_table[inst_id]
         inst_name = current_institution["inst_id"]
         geo = current_institution["geography"]
+
+        if first_name is None:
+            first_name = "N/A"
+        if last_name is None:
+            last_name = "N/A"
 
         for g in geo:
 
@@ -71,7 +77,8 @@ class PersonParser(Parser):
                 lon = t_rec["longitude"]
                 name = t_rec["township_id"]
 
-                rec = self.build_json(pid, inst_name, start_year, lat, lon, name, "Township")
+                rec = self.build_json(
+                    inst_name, start_year, lat, lon, name, "Township", first_name, last_name)
                 ret.append(rec)
 
                 continue
@@ -87,7 +94,8 @@ class PersonParser(Parser):
                 lon = c_rec["longitude"]
                 name = c_rec["county_id"]
 
-                rec = self.build_json(pid, inst_name, start_year, lat, lon, name, "County")
+                rec = self.build_json(
+                    inst_name, start_year, lat, lon, name, "County", first_name, last_name)
                 ret.append(rec)
 
                 continue
@@ -103,7 +111,8 @@ class PersonParser(Parser):
                 lon = p_rec["longitude"]
                 name = p_rec["prefecture_id"]
 
-                rec = self.build_json(pid, inst_name, start_year, lat, lon, name, "Prefecture")
+                rec = self.build_json(
+                    inst_name, start_year, lat, lon, name, "Prefecture", first_name, last_name)
                 ret.append(rec)
 
                 continue
@@ -119,7 +128,8 @@ class PersonParser(Parser):
                 lon = p_rec["longitude"]
                 name = p_rec["province_id"]
 
-                rec = self.build_json(pid, inst_name, start_year, lat, lon, name, "Province")
+                rec = self.build_json(
+                    inst_name, start_year, lat, lon, name, "Province", first_name, last_name)
                 ret.append(rec)
 
                 continue
@@ -140,7 +150,16 @@ class PersonParser(Parser):
         for p in self.person_table:
 
             try:
-                pid = self.person_table[p]["person_id"]
+
+                try:
+                    family_name = self.person_table[p]["family_name_en"]
+                except KeyError:
+                    family_name = None
+                try:
+                    given_name = self.person_table[p]["given_name_en"]
+                except KeyError:
+                    given_name = None
+
                 orgs = self.person_table[p]["person_organization"]
 
             except KeyError:
@@ -154,7 +173,7 @@ class PersonParser(Parser):
                     inst_id = current_org["inst_id"][0]
                     start_year = current_org["start_year"]
 
-                    rec = self.build_record(pid, inst_id, start_year)
+                    rec = self.build_record(inst_id, start_year, given_name, family_name)
                     ret.extend(rec)
 
                 except KeyError:
@@ -184,11 +203,12 @@ class PersonParser(Parser):
                 new_dict = \
                     {
                         "type": "person",
-                        "person_id": r["person_id"],
                         "institution_name": r["institution_name"],
                         "start_year": r["start_year"],
                         "location_type": r["location_type"],
-                        "location_name": r["location_name"]
+                        "location_name": r["location_name"],
+                        "first_name": r["first_name"],
+                        "last_name": r["last_name"]
                     }
 
                 ret[coords]["properties"]["objects"].append(new_dict)
@@ -212,11 +232,12 @@ class PersonParser(Parser):
                             [
                                 {
                                     "type": "person",
-                                    "person_id": r["person_id"],
                                     "institution_name": r["institution_name"],
                                     "start_year": r["start_year"],
                                     "location_type": r["location_type"],
-                                    "location_name": r["location_name"]
+                                    "location_name": r["location_name"],
+                                    "first_name": r["first_name"],
+                                    "last_name": r["last_name"]
                                 }
                             ]
                         }

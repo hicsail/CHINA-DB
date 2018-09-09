@@ -53,6 +53,6 @@ class Parser:
                 "DATA": json.dumps(self.records, indent=4, sort_keys=False)
             }
 
-        with open(out_path, 'w') as f:
+        with open(out_path, 'w', encoding='utf8') as f:
 
             f.write(pystache.render(template, data))
