@@ -1,7 +1,6 @@
 # Directories.
 .idea/
-src/dist
-src/backend/cdb-env
+backend/cdb-env/
 
 # Common operating system files.
 .DS_Store
@@ -20,7 +19,6 @@ __pycache__/
 env/
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
