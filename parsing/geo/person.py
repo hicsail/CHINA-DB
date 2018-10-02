@@ -7,8 +7,9 @@ involved with, along with other relevant information.
 import json
 import pystache
 import ast
+import copy
 
-from src.parsing.geo import Parser
+from parsing.geo import Parser
 
 
 class PersonParser(Parser):
@@ -18,6 +19,7 @@ class PersonParser(Parser):
         super(PersonParser, self).__init__(input_dir)
 
         self.person_table = self.load_record("person")
+        self.nationality_table = self.load_record("nationality")
 
     def load_record(self, rec_type):
         """
@@ -30,112 +32,94 @@ class PersonParser(Parser):
 
         return ret
 
-    def build_json(self, inst_name, start_year, lat, lon, name, loc_type, first_name, last_name):
-        """
-        Basic Json record for an individual's participation.
-        """
+    def nationality_dict(self):
 
-        template = open("{}/person.tmpl".format(self.template_dir)).read()
+        ret = {}
 
-        data = \
-            {
-                "LAT": lat,
-                "LON": lon,
-                "INST_NAME": inst_name,
-                "START_YEAR": start_year,
-                "LOC_TYPE": loc_type,
-                "LOC_NAME": name,
-                "FIRST_NAME": first_name,
-                "LAST_NAME": last_name
-            }
+        for rec in self.nationality_table:
 
-        return ast.literal_eval(pystache.render(template, data))
+            people = rec["person"]
 
-    def build_record(self, inst_id, start_year, first_name, last_name):
-        """
-        Create json records, search in decreasing level of granularity
-        """
+            for p in people:
+                ret[p] = rec["country_en"]
+
+        return ret
+
+    def fetch_geo(self, rec, g):
+
+        try:
+            g_rec = self.geo_table[g]["township_id"][0]
+            t_rec = self.township_table[g_rec]
+
+            rec["coords"]["lat"] = t_rec["latitutde"]
+            rec["coords"]["lon"] = t_rec["longitude"]
+            rec["loc"]["location_type"] = "township"
+            rec["loc"]["location_name"] = t_rec["township_id"]
+
+            return rec
+
+        except KeyError:
+            pass
+
+        try:
+            g_rec = self.geo_table[g]["county_id"][0]
+            c_rec = self.county_table[g_rec]
+
+            rec["coords"]["lat"] = c_rec["latitude"]
+            rec["coords"]["lon"] = c_rec["longitude"]
+            rec["loc"]["location_type"] = "county"
+            rec["loc"]["location_name"] = c_rec["county_id"]
+
+            return rec
+
+        except KeyError:
+            pass
+
+        try:
+            g_rec = self.geo_table[g]["perfecture_id"][0]
+            p_rec = self.prefecture_table[g_rec]
+
+            rec["coords"]["lat"] = p_rec["latitude"]
+            rec["coords"]["lon"] = p_rec["longitude"]
+            rec["loc"]["location_type"] = "prefecture"
+            rec["loc"]["location_name"] = p_rec["prefecture_id"]
+
+            return rec
+
+        except KeyError:
+            pass
+
+        try:
+            g_rec = self.geo_table[g]["province_id"][0]
+            p_rec = self.province_table[g_rec]
+
+            rec["coords"]["lat"] = p_rec["latitude"]
+            rec["coords"]["lon"] = p_rec["longitude"]
+            rec["loc"]["location_type"] = "province"
+            rec["loc"]["location_name"] = p_rec["province_id"]
+
+            return rec
+
+        except KeyError:
+            pass
+
+        return None
+
+    def add_geo(self, inst_id, rec):
 
         ret = []
 
         current_institution = self.institution_table[inst_id]
-        inst_name = current_institution["inst_id"]
+        rec["institute_name"] = current_institution["inst_id"]
         geo = current_institution["geography"]
-
-        if first_name is None:
-            first_name = "N/A"
-        if last_name is None:
-            last_name = "N/A"
 
         for g in geo:
 
-            try:
-                g_rec = self.geo_table[g]["township_id"][0]
-                t_rec = self.township_table[g_rec]
+            rec_copy = copy.deepcopy(rec)
+            geo_rec = self.fetch_geo(rec_copy, g)
 
-                lat = t_rec["latitutde"]
-                lon = t_rec["longitude"]
-                name = t_rec["township_id"]
-
-                rec = self.build_json(
-                    inst_name, start_year, lat, lon, name, "Township", first_name, last_name)
-                ret.append(rec)
-
-                continue
-
-            except KeyError:
-                pass
-
-            try:
-                g_rec = self.geo_table[g]["county_id"][0]
-                c_rec = self.county_table[g_rec]
-
-                lat = c_rec["latitude"]
-                lon = c_rec["longitude"]
-                name = c_rec["county_id"]
-
-                rec = self.build_json(
-                    inst_name, start_year, lat, lon, name, "County", first_name, last_name)
-                ret.append(rec)
-
-                continue
-
-            except KeyError:
-                pass
-
-            try:
-                g_rec = self.geo_table[g]["perfecture_id"][0]
-                p_rec = self.prefecture_table[g_rec]
-
-                lat = p_rec["latitude"]
-                lon = p_rec["longitude"]
-                name = p_rec["prefecture_id"]
-
-                rec = self.build_json(
-                    inst_name, start_year, lat, lon, name, "Prefecture", first_name, last_name)
-                ret.append(rec)
-
-                continue
-
-            except KeyError:
-                pass
-
-            try:
-                g_rec = self.geo_table[g]["province_id"][0]
-                p_rec = self.province_table[g_rec]
-
-                lat = p_rec["latitude"]
-                lon = p_rec["longitude"]
-                name = p_rec["province_id"]
-
-                rec = self.build_json(
-                    inst_name, start_year, lat, lon, name, "Province", first_name, last_name)
-                ret.append(rec)
-
-                continue
-
-            except KeyError:
-                pass
+            if geo_rec is not None:
+                ret.append(geo_rec)
 
         return ret
 
@@ -147,22 +131,55 @@ class PersonParser(Parser):
 
         ret = []
 
+        person_to_nationality = self.nationality_dict()
+
         for p in self.person_table:
 
+            # initialize dict that stores info about this person & populate below
+            p_ret = {
+                "coords":
+                    {
+                        "lat": "N/A",
+                        "lon": "N/A"
+                    },
+                "time":
+                    {
+                        "start_year": "N/A",
+                        "birth_year": "N/A",
+                        "death_year": "N/A"
+                    },
+                "loc":
+                    {
+                        "location_type": "N/A",
+                        "location_name": "N/A"
+                    },
+                "titles":
+                    {
+                        "family_name_en": "N/A",
+                        "given_name_en": "N/A",
+                        "family_name_py": "N/A",
+                        "given_name_py": "N/A"
+                    },
+                "nationality": "N/A",
+                "gender": "N/A",
+                "institution_name": "N/A"
+            }
+
+            for e in p_ret["titles"]:
+                try:
+                    p_ret["titles"][e] = self.person_table[p][e]
+                except KeyError:
+                    continue
+
             try:
-
-                try:
-                    family_name = self.person_table[p]["family_name_en"]
-                except KeyError:
-                    family_name = None
-                try:
-                    given_name = self.person_table[p]["given_name_en"]
-                except KeyError:
-                    given_name = None
-
-                orgs = self.person_table[p]["person_organization"]
-
+                p_ret["nationality"] = person_to_nationality[p]
             except KeyError:
+                pass
+
+            try:
+                orgs = self.person_table[p]["person_organization"]
+            except KeyError:
+                # no orgs == can't map to coords, skip to next entry
                 continue
 
             for org in orgs:
@@ -171,10 +188,9 @@ class PersonParser(Parser):
 
                 try:
                     inst_id = current_org["inst_id"][0]
-                    start_year = current_org["start_year"]
 
-                    rec = self.build_record(inst_id, start_year, given_name, family_name)
-                    ret.extend(rec)
+                    recs = self.add_geo(inst_id, p_ret)
+                    ret.extend(recs)
 
                 except KeyError:
                     pass
@@ -186,6 +202,8 @@ class PersonParser(Parser):
         Maps each Person record to its set of institutions / coordinates / time data,
         then consolidates that list into a GeoJson formatted list of points with all
         matching objects for each point stored in a list on that point.
+
+        TODO: finish this method up, add necessary fields
         """
 
         records = self.map_to_coords()
@@ -195,7 +213,7 @@ class PersonParser(Parser):
 
         for r in records:
 
-            coords = " ".join(str(i) for i in r["coordinates"])
+            coords = "{0} {1}".format(r["coords"]["lon"], r["coords"]["lat"])
 
             if coords in all_coords:
                 # merge this record with an existing Point
@@ -224,7 +242,7 @@ class PersonParser(Parser):
                         "geometry":
                         {
                             "type": "Point",
-                            "coordinates": r["coordinates"]
+                            "coordinates": [r["coords"]["lon"], r["coords"]["lat"]]
                         },
                         "properties":
                         {
