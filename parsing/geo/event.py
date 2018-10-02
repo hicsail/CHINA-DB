@@ -3,7 +3,7 @@ EventParser class -- Iterates over 'event' table and produces a separate GeoJson
 JSON object for each with geographical coordinates, along with other relevant information.
 """
 
-from src.parsing.geo import Parser
+from parsing.geo import Parser
 
 
 class EventParser(Parser):

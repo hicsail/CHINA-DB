@@ -1,4 +1,4 @@
-from src.parsing.geo.person import PersonParser
+from parsing.geo.person import PersonParser
 
 a = PersonParser()
 
