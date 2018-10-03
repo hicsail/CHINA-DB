@@ -5,8 +5,6 @@ involved with, along with other relevant information.
 """
 
 import json
-import pystache
-import ast
 import copy
 
 from parsing.geo import Parser
@@ -36,12 +34,17 @@ class PersonParser(Parser):
 
         ret = {}
 
-        for rec in self.nationality_table:
+        for rec in self.nationality_table.keys():
 
-            people = rec["person"]
+            this_record = self.nationality_table[rec]
+            try:
+                people = this_record["person"]
+            except KeyError:
+                # missing person field, skip to next entry
+                continue
 
             for p in people:
-                ret[p] = rec["country_en"]
+                ret[p] = this_record["country_en"]
 
         return ret
 
@@ -110,7 +113,7 @@ class PersonParser(Parser):
         ret = []
 
         current_institution = self.institution_table[inst_id]
-        rec["institute_name"] = current_institution["inst_id"]
+        rec["institution_name"] = current_institution["inst_id"]
         geo = current_institution["geography"]
 
         for g in geo:
@@ -127,6 +130,8 @@ class PersonParser(Parser):
         """
         For each Person record, build a record of each institutions/organization that
         they participated in, where they were located, and what time they did it.
+
+        TODO: nationality, start year, birth year, death year, gender
         """
 
         ret = []
@@ -160,6 +165,7 @@ class PersonParser(Parser):
                         "family_name_py": "N/A",
                         "given_name_py": "N/A"
                     },
+                "type": "person",
                 "nationality": "N/A",
                 "gender": "N/A",
                 "institution_name": "N/A"
@@ -170,6 +176,21 @@ class PersonParser(Parser):
                     p_ret["titles"][e] = self.person_table[p][e]
                 except KeyError:
                     continue
+
+            try:
+                p_ret["time"]["birth_year"] = self.person_table[p]["birth_year"]
+            except KeyError:
+                pass
+
+            try:
+                p_ret["time"]["death_year"] = self.person_table[p]["death_year"]
+            except KeyError:
+                pass
+
+            try:
+                p_ret["gender"] = self.person_table[p]["gender"][0]
+            except KeyError:
+                pass
 
             try:
                 p_ret["nationality"] = person_to_nationality[p]
@@ -185,6 +206,10 @@ class PersonParser(Parser):
             for org in orgs:
 
                 current_org = self.person_org_table[org]
+                try:
+                    p_ret["time"]["start_year"] = self.person_org_table[org]["start_year"]
+                except KeyError:
+                    pass
 
                 try:
                     inst_id = current_org["inst_id"][0]
@@ -202,8 +227,6 @@ class PersonParser(Parser):
         Maps each Person record to its set of institutions / coordinates / time data,
         then consolidates that list into a GeoJson formatted list of points with all
         matching objects for each point stored in a list on that point.
-
-        TODO: finish this method up, add necessary fields
         """
 
         records = self.map_to_coords()
@@ -218,23 +241,17 @@ class PersonParser(Parser):
             if coords in all_coords:
                 # merge this record with an existing Point
 
-                new_dict = \
-                    {
-                        "type": "person",
-                        "institution_name": r["institution_name"],
-                        "start_year": r["start_year"],
-                        "location_type": r["location_type"],
-                        "location_name": r["location_name"],
-                        "first_name": r["first_name"],
-                        "last_name": r["last_name"]
-                    }
+                del r["coords"]
 
-                ret[coords]["properties"]["objects"].append(new_dict)
+                ret[coords]["properties"]["objects"].append(r)
 
             else:
                 # create a new Point
 
                 all_coords.add(coords)
+
+                new_coords = [r["coords"]["lon"], r["coords"]["lat"]]
+                del r["coords"]
 
                 new_dict = \
                     {
@@ -242,21 +259,13 @@ class PersonParser(Parser):
                         "geometry":
                         {
                             "type": "Point",
-                            "coordinates": [r["coords"]["lon"], r["coords"]["lat"]]
+                            "coordinates": new_coords
                         },
                         "properties":
                         {
                             "objects":
                             [
-                                {
-                                    "type": "person",
-                                    "institution_name": r["institution_name"],
-                                    "start_year": r["start_year"],
-                                    "location_type": r["location_type"],
-                                    "location_name": r["location_name"],
-                                    "first_name": r["first_name"],
-                                    "last_name": r["last_name"]
-                                }
+                                r
                             ]
                         }
                     }

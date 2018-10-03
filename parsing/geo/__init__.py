@@ -38,7 +38,7 @@ class Parser:
 
         pass
 
-    def write_records(self, out_path="/tmp/person_geo.js"):
+    def write_records(self, out_path="/tmp/geo.js"):
         """
         Write GeoJson formatted records to file
         """
