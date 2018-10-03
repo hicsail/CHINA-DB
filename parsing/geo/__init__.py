@@ -17,6 +17,7 @@ class Parser:
         self.county_table = self.load_record("county")
         self.prefecture_table = self.load_record("prefecture")
         self.province_table = self.load_record("province")
+        self.nationality_table = self.load_record("nationality")
 
         self.records = None
 
@@ -31,12 +32,126 @@ class Parser:
 
         return ret
 
-    def build_records(self):
+    def map_to_coords(self):
         """
         Overridden in subclasses
         """
 
-        pass
+        return {}
+
+    def fetch_geo(self, rec, g):
+
+        try:
+            g_rec = self.geo_table[g]["township_id"][0]
+            t_rec = self.township_table[g_rec]
+
+            rec["coords"]["lat"] = t_rec["latitutde"]
+            rec["coords"]["lon"] = t_rec["longitude"]
+            rec["loc"]["location_type"] = "township"
+            rec["loc"]["location_name"] = t_rec["township_id"]
+
+            return rec
+
+        except KeyError:
+            pass
+
+        try:
+            g_rec = self.geo_table[g]["county_id"][0]
+            c_rec = self.county_table[g_rec]
+
+            rec["coords"]["lat"] = c_rec["latitude"]
+            rec["coords"]["lon"] = c_rec["longitude"]
+            rec["loc"]["location_type"] = "county"
+            rec["loc"]["location_name"] = c_rec["county_id"]
+
+            return rec
+
+        except KeyError:
+            pass
+
+        try:
+            g_rec = self.geo_table[g]["perfecture_id"][0]
+            p_rec = self.prefecture_table[g_rec]
+
+            rec["coords"]["lat"] = p_rec["latitude"]
+            rec["coords"]["lon"] = p_rec["longitude"]
+            rec["loc"]["location_type"] = "prefecture"
+            rec["loc"]["location_name"] = p_rec["prefecture_id"]
+
+            return rec
+
+        except KeyError:
+            pass
+
+        try:
+            g_rec = self.geo_table[g]["province_id"][0]
+            p_rec = self.province_table[g_rec]
+
+            rec["coords"]["lat"] = p_rec["latitude"]
+            rec["coords"]["lon"] = p_rec["longitude"]
+            rec["loc"]["location_type"] = "province"
+            rec["loc"]["location_name"] = p_rec["province_id"]
+
+            return rec
+
+        except KeyError:
+            pass
+
+        return None
+
+    def build_records(self):
+        """
+        Maps each Person record to its set of institutions / coordinates / time data,
+        then consolidates that list into a GeoJson formatted list of points with all
+        matching objects for each point stored in a list on that point.
+        """
+
+        records = self.map_to_coords()
+
+        ret = {}
+        all_coords = set()
+
+        for r in records:
+
+            coords = "{0} {1}".format(r["coords"]["lon"], r["coords"]["lat"])
+
+            if coords in all_coords:
+                # merge this record with an existing Point
+
+                del r["coords"]
+
+                ret[coords]["properties"]["objects"].append(r)
+
+            else:
+                # create a new Point
+
+                all_coords.add(coords)
+
+                new_coords = [r["coords"]["lon"], r["coords"]["lat"]]
+                del r["coords"]
+
+                new_dict = \
+                    {
+                        "type": "Feature",
+                        "geometry":
+                            {
+                                "type": "Point",
+                                "coordinates": new_coords
+                            },
+                        "properties":
+                            {
+                                "objects":
+                                    [
+                                        r
+                                    ]
+                            }
+                    }
+
+                ret[coords] = new_dict
+
+        self.records = list(ret.values())
+
+        return self
 
     def write_records(self, out_path="/tmp/geo.js"):
         """

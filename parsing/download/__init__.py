@@ -46,6 +46,8 @@ class PullData:
 
         for table in self.tables:
 
+            print("Pulling table: {}\n".format(table))
+
             table_dict = dict()
 
             data = Airtable(self.base_key, table, api_key=self.api_key).get_all()
