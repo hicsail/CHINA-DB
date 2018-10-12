@@ -11,6 +11,14 @@
                 </l-map>
             </div>
         </div>
+        <div id="filter-window">
+            <b>Time range:</b>
+            <div id="slider-window">
+                <vue-slider v-model="sliderVals.value" v-bind="sliderVals">
+
+                </vue-slider>
+            </div>
+        </div>
         <div id="results-box">
             <b>Results:</b>
             <li v-for="d in pointData">
@@ -23,6 +31,7 @@
 <script>
 
 	import { LMap, LTileLayer, LGeoJson } from 'vue2-leaflet';
+    import vueSlider from 'vue-slider-component'
 	import {default as data} from "../assets/geo.js";
 
 	function findPoint(coords) {
@@ -39,10 +48,21 @@
 		components: {
 			LMap,
 			LTileLayer,
-			LGeoJson
+			LGeoJson,
+            vueSlider
 		},
 		data () {
 			return {
+				sliderVals:
+                  {
+                    min: 1600,
+                    max: 1950,
+                    value: [1600, 1600],
+                    formatter: "{value}",
+                    mergeFormatter: "{value1} ~ {value2}",
+                    tooltip: "always",
+                    enableCross: false
+                  },
 				zoom: 7,
 				center: [35.026413, 111.007530],
 				url: 'https://api.tiles.mapbox.com/v4/mapbox.light/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWJvdWNoYXVkIiwiYSI6ImNpdTA5bWw1azAyZDIyeXBqOWkxOGJ1dnkifQ.qha33VjEDTqcHQbibgHw3w',
@@ -78,11 +98,15 @@
                   click: this.pushData
                 });
             },
+            pushPoints(pt)
+            {
+            	this.pointData.push(pt);
+            },
             pushData(f) {
               let coords = [f.latlng.lng, f.latlng.lat];
               let pt = findPoint(coords);
-              console.log(pt);
-              this.pointData.push(pt);
+              this.pointData = [];
+              this.pushPoints(pt)
             }
 		}
 	}
@@ -104,7 +128,7 @@
         position: absolute;
         overflow-x: auto;
         top: 170px;
-        right: 30px;
+        right: 300px;
         left: 30px;
         bottom: 20px;
         padding-left: 10px;
@@ -119,6 +143,25 @@
         left: 30px;
         bottom: 20px;
         border: 3px solid green;
+    }
+
+    #filter-window {
+        position: absolute;
+        overflow-x: auto;
+        top: 250px;
+        right: 30px;
+        left: 970px;
+        bottom: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 3px solid green;
+    }
+
+    #slider-window {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        right: 50px;
     }
 
 </style>
