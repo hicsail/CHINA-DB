@@ -13,7 +13,9 @@
         </div>
         <div id="results-box">
             <b>Results:</b>
-
+            <li v-for="d in pointData">
+                ayy lmoa
+            </li>
         </div>
     </div>
 </template>
@@ -23,21 +25,10 @@
 	import { LMap, LTileLayer, LGeoJson } from 'vue2-leaflet';
 	import {default as data} from "../assets/geo.js";
 
-	function pushData(f) {
-		let coords = [f.latlng.lng, f.latlng.lat];
-		let pt = findPoint(coords);
-		console.log(pt);
-	}
-
-	function onEachFeature(feature, layer) {
-		layer.on({
-			click: pushData
-		});
-	}
-
 	function findPoint(coords) {
 		for (let i = 0; i < data.coords.features.length; i++) {
-			if (coords === data.coords.features[i].geometry.coordinates) {
+			if (coords[0] === data.coords.features[i].geometry.coordinates[0]
+              && coords[1] === data.coords.features[i].geometry.coordinates[1]) {
 				return data.coords.features[i];
 			}
 		}
@@ -72,7 +63,7 @@
 								fillOpacity: 0.8
 							});
 						},
-						onEachFeature: onEachFeature
+						onEachFeature: this.onEachFeature
 					}
 				},
 				pointData: []
@@ -81,7 +72,18 @@
 		methods: {
 			hello(coord) {
 				alert(coord.geometry.type);
-			}
+			},
+            onEachFeature(feature, layer) {
+				layer.on({
+                  click: this.pushData
+                });
+            },
+            pushData(f) {
+              let coords = [f.latlng.lng, f.latlng.lat];
+              let pt = findPoint(coords);
+              console.log(pt);
+              this.pointData.push(pt);
+            }
 		}
 	}
 </script>
