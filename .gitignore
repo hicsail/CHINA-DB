@@ -16,6 +16,7 @@ __pycache__/
 
 # Distribution / packaging.
 .Python
+node_modules/
 env/
 develop-eggs/
 downloads/
