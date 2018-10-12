@@ -11,13 +11,9 @@
                 </l-map>
             </div>
         </div>
-        <div id="filter-window">
-            <input type="checkbox" v-model="test">
-        </div>
         <div id="results-box">
-            <li v-for="d in pointData">
-                ayy lmoa
-            </li>
+            <b>Results:</b>
+
         </div>
     </div>
 </template>
@@ -25,7 +21,27 @@
 <script>
 
 	import { LMap, LTileLayer, LGeoJson } from 'vue2-leaflet';
-	import {default as geoData} from "../assets/geo.js";
+	import {default as data} from "../assets/geo.js";
+
+	function pushData(f) {
+		let coords = [f.latlng.lng, f.latlng.lat];
+		let pt = findPoint(coords);
+		console.log(pt);
+	}
+
+	function onEachFeature(feature, layer) {
+		layer.on({
+			click: pushData
+		});
+	}
+
+	function findPoint(coords) {
+		for (let i = 0; i < data.coords.features.length; i++) {
+			if (coords === data.coords.features[i].geometry.coordinates) {
+				return data.coords.features[i];
+			}
+		}
+	}
 
 	export default {
 		name: "shanxiMap",
@@ -41,7 +57,7 @@
 				url: 'https://api.tiles.mapbox.com/v4/mapbox.light/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWJvdWNoYXVkIiwiYSI6ImNpdTA5bWw1azAyZDIyeXBqOWkxOGJ1dnkifQ.qha33VjEDTqcHQbibgHw3w',
 				attribution:'&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
 				coors: {
-					geojson: function() { return geoData.coords},
+					geojson: data.coords,
 					options: {
 						style: function (feature) {
 							return feature.properties && feature.properties.style;
@@ -56,44 +72,18 @@
 								fillOpacity: 0.8
 							});
 						},
-                        onEachFeature: this.onEachFeature
+						onEachFeature: onEachFeature
 					}
 				},
-              pointData: []
+				pointData: []
 			}
 		},
 		methods: {
-          hello(coord) {
-            alert(coord.geometry.type);
-          },
-          findPoint(coords) {
-            for (let i = 0; i < geoData.coords.features.length; i++) {
-              if (coords[0] === geoData.coords.features[i].geometry.coordinates[0]
-                && coords[1] === geoData.coords.features[i].geometry.coordinates[1])
-              {
-                return geoData.coords.features[i];
-              }
-            }
-          },
-          pushData(f) {
-          	this.pointdata = [];
-            let coords = [f.latlng.lng, f.latlng.lat];
-            let pt = this.findPoint(coords);
-            console.log(pt);
-            let pointFeatures = pt.properties.objects;
-            for (let i = 0; i < pointFeatures.length; i++)
-            {
-            	this.pointData.push(pointFeatures[i]);
-            }
-          },
-          onEachFeature(feature, layer) {
-            layer.on({
-              click: this.pushData
-            });
-          }
+			hello(coord) {
+				alert(coord.geometry.type);
+			}
 		}
 	}
-
 </script>
 
 <style>
@@ -112,19 +102,8 @@
         position: absolute;
         overflow-x: auto;
         top: 170px;
-        right: 300px;
-        left: 30px;
-        bottom: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    #filter-window {
-        position: absolute;
-        overflow-x: auto;
-        top: 300px;
         right: 30px;
-        left: 1200px;
+        left: 30px;
         bottom: 20px;
         padding-left: 10px;
         padding-right: 10px;
