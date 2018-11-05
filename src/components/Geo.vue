@@ -1,29 +1,24 @@
 <template>
-    <div>
-        <div id="map-window">
+    <div class = "container">
+        <div class="row">
             <h3>Shanxi Province, China</h3>
-            <div id="map">
-                <l-map style="height: 100%" :zoom="zoom" :center="center">
-                    <l-tile-layer :url="url" :attribution="attribution">
-                    </l-tile-layer>
-                    <l-geo-json :geojson="coors.geojson" :options="coors.options" >
-                    </l-geo-json>
-                </l-map>
+            <div class="col-md-9">
+                <div id="map" class="map">
+                    <l-map style="height: 100%" :zoom="zoom" :center="center">
+                        <l-tile-layer :url="url" :attribution="attribution">
+                        </l-tile-layer>
+                        <l-geo-json :geojson="coors.geojson" :options="coors.options" >
+                        </l-geo-json>
+                    </l-map>
+                </div>
             </div>
-        </div>
-        <div id="filter-window">
-            <b>Time range:</b>
-            <div id="slider-window">
-                <vue-slider v-model="sliderVals.value" v-bind="sliderVals">
-
-                </vue-slider>
+            <div class="col-md-3">
+                <div id="filter-window" class="filter-window">
+                    <vue-slider v-model="sliderVals.value" v-bind="sliderVals">
+                    </vue-slider>
+                    <button v-on:click="this.filtData">Filter</button>
+                </div>
             </div>
-        </div>
-        <div id="results-box">
-            <b>Results:</b>
-            <li v-for="d in pointData">
-                ayy lmoa
-            </li>
         </div>
     </div>
 </template>
@@ -33,6 +28,8 @@
 	import { LMap, LTileLayer, LGeoJson } from 'vue2-leaflet';
     import vueSlider from 'vue-slider-component'
 	import {default as data} from "../assets/geo.js";
+    import 'bootstrap/dist/css/bootstrap.css'
+    import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 	function findPoint(coords) {
 		for (let i = 0; i < data.coords.features.length; i++) {
@@ -56,8 +53,8 @@
 				sliderVals:
                   {
                     min: 1600,
-                    max: 1950,
-                    value: [1600, 1600],
+                    max: 1910,
+                    value: [1600, 1910],
                     formatter: "{value}",
                     mergeFormatter: "{value1} ~ {value2}",
                     tooltip: "always",
@@ -69,11 +66,14 @@
 				attribution:'&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
 				coors: {
 					geojson: data.coords,
-					options: {
-						style: function (feature) {
+					options:
+                      {
+						style: function (feature)
+                        {
 							return feature.properties && feature.properties.style;
 						},
-						pointToLayer: function (feature, latlng) {
+						pointToLayer: function (feature, latlng)
+                        {
 							return L.circleMarker(latlng, {
 								radius: 8,
 								fillColor: "#ff7800",
@@ -84,7 +84,7 @@
 							});
 						},
 						onEachFeature: this.onEachFeature
-					}
+                      }
 				},
 				pointData: []
 			}
@@ -106,7 +106,15 @@
               let coords = [f.latlng.lng, f.latlng.lat];
               let pt = findPoint(coords);
               this.pointData = [];
-              this.pushPoints(pt)
+              this.pushPoints(pt);
+            },
+			filterData(feature, layer)
+		    {
+			    return feature.properties.objects[0].time.start_year === this.sliderVals.value[1];
+		    },
+            filtData()
+            {
+            	L.Map.prototype.removeLayer(LMap);
             }
 		}
 	}
@@ -136,24 +144,12 @@
     }
 
     #map {
-        position: absolute;
-        overflow-x: auto;
-        top: 80px;
-        right: 30px;
-        left: 30px;
-        bottom: 20px;
+        height: 600px;
         border: 3px solid green;
     }
 
     #filter-window {
-        position: absolute;
-        overflow-x: auto;
-        top: 250px;
-        right: 30px;
-        left: 970px;
-        bottom: 40px;
-        padding-left: 10px;
-        padding-right: 10px;
+        height: 600px;
         border: 3px solid green;
     }
 
