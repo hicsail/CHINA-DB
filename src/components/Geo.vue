@@ -5,17 +5,21 @@
             <div class="col-md-9">
                 <div id="map" class="map">
                     <l-map style="height: 100%" :zoom="zoom" :center="center">
-                        <l-tile-layer :url="url" :attribution="attribution">
-                        </l-tile-layer>
-                        <l-geo-json :geojson="coors.geojson" :options="coors.options" :visible="coors.visible">
-                        </l-geo-json>
+                        <l-tile-layer :url="url" :attribution="attribution"/>
+                        <l-marker
+                                v-for="marker in markers"
+                                :key="marker.id"
+                                :lat-lng="marker.position"
+                                :visible="marker.visible"
+                                :icon="icon"
+                        />
                     </l-map>
                 </div>
             </div>
             <div class="col-md-3">
                 <div id="filter-window" class="filter-window">
-                    <vue-slider v-model="sliderVals.value" v-bind="sliderVals"></vue-slider>
-                    <button v-on:click="coors.visible=!coors.visible">Filter</button>
+                    <vue-slider v-model="sliderVals.value" v-bind="sliderVals"/>
+                    <button v-on:click="filterData">Filter</button>
                 </div>
             </div>
         </div>
@@ -24,11 +28,14 @@
 
 <script>
 
-	import { LMap, LTileLayer, LGeoJson } from 'vue2-leaflet';
+	import { LMap, LTileLayer, LMarker, LIcon } from 'vue2-leaflet';
 	import vueSlider from 'vue-slider-component'
 	import {default as data} from "../assets/geo.js";
 	import 'bootstrap/dist/css/bootstrap.css'
 	import 'bootstrap-vue/dist/bootstrap-vue.css'
+    import "leaflet/dist/leaflet.css"
+
+
 
 	function findPoint(coords) {
 		for (let i = 0; i < data.coords.features.length; i++) {
@@ -42,10 +49,11 @@
 	export default {
 		name: "shanxiMap",
 		components: {
-			LMap,
+            LMap,
 			LTileLayer,
-			LGeoJson,
-			vueSlider
+			LMarker,
+			vueSlider,
+            LIcon
 		},
 		data () {
 			return {
@@ -59,23 +67,17 @@
 						tooltip: "always",
 						enableCross: false
 					},
+                icon: L.icon(
+                  {
+                    iconUrl: "static/images/marker-icon.png",
+                    iconSize: [32, 37],
+                    iconAnchor: [16, 37]
+                  }),
 				zoom: 7,
 				center: [35.026413, 111.007530],
 				url: 'https://api.tiles.mapbox.com/v4/mapbox.light/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWJvdWNoYXVkIiwiYSI6ImNpdTA5bWw1azAyZDIyeXBqOWkxOGJ1dnkifQ.qha33VjEDTqcHQbibgHw3w',
 				attribution:'&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
-				coors: {
-					geojson: data.coords,
-					options:
-                      {
-                        style: function (feature)
-                        {
-                          return feature.properties && feature.properties.style;
-                        },
-                        pointToLayer: this.filterByYear,
-                        onEachFeature: this.onEachFeature,
-                      },
-                    visible: false
-				},
+				markers: [],
 				pointData: []
 			}
 		},
@@ -83,40 +85,43 @@
 			hello(coord) {
 				alert(coord.geometry.type);
 			},
-			onEachFeature(feature, layer) {
-				layer.on({
-					click: this.pushData
-				});
-			},
-            filterByYear(feature, latlng)
-            {
-              let start_year = feature.properties.objects[0].time.start_year;
-              if (start_year >= this.sliderVals.value[0] && start_year <= this.sliderVals.value[1])
-              {
-                return L.circleMarker(latlng, {
-                  radius: 8,
-                  fillColor: "#ff7800",
-                  color: "#000",
-                  weight: 1,
-                  opacity: 1,
-                  fillOpacity: 0.8
-                });
-              }
-            },
 			pushPoints(pt)
 			{
 				this.pointData.push(pt);
 			},
-			pushData(f) {
-				let coords = [f.latlng.lng, f.latlng.lat];
-				let pt = findPoint(coords);
-				this.pointData = [];
-				this.pushPoints(pt);
-			},
-			filtData()
-			{
-				console.log(this.sliderVals.value[0]);
-			}
+            filterData()
+            {
+            	this.markers = [];
+
+            	let yearLowerBound = this.sliderVals.value[0];
+            	let yearUpperBound = this.sliderVals.value[1];
+            	let featureArray = data.coords.features;
+
+            	let ids = 0;
+
+                for (let i = 0; i < featureArray.length; i++)
+                {
+                	let year = featureArray[i].properties.objects[0].time.start_year;
+                	if (year > yearLowerBound && year < yearUpperBound)
+                    {
+                    	let newLon = featureArray[i].geometry.coordinates[0];
+                    	let newLat = featureArray[i].geometry.coordinates[1];
+
+                    	let newMarker =
+                          {
+                          	id: ids.toString(),
+                    		position: [newLat, newLon],
+                            visible: true
+                          };
+                    	this.markers.push(newMarker);
+                    	ids++;
+                    }
+                }
+                for ( let i = 0; i < this.markers.length; i++)
+                {
+                	console.log(this.markers[i]);
+                }
+            },
 		}
 	}
 </script>
@@ -124,25 +129,6 @@
 <style>
 
     @import "../../node_modules/leaflet/dist/leaflet.css";
-
-    #results-box {
-        position: absolute;
-        top: 950px;
-        bottom: 20px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    #map-window {
-        position: absolute;
-        overflow-x: auto;
-        top: 170px;
-        right: 300px;
-        left: 30px;
-        bottom: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
 
     #map {
         height: 600px;
