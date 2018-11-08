@@ -110,6 +110,7 @@ class Parser:
 
         ret = {}
         all_coords = set()
+        id_num = 0
 
         for r in records:
 
@@ -133,6 +134,7 @@ class Parser:
                 new_dict = \
                     {
                         "type": "Feature",
+                        "id": str(id_num),
                         "geometry":
                             {
                                 "type": "Point",
@@ -148,6 +150,7 @@ class Parser:
                     }
 
                 ret[coords] = new_dict
+                id_num += 1
 
         self.records = list(ret.values())
 

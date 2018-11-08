@@ -139,10 +139,9 @@ class PersonParser(Parser):
 
                 try:
                     inst_id = current_org["inst_id"][0]
-
                     recs = self.add_geo(inst_id, p_ret)
-                    ret.extend(recs)
-
+                    if len(recs) > 0:
+                        ret.extend(recs)
                 except KeyError:
                     pass
 
