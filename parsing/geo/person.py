@@ -146,18 +146,3 @@ class PersonParser(Parser):
                     pass
 
         return ret
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

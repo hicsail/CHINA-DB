@@ -19,7 +19,6 @@ class CorpEntityParser(Parser):
 
         ret = []
 
-
         return ''
 
     def build_records(self):

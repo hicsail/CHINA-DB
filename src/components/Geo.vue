@@ -38,7 +38,9 @@
             <div class="col-md-12">
                 <div id="results-box">
                     <li v-for="pt in renderedData">
-                        {{ pt }}
+                        <div class="row">
+                            {{ pt }}
+                        </div>
                     </li>
                 </div>
             </div>
@@ -50,19 +52,11 @@
 
 	import { LMap, LTileLayer, LMarker, LIcon } from 'vue2-leaflet';
 	import vueSlider from 'vue-slider-component'
-	import {default as data} from "../assets/geo.js";
+	import {default as geoData} from "../assets/geo.js";
 	import 'bootstrap/dist/css/bootstrap.css'
 	import 'bootstrap-vue/dist/bootstrap-vue.css'
     import "leaflet/dist/leaflet.css"
 
-	function findPoint(coords) {
-		for (let i = 0; i < data.coords.features.length; i++) {
-			if (coords[0] === data.coords.features[i].geometry.coordinates[0]
-				&& coords[1] === data.coords.features[i].geometry.coordinates[1]) {
-				return data.coords.features[i];
-			}
-		}
-	}
 
 	export default {
 		name: "shanxiMap",
@@ -106,9 +100,15 @@
 			},
 			pushPoints(pt)
 			{
+				// refresh renderedData
 				this.renderedData = [];
+				// push new data
 				this.renderedData = this.pointData[pt.id];
 			},
+            filterPoint(pointData)
+            {
+                let year = pointData.time.start_year;
+            },
             filterData()
             {
             	/*
@@ -119,7 +119,7 @@
 
             	let yearLowerBound = this.sliderVals.value[0];
             	let yearUpperBound = this.sliderVals.value[1];
-            	let featureArray = data.coords.features;
+            	let featureArray = geoData.coords.features;
 
                 for (let i = 0; i < featureArray.length; i++)
                 {
@@ -127,7 +127,9 @@
                 	for (let j = 0; j < dataArray.length; j++)
                     {
                     	let pointId = featureArray[i].id;
+                    	// TODO pass featureArray[i].properties.objects[j] to filterPoint() here
                     	let year = featureArray[i].properties.objects[j].time.start_year;
+                    	// TODO replace this with a large filter method
                         if (year > yearLowerBound && year < yearUpperBound)
                         {
                         	if (newMarkerFlag)
