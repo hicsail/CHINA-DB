@@ -23,15 +23,44 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div id="filter-window">
-                    <vue-slider
-                            v-model="sliderVals.value"
-                            v-bind="sliderVals"
-                    />
-                    <button v-on:click="filterData">
+                <b-form-group
+                    label="Filter by:">
+                        <b-form-checkbox
+                                id="yearBox"
+                                @change="indivShow.showYear = !indivShow.showYear"
+                        >Year</b-form-checkbox>
+                        <b-form-checkbox
+                                id="titleBox"
+                                @change="indivShow.showTitle = !indivShow.showTitle"
+                        >Title</b-form-checkbox>
+                </b-form-group>
+                <b-form @submit="filterData">
+                    <b-form-group
+                        id="yearFilterSlider"
+                        label="Filter by Year"
+                        v-if="indivShow.showYear">
+                        <vue-slider
+                                v-model="filters.sliderVals.value"
+                                v-bind="filters.sliderVals"
+                        />
+                    </b-form-group>
+                    <b-form-group
+                        id="titleFilter"
+                        label="Filter by Name"
+                        label-for="titleFilterBox"
+                        v-if="indivShow.showTitle">
+                        <b-form-input
+                            id="titleFilterBox"
+                            type="text"
+                            v-model="filters.searchTitles"
+                            placeholder="Name of individual">
+                        </b-form-input>
+                    </b-form-group>
+                    <b-button type="submit" variant="primary">
                         Filter
-                    </button>
-                </div>
+                    </b-button>
+                    <div>state: {{ indivShow.showYear }}</div>
+                </b-form>
             </div>
         </div>
         <div class="row">
@@ -69,16 +98,30 @@
 		},
 		data () {
 			return {
-				sliderVals:
-					{
-						min: 1600,
-						max: 1930,
-						value: [1600, 1930],
-						formatter: "{value}",
-						mergeFormatter: "{value1} ~ {value2}",
-						tooltip: "always",
-						enableCross: false
-					},
+				indivShow:
+                  {
+                  	showYear: false,
+                    showTitle: false
+                  },
+				flags:
+                  {
+                  	yearFlag: false,
+                    titleFlag: false
+                  },
+                filters:
+                  {
+                    sliderVals:
+                      {
+                        min: 1600,
+                        max: 1930,
+                        value: [1600, 1930],
+                        formatter: "{value}",
+                        mergeFormatter: "{value1} ~ {value2}",
+                        tooltip: "always",
+                        enableCross: false
+                      },
+                    searchTitles: ""
+                  },
                 icon: L.icon(
                   {
                     iconUrl: "static/images/marker-icon.png",
@@ -105,10 +148,6 @@
 				// push new data
 				this.renderedData = this.pointData[pt.id];
 			},
-            filterPoint(pointData)
-            {
-                let year = pointData.time.start_year;
-            },
             filterData()
             {
             	/*
@@ -117,8 +156,8 @@
             	this.markers = [];
             	let newMarkerFlag = true;
 
-            	let yearLowerBound = this.sliderVals.value[0];
-            	let yearUpperBound = this.sliderVals.value[1];
+            	let yearLowerBound = this.filters.sliderVals.value[0];
+            	let yearUpperBound = this.filters.sliderVals.value[1];
             	let featureArray = geoData.coords.features;
 
                 for (let i = 0; i < featureArray.length; i++)
