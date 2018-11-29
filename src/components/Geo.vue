@@ -27,17 +27,28 @@
                     label="Filter by:">
                         <b-form-checkbox
                                 id="yearBox"
+                                size="sm"
                                 @change="indivShow.showYear = !indivShow.showYear"
                         >Year</b-form-checkbox>
                         <b-form-checkbox
                                 id="titleBox"
+                                size="sm"
                                 @change="indivShow.showTitle = !indivShow.showTitle"
                         >Title</b-form-checkbox>
+                        <b-form-checkbox
+                                id="nationalityBox"
+                                size="sm"
+                                @change="indivShow.showNationality = !indivShow.showNationality"
+                        >Nationality</b-form-checkbox>
+                        <b-form-checkbox
+                                id="genderBox"
+                                size="sm"
+                                @change="indivShow.showGender = !indivShow.showGender"
+                        >Gender</b-form-checkbox>
                 </b-form-group>
                 <b-form>
                     <b-form-group
                         id="yearFilterSlider"
-                        label="Filter by Year"
                         v-if="indivShow.showYear">
                         <vue-slider
                                 v-model="filters.sliderVals.value"
@@ -46,14 +57,38 @@
                     </b-form-group>
                     <b-form-group
                         id="titleFilter"
-                        label="Filter by Name"
                         label-for="titleFilterBox"
                         v-if="indivShow.showTitle">
                         <b-form-input
                             id="titleFilterBox"
+                            size="sm"
                             type="text"
                             v-model="filters.searchTitles"
                             placeholder="Name of individual">
+                        </b-form-input>
+                    </b-form-group>
+                    <b-form-group
+                        id="nationalityFilter"
+                        label-for="nationalityFilterBox"
+                        v-if="indivShow.showNationality">
+                        <b-form-input
+                            id="nationalityFilterBox"
+                            size="sm"
+                            type="text"
+                            v-model="filters.searchNationality"
+                            placeholder="Nationality of individual">
+                        </b-form-input>
+                    </b-form-group>
+                    <b-form-group
+                        id="genderFilter"
+                        label-for="genderFilterBox"
+                        v-if="indivShow.showGender">
+                        <b-form-input
+                            id="genderFilterBox"
+                            size="sm"
+                            type="text"
+                            v-model="filters.searchGender"
+                            placeholder="Male or Female">
                         </b-form-input>
                     </b-form-group>
                 </b-form>
@@ -100,7 +135,9 @@
 				indivShow:
                   {
                   	showYear: false,
-                    showTitle: false
+                    showTitle: false,
+                    showNationality: false,
+                    showGender: false
                   },
                 filters:
                   {
@@ -114,7 +151,9 @@
                         tooltip: "always",
                         enableCross: false
                       },
-                    searchTitles: ""
+                    searchTitles: "",
+                    searchNationality: "",
+                    searchGender: ""
                   },
                 icon: L.icon(
                   {
@@ -165,7 +204,6 @@
               {
                 return true;
               }
-
               return false;
             },
             filterByTitle(thisTitles)
@@ -178,6 +216,14 @@
                 }
               }
               return false;
+            },
+            filterByNationality(thisNationality)
+            {
+            	return (thisNationality === this.filters.searchNationality);
+            },
+            filterByGender(thisGender)
+            {
+            	return (thisGender === this.filters.searchGender);
             },
             filterData()
             {
@@ -224,6 +270,35 @@
                       }
                       this.pointData[featureArray[i].id].push(featureArray[i].properties.objects[j]);
                       continue;
+                    }
+                  }
+                  if (this.indivShow.showNationality)
+                  {
+                  	let thisNationality = featureArray[i].properties.objects[j].nationality;
+
+                  	if (this.filterByNationality(thisNationality))
+                    {
+                    	if (newMarkerFlag)
+                        {
+                        	this.pushMarker(featureArray[i]);
+                        	newMarkerFlag = false;
+                        }
+                        this.pointData[featureArray[i].id].push(featureArray[i].properties.objects[j]);
+                    	continue;
+                    }
+                  }
+                  if (this.indivShow.showGender)
+                  {
+                  	let thisGender = featureArray[i].properties.objects[j].gender;
+
+                  	if (this.filterByGender(thisGender))
+                    {
+                    	if (newMarkerFlag)
+                        {
+                        	this.pushMarker(featureArray[i]);
+                        	newMarkerFlag = false;
+                        }
+                        this.pointData[featureArray[i].id].push(featureArray[i].properties.objects[j]);
                     }
                   }
                 }
