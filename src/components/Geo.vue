@@ -34,7 +34,7 @@
                                 @change="indivShow.showTitle = !indivShow.showTitle"
                         >Title</b-form-checkbox>
                 </b-form-group>
-                <b-form @submit="filterData">
+                <b-form>
                     <b-form-group
                         id="yearFilterSlider"
                         label="Filter by Year"
@@ -56,11 +56,10 @@
                             placeholder="Name of individual">
                         </b-form-input>
                     </b-form-group>
-                    <b-button type="submit" variant="primary">
-                        Filter
-                    </b-button>
-                    <div>state: {{ indivShow.showYear }}</div>
                 </b-form>
+                <button v-on:click="filterData">
+                    Filter
+                </button>
             </div>
         </div>
         <div class="row">
@@ -103,11 +102,6 @@
                   	showYear: false,
                     showTitle: false
                   },
-				flags:
-                  {
-                  	yearFlag: false,
-                    titleFlag: false
-                  },
                 filters:
                   {
                     sliderVals:
@@ -138,9 +132,6 @@
 			}
 		},
 		methods: {
-			hello(coord) {
-				alert(coord.geometry.type);
-			},
 			pushPoints(pt)
 			{
 				// refresh renderedData
@@ -148,56 +139,96 @@
 				// push new data
 				this.renderedData = this.pointData[pt.id];
 			},
+            pushMarker(featureArrayEntry)
+            {
+              let pointId = featureArrayEntry.id;
+              this.pointData[pointId] = [];
+
+              let newLon = featureArrayEntry.geometry.coordinates[0];
+              let newLat = featureArrayEntry.geometry.coordinates[1];
+
+              let newMarker =
+                {
+                  id: pointId,
+                  position: [newLat, newLon],
+                  visible: true
+                };
+
+              this.markers.push(newMarker);
+            },
+            filterByYears(thisYear)
+            {
+              let yearLower = this.filters.sliderVals.value[0];
+              let yearUpper = this.filters.sliderVals.value[1];
+
+              if (thisYear > yearLower && thisYear < yearUpper)
+              {
+                return true;
+              }
+
+              return false;
+            },
+            filterByTitle(thisTitles)
+            {
+              for (let key in thisTitles)
+              {
+                if (thisTitles[key].includes(this.filters.searchTitles))
+                {
+                  return true;
+                }
+              }
+              return false;
+            },
             filterData()
             {
-            	/*
-            	Loop over point data, display points that contain
-            	 */
-            	this.markers = [];
-            	let newMarkerFlag = true;
+              this.markers = [];
+              let newMarkerFlag = true;
+              console.log("Hi");
 
-            	let yearLowerBound = this.filters.sliderVals.value[0];
-            	let yearUpperBound = this.filters.sliderVals.value[1];
-            	let featureArray = geoData.coords.features;
+              let featureArray = geoData.coords.features;
 
-                for (let i = 0; i < featureArray.length; i++)
+              for (let i = 0; i < featureArray.length; i++)
+              {
+                let dataArray = featureArray[i].properties.objects;
+
+                // refresh newMarkerFlag
+                newMarkerFlag = true;
+
+                for (let j = 0; j < dataArray.length; j++)
                 {
-                	let dataArray = featureArray[i].properties.objects;
-                	for (let j = 0; j < dataArray.length; j++)
+                  if (this.indivShow.showYear)
+                  {
+                    let thisYear = featureArray[i].properties.objects[j].time.start_year;
+
+                    if (this.filterByYears(thisYear))
                     {
-                    	let pointId = featureArray[i].id;
-                    	// TODO pass featureArray[i].properties.objects[j] to filterPoint() here
-                    	let year = featureArray[i].properties.objects[j].time.start_year;
-                    	// TODO replace this with a large filter method
-                        if (year > yearLowerBound && year < yearUpperBound)
-                        {
-                        	if (newMarkerFlag)
-                        	{
-
-                              // create new entry in pointData dict for this point
-                              this.pointData[pointId] = [];
-
-                              let newLon = featureArray[i].geometry.coordinates[0];
-                              let newLat = featureArray[i].geometry.coordinates[1];
-
-                              let newMarker =
-                                {
-                                  id: pointId,
-                                  position: [newLat, newLon],
-                                  visible: true
-                                };
-                              this.markers.push(newMarker);
-                              newMarkerFlag = false;
-                            }
-
-                            // push this data to entry in pointData
-                            this.pointData[pointId].push(featureArray[i].properties.objects[j]);
-                        }
+                      if (newMarkerFlag)
+                      {
+                        this.pushMarker(featureArray[i]);
+                        newMarkerFlag = false;
+                      }
+                      this.pointData[featureArray[i].id].push(featureArray[i].properties.objects[j]);
+                      continue;
                     }
-                    newMarkerFlag = true;
+                  }
+                  if (this.indivShow.showTitle)
+                  {
+                    let thisTitles = featureArray[i].properties.objects[j].titles;
 
+                    if (this.filterByTitle(thisTitles))
+                    {
+                      if (newMarkerFlag)
+                      {
+                        this.pushMarker(featureArray[i]);
+                        newMarkerFlag = false;
+                      }
+                      this.pointData[featureArray[i].id].push(featureArray[i].properties.objects[j]);
+                      continue;
+                    }
+                  }
                 }
-            },
+              }
+            }
 		}
 	}
 </script>
@@ -208,10 +239,6 @@
 
     #map {
         height: 600px;
-        border: 3px solid green;
-    }
-
-    #filter-window {
         border: 3px solid green;
     }
 
