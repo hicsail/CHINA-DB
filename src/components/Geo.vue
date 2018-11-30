@@ -31,7 +31,9 @@
                 >
                     <option :value="null">Select a filter category</option>
                     <option value="individuals">Individuals</option>
-                    <option value="other"> Other</option>
+                    <option value="institutions">Institutions</option>
+                    <option value="corporateEntities">Corporate Entities</option>
+                    <option value="events">Events</option>
                 </b-form-select>
                 <b-form-group
                     v-if="selected === 'individuals'">
@@ -55,6 +57,18 @@
                                 size="sm"
                                 @change="indivShow.showGender = !indivShow.showGender"
                         >Gender</b-form-checkbox>
+                </b-form-group>
+                <b-form-group
+                    v-if="selected === 'institutions'">
+                    ayyyy
+                </b-form-group>
+                <b-form-group
+                    v-if="selected === 'corporateEntities'">
+                    lmoaaaa
+                </b-form-group>
+                <b-form-group
+                    v-if="selected === 'events'">
+                    whoa sick
                 </b-form-group>
                 <b-form>
                     <b-form-group
@@ -166,13 +180,6 @@
                     searchNationality: "",
                     searchGender: ""
                   },
-                topLevelFilters:
-                  {
-                  	"individual": false,
-                    "institution": false,
-                    "corporateEntity": false,
-                    "event": false
-                  },
                 icon: L.icon(
                   {
                     iconUrl: "static/images/marker-icon.png",
@@ -235,7 +242,7 @@
             {
               for (let key in thisTitles)
               {
-                if (thisTitles[key].includes(this.filters.searchTitles))
+                if (thisTitles[key].includes(this.filters.searchTitles.toLowerCase()))
                 {
                   return true;
                 }
@@ -244,13 +251,13 @@
             },
             filterByNationality(thisNationality)
             {
-            	return (thisNationality === this.filters.searchNationality);
+            	return (thisNationality === this.filters.searchNationality.toLowerCase());
             },
             filterByGender(thisGender)
             {
-            	return (thisGender === this.filters.searchGender);
+            	return (thisGender === this.filters.searchGender.toLowerCase());
             },
-            checkFilters(checks)
+            checkIndivFilters(checks)
             {
                 if (this.indivShow.showYear)
                 {
@@ -282,6 +289,47 @@
                 }
                 return true;
             },
+            buildIndivChecks(featureEntry)
+            {
+              let checks =
+                {
+                  "years": false,
+                  "nationality": false,
+                  "title": false,
+                  "gender": false
+                };
+
+              if (this.indivShow.showYear)
+              {
+                if (this.filterByYears(featureEntry.time.start_year))
+                {
+                  checks.years = true;
+                }
+              }
+              if (this.indivShow.showTitle)
+              {
+                if (this.filterByTitle(featureEntry.titles))
+                {
+                  checks.title = true;
+                }
+              }
+              if (this.indivShow.showNationality)
+              {
+                if (this.filterByNationality(featureEntry.nationality))
+                {
+                  checks.nationality = true;
+                }
+              }
+              if (this.indivShow.showGender)
+              {
+                if (this.filterByGender(featureEntry.gender))
+                {
+                  checks.gender = true;
+                }
+              }
+
+              return checks;
+            },
             filterData()
             {
               this.markers = [];
@@ -295,61 +343,30 @@
 
                 for (let j = 0; j < dataArray.length; j++)
                 {
-
-                  let checks =
-                    {
-                    	"years": false,
-                        "nationality": false,
-                        "title": false,
-                        "gender": false
-                    };
-
-                  if (this.indivShow.showYear)
+                  if (this.selected === 'individuals')
                   {
-                    let thisYear = featureArray[i].properties.objects[j].time.start_year;
+                  	let checks = this.buildIndivChecks(featureArray[i].properties.objects[j]);
 
-                    if (this.filterByYears(thisYear))
+                  	if (this.checkIndivFilters(checks))
                     {
-                      checks.years = true;
+                    	if (newMarker)
+                        {
+                          this.pushMarker(featureArray[i]);
+                          newMarker = false;
+                        }
+                        this.pointData[featureArray[i].id].push(featureArray[i].properties.objects[j]);
                     }
                   }
-                  if (this.indivShow.showTitle)
+                  else if (this.selected === 'institutions')
+                  {}
+                  else if (this.selected === 'corporateEntities')
+                  {}
+                  else if (this.selected === 'events')
+                  {}
+                  else
                   {
-                    let thisTitles = featureArray[i].properties.objects[j].titles;
-
-                    if (this.filterByTitle(thisTitles))
-                    {
-                      checks.title = true;
-                    }
-                  }
-                  if (this.indivShow.showNationality)
-                  {
-                  	let thisNationality = featureArray[i].properties.objects[j].nationality;
-
-                  	if (this.filterByNationality(thisNationality))
-                    {
-                        checks.nationality = true;
-                    }
-                  }
-                  if (this.indivShow.showGender)
-                  {
-                  	let thisGender = featureArray[i].properties.objects[j].gender;
-
-                  	if (this.filterByGender(thisGender))
-                    {
-                    	checks.gender = true;
-                    }
-                  }
-
-                  // check that this entry passes all filters
-                  if (this.checkFilters(checks))
-                  {
-                  	if (newMarker)
-                    {
-                      this.pushMarker(featureArray[i]);
-                      newMarker = false;
-                    }
-                    this.pointData[featureArray[i].id].push(featureArray[i].properties.objects[j]);
+                  	// no filter selected
+                  	break;
                   }
                 }
               }
