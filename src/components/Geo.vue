@@ -23,8 +23,18 @@
                 </div>
             </div>
             <div class="col-md-3">
+                <b-form-select
+                        v-model="selected"
+                        class="mb-3"
+                        size="sm"
+                        @change="refresh()"
+                >
+                    <option :value="null">Select a filter category</option>
+                    <option value="individuals">Individuals</option>
+                    <option value="other"> Other</option>
+                </b-form-select>
                 <b-form-group
-                    label="Filter by:">
+                    v-if="selected === 'individuals'">
                         <b-form-checkbox
                                 id="yearBox"
                                 size="sm"
@@ -49,7 +59,7 @@
                 <b-form>
                     <b-form-group
                         id="yearFilterSlider"
-                        v-if="indivShow.showYear">
+                        v-if="indivShow.showYear && selected === 'individuals'">
                         <vue-slider
                                 v-model="filters.sliderVals.value"
                                 v-bind="filters.sliderVals"
@@ -58,7 +68,7 @@
                     <b-form-group
                         id="titleFilter"
                         label-for="titleFilterBox"
-                        v-if="indivShow.showTitle">
+                        v-if="indivShow.showTitle && selected === 'individuals'">
                         <b-form-input
                             id="titleFilterBox"
                             size="sm"
@@ -70,7 +80,7 @@
                     <b-form-group
                         id="nationalityFilter"
                         label-for="nationalityFilterBox"
-                        v-if="indivShow.showNationality">
+                        v-if="indivShow.showNationality && selected === 'individuals'">
                         <b-form-input
                             id="nationalityFilterBox"
                             size="sm"
@@ -82,7 +92,7 @@
                     <b-form-group
                         id="genderFilter"
                         label-for="genderFilterBox"
-                        v-if="indivShow.showGender">
+                        v-if="indivShow.showGender && selected === 'individuals'">
                         <b-form-input
                             id="genderFilterBox"
                             size="sm"
@@ -132,6 +142,7 @@
 		},
 		data () {
 			return {
+				selected: null,
 				indivShow:
                   {
                   	showYear: false,
@@ -155,6 +166,13 @@
                     searchNationality: "",
                     searchGender: ""
                   },
+                topLevelFilters:
+                  {
+                  	"individual": false,
+                    "institution": false,
+                    "corporateEntity": false,
+                    "event": false
+                  },
                 icon: L.icon(
                   {
                     iconUrl: "static/images/marker-icon.png",
@@ -171,6 +189,13 @@
 			}
 		},
 		methods: {
+			refresh()
+            {
+            	this.indivShow.showYear = false;
+            	this.indivShow.showNationality = false;
+            	this.indivShow.showGender = false;
+            	this.indivShow.showTitle = false;
+            },
 			pushPoints(pt)
 			{
 				// refresh renderedData
