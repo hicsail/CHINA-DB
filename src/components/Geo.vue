@@ -225,36 +225,67 @@
             {
             	return (thisGender === this.filters.searchGender);
             },
+            checkFilters(checks)
+            {
+                if (this.indivShow.showYear)
+                {
+                	if (!checks.years)
+                    {
+                    	return false;
+                    }
+                }
+                if (this.indivShow.showTitle)
+                {
+                	if (!checks.title)
+                    {
+                    	return false;
+                    }
+                }
+                if (this.indivShow.showNationality)
+                {
+                	if (!checks.nationality)
+                    {
+                    	return false;
+                    }
+                }
+                if (this.indivShow.showGender)
+                {
+                	if (!checks.gender)
+                    {
+                    	return false;
+                    }
+                }
+                return true;
+            },
             filterData()
             {
               this.markers = [];
-              let newMarkerFlag = true;
-              console.log("Hi");
-
               let featureArray = geoData.coords.features;
+              let newMarker = true;
 
               for (let i = 0; i < featureArray.length; i++)
               {
                 let dataArray = featureArray[i].properties.objects;
-
-                // refresh newMarkerFlag
-                newMarkerFlag = true;
+                newMarker = true;
 
                 for (let j = 0; j < dataArray.length; j++)
                 {
+
+                  let checks =
+                    {
+                    	"years": false,
+                        "nationality": false,
+                        "title": false,
+                        "gender": false
+                    };
+
                   if (this.indivShow.showYear)
                   {
                     let thisYear = featureArray[i].properties.objects[j].time.start_year;
 
                     if (this.filterByYears(thisYear))
                     {
-                      if (newMarkerFlag)
-                      {
-                        this.pushMarker(featureArray[i]);
-                        newMarkerFlag = false;
-                      }
-                      this.pointData[featureArray[i].id].push(featureArray[i].properties.objects[j]);
-                      continue;
+                      checks.years = true;
                     }
                   }
                   if (this.indivShow.showTitle)
@@ -263,13 +294,7 @@
 
                     if (this.filterByTitle(thisTitles))
                     {
-                      if (newMarkerFlag)
-                      {
-                        this.pushMarker(featureArray[i]);
-                        newMarkerFlag = false;
-                      }
-                      this.pointData[featureArray[i].id].push(featureArray[i].properties.objects[j]);
-                      continue;
+                      checks.title = true;
                     }
                   }
                   if (this.indivShow.showNationality)
@@ -278,13 +303,7 @@
 
                   	if (this.filterByNationality(thisNationality))
                     {
-                    	if (newMarkerFlag)
-                        {
-                        	this.pushMarker(featureArray[i]);
-                        	newMarkerFlag = false;
-                        }
-                        this.pointData[featureArray[i].id].push(featureArray[i].properties.objects[j]);
-                    	continue;
+                        checks.nationality = true;
                     }
                   }
                   if (this.indivShow.showGender)
@@ -293,13 +312,19 @@
 
                   	if (this.filterByGender(thisGender))
                     {
-                    	if (newMarkerFlag)
-                        {
-                        	this.pushMarker(featureArray[i]);
-                        	newMarkerFlag = false;
-                        }
-                        this.pointData[featureArray[i].id].push(featureArray[i].properties.objects[j]);
+                    	checks.gender = true;
                     }
+                  }
+
+                  // check that this entry passes all filters
+                  if (this.checkFilters(checks))
+                  {
+                  	if (newMarker)
+                    {
+                      this.pushMarker(featureArray[i]);
+                      newMarker = false;
+                    }
+                    this.pointData[featureArray[i].id].push(featureArray[i].properties.objects[j]);
                   }
                 }
               }
