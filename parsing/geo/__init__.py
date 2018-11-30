@@ -40,6 +40,10 @@ class Parser:
         return {}
 
     def fetch_geo(self, rec, g):
+        """
+        Map location of a record to a township / county / prefecture / province
+        in decreasing order of granularity.
+        """
 
         try:
             g_rec = self.geo_table[g]["township_id"][0]
@@ -48,7 +52,7 @@ class Parser:
             rec["coords"]["lat"] = t_rec["latitutde"]
             rec["coords"]["lon"] = t_rec["longitude"]
             rec["loc"]["location_type"] = "township"
-            rec["loc"]["location_name"] = t_rec["township_id"]
+            rec["loc"]["location_name"] = t_rec["township_id"].lower()
 
             return rec
 
@@ -62,7 +66,7 @@ class Parser:
             rec["coords"]["lat"] = c_rec["latitude"]
             rec["coords"]["lon"] = c_rec["longitude"]
             rec["loc"]["location_type"] = "county"
-            rec["loc"]["location_name"] = c_rec["county_id"]
+            rec["loc"]["location_name"] = c_rec["county_id"].lower()
 
             return rec
 
@@ -76,7 +80,7 @@ class Parser:
             rec["coords"]["lat"] = p_rec["latitude"]
             rec["coords"]["lon"] = p_rec["longitude"]
             rec["loc"]["location_type"] = "prefecture"
-            rec["loc"]["location_name"] = p_rec["prefecture_id"]
+            rec["loc"]["location_name"] = p_rec["prefecture_id"].lower()
 
             return rec
 
@@ -90,7 +94,7 @@ class Parser:
             rec["coords"]["lat"] = p_rec["latitude"]
             rec["coords"]["lon"] = p_rec["longitude"]
             rec["loc"]["location_type"] = "province"
-            rec["loc"]["location_name"] = p_rec["province_id"]
+            rec["loc"]["location_name"] = p_rec["province_id"].lower()
 
             return rec
 

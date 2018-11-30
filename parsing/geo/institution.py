@@ -1,14 +1,14 @@
-"""
-InstitutionParser class -- Iterates over 'institution' table and produces a separate GeoJson formatted
-JSON object for each with geographical coordinates, along with other relevant information.
-"""
-
 import copy
 
 from parsing.geo import Parser
 
 
 class InstitutionParser(Parser):
+    """
+    Iterates over 'institution' table and produces a separate GeoJson
+    formatted JSON object for each with geographical coordinates, along
+    with other relevant information.
+    """
 
     def __init__(self, input_dir='/tmp/table_data/'):
 

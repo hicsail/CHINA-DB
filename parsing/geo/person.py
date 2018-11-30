@@ -1,15 +1,14 @@
-"""
-PersonParser class -- Iterates over 'person' table and produces a separate GeoJson formatted
-JSON object for each organization/institution with geographical coordinates that they were
-involved with, along with other relevant information.
-"""
-
 import copy
 
 from parsing.geo import Parser
 
 
 class PersonParser(Parser):
+    """
+    Iterates over 'person' table and produces a separate GeoJson formatted
+    JSON object for each organization/institution with geographical coordinates
+    that they were involved with, along with other relevant information.
+    """
 
     def __init__(self, input_dir='/tmp/table_data/'):
 
@@ -40,7 +39,7 @@ class PersonParser(Parser):
         ret = []
 
         current_institution = self.institution_table[inst_id]
-        rec["institution_name"] = current_institution["inst_id"]
+        rec["institution_name"] = current_institution["inst_id"].lower()
         geo = current_institution["geography"]
 
         for g in geo:
@@ -99,7 +98,7 @@ class PersonParser(Parser):
 
             for e in p_ret["titles"]:
                 try:
-                    p_ret["titles"][e] = self.person_table[p][e]
+                    p_ret["titles"][e] = self.person_table[p][e].lower()
                 except KeyError:
                     continue
 
@@ -114,12 +113,12 @@ class PersonParser(Parser):
                 pass
 
             try:
-                p_ret["gender"] = self.person_table[p]["gender"][0]
+                p_ret["gender"] = self.person_table[p]["gender"][0].lower()
             except KeyError:
                 pass
 
             try:
-                p_ret["nationality"] = person_to_nationality[p]
+                p_ret["nationality"] = person_to_nationality[p].lower()
             except KeyError:
                 pass
 
