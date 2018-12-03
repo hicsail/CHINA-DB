@@ -239,7 +239,7 @@
 
               let newLon = featureArrayEntry.geometry.coordinates[0];
               let newLat = featureArrayEntry.geometry.coordinates[1];
-
+              
               let newMarker =
                 {
                   id: pointId,
