@@ -57,6 +57,12 @@
                                 size="sm"
                                 @change="indivShow.showGender = !indivShow.showGender"
                         >Gender</b-form-checkbox>
+                        <b-form-checkbox
+                                id="locBox"
+                                size="sm"
+                                @change="indivShow.showLocation = !indivShow.showLocation"
+                        >Location name or type
+                        </b-form-checkbox>
                 </b-form-group>
                 <b-form-group
                     v-if="selected === 'institutions'">
@@ -88,7 +94,7 @@
                             size="sm"
                             type="text"
                             v-model="filters.searchTitles"
-                            placeholder="Name of individual">
+                            placeholder="name of individual">
                         </b-form-input>
                     </b-form-group>
                     <b-form-group
@@ -100,7 +106,7 @@
                             size="sm"
                             type="text"
                             v-model="filters.searchNationality"
-                            placeholder="Nationality of individual">
+                            placeholder="nationality of individual">
                         </b-form-input>
                     </b-form-group>
                     <b-form-group
@@ -112,7 +118,20 @@
                             size="sm"
                             type="text"
                             v-model="filters.searchGender"
-                            placeholder="Male or Female">
+                            placeholder="male or female">
+                        </b-form-input>
+                    </b-form-group>
+                    <b-form-group
+                        id="locFilter"
+                        label-for="locFilterBox"
+                        v-if="indivShow.showLocation && selected === 'individuals'">
+                        <b-form-input
+                            id="locFilterBox"
+                            size="sm"
+                            type="text"
+                            v-model="filters.searchLocation"
+                            placeholder="location name or type"
+                        >
                         </b-form-input>
                     </b-form-group>
                 </b-form>
@@ -162,7 +181,8 @@
                   	showYear: false,
                     showTitle: false,
                     showNationality: false,
-                    showGender: false
+                    showGender: false,
+                    showLocation: false
                   },
                 filters:
                   {
@@ -178,7 +198,8 @@
                       },
                     searchTitles: "",
                     searchNationality: "",
-                    searchGender: ""
+                    searchGender: "",
+                    searchLocation: ""
                   },
                 icon: L.icon(
                   {
@@ -202,6 +223,7 @@
             	this.indivShow.showNationality = false;
             	this.indivShow.showGender = false;
             	this.indivShow.showTitle = false;
+            	this.indivShow.showLocation = false;
             },
 			pushPoints(pt)
 			{
@@ -232,11 +254,7 @@
               let yearLower = this.filters.sliderVals.value[0];
               let yearUpper = this.filters.sliderVals.value[1];
 
-              if (thisYear > yearLower && thisYear < yearUpper)
-              {
-                return true;
-              }
-              return false;
+              return (thisYear > yearLower && thisYear < yearUpper);
             },
             filterByTitle(thisTitles)
             {
@@ -257,8 +275,14 @@
             {
             	return (thisGender === this.filters.searchGender.toLowerCase());
             },
+            filterByLocation(thisLocationType, thisLocationName)
+            {
+            	return (thisLocationType === this.filters.searchLocation.toLowerCase()
+                  || thisLocationName === this.filters.searchLocation.toLowerCase());
+            },
             checkIndivFilters(checks)
             {
+            	// TODO: hack, there's probably a better way to do this
                 if (this.indivShow.showYear)
                 {
                 	if (!checks.years)
@@ -287,6 +311,14 @@
                     	return false;
                     }
                 }
+                if (this.indivShow.showLocation)
+                {
+                	if (!checks.location)
+                    {
+                    	return false;
+                    }
+                }
+
                 return true;
             },
             buildIndivChecks(featureEntry)
@@ -296,7 +328,8 @@
                   "years": false,
                   "nationality": false,
                   "title": false,
-                  "gender": false
+                  "gender": false,
+                  "location": false
                 };
 
               if (this.indivShow.showYear)
@@ -325,6 +358,14 @@
                 if (this.filterByGender(featureEntry.gender))
                 {
                   checks.gender = true;
+                }
+              }
+              if (this.indivShow.showLocation)
+              {
+              	console.log(featureEntry.loc.location_type);
+              	if (this.filterByLocation(featureEntry.loc.location_type, featureEntry.loc.location_name))
+                {
+                  checks.location = true;
                 }
               }
 
