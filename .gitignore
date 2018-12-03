@@ -1,6 +1,6 @@
 # Directories.
 .idea/
-backend/cdb-env/
+parsing/cdb-env/
 
 # Common operating system files.
 .DS_Store
