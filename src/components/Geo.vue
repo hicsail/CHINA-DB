@@ -203,7 +203,7 @@
                   },
                 icon: L.icon(
                   {
-                    iconUrl: "./dist/static/images/marker-icon.png",
+                    iconUrl: "./static/images/marker-icon.png",
                     iconSize: [32, 37],
                     iconAnchor: [16, 37]
                   }),
