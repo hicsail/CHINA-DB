@@ -1,8 +1,18 @@
 <template>
-    <div class = "container">
-        <div class="row">
-            <h3>Shanxi Province, China</h3>
-            <div class="col-md-9">
+    <!--<div class = "container">-->
+    <div class="padding-sides">
+        <div class="row padding">
+            <div class="col-md-9 grey-text">
+                <h3>Shanxi Province, China</h3>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+
+
+        <!---- MAP ----->
+        <div class="row ">
+            <!--<div class="container">-->
+            <div class="col-md-12 padding-sides">
                 <div id="map">
                     <l-map
                             style="height: 100%"
@@ -22,118 +32,159 @@
                     </l-map>
                 </div>
             </div>
+        </div>
+
+
+        <!---- TITLES ----->
+        <div class="row padding padding-sides">
+            <div class="col-md-3" style="text-align: center; border:1px solid black;">Individuals</div>
+            <div class="col-md-3" style="text-align: center; border:1px solid black;">Institutions</div>
+            <div class="col-md-3" style="text-align: center; border:1px solid black;">Corporate Entities</div>
+             <div class="col-md-3" style="text-align: center; border:1px solid black;">Events</div>
+        </div>
+
+
+        <div class="row padding">
+
+            <!-- INDIVIDUALS -->
             <div class="col-md-3">
-                <b-form-select
-                        v-model="selected"
-                        class="mb-3"
-                        size="sm"
-                        @change="refresh()"
-                >
-                    <option :value="null">Select a filter category</option>
-                    <option value="individuals">Individuals</option>
-                    <option value="institutions">Institutions</option>
-                    <option value="corporateEntities">Corporate Entities</option>
-                    <option value="events">Events</option>
-                </b-form-select>
-                <b-form-group
-                    v-if="selected === 'individuals'">
-                        <b-form-checkbox
-                                id="yearBox"
-                                size="sm"
-                                @change="indivShow.showYear = !indivShow.showYear"
-                        >Year</b-form-checkbox>
-                        <b-form-checkbox
-                                id="titleBox"
-                                size="sm"
-                                @change="indivShow.showTitle = !indivShow.showTitle"
-                        >Title</b-form-checkbox>
-                        <b-form-checkbox
-                                id="nationalityBox"
-                                size="sm"
-                                @change="indivShow.showNationality = !indivShow.showNationality"
-                        >Nationality</b-form-checkbox>
-                        <b-form-checkbox
-                                id="genderBox"
-                                size="sm"
-                                @change="indivShow.showGender = !indivShow.showGender"
-                        >Gender</b-form-checkbox>
-                </b-form-group>
-                <b-form-group
-                    v-if="selected === 'institutions'">
-                    ayyyy
-                </b-form-group>
-                <b-form-group
-                    v-if="selected === 'corporateEntities'">
-                    lmoaaaa
-                </b-form-group>
-                <b-form-group
-                    v-if="selected === 'events'">
-                    whoa sick
-                </b-form-group>
-                <b-form>
-                    <b-form-group
-                        id="yearFilterSlider"
-                        v-if="indivShow.showYear && selected === 'individuals'">
-                        <vue-slider
-                                v-model="filters.sliderVals.value"
-                                v-bind="filters.sliderVals"
-                        />
+                <!-- year -->
+                <div class="row padding center-button">
+                    <b-form-group>
+                        <button size="sm" class="btn btn-secondary center-button" id="yearBox"
+                                v-on:click="indivShow.showYear = !indivShow.showYear"
+                        >Year</button>
                     </b-form-group>
-                    <b-form-group
+                </div>
+                <b-form-group class="padding-top-heavy"
+                        id="yearFilterSlider"
+                        v-if="indivShow.showYear">
+                    <vue-slider class="style-slider"
+                            v-model="filters.sliderVals.value"
+                            v-bind="filters.sliderVals"
+                    />
+                </b-form-group>
+
+                <!-- title -->
+                <div class="row padding center-button">
+                    <b-form-group>
+                        <button class="btn btn-secondary center-button" id="titleBox"
+                                v-on:click="indivShow.showTitle = !indivShow.showTitle"
+                        >Title</button>
+                    </b-form-group>
+                </div>
+                <b-form-group
                         id="titleFilter"
                         label-for="titleFilterBox"
-                        v-if="indivShow.showTitle && selected === 'individuals'">
-                        <b-form-input
+                        v-if="indivShow.showTitle">
+                    <b-form-input
                             id="titleFilterBox"
                             size="sm"
                             type="text"
                             v-model="filters.searchTitles"
                             placeholder="Name of individual">
-                        </b-form-input>
+                    </b-form-input>
+                </b-form-group>
+
+
+                <!-- nationality -->
+                <div class="row center-button">
+                    <b-form-group>
+                        <div class = "row padding">
+                            <button class="btn btn-secondary center-button" id="nationalityBox"
+                                    v-on:click="indivShow.showNationality = !indivShow.showNationality"
+                            >Nationality</button>
+                        </div>
                     </b-form-group>
-                    <b-form-group
+                </div>
+                <b-form-group
                         id="nationalityFilter"
                         label-for="nationalityFilterBox"
-                        v-if="indivShow.showNationality && selected === 'individuals'">
-                        <b-form-input
+                        v-if="indivShow.showNationality">
+                    <b-form-input
                             id="nationalityFilterBox"
                             size="sm"
                             type="text"
                             v-model="filters.searchNationality"
                             placeholder="Nationality of individual">
-                        </b-form-input>
+                    </b-form-input>
+                </b-form-group>
+
+
+                <!-- gender -->
+                <div class="row center-button">
+                    <b-form-group>
+                        <div class = "row padding">
+                            <button class="btn btn-secondary center-button" id="genderBox"
+                                    v-on:click="indivShow.showGender = !indivShow.showGender"
+                            >Gender</button>
+                        </div>
                     </b-form-group>
-                    <b-form-group
+                </div>
+                <b-form-group
                         id="genderFilter"
                         label-for="genderFilterBox"
-                        v-if="indivShow.showGender && selected === 'individuals'">
-                        <b-form-input
+                        v-if="indivShow.showGender">
+                    <b-form-input
                             id="genderFilterBox"
                             size="sm"
                             type="text"
                             v-model="filters.searchGender"
                             placeholder="Male or Female">
-                        </b-form-input>
-                    </b-form-group>
-                </b-form>
-                <button v-on:click="filterData">
-                    Filter
-                </button>
+                    </b-form-input>
+                </b-form-group>
+            </div>
+
+            <!-- INSTITUTIONS -->
+           <div class="col-md-3">
+               <b-form-group>
+                   Institutions filter
+               </b-form-group>
+           </div>
+
+
+            <!-- CORPORATE ENTITIES -->
+            <div class="col-md-3">
+                <b-form-group>
+                        Corporate Entities filter
+                </b-form-group>
+            </div>
+
+            <!-- EVENTS -->
+            <div class="col-md-3">
+                <b-form-group>
+                    Events filter
+                </b-form-group>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div id="results-box">
-                    <li v-for="pt in renderedData">
-                        <div class="row">
-                            {{ pt }}
-                        </div>
-                    </li>
-                </div>
-            </div>
+
+
+        <!-- SUBMIT BUTTON -->
+        <div class="row center-button">
+            <b-button v-if="selectedAFilter" class="btn blue" size="lg" v-on:click="filterData">
+                Submit
+            </b-button>
         </div>
+
+
+
+
+        <!--<div v-if="submittedFilter" class="row padding">-->
+            <!--<div class="col-md-12">-->
+                <!--<div id="results-box">-->
+                    <!--<li v-for="pt in renderedData">-->
+                        <!--<div class="row">-->
+                            <!--{{ pt }}-->
+                        <!--</div>-->
+                    <!--</li>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
     </div>
 </template>
+
+
+
 
 <script>
 
@@ -156,7 +207,8 @@
 		},
 		data () {
 			return {
-				selected: null,
+				individualsSelected: false,
+                selected: null,
 				indivShow:
                   {
                   	showYear: false,
@@ -174,7 +226,18 @@
                         formatter: "{value}",
                         mergeFormatter: "{value1} ~ {value2}",
                         tooltip: "always",
-                        enableCross: false
+                        enableCross: false,
+                        bgStyle: {
+                          "backgroundColor": "#fff",
+                          "boxShadow": "inset 0.5px 0.5px 3px 1px rgba(0,0,0,.36)"
+                        },
+                        tooltipStyle: {
+                          "backgroundColor": "#0033FF",
+                          "borderColor": "#0033FF"
+                        },
+                        processStyle: {
+                          "backgroundColor": '#0033FF'
+                        }
                       },
                     searchTitles: "",
                     searchNationality: "",
@@ -192,7 +255,8 @@
 				attribution:'&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
 				markers: [],
 				pointData: {},
-                renderedData: []
+                renderedData: [],
+                selectedAFilter: false
 			}
 		},
 		methods: {
@@ -202,6 +266,7 @@
             	this.indivShow.showNationality = false;
             	this.indivShow.showGender = false;
             	this.indivShow.showTitle = false;
+
             },
 			pushPoints(pt)
 			{
@@ -375,17 +440,57 @@
 	}
 </script>
 
+
+
 <style>
 
     @import "../../node_modules/leaflet/dist/leaflet.css";
 
     #map {
         height: 600px;
-        border: 3px solid green;
+        border: 3px solid #101010;
     }
 
     #results-box {
-        border: 3px solid green;
+        border: 3px solid #101010;
     }
+
+    .padding {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .padding-top-heavy {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .padding-sides {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+
+    .filter-text {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .center-button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grey-text {
+        color: #101010;
+    }
+
+
+    .blue {
+        background-color: #0033FF;
+        color: #fff;
+    }
+
 
 </style>

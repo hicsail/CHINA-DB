@@ -1,64 +1,93 @@
 <template>
-  <div id="app">
-      <h1>CHINA-DB</h1>
-      <nav id="navbar">
-          <div id="navbar-items" role='navigation' aria-label='main navigation'>
-              <div id="navbar-itemWrapper">
-                  <router-link class="navbar-item" to="/">
-                      Home
-                  </router-link>
-                  <router-link class="navbar-item" to="/about">
-                      About
-                  </router-link>
-                  <router-link class="navbar-item" to="/geo">
-                      Geo
-                  </router-link>
-              </div>
-          </div>
-      </nav>
-      <router-view></router-view>
-  </div>
+    <div>
+        <div class="row title padding-sides">
+            <div class="col-md-9 my-auto grey-text" >
+                <h1>China Christian Database</h1>
+            </div>
+
+            <div class="col-md-0.5"></div>
+            <div class="col-md-1 my-auto center-grey-text">
+                <nav>
+                    <div role='navigation' aria-label='main navigation' >
+                        <router-link to="/geo" class="routerlink" v-on:click="this.$parent.onHomePage = true">
+                            <h6 v-if="this.$parent.onHomePage" class="underline-light-text" >Home</h6>
+                            <h6 v-if="!this.$parent.onHomePage">Home</h6>
+                        </router-link>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-md-1 my-auto center-grey-text">
+                <nav>
+                    <div role='navigation' aria-label='main navigation' >
+                        <router-link to="/about" class="routerlink" v-on:click="this.$parent.onHomePage = false">
+                            <h6 v-if="this.$parent.onHomePage" >About</h6>
+                            <h6 v-if="!this.$parent.onHomePage" class="underline-light-text">About</h6>
+                        </router-link>
+                    </div>
+
+                </nav>
+            </div>
+            <div class="col-md-0.5"></div>
+        </div>
+
+        <router-view></router-view>
+
+    </div>
+
 
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  methods: {
+    setHomePage(status){
+      this.$parent.onHomePage = status;
+    }
+  }
 }
+
 </script>
+
+
 
 <style>
 
-#app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    overflow-y: scroll;
-    margin-top: 40px;
-}
+    .title {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #808080;
+    }
 
-#navbar {
-    background-color: #fceeff;
-    padding-left: 20px;
-    padding-right: 10px;
-    border: 3px solid green;
-}
+    .padding-sides {
+        padding-left: 40px;
+    }
 
-#navbar-items{
-    display:flex;
-    justify-content:center;
-    margin-right: auto;
-}
+    .routerlink {
+        color: #101010;
+    }
 
-#navbar-itemWrapper{
-    flex-grow: 1;
-    display: flex;
-}
+    .grey-text {
+        color: #101010;
+    }
 
-.navbar-item{
-    padding-left: 10px;
-    padding-right: 10px;
-}
+    .center-grey-text {
+        text-align: center;
+        color: #101010;
+    }
+
+    .underline-light-text {
+        text-decoration: underline;
+        color: #808080;
+    }
 
 </style>
+
+<!--<div role='navigation' aria-label='main navigation' >-->
+<!--<router-link v-if="this.$parent.onHomePage" to="/about" class="routerlink" v-on:click.native="toggleOnHomePage">-->
+<!--<h6>About</h6>-->
+<!--</router-link>-->
+<!--<router-link v-if="!this.$parent.onHomePage" to="/geo" class="routerlink" v-on:click.native="toggleOnHomePage">-->
+<!--<h6>Home</h6>-->
+<!--</router-link>-->
+<!--</div>-->
