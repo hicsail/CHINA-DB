@@ -1,11 +1,11 @@
 <template>
     <div>
         <div class="row title padding-sides">
-            <div class="col-md-9 my-auto grey-text" >
+            <div class="col-md-10 my-auto grey-text" >
                 <h1>China Christian Database</h1>
             </div>
 
-            <div class="col-md-0.5"></div>
+            <!--<div class="col-md-0.5"></div>-->
             <div class="col-md-1 my-auto center-grey-text">
                 <nav>
                     <div role='navigation' aria-label='main navigation' >
@@ -27,7 +27,7 @@
 
                 </nav>
             </div>
-            <div class="col-md-0.5"></div>
+            <!--<div class="col-md-0.5"></div>-->
         </div>
 
         <router-view></router-view>
