@@ -2,35 +2,38 @@
     <!--<div class = "container">-->
     <div class="padding-sides">
         <div class="row padding">
-            <div class="col-md-10 grey-text title-row">
+            <div class="col-md-8 grey-text title-row">
                 <h3>Shanxi Province, China</h3>
             </div>
 
-            <div v-on:click="openOverlay = !openOverlay" class="display-flex filter-btn-border">
-                <div class="col-md-0.5 grey-text" style="font-size:24px; margin-left: 10px; margin-right: 10px;">Filter</div>
-                <div class="col-md-0.5 center-item" style="margin-right: 10px;">
-                    <font-awesome-icon icon="bars" size="2x"></font-awesome-icon>
+            <!-- FILTER BUTTON -->
+            <div class="col-md-0.5 center-item" >
+                <font-awesome-icon icon="filter" size="2x"></font-awesome-icon>
+            </div>
+            <div class="col-md-1=0.5 white-btn display-flex center-item" style="font-size:24px">Filter:</div>
+            <div v-on:click="openOverlay = !openOverlay" class="display-flex center-item">
+                <div v-if="openOverlay">
+                    <div class="col-md-0.5 filter-btn-off-text"> Options </div>
+                </div>
+                <div v-if="!openOverlay">
+                    <div class="col-md-0.5 filter-btn-on-text"> Options </div>
                 </div>
             </div>
-
+            <div class="col-md-0.5 display-flex center-item filter-btn-on-text" >|</div>
+            <div class="display-flex center-item">
+                <div v-if="openOverlay" v-on:click="filterData">
+                    <div class="col-md-0.5 filter-btn-on-text"> Apply </div>
+                </div>
+                <div v-if="!openOverlay">
+                    <div class="col-md-0.5 filter-btn-off-text"> Apply </div>
+                </div>
+            </div>
         </div>
 
 
         <!-- FILTER BOX OVERLAY -->
         <div v-if="openOverlay" class="overlay-top transparent-background padding">
             <b-container>
-
-                <!-- CLOSE -->
-                <div class="row">
-                    <div class="row center-button drop-down-div transparent-background padding-small" >
-
-                        <div class="col-md-10"></div>
-                        <div class="col-md-2 center-item" v-on:click="openOverlay = !openOverlay">
-                            <font-awesome-icon icon="times" size="2x" class="light-grey"></font-awesome-icon>
-                        </div>
-
-                    </div>
-                </div>
 
                 <!--INDIVIDUALS -->
                 <div class="row">
@@ -67,7 +70,7 @@
                                 </div>
                                 <div class="col-md-1" ></div>
                             </div>
-                            <div class="row grey-text center-item padding-top-neg" >Year</div>
+                            <div class="row grey-text center-item padding-top-neg" >Years</div>
 
 
                             <!-- title and nationality-->
@@ -102,9 +105,8 @@
                                     </b-form-group>
                                 </div>
                                 <div class="col-md-1"></div>
-
                             </div>
-                            <div class="row">
+                            <div class="row padding-neg">
                                 <div class="col-md-1"></div>
                                 <div class="col-md-4 grey-text" >Name</div>
                                 <div class="col-md-1"></div>
@@ -130,7 +132,6 @@
                                     </b-form-group>
                                 </div>
 
-                                <!--<div class="col-md-1"></div>-->
                                 <div class="col-md-6 grey-text left-item">
                                     <b-form-radio-group id="btnRadios"
                                                         sz="sm"
@@ -141,13 +142,11 @@
                                 </div>
                             </div>
 
-
                             <div class="row padding-bottom-only">
                                 <div class="col-md-1"></div>
                                 <div class="col-md-4 grey-text">Location</div>
                                 <div class="col-md-1"></div>
                                 <div class="col-md-4 grey-text">Gender</div>
-
                             </div>
 
                         </b-collapse>
@@ -170,44 +169,8 @@
                     </div>
 
                     <div class="col-md-12">
-
                         <b-collapse id="collapse2" class="white-background grey-border">
-
-                            <!-- year -->
-                            <div class="row padding-top-heavy">
-                                <div class="col-md-1 grey-text">Year</div>
-                                <div class="col-md-10grey-text">
-                                    TODO
-                                </div>
-                            </div>
-
-
-                            <!-- title and nationality-->
-                            <div class="row padding-small">
-                                <div class="col-md-2 grey-text">Name</div>
-                                <div class="col-md-4 grey-text">
-                                    TODO
-                                </div>
-
-                                <div class="col-md-2 grey-text">Nationality</div>
-                                <div class="col-md-4 grey-text">
-                                    TODO
-                                </div>
-                            </div>
-
-
-                            <!-- gender and location-->
-                            <div class="row padding-small">
-                                <div class="col-md-2 grey-text">Type</div>
-                                <div class="col-md-4 grey-text">
-                                    TODO
-                                </div>
-
-                                <div class="col-md-2 grey-text">Location</div>
-                                <div class="col-md-4 grey-text">
-                                    TODO
-                                </div>
-                            </div>
+                            <div class="grey-text center-item">TODO</div>
                         </b-collapse>
                     </div>
                 </div>
@@ -227,45 +190,8 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-
-
                         <b-collapse id="collapse3" class=" white-background grey-border">
-
-                            <!-- year -->
-                            <div class="row padding-top-heavy">
-                                <div class="col-md-1 grey-text">Year</div>
-                                <div class="col-md-10 grey-text">
-                                    TODO
-                                </div>
-                            </div>
-
-
-                            <!-- title and nationality-->
-                            <div class="row padding-small">
-                                <div class="col-md-2 grey-text">Name</div>
-                                <div class="col-md-4 grey-text">
-                                    TODO
-                                </div>
-
-                                <div class="col-md-2 grey-text">Nationality</div>
-                                <div class="col-md-4 grey-text">
-                                    TODO
-                                </div>
-                            </div>
-
-
-                            <!-- gender and location-->
-                            <div class="row padding-small">
-                                <div class="col-md-2 grey-text">Type</div>
-                                <div class="col-md-4 grey-text">
-                                    TODO
-                                </div>
-
-                                <div class="col-md-2 grey-text">Location</div>
-                                <div class="col-md-4 grey-text">
-                                    TODO
-                                </div>
-                            </div>
+                           <div class="grey-text center-item">TODO</div>
                         </b-collapse>
                     </div>
                 </div>
@@ -286,54 +212,9 @@
                     </div>
 
                     <div class="col-md-12">
-
                         <b-collapse id="collapse4" class="white-background grey-border">
-
-
-                            <!-- year -->
-                            <div class="row padding-top-heavy">
-                                <div class="col-md-1 grey-text">Year</div>
-                                <div class="col-md-10 grey-text">
-                                    TODO
-                                </div>
-                            </div>
-
-
-                            <!-- title and nationality-->
-                            <div class="row padding-small">
-                                <div class="col-md-2 grey-text">Name</div>
-                                <div class="col-md-4 grey-text">
-                                    TODO
-                                </div>
-                            </div>
-
-
-                            <!-- gender and location-->
-                            <div class="row padding-small">
-                                <div class="col-md-2 grey-text">Type</div>
-                                <div class="col-md-4 grey-text">
-                                    TODO
-                                </div>
-
-                                <div class="col-md-2 grey-text">Location</div>
-                                <div class="col-md-4 grey-text">
-                                    TODO
-                                </div>
-                            </div>
+                            <div class="grey-text center-item">TODO</div>
                         </b-collapse>
-                    </div>
-                </div>
-
-                <!-- SUBMIT - TODO -->
-                <div class="row padding-neg">
-                    <div class="row right-button submit-drop-down-div"  >
-                        <div class="col-md-10"></div>
-                        <div v-on:click="filterData" class="display-flex submit-btn-border">
-                            <div class="col-md-0.5 submit-text" style="font-size:22px; margin-left: 10px; margin-right: 10px;">Submit</div>
-                            <div class="col-md-0.5 center-item" style="margin-right: 10px;">
-                                <font-awesome-icon icon="filter" size="2x" color="white"></font-awesome-icon>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
@@ -343,7 +224,6 @@
 
         <!---- MAP ----->
         <div class="row overlay-bottom">
-            <!--<div class="container">-->
             <div class="col-md-12 padding-sides">
                 <div id="map" >
                     <l-map
@@ -635,19 +515,12 @@
         z-index: 1;
     }
 
-
-
     .center-button {
         width: 100%;
         display: flex;
         justify-content: center;
     }
 
-    .right-button {
-        width: 100%;
-        display: flex;
-        justify-content: flex-end;
-    }
 
     .center-item {
         display: flex;
@@ -665,6 +538,23 @@
     .grey-text {
         color: #101010;
         text-align: left;
+    }
+
+    .light-grey-text {
+        color: #D3D3D3;
+        text-align: left;
+    }
+
+    .filter-btn-on-text {
+        color: #101010;
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .filter-btn-off-text {
+        color: #D3D3D3;
+        text-align: left;
+        font-size: 24px;
     }
 
 
@@ -703,33 +593,23 @@
         font-size: 22px;
     }
 
-
-
-    .light-grey {
-        color: #D3D3D3;
-    }
-
     .grey {
         color: #D3D3D3;
     }
 
     .row-one-color {
-        /*background-color: #66c2a5;*/
         background-color: #00CC99;
     }
 
     .row-two-color {
-        /*background-color: #fc8d62;*/
         background-color: #9933CC;
     }
 
     .row-three-color {
-        /*background-color: #8da0cb;*/
         background-color: #00CCCC;
     }
 
     .row-four-color {
-        /*background-color: #e78ac3;*/
         background-color: #FF9900;
     }
 
@@ -737,12 +617,6 @@
     /* TITLE ROW WITH FILTER BUTTON */
     .title-row {
         margin-left: 25px;
-    }
-
-    .filter-btn-border {
-        border: 2px solid #D3D3D3;
-        margin-left: 5px;
-        margin-right: 5px;
     }
 
     .filter-button .icon {
@@ -759,32 +633,22 @@
 
 
     /* SUBMIT ROW */
-    .submit-text {
-        color: white;
+
+    .white-btn {
+        color: #101010;
         text-align: left;
-        font-size: 22px;
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
-    .submit-drop-down-div {
-        border: 2px solid #D3D3D3;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: -2px;
-        background-color: white;
-        line-height: 2;
-        min-height:none;
-    }
-
-    .submit-btn-border {
-        border: 2px solid #0033FF;
-        background-color:#0033FF;
-        margin-left: 2px;
-        margin-top: -2px;
-    }
 
 
 
     /* PADDING TODO - rework layout to use less padding */
+    .form-group {
+        margin-bottom: 0rem !important;
+    }
 
     .padding {
         padding-top: 10px;
@@ -798,16 +662,6 @@
 
     .padding-top-neg {
         padding-top: -20px;
-    }
-
-    .padding-small {
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-
-    .padding-top-heavy {
-        padding-top: 20px;
-        padding-bottom: 5px;
     }
 
     .padding-top-only {
