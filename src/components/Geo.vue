@@ -6,8 +6,8 @@
                 <h3>Shanxi Province, China</h3>
             </div>
 
-            <div v-on:click="openOverlay = !openOverlay" class="filter-btn-flex filter-btn-border">
-                <div class="col-md-0.5 grey-text" style="font-size:28px; margin-left: 10px; margin-right: 10px;">Filter</div>
+            <div v-on:click="openOverlay = !openOverlay" class="display-flex filter-btn-border">
+                <div class="col-md-0.5 grey-text" style="font-size:24px; margin-left: 10px; margin-right: 10px;">Filter</div>
                 <div class="col-md-0.5 center-item" style="margin-right: 10px;">
                     <font-awesome-icon icon="bars" size="2x"></font-awesome-icon>
                 </div>
@@ -19,16 +19,24 @@
         <!-- FILTER BOX OVERLAY -->
         <div v-if="openOverlay" class="overlay-top transparent-background padding">
             <b-container>
-                <b-row >
-                    <b-col cols="12">
-                    </b-col>
-                </b-row>
+
+                <!-- CLOSE -->
+                <div class="row">
+                    <div class="row center-button drop-down-div transparent-background padding-small" >
+
+                        <div class="col-md-10"></div>
+                        <div class="col-md-2 center-item" v-on:click="openOverlay = !openOverlay">
+                            <font-awesome-icon icon="times" size="2x" class="light-grey"></font-awesome-icon>
+                        </div>
+
+                    </div>
+                </div>
 
                 <!--INDIVIDUALS -->
                 <div class="row">
 
                     <div v-b-toggle.collapse1 class="row center-button drop-down-div"  v-on:click="individualsSelected = !individualsSelected" >
-                        <div class="col-md-1 orange center-item align-middle">
+                        <div class="col-md-1 row-one-color center-item align-middle">
                             <font-awesome-icon icon="male" size="2x"></font-awesome-icon>
                         </div>
 
@@ -40,15 +48,15 @@
                     </div>
 
 
-                    <b-col cols="12">
+                    <div class="col-md-12">
 
                         <b-collapse id="collapse1" class="white-background grey-border">
 
                             <!-- year -->
-                            <b-row class="padding-top-heavy">
-                                <b-col cols="1" class="grey-text">Year</b-col>
-                                <b-col cols="10">
-                                    <b-form-group class="padding-top-heavy"
+                            <div class="row padding-top-only">
+                                <div class="col-md-1" ></div>
+                                <div class="col-md-10" >
+                                    <b-form-group class="padding-top-only"
                                                   id="yearFilterSlider"
                                                   v-if="openOverlay && individualsSelected">
                                         <vue-slider class="style-slider"
@@ -56,15 +64,16 @@
                                                     v-bind="filters.sliderVals"
                                         />
                                     </b-form-group>
-                                </b-col>
-                                <b-col cols="1"></b-col>
-                            </b-row>
+                                </div>
+                                <div class="col-md-1" ></div>
+                            </div>
+                            <div class="row grey-text center-item padding-top-neg" >Year</div>
 
 
                             <!-- title and nationality-->
-                            <b-row class="padding-small">
-                                <b-col cols="2" class="grey-text">Name</b-col>
-                                <b-col cols="4">
+                            <div class="row padding-top-only">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-4">
                                     <b-form-group
                                             style="align-items: left"
                                             id="titleFilter"
@@ -77,10 +86,9 @@
                                                 placeholder="">
                                         </b-form-input>
                                     </b-form-group>
-                                </b-col>
-
-                                <b-col cols="2" class="grey-text">Nationality</b-col>
-                                <b-col cols="4">
+                                </div>
+                                <div class="col-md-1"></div>
+                                <div class="col-md-4">
                                     <b-form-group
                                             id="nationalityFilter"
                                             label-for="nationalityFilterBox">
@@ -92,26 +100,22 @@
                                                 placeholder="">
                                         </b-form-input>
                                     </b-form-group>
-                                </b-col>
+                                </div>
+                                <div class="col-md-1"></div>
 
-                            </b-row>
-
+                            </div>
+                            <div class="row">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-4 grey-text" >Name</div>
+                                <div class="col-md-1"></div>
+                                <div class="col-md-4 grey-text">Nationality</div>
+                                <div class="col-md-1"></div>
+                            </div>
 
                             <!-- gender and location-->
-                            <b-row class="padding-small">
-                                <b-col cols="2" class="grey-text">Gender</b-col>
-                                <b-col cols="4" class="grey-text">
-                                    <b-form-radio-group id="btnRadios"
-                                                        sz="sm"
-                                                        button-variant="outline-secondary"
-                                                        v-model="filters.searchGender"
-                                                        stacked
-                                                        :options="genderOptions"
-                                    ></b-form-radio-group>
-                                </b-col>
-
-                                <b-col cols="2" class="grey-text">Location</b-col>
-                                <b-col cols="4">
+                            <div class="row padding-top-only">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-4">
                                     <b-form-group
                                             id="locFilter"
                                             label-for="locFilterBox">
@@ -124,11 +128,30 @@
                                         >
                                         </b-form-input>
                                     </b-form-group>
-                                </b-col>
-                            </b-row>
+                                </div>
+
+                                <!--<div class="col-md-1"></div>-->
+                                <div class="col-md-6 grey-text left-item">
+                                    <b-form-radio-group id="btnRadios"
+                                                        sz="sm"
+                                                        button-variant="outline-secondary"
+                                                        v-model="filters.searchGender"
+                                                        :options="genderOptions"
+                                    ></b-form-radio-group>
+                                </div>
+                            </div>
+
+
+                            <div class="row padding-bottom-only">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-4 grey-text">Location</div>
+                                <div class="col-md-1"></div>
+                                <div class="col-md-4 grey-text">Gender</div>
+
+                            </div>
 
                         </b-collapse>
-                    </b-col>
+                    </div>
                 </div>
 
 
@@ -136,7 +159,7 @@
                 <div class="row padding-neg">
 
                     <div v-b-toggle.collapse2 class="row center-button drop-down-div"  v-on:click="institutionsSelected = !institutionsSelected" >
-                        <div class="col-md-1 green center-item align-middle">
+                        <div class="col-md-1 row-two-color center-item align-middle">
                             <font-awesome-icon icon="university" size="2x"></font-awesome-icon>
                         </div>
                         <div class="col-md-9 drop-down-title-text ">Institutions</div>
@@ -146,48 +169,47 @@
                         </div>
                     </div>
 
-
-                    <b-col cols="12">
+                    <div class="col-md-12">
 
                         <b-collapse id="collapse2" class="white-background grey-border">
 
                             <!-- year -->
-                            <b-row class="padding-top-heavy">
-                                <b-col cols="1" class="grey-text">Year</b-col>
-                                <b-col cols="10" class="grey-text">
+                            <div class="row padding-top-heavy">
+                                <div class="col-md-1 grey-text">Year</div>
+                                <div class="col-md-10grey-text">
                                     TODO
-                                </b-col>
-                            </b-row>
+                                </div>
+                            </div>
 
 
                             <!-- title and nationality-->
-                            <b-row class="padding-small">
-                                <b-col cols="2" class="grey-text">Name</b-col>
-                                <b-col cols="4" class="grey-text">
+                            <div class="row padding-small">
+                                <div class="col-md-2 grey-text">Name</div>
+                                <div class="col-md-4 grey-text">
                                     TODO
-                                </b-col>
+                                </div>
 
-                                <b-col cols="2" class="grey-text">Nationality</b-col>
-                                <b-col cols="4" class="grey-text">
+                                <div class="col-md-2 grey-text">Nationality</div>
+                                <div class="col-md-4 grey-text">
                                     TODO
-                                </b-col>
-                            </b-row>
+                                </div>
+                            </div>
 
 
                             <!-- gender and location-->
-                            <b-row class="padding-small">
-                                <b-col cols="2" class="grey-text">Type</b-col>
-                                <b-col cols="4" class="grey-text">
+                            <div class="row padding-small">
+                                <div class="col-md-2 grey-text">Type</div>
+                                <div class="col-md-4 grey-text">
                                     TODO
-                                </b-col>
+                                </div>
 
-                                <b-col cols="2" class="grey-text">Location</b-col>
-                                <b-col cols="4" class="grey-text">
+                                <div class="col-md-2 grey-text">Location</div>
+                                <div class="col-md-4 grey-text">
                                     TODO
-                                </b-col>
-                            </b-row>
+                                </div>
+                            </div>
                         </b-collapse>
-                    </b-col>
+                    </div>
                 </div>
 
 
@@ -195,7 +217,7 @@
                 <div class="row padding-neg">
 
                     <div v-b-toggle.collapse3 class="row center-button drop-down-div"  v-on:click="corporateEntitiesSelected = !corporateEntitiesSelected" >
-                        <div class="col-md-1 pink center-item align-middle">
+                        <div class="col-md-1 row-three-color center-item align-middle">
                             <font-awesome-icon icon="building" size="2x"></font-awesome-icon>
                         </div>
                         <div class="col-md-9 drop-down-title-text">Corporate Entities</div>
@@ -204,48 +226,48 @@
                             <font-awesome-icon v-if="corporateEntitiesSelected" icon="chevron-up"  class="grey" size="2x"></font-awesome-icon>
                         </div>
                     </div>
-                    <b-col cols="12">
+                    <div class="col-md-12">
 
 
                         <b-collapse id="collapse3" class=" white-background grey-border">
 
                             <!-- year -->
-                            <b-row class="padding-top-heavy">
-                                <b-col cols="1" class="grey-text">Year</b-col>
-                                <b-col cols="10" class="grey-text">
+                            <div class="row padding-top-heavy">
+                                <div class="col-md-1 grey-text">Year</div>
+                                <div class="col-md-10 grey-text">
                                     TODO
-                                </b-col>
-                            </b-row>
+                                </div>
+                            </div>
 
 
                             <!-- title and nationality-->
-                            <b-row class="padding-small">
-                                <b-col cols="2" class="grey-text">Name</b-col>
-                                <b-col cols="4" class="grey-text">
+                            <div class="row padding-small">
+                                <div class="col-md-2 grey-text">Name</div>
+                                <div class="col-md-4 grey-text">
                                     TODO
-                                </b-col>
+                                </div>
 
-                                <b-col cols="2" class="grey-text">Nationality</b-col>
-                                <b-col cols="4" class="grey-text">
+                                <div class="col-md-2 grey-text">Nationality</div>
+                                <div class="col-md-4 grey-text">
                                     TODO
-                                </b-col>
-                            </b-row>
+                                </div>
+                            </div>
 
 
                             <!-- gender and location-->
-                            <b-row class="padding-small">
-                                <b-col cols="2" class="grey-text">Type</b-col>
-                                <b-col cols="4" class="grey-text">
+                            <div class="row padding-small">
+                                <div class="col-md-2 grey-text">Type</div>
+                                <div class="col-md-4 grey-text">
                                     TODO
-                                </b-col>
+                                </div>
 
-                                <b-col cols="2" class="grey-text">Location</b-col>
-                                <b-col cols="4" class="grey-text">
+                                <div class="col-md-2 grey-text">Location</div>
+                                <div class="col-md-4 grey-text">
                                     TODO
-                                </b-col>
-                            </b-row>
+                                </div>
+                            </div>
                         </b-collapse>
-                    </b-col>
+                    </div>
                 </div>
 
 
@@ -253,7 +275,7 @@
                 <div class="row padding-neg">
 
                     <div v-b-toggle.collapse4 class="row center-button drop-down-div"  v-on:click="eventsSelected = !eventsSelected" >
-                        <div class="col-md-1 purple center-item align-middle">
+                        <div class="col-md-1 row-four-color center-item align-middle">
                             <font-awesome-icon icon="church" size="2x"></font-awesome-icon>
                         </div>
                         <div class="col-md-9 drop-down-title-text">Historical Events</div>
@@ -263,53 +285,57 @@
                         </div>
                     </div>
 
-                    <b-col cols="12">
+                    <div class="col-md-12">
 
                         <b-collapse id="collapse4" class="white-background grey-border">
 
 
                             <!-- year -->
-                            <b-row class="padding-top-heavy">
-                                <b-col cols="1" class="grey-text">Year</b-col>
-                                <b-col cols="10" class="grey-text">
+                            <div class="row padding-top-heavy">
+                                <div class="col-md-1 grey-text">Year</div>
+                                <div class="col-md-10 grey-text">
                                     TODO
-                                </b-col>
-                            </b-row>
+                                </div>
+                            </div>
 
 
                             <!-- title and nationality-->
-                            <b-row class="padding-small">
-                                <b-col cols="2" class="grey-text">Name</b-col>
-                                <b-col cols="4" class="grey-text">
+                            <div class="row padding-small">
+                                <div class="col-md-2 grey-text">Name</div>
+                                <div class="col-md-4 grey-text">
                                     TODO
-                                </b-col>
-                            </b-row>
+                                </div>
+                            </div>
 
 
                             <!-- gender and location-->
-                            <b-row class="padding-small">
-                                <b-col cols="2" class="grey-text">Type</b-col>
-                                <b-col cols="4" class="grey-text">
+                            <div class="row padding-small">
+                                <div class="col-md-2 grey-text">Type</div>
+                                <div class="col-md-4 grey-text">
                                     TODO
-                                </b-col>
+                                </div>
 
-                                <b-col cols="2" class="grey-text">Location</b-col>
-                                <b-col cols="4" class="grey-text">
+                                <div class="col-md-2 grey-text">Location</div>
+                                <div class="col-md-4 grey-text">
                                     TODO
-                                </b-col>
-                            </b-row>
+                                </div>
+                            </div>
                         </b-collapse>
-                    </b-col>
+                    </div>
                 </div>
 
                 <!-- SUBMIT - TODO -->
                 <div class="row padding-neg">
-                    <div v-b-toggle.collapse2 class="row blue center-button drop-down-div"  v-on:click="filterData">
-                        Submit (TODO)
+                    <div class="row right-button submit-drop-down-div"  >
+                        <div class="col-md-10"></div>
+                        <div v-on:click="filterData" class="display-flex submit-btn-border">
+                            <div class="col-md-0.5 submit-text" style="font-size:22px; margin-left: 10px; margin-right: 10px;">Submit</div>
+                            <div class="col-md-0.5 center-item" style="margin-right: 10px;">
+                                <font-awesome-icon icon="filter" size="2x" color="white"></font-awesome-icon>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-
 
             </b-container>
         </div>
@@ -373,18 +399,7 @@
 		},
 		data () {
 			return {
-			    openOverlay: false,
-				individualsSelected: false,
-                institutionsSelected: false,
                 selected: null,
-				indivShow:
-                  {
-                  	showYear: false,
-                    showTitle: false,
-                    showNationality: false,
-                    showGender: false,
-                    showLocation: false
-                  },
                 filters:
                   {
                     sliderVals:
@@ -427,6 +442,11 @@
 				pointData: {},
                 renderedData: [],
                 selectedAFilter: false,
+                openOverlay: false,
+                individualsSelected: false,
+                institutionsSelected: false,
+                corporateEntitiesSelected: false,
+                eventsSelected: false,
                 genderOptions: [
                   {text: 'M', value: 'Men'},
                   {text: 'W', value: 'Women'},
@@ -437,11 +457,11 @@
 		methods: {
 			refresh()
             {
-            	this.indivShow.showYear = false;
-            	this.indivShow.showNationality = false;
-            	this.indivShow.showGender = false;
-            	this.indivShow.showTitle = false;
-            	this.indivShow.showLocation = false;
+                this.openOverlay = false;
+                this.individualsSelected = false;
+                this.institutionsSelected = false;
+                this.corporateEntitiesSelected = false;
+                this.eventsSelected = false;
             },
 			pushPoints(pt)
 			{
@@ -472,6 +492,7 @@
               let yearLower = this.filters.sliderVals.value[0];
               let yearUpper = this.filters.sliderVals.value[1];
 
+              console.log("FilterByYears - param is ", thisYear, " returning ", (thisYear > yearLower && thisYear < yearUpper));
               return (thisYear > yearLower && thisYear < yearUpper);
             },
             filterByTitle(thisTitles)
@@ -501,46 +522,17 @@
             checkIndivFilters(checks)
             {
             	// TODO: hack, there's probably a better way to do this
-                if (this.indivShow.showYear)
-                {
-                	if (!checks.years)
-                    {
-                    	return false;
-                    }
-                }
-                if (this.indivShow.showTitle)
-                {
-                	if (!checks.title)
-                    {
-                    	return false;
-                    }
-                }
-                if (this.indivShow.showNationality)
-                {
-                	if (!checks.nationality)
-                    {
-                    	return false;
-                    }
-                }
-                if (this.indivShow.showGender)
-                {
-                	if (!checks.gender)
-                    {
-                    	return false;
-                    }
-                }
-                if (this.indivShow.showLocation)
-                {
-                	if (!checks.location)
-                    {
-                    	return false;
-                    }
-                }
+              if (!checks.years && !checks.title &&
+                !checks.nationality && !checks.gender && !checks.location)
+              {
+                return false;
+              }
 
-                return true;
+              return true;
             },
             buildIndivChecks(featureEntry)
             {
+              console.log("BuildIndivChecks, featureEntry is ", featureEntry);
               let checks =
                 {
                   "years": false,
@@ -550,41 +542,27 @@
                   "location": false
                 };
 
-              if (this.indivShow.showYear)
+              console.log("time is ", featureEntry.time);
+              console.log("start year is ", featureEntry.time.start_year);
+              if (this.filterByYears(featureEntry.time.start_year))
               {
-                if (this.filterByYears(featureEntry.time.start_year))
-                {
-                  checks.years = true;
-                }
+                checks.years = true;
               }
-              if (this.indivShow.showTitle)
+              if (this.filterByTitle(featureEntry.titles))
               {
-                if (this.filterByTitle(featureEntry.titles))
-                {
-                  checks.title = true;
-                }
+                checks.title = true;
               }
-              if (this.indivShow.showNationality)
+              if (this.filterByNationality(featureEntry.nationality))
               {
-                if (this.filterByNationality(featureEntry.nationality))
-                {
-                  checks.nationality = true;
-                }
+                checks.nationality = true;
               }
-              if (this.indivShow.showGender)
+              if (this.filterByGender(featureEntry.gender))
               {
-                if (this.filterByGender(featureEntry.gender))
-                {
-                  checks.gender = true;
-                }
+                checks.gender = true;
               }
-              if (this.indivShow.showLocation)
+              if (this.filterByLocation(featureEntry.loc.location_type, featureEntry.loc.location_name))
               {
-              	console.log(featureEntry.loc.location_type);
-              	if (this.filterByLocation(featureEntry.loc.location_type, featureEntry.loc.location_name))
-                {
-                  checks.location = true;
-                }
+                checks.location = true;
               }
 
               return checks;
@@ -602,8 +580,7 @@
 
                 for (let j = 0; j < dataArray.length; j++)
                 {
-                  if (this.individualsSelected)
-                  {
+
                   	let checks = this.buildIndivChecks(featureArray[i].properties.objects[j]);
 
                   	if (this.checkIndivFilters(checks))
@@ -615,18 +592,6 @@
                         }
                         this.pointData[featureArray[i].id].push(featureArray[i].properties.objects[j]);
                     }
-                  }
-                  else if (this.selected === 'institutions')
-                  {}
-                  else if (this.selected === 'corporateEntities')
-                  {}
-                  else if (this.selected === 'events')
-                  {}
-                  else
-                  {
-                  	// no filter selected
-                  	break;
-                  }
                 }
               }
             },
@@ -670,16 +635,30 @@
         z-index: 1;
     }
 
+
+
     .center-button {
         width: 100%;
         display: flex;
         justify-content: center;
     }
 
+    .right-button {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
     .center-item {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .left-item {
+        display: flex;
+        align-items: left;
+        justify-content: flex-end;
     }
 
 
@@ -724,30 +703,38 @@
         font-size: 22px;
     }
 
+
+
+    .light-grey {
+        color: #D3D3D3;
+    }
+
     .grey {
         color: #D3D3D3;
     }
 
-    .orange {
-        background-color: #ff8000;
+    .row-one-color {
+        /*background-color: #66c2a5;*/
+        background-color: #00CC99;
     }
 
-    .pink {
-        background-color: #ff0080;
+    .row-two-color {
+        /*background-color: #fc8d62;*/
+        background-color: #9933CC;
     }
 
-    .green {
-        background-color: #009900;
+    .row-three-color {
+        /*background-color: #8da0cb;*/
+        background-color: #00CCCC;
     }
 
-    .purple {
-        background-color: #8000ff;
+    .row-four-color {
+        /*background-color: #e78ac3;*/
+        background-color: #FF9900;
     }
-
 
 
     /* TITLE ROW WITH FILTER BUTTON */
-
     .title-row {
         margin-left: 25px;
     }
@@ -766,9 +753,35 @@
         margin-right: 0;
     }
 
-    .filter-btn-flex {
+    .display-flex {
         display: flex;
     }
+
+
+    /* SUBMIT ROW */
+    .submit-text {
+        color: white;
+        text-align: left;
+        font-size: 22px;
+    }
+
+    .submit-drop-down-div {
+        border: 2px solid #D3D3D3;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: -2px;
+        background-color: white;
+        line-height: 2;
+        min-height:none;
+    }
+
+    .submit-btn-border {
+        border: 2px solid #0033FF;
+        background-color:#0033FF;
+        margin-left: 2px;
+        margin-top: -2px;
+    }
+
 
 
     /* PADDING TODO - rework layout to use less padding */
@@ -783,22 +796,31 @@
         padding-bottom: -20px;
     }
 
+    .padding-top-neg {
+        padding-top: -20px;
+    }
+
     .padding-small {
         padding-top: 5px;
         padding-bottom: 5px;
     }
+
     .padding-top-heavy {
-        padding-top: 17px;
+        padding-top: 20px;
         padding-bottom: 5px;
+    }
+
+    .padding-top-only {
+        padding-top: 20px;
+    }
+    .padding-bottom-only {
+        padding-bottom: 10px;
     }
 
     .padding-sides {
         padding-left: 40px;
         padding-right: 40px;
     }
-
-
-    /* SUBMIT BUTTON */
 
     .blue {
         background-color: #0033FF;

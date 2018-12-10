@@ -5,7 +5,6 @@
                 <h1>China Christian Database</h1>
             </div>
 
-            <!--<div class="col-md-0.5"></div>-->
             <div class="col-md-1 my-auto center-grey-text">
                 <nav>
                     <div role='navigation' aria-label='main navigation' >
@@ -27,7 +26,7 @@
 
                 </nav>
             </div>
-            <!--<div class="col-md-0.5"></div>-->
+
         </div>
 
         <router-view></router-view>

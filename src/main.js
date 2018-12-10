@@ -7,10 +7,10 @@ import App from './App';
 import router from './router';
 import BootstrapVue from 'bootstrap-vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faBars, faChevronDown, faChevronUp, faMale, faBuilding, faUniversity, faChurch } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faBuilding, faChevronDown, faChevronUp, faChurch, faFilter, faMale, faTimes, faUniversity } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-library.add(faBars, faChevronDown, faChevronUp, faMale, faBuilding, faUniversity, faChurch);
+library.add(faBars, faBuilding, faChevronDown, faChevronUp, faChurch, faFilter, faMale, faTimes, faUniversity);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
