@@ -1,41 +1,26 @@
 <template>
-    <!--<div class = "container">-->
-    <div class="padding-sides">
-        <div class="row padding">
-            <div class="col-md-8 grey-text title-row">
+    <div>
+        <div class="row title-two ">
+            <div class="col-md-10 my-auto grey-text padding-left"  >
                 <h3>Shanxi Province, China</h3>
             </div>
 
-            <!-- FILTER BUTTON -->
-            <div class="col-md-0.5 center-item" >
-                <font-awesome-icon icon="filter" size="2x"></font-awesome-icon>
-            </div>
-            <div class="col-md-1=0.5 white-btn display-flex center-item" style="font-size:24px">Filter:</div>
-            <div v-on:click="openOverlay = !openOverlay" class="display-flex center-item">
-                <div v-if="openOverlay">
-                    <div class="col-md-0.5 filter-btn-off-text"> Options </div>
-                </div>
-                <div v-if="!openOverlay">
-                    <div class="col-md-0.5 filter-btn-on-text"> Options </div>
-                </div>
-            </div>
-            <div class="col-md-0.5 display-flex center-item filter-btn-on-text" >|</div>
-            <div class="display-flex center-item">
-                <div v-if="openOverlay" v-on:click="filterData">
-                    <div class="col-md-0.5 filter-btn-on-text"> Apply </div>
-                </div>
-                <div v-if="!openOverlay">
-                    <div class="col-md-0.5 filter-btn-off-text"> Apply </div>
+            <div class="col-md-1 my-auto center-grey-text center-item" >
+                <div v-on:click="openOverlay = !openOverlay" class=" display-flex">
+                    <div class="white-btn display-flex">Filter</div>
+                    <div class="display-flex">
+                        <font-awesome-icon icon="filter" size="2x"></font-awesome-icon>
+                    </div>
                 </div>
             </div>
         </div>
-
 
         <!-- FILTER BOX OVERLAY -->
         <div v-if="openOverlay" class="overlay-top transparent-background padding">
             <b-container>
 
                 <!--INDIVIDUALS -->
+                <!-- TODO: format input field size, gender buttons -->
                 <div class="row">
 
                     <div v-b-toggle.collapse1 class="row center-button drop-down-div"  v-on:click="individualsSelected = !individualsSelected" >
@@ -61,7 +46,8 @@
                                 <div class="col-md-10" >
                                     <b-form-group class="padding-top-only"
                                                   id="yearFilterSlider"
-                                                  v-if="openOverlay && individualsSelected">
+                                                  v-if="openOverlay && individualsSelected"
+                                                  >
                                         <vue-slider class="style-slider"
                                                     v-model="filters.sliderVals.value"
                                                     v-bind="filters.sliderVals"
@@ -127,12 +113,13 @@
                                                 type="text"
                                                 v-model="filters.searchLocation"
                                                 placeholder="name or type"
+                                                @click.native="formatData"
                                         >
                                         </b-form-input>
                                     </b-form-group>
                                 </div>
 
-                                <div class="col-md-6 grey-text left-item">
+                                <div class="col-md-6 grey-text" style="margin-left:40px">
                                     <b-form-radio-group id="btnRadios"
                                                         sz="sm"
                                                         button-variant="outline-secondary"
@@ -222,9 +209,10 @@
         </div>
 
 
+
         <!---- MAP ----->
         <div class="row overlay-bottom">
-            <div class="col-md-12 padding-sides">
+            <div class="col-md-12 padding-left">
                 <div id="map" >
                     <l-map
                             style="height: 100%"
@@ -234,12 +222,14 @@
                         <l-tile-layer
                                 :url="url"
                                 :attribution="attribution"/>
+
+                        <!-- TODO - drop pins with matching color/icon for institutions, entities, etc. -->
                         <l-marker
                                 v-for="marker in markers"
                                 :key="marker.id"
                                 :lat-lng="marker.position"
                                 :visible="marker.visible"
-                                :icon="icon"
+                                :icon="personDropPin"
                                 @click="pushPoints(marker)"
                         />
                     </l-map>
@@ -265,6 +255,9 @@
     import "leaflet/dist/leaflet.css"
     import LRectangle from "../../node_modules/vue2-leaflet/src/components/LRectangle.vue";
 
+
+
+
 	export default {
 		name: "shanxiMap",
 		components: {
@@ -277,63 +270,81 @@
             LLayerGroup,
             LPopup
 		},
-		data () {
-			return {
-                selected: null,
-                filters:
-                  {
-                    sliderVals:
-                      {
-                        min: 1600,
-                        max: 1930,
-                        value: [1600, 1930],
-                        formatter: "{value}",
-                        mergeFormatter: "{value1} ~ {value2}",
-                        tooltip: "always",
-                        enableCross: false,
-                        bgStyle: {
-                          "backgroundColor": "#fff",
-                          "boxShadow": "inset 0.5px 0.5px 3px 1px rgba(0,0,0,.36)"
-                        },
-                        tooltipStyle: {
-                          "backgroundColor": "#0033FF",
-                          "borderColor": "#0033FF"
-                        },
-                        processStyle: {
-                          "backgroundColor": '#0033FF'
-                        }
-                      },
-                    searchTitles: "",
-                    searchNationality: "",
-                    searchGender: "Both",
-                    searchLocation: ""
+      data: function () {
+        return {
+          selected: null,
+          orangeIcon: L.AwesomeMarkers.icon({
+            prefix: 'fa',
+            icon: 'male',
+            markerColor: 'orange',
+            iconColor: 'black'
+          }),
+          filters:
+            {
+              sliderVals:
+                {
+                  min: 1600,
+                  max: 1930,
+                  value: [1600, 1930],
+                  formatter: "{value}",
+                  mergeFormatter: "{value1} ~ {value2}",
+                  tooltip: "always",
+                  enableCross: false,
+                  bgStyle: {
+                    "backgroundColor": "#fff",
+                    "boxShadow": "inset 0.5px 0.5px 3px 1px rgba(0,0,0,.36)"
                   },
-                icon: L.icon(
-                  {
-                    iconUrl: "static/images/marker-icon.png",
-                    iconSize: [32, 37],
-                    iconAnchor: [16, 37]
-                  }),
-				zoom: 7,
-				center: [35.026413, 111.007530],
-				url: 'https://api.tiles.mapbox.com/v4/mapbox.light/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWJvdWNoYXVkIiwiYSI6ImNpdTA5bWw1azAyZDIyeXBqOWkxOGJ1dnkifQ.qha33VjEDTqcHQbibgHw3w',
-				attribution:'&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
-				markers: [],
-				pointData: {},
-                renderedData: [],
-                selectedAFilter: false,
-                openOverlay: false,
-                individualsSelected: false,
-                institutionsSelected: false,
-                corporateEntitiesSelected: false,
-                eventsSelected: false,
-                genderOptions: [
-                  {text: 'M', value: 'Men'},
-                  {text: 'W', value: 'Women'},
-                  {text: 'Both', value: 'Both'}
-                ]
-			}
-		},
+                  tooltipStyle: {
+                    "backgroundColor": "#0033FF",
+                    "borderColor": "#0033FF"
+                  },
+                  processStyle: {
+                    "backgroundColor": '#0033FF'
+                  }
+                },
+              searchTitles: "",
+              searchNationality: "",
+              searchGender: "Both",
+              searchLocation: "",
+            },
+          personDropPin : L.AwesomeMarkers.icon({
+            markerColor: 'green',
+            prefix: 'fas fa-male',
+            icon: 'male'
+          }),
+          zoom: 7,
+          center: [35.026413, 111.007530],
+          url: 'https://api.tiles.mapbox.com/v4/mapbox.light/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWJvdWNoYXVkIiwiYSI6ImNpdTA5bWw1azAyZDIyeXBqOWkxOGJ1dnkifQ.qha33VjEDTqcHQbibgHw3w',
+          attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+          markers: [],
+          pointData: {},
+          renderedData: [],
+          selectedAFilter: false,
+          openOverlay: false,
+          individualsSelected: false,
+          institutionsSelected: false,
+          corporateEntitiesSelected: false,
+          eventsSelected: false,
+          genderOptions: [
+            {text: 'M', value: 'Men'},
+            {text: 'W', value: 'Women'},
+            {text: 'Both', value: 'Both'}
+          ]
+        }
+      },
+        watch: {
+            'filters.sliderVals.value': function (val){
+              this.indivFilterYear = true;
+              this.filterData();
+            },
+            'filters.searchLocation': function(v) {
+              this.indivFilterLocation = true;
+              this.filterData();
+            }
+        },
+        beforeMount(){
+		  this.filterData();
+        },
 		methods: {
 			refresh()
             {
@@ -342,6 +353,13 @@
                 this.institutionsSelected = false;
                 this.corporateEntitiesSelected = false;
                 this.eventsSelected = false;
+
+                this.indivFilterYear = true;
+                this.indivFilterTitle = false;
+                this.indivFilterNationality = false;
+                this.indivFilterGender = false;
+                this.indivFilterLocation = false;
+
             },
 			pushPoints(pt)
 			{
@@ -352,6 +370,9 @@
 			},
             pushMarker(featureArrayEntry)
             {
+
+              //let type = featureArrayEntry.properties.objects[0].type;
+
               let pointId = featureArrayEntry.id;
               this.pointData[pointId] = [];
 
@@ -362,7 +383,7 @@
                 {
                   id: pointId,
                   position: [newLat, newLon],
-                  visible: true
+                  visible: true,
                 };
 
               this.markers.push(newMarker);
@@ -372,7 +393,6 @@
               let yearLower = this.filters.sliderVals.value[0];
               let yearUpper = this.filters.sliderVals.value[1];
 
-              console.log("FilterByYears - param is ", thisYear, " returning ", (thisYear > yearLower && thisYear < yearUpper));
               return (thisYear > yearLower && thisYear < yearUpper);
             },
             filterByTitle(thisTitles)
@@ -396,23 +416,54 @@
             },
             filterByLocation(thisLocationType, thisLocationName)
             {
-            	return (thisLocationType === this.filters.searchLocation.toLowerCase()
+
+               return (thisLocationType === this.filters.searchLocation.toLowerCase()
                   || thisLocationName === this.filters.searchLocation.toLowerCase());
             },
             checkIndivFilters(checks)
             {
             	// TODO: hack, there's probably a better way to do this
-              if (!checks.years && !checks.title &&
-                !checks.nationality && !checks.gender && !checks.location)
-              {
-                return false;
-              }
-
-              return true;
+              // if user selected years,
+                if (this.indivFilterYear)
+                {
+                  if (!checks.years)
+                  {
+                    return false;
+                  }
+                }
+                if (this.indivFilterTitle)
+                {
+                  if (!checks.title)
+                  {
+                    return false;
+                  }
+                }
+                if (this.indivFilterNationality)
+                {
+                  if (!checks.nationality)
+                  {
+                    return false;
+                  }
+                }
+                if (this.indivFilterGender)
+                {
+                  if (!checks.gender)
+                  {
+                    return false;
+                  }
+                }
+                if (this.indivFilterLocation)
+                {
+                  if (!checks.location)
+                  {
+                    return false;
+                  }
+                }
+                return true;
             },
             buildIndivChecks(featureEntry)
             {
-              console.log("BuildIndivChecks, featureEntry is ", featureEntry);
+              console.log("featureEntry is ", featureEntry);
               let checks =
                 {
                   "years": false,
@@ -422,8 +473,6 @@
                   "location": false
                 };
 
-              console.log("time is ", featureEntry.time);
-              console.log("start year is ", featureEntry.time.start_year);
               if (this.filterByYears(featureEntry.time.start_year))
               {
                 checks.years = true;
@@ -487,11 +536,18 @@
 
 <style>
 
+    /* TODO clean up CSS */
+
     @import "../../node_modules/leaflet/dist/leaflet.css";
 
     #map {
         height: 600px;
         border: 3px solid #101010;
+    }
+
+    .awesome-marker i {
+        font-size: 18px;
+        margin-top: 12px;
     }
 
     #results-box {
@@ -501,7 +557,7 @@
     .overlay-top {
 
         position: absolute;
-        z-index: 2000;
+        z-index: 200;
         left: 110px;
         top: 175px;
         color: white;
@@ -538,23 +594,6 @@
     .grey-text {
         color: #101010;
         text-align: left;
-    }
-
-    .light-grey-text {
-        color: #D3D3D3;
-        text-align: left;
-    }
-
-    .filter-btn-on-text {
-        color: #101010;
-        text-align: left;
-        font-size: 24px;
-    }
-
-    .filter-btn-off-text {
-        color: #D3D3D3;
-        text-align: left;
-        font-size: 24px;
     }
 
 
@@ -597,20 +636,21 @@
         color: #D3D3D3;
     }
 
+    /* Colors match Leaflet.awesome-markers, so must be primary. */
     .row-one-color {
-        background-color: #00CC99;
+        background-color: green;
     }
 
     .row-two-color {
-        background-color: #9933CC;
+        background-color: purple;
     }
 
     .row-three-color {
-        background-color: #00CCCC;
+        background-color: orange;
     }
 
     .row-four-color {
-        background-color: #FF9900;
+        background-color: blue;
     }
 
 
@@ -637,9 +677,7 @@
     .white-btn {
         color: #101010;
         text-align: left;
-        font-size: 18px;
-        margin-left: 10px;
-        margin-right: 10px;
+        font-size: 24px;
     }
 
 
@@ -671,15 +709,18 @@
         padding-bottom: 10px;
     }
 
-    .padding-sides {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
 
     .blue {
         background-color: #0033FF;
         color: #fff;
     }
+
+
+    .title-two {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
 
 
 </style>
