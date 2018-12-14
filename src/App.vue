@@ -1,64 +1,83 @@
 <template>
-  <div id="app">
-      <h1>CHINA-DB</h1>
-      <nav id="navbar">
-          <div id="navbar-items" role='navigation' aria-label='main navigation'>
-              <div id="navbar-itemWrapper">
-                  <router-link class="navbar-item" to="/">
-                      Home
-                  </router-link>
-                  <router-link class="navbar-item" to="/about">
-                      About
-                  </router-link>
-                  <router-link class="navbar-item" to="/geo">
-                      Geo
-                  </router-link>
-              </div>
-          </div>
-      </nav>
-      <router-view></router-view>
-  </div>
+    <div>
+        <div class="row title ">
+            <div class="col-md-10 my-auto grey-text padding-left" >
+                <h1>China Christian Database</h1>
+            </div>
+
+
+            <div class="col-md-1 my-auto center-grey-text" >
+                <nav>
+                    <div role='navigation' aria-label='main navigation' >
+                        <router-link to="/geo" class="routerlink center-item" v-on:click="this.$parent.onHomePage = true">
+                            <h6 v-if="this.$parent.onHomePage" class="underline-light-text">Home</h6>
+                            <h6 v-if="!this.$parent.onHomePage">Home</h6>
+                        </router-link>
+                    </div>
+                </nav>
+                <nav>
+                    <div role='navigation' aria-label='main navigation' >
+                        <router-link to="/about" class="routerlink center-item" v-on:click="this.$parent.onHomePage = false">
+                            <h6 v-if="this.$parent.onHomePage" >About</h6>
+                            <h6 v-if="!this.$parent.onHomePage" class="underline-light-text">About</h6>
+                        </router-link>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+
+        <router-view></router-view>
+
+    </div>
+
 
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  methods: {
+    setHomePage(status){
+      this.$parent.onHomePage = status;
+    }
+  }
 }
+
 </script>
+
+
 
 <style>
 
-#app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    overflow-y: scroll;
-    margin-top: 40px;
-}
 
-#navbar {
-    background-color: #fceeff;
-    padding-left: 20px;
-    padding-right: 10px;
-    border: 3px solid green;
-}
+    .title {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #808080;
+    }
 
-#navbar-items{
-    display:flex;
-    justify-content:center;
-    margin-right: auto;
-}
+    .padding-left {
+        padding-left: 40px;
+    }
 
-#navbar-itemWrapper{
-    flex-grow: 1;
-    display: flex;
-}
+    .routerlink {
+        color: #101010;
+    }
 
-.navbar-item{
-    padding-left: 10px;
-    padding-right: 10px;
-}
+    .grey-text {
+        color: #101010;
+    }
+
+    .center-grey-text {
+        text-align: center;
+        color: #101010;
+    }
+
+    .underline-light-text {
+        text-decoration: underline;
+        color: #808080;
+    }
 
 </style>
+
