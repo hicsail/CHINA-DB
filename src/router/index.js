@@ -31,5 +31,6 @@ export default new Router({
 		}
   ],
   mode: 'history',
-  linkActiveClass: 'is-active'
+  linkActiveClass: 'is-active',
+	base: window.location.pathname
 })
