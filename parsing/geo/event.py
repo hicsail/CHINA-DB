@@ -63,7 +63,8 @@ class EventParser(Parser):
                             "location_name": "N/A"
                         },
                     "type": "event",
-                    "event_type": "N/A"
+                    "event_type": "N/A",
+                    "name": "N/A"
                 }
 
             try:
@@ -73,6 +74,11 @@ class EventParser(Parser):
 
             try:
                 e_ret["event_type"] = event_to_type[e].lower()
+            except KeyError:
+                pass
+
+            try:
+                e_ret["name"] = self.event_table[e]["event_name_en"]
             except KeyError:
                 pass
 
