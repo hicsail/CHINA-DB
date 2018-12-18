@@ -23,6 +23,7 @@ class PersonParser(Parser):
         for rec in self.nationality_table.keys():
 
             this_record = self.nationality_table[rec]
+
             try:
                 people = this_record["person"]
             except KeyError:
