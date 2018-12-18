@@ -14,47 +14,84 @@ class InstitutionParser(Parser):
 
         super(InstitutionParser, self).__init__(input_dir)
 
+        self.institution_type_table = self.load_record("institution_type")
+
+    def type_dict(self):
+
+        ret = {}
+
+        for rec in self.institution_type_table.keys():
+
+            this_record = self.institution_type_table[rec]
+
+            try:
+                institutions = this_record["institution"]
+            except KeyError:
+                # no institutions for this type, skip to next entry
+                continue
+
+            for i in institutions:
+                # TODO: there's a type_zh field too, could add later
+                ret[i] = this_record["type_en"]
+
+        return ret
+
     def map_to_coords(self):
 
         ret = []
 
-        for inst in self.institution_table:
+        for i in self.institution_table:
+
+            institution_to_type = self.type_dict()
 
             # initialize dict that stores info about this institution & populate below
             i_rec = \
                 {
-                    "type": "institution",
-                    "institution_type": "N/A",
-                    "nationality": "N/A",
-                    "tradition": "N/A",
-                    "denomination": "N/A",
-                    "start_year": "N/A",
-                    "name": "N/A",
                     "coords":
                         {
                             "lat": "N/A",
                             "lon": "N/A"
                         },
+                    "time":
+                        {
+                            "start_year": "N/A"
+                        },
                     "loc":
                         {
                             "location_type": "N/A",
                             "location_name": "N/A"
-                        }
+                        },
+                    "type": "institution",
+                    "institution_type": "N/A",
+                    "nationality": "N/A",
+                    "tradition": "N/A",
+                    "denomination": "N/A",
+                    "name": "N/A",
                 }
 
             try:
-                i_rec["name"] = self.institution_table[inst]["inst_name"]
-            except KeyError:
-                # no name for this entry, just skip to next one
-                continue
-
-            try:
-                i_rec["start_year"] = self.institution_table[inst]["start_year"]
+                i_rec["institution_type"] = institution_to_type[i].lower()
             except KeyError:
                 pass
 
             try:
-                geo = self.institution_table[inst]["geography"]
+                i_rec["time"]["start_year"] = self.institution_table[i]["start_year"]
+            except KeyError:
+                pass
+
+            try:
+                i_rec["nationality"] = self.institution_table[i]["inst_nationality"]
+            except KeyError:
+                pass
+
+            try:
+                i_rec["name"] = self.institution_table[i]["inst_name"]
+            except KeyError:
+                # no name for this entry, skip to next one
+                continue
+
+            try:
+                geo = self.institution_table[i]["geography"]
             except KeyError:
                 continue
 
