@@ -36,13 +36,33 @@ class InstitutionParser(Parser):
 
         return ret
 
+    def nationality_dict(self):
+
+        ret = {}
+
+        for rec in self.nationality_table.keys():
+
+            this_record = self.nationality_table[rec]
+
+            try:
+                institutions = this_record["institution"]
+            except KeyError:
+                # missing person field, skip to next entry
+                continue
+
+            for i in institutions:
+                ret[i] = this_record["country_en"]
+
+        return ret
+
     def map_to_coords(self):
 
         ret = []
 
-        for i in self.institution_table:
+        institution_to_type = self.type_dict()
+        institution_to_nationality = self.nationality_dict()
 
-            institution_to_type = self.type_dict()
+        for i in self.institution_table:
 
             # initialize dict that stores info about this institution & populate below
             i_rec = \
@@ -80,7 +100,7 @@ class InstitutionParser(Parser):
                 pass
 
             try:
-                i_rec["nationality"] = self.institution_table[i]["inst_nationality"]
+                i_rec["nationality"] = institution_to_nationality[i].lower()
             except KeyError:
                 pass
 
