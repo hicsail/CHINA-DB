@@ -17,6 +17,9 @@ class PersonParser(Parser):
         self.person_table = self.load_record("person")
 
     def nationality_dict(self):
+        """
+        Map Nationality ID's to strings.
+        """
 
         ret = {}
 
@@ -36,6 +39,9 @@ class PersonParser(Parser):
         return ret
 
     def add_geo(self, inst_id, rec):
+        """
+        Fetch geographical coordinates for this record.
+        """
 
         ret = []
 
@@ -46,10 +52,15 @@ class PersonParser(Parser):
         for g in geo:
 
             rec_copy = copy.deepcopy(rec)
-            geo_rec = self.fetch_geo(rec_copy, g)
+            geo_rec = self.fetch_geo(g)
+
+            rec_copy["coords"]["lat"] = geo_rec["coords"]["lat"]
+            rec_copy["coords"]["lon"] = geo_rec["coords"]["lon"]
+            rec_copy["loc"]["location_type"] = geo_rec["loc"]["location_type"]
+            rec_copy["loc"]["location_name"] = geo_rec["loc"]["location_name"]
 
             if geo_rec is not None:
-                ret.append(geo_rec)
+                ret.append(rec_copy)
 
         return ret
 
