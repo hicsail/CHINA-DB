@@ -11,6 +11,8 @@ class Parser:
         self.template_dir = "{}/templates/".format(os.path.dirname(os.path.realpath(__file__)))
 
         self.person_org_table = self.load_record("person_organization")
+        self.org_org_table = self.load_record("organization_organization")
+        self.corporate_entity_type_table = self.load_record("corporate_entity_type")
         self.institution_table = self.load_record("institution")
         self.geo_table = self.load_record("geography")
         self.township_table = self.load_record("township")
@@ -39,11 +41,13 @@ class Parser:
 
         return {}
 
-    def fetch_geo(self, rec, g):
+    def fetch_geo(self, g):
         """
         Map location of a record to a township / county / prefecture / province
         in decreasing order of granularity.
         """
+
+        rec = {}
 
         try:
             g_rec = self.geo_table[g]["township_id"][0]
@@ -176,5 +180,4 @@ class Parser:
             }
 
         with open(out_path, 'w', encoding='utf8') as f:
-
             f.write(pystache.render(template, data))
