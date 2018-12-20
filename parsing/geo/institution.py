@@ -17,6 +17,9 @@ class InstitutionParser(Parser):
         self.institution_type_table = self.load_record("institution_type")
 
     def type_dict(self):
+        """
+        Map Institution Type ID's to strings.
+        """
 
         ret = {}
 
@@ -37,6 +40,9 @@ class InstitutionParser(Parser):
         return ret
 
     def nationality_dict(self):
+        """
+        Map Nationality ID's to strings.
+        """
 
         ret = {}
 
@@ -55,7 +61,60 @@ class InstitutionParser(Parser):
 
         return ret
 
+    def religious_family_mapping(self, org_org_id_list):
+        """
+        Map an Insitution to a list of Corporate Entities that it
+        is related to, and then return a dict of the Corporate Entity
+        types whose values are lists of their corresponding Corporate
+        Entities.
+        """
+
+        ret = {}
+
+        for oid in org_org_id_list:
+
+            rel_record = self.org_org_table[oid]
+
+            try:
+                corp_rel = rel_record["corp_id_2"]
+                corp_family = rel_record["religious_family"]
+            except KeyError:
+                continue
+
+            if corp_family not in ret.keys():
+                ret[corp_family] = [corp_rel]
+            else:
+                ret[corp_family].append(corp_rel)
+
+        return ret
+
+    def add_geo(self, rec, geo):
+        """
+        Fetch geographical coordinates for this record.
+        """
+
+        ret = []
+
+        for g in geo:
+
+            rec_copy = copy.deepcopy(rec)
+            geo_rec = self.fetch_geo(g)
+
+            if geo_rec is not None:
+
+                rec_copy["coords"]["lat"] = geo_rec["coords"]["lat"]
+                rec_copy["coords"]["lon"] = geo_rec["coords"]["lon"]
+                rec_copy["loc"]["location_type"] = geo_rec["loc"]["location_type"]
+                rec_copy["loc"]["location_name"] = geo_rec["loc"]["location_name"]
+                ret.append(rec_copy)
+
+        return ret
+
     def map_to_coords(self):
+        """
+        For each Institution record, build a record of it's type, nationality,
+        religious family, denomination, name, and where and when it existed.
+        """
 
         ret = []
 
@@ -84,7 +143,7 @@ class InstitutionParser(Parser):
                     "type": "institution",
                     "institution_type": "N/A",
                     "nationality": "N/A",
-                    "tradition": "N/A",
+                    "religious_family": {},
                     "denomination": "N/A",
                     "name": "N/A",
                 }
@@ -105,6 +164,12 @@ class InstitutionParser(Parser):
                 pass
 
             try:
+                org_org_id = self.institution_table["organization_organization"]
+                i_rec["religious_family"] = self.religious_family_mapping(org_org_id)
+            except KeyError:
+                pass
+
+            try:
                 i_rec["name"] = self.institution_table[i]["inst_name"]
             except KeyError:
                 # no name for this entry, skip to next one
@@ -112,15 +177,10 @@ class InstitutionParser(Parser):
 
             try:
                 geo = self.institution_table[i]["geography"]
+                recs = self.add_geo(i_rec, geo)
+                if len(recs) > 0:
+                    ret.extend(recs)
             except KeyError:
                 continue
-
-            for g in geo:
-
-                i_rec_copy = copy.deepcopy(i_rec)
-                geo_rec = self.fetch_geo(i_rec_copy, g)
-
-                if geo_rec is not None:
-                    ret.append(geo_rec)
 
         return ret
