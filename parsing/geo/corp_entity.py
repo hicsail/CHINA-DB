@@ -1,5 +1,5 @@
 """
-OrgParser class -- Iterates over 'organization' table and produces a separate GeoJson formatted
+CorpEntity class -- Iterates over 'corporate_entity' table and produces a separate GeoJson formatted
 JSON object for each with geographical coordinates, along with other relevant information.
 """
 
@@ -13,7 +13,6 @@ class CorpEntityParser(Parser):
         super(CorpEntityParser, self).__init__(input_dir)
 
         self.corporate_entity_table = self.load_record("corporate_entity")
-        self.corporate_entity_type_table = self.load_record("corporate_entity_type")
 
     def nationality_dict(self):
 
@@ -34,11 +33,29 @@ class CorpEntityParser(Parser):
 
         return ret
 
+    def type_dict(self):
+
+        ret = {}
+
+        for rec in self.corporate_entity_type_table.keys():
+
+            this_record = self.corporate_entity_type_table[rec]
+
+            try:
+                corp_type = this_record["type_en"]
+            except KeyError:
+                continue
+
+            ret[rec] = corp_type
+
+        return ret
+
     def map_to_coords(self):
 
         ret = []
 
         corp_to_nationality = self.nationality_dict()
+        corp_to_type = self.type_dict()
 
         for c in self.corporate_entity_table:
 
@@ -60,7 +77,7 @@ class CorpEntityParser(Parser):
                             "location_name": "N/A"
                         },
                     "type": "corporate entity",
-                    "corp_entity_type": "N/A",
+                    "corp_entity_type": [],
                     "nationality": "N/A",
                     "tradition": "N/A",
                     "denomination": "N/A",
@@ -76,6 +93,15 @@ class CorpEntityParser(Parser):
                 c_rec["nationality"] = corp_to_nationality[c].lower()
             except KeyError:
                 pass
+
+            try:
+                corp_type_rec = c["corporate_entity_type"]
+                for t in corp_type_rec:
+                    c_rec["corp_entity_type"].append(corp_to_type[t])
+            except KeyError:
+                pass
+
+        return ret
 
 
 
