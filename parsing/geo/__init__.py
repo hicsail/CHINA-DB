@@ -53,7 +53,7 @@ class Parser:
             g_rec = self.geo_table[g]["township_id"][0]
             t_rec = self.township_table[g_rec]
 
-            rec["coords"]["lat"] = t_rec["latitutde"]
+            rec["coords"]["lat"] = t_rec["latitude"]
             rec["coords"]["lon"] = t_rec["longitude"]
             rec["loc"]["location_type"] = "township"
             rec["loc"]["location_name"] = t_rec["township_id"].lower()
@@ -78,7 +78,7 @@ class Parser:
             pass
 
         try:
-            g_rec = self.geo_table[g]["perfecture_id"][0]
+            g_rec = self.geo_table[g]["prefecture_id"][0]
             p_rec = self.prefecture_table[g_rec]
 
             rec["coords"]["lat"] = p_rec["latitude"]
