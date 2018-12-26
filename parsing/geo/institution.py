@@ -144,7 +144,7 @@ class InstitutionParser(Parser):
                     "institution_type": "N/A",
                     "nationality": "N/A",
                     "religious_family": {},
-                    "denomination": "N/A",
+                    "association": "N/A",
                     "name": "N/A",
                 }
 

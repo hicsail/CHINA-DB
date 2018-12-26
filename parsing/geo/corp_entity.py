@@ -18,6 +18,9 @@ class CorpEntityParser(Parser):
         self.org_org_rel_type_table = self.load_record("organization_organization_rel_type")
 
     def nationality_dict(self):
+        """
+        Map Nationality ID's to strings.
+        """
 
         ret = {}
 
@@ -37,6 +40,9 @@ class CorpEntityParser(Parser):
         return ret
 
     def type_dict(self):
+        """
+        Map Corporate Entity type ID's to strings.
+        """
 
         ret = {}
 
@@ -54,6 +60,9 @@ class CorpEntityParser(Parser):
         return ret
 
     def fetch_rel_type(self, rel_type_id):
+        """
+        Get relation type between two organizations.
+        """
 
         try:
             rel_type_rec = self.org_org_rel_type_table[rel_type_id]
@@ -62,6 +71,11 @@ class CorpEntityParser(Parser):
             return ''
 
     def add_geo(self, org_org_ids, rec):
+        """
+        Since Corporate Entities have no geographical data, grab
+        all institutions connected to this Corporate Entity and
+        create a unique GeoJson record for each Institution.
+        """
 
         ret = []
 
@@ -71,7 +85,7 @@ class CorpEntityParser(Parser):
                 inst_id = self.org_org_table[ooid]["inst_id_1"][0]
                 inst_name = self.institution_table[inst_id]["name"]
                 rec["child_inst_name"] = inst_name
-                geo= self.institution_table[inst_id]["geography"]
+                geo = self.institution_table[inst_id]["geography"]
 
                 for g in geo:
 
