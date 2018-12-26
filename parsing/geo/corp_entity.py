@@ -14,6 +14,8 @@ class CorpEntityParser(Parser):
 
         super(CorpEntityParser, self).__init__(input_dir)
 
+        self.parse_type = "CORP_ENTITY"
+
         self.corporate_entity_table = self.load_record("corporate_entity")
         self.org_org_rel_type_table = self.load_record("organization_organization_rel_type")
 

@@ -12,6 +12,8 @@ class EventParser(Parser):
 
         super(EventParser, self).__init__(input_dir)
 
+        self.parse_type = "EVENT"
+
         self.event_table = self.load_record("event")
         self.event_type_table = self.load_record("event_type")
 

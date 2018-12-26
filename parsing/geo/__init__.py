@@ -9,6 +9,7 @@ class Parser:
 
         self.input_dir = input_dir
         self.template_dir = "{}/templates/".format(os.path.dirname(os.path.realpath(__file__)))
+        self.parse_type = "BASE"
 
         self.person_org_table = self.load_record("person_organization")
         self.org_org_table = self.load_record("organization_organization")
@@ -164,13 +165,16 @@ class Parser:
 
         return self
 
-    def write_records(self, out_path="/tmp/geo.js"):
+    def write_records(self, out_path=None):
         """
         Write GeoJson formatted records to file
         """
 
         if self.records is None:
             self.build_records()
+
+        if out_path is None:
+            out_path = "/tmp/geo_{}.js".format(self.parse_type)
 
         template = open("{}/geo.tmpl".format(self.template_dir)).read()
 

@@ -14,6 +14,8 @@ class PersonParser(Parser):
 
         super(PersonParser, self).__init__(input_dir)
 
+        self.parse_type = "PERSON"
+
         self.person_table = self.load_record("person")
 
     def nationality_dict(self):

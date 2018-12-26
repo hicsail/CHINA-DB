@@ -14,6 +14,8 @@ class InstitutionParser(Parser):
 
         super(InstitutionParser, self).__init__(input_dir)
 
+        self.parse_type = "INST"
+
         self.institution_type_table = self.load_record("institution_type")
 
     def type_dict(self):
