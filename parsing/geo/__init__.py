@@ -15,12 +15,14 @@ class Parser:
         self.org_org_table = self.load_record("organization_organization")
         self.corporate_entity_type_table = self.load_record("corporate_entity_type")
         self.institution_table = self.load_record("institution")
+        self.corporate_entity_table = self.load_record("corporate_entity")
         self.geo_table = self.load_record("geography")
         self.township_table = self.load_record("township")
         self.county_table = self.load_record("county")
         self.prefecture_table = self.load_record("prefecture")
         self.province_table = self.load_record("province")
         self.nationality_table = self.load_record("nationality")
+        self.religious_family_table = self.load_record("religious_family")
 
         self.records = None
 
@@ -41,6 +43,10 @@ class Parser:
         """
 
         return {}
+
+    def _religious_family_mapping(self, fam_id):
+
+        return self.religious_family_table[fam_id]["name_en"]
 
     def fetch_geo(self, g):
         """
