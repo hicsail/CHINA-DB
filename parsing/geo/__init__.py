@@ -54,7 +54,19 @@ class Parser:
         in decreasing order of granularity.
         """
 
-        rec = {}
+        rec = \
+            {
+                "coords":
+                    {
+                        "lat": "N/A",
+                        "lon": "N/A"
+                    },
+                "loc":
+                    {
+                        "location_type": "N/A",
+                        "location_name": "N/A"
+                    }
+            }
 
         try:
             g_rec = self.geo_table[g]["township_id"][0]

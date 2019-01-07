@@ -5,7 +5,7 @@ from parsing.geo import Parser
 
 class PersonParser(Parser):
     """
-    Iterates over 'person' table and produces a separate GeoJson formatted
+    Iterates over the 'person' table and produces a separate GeoJson formatted
     JSON object for each organization/institution with geographical coordinates
     that they were involved with, along with other relevant information.
     """
@@ -40,96 +40,121 @@ class PersonParser(Parser):
 
         return ret
 
-    def tradition_mapping(self, inst_rec):
-
-        ret = \
-            {
-                "religious_family": "N/A",
-                "corp_name": "N/A"
-            }
-
-        try:
-            org_org_id = inst_rec["organization_organization"][0]
-            rel_record = self.org_org_table[org_org_id]
-            corp_rel = rel_record["corp_id_2"]
-            this_corp = self.corporate_entity_table[corp_rel]
-
-            ret["corp_name"] = this_corp["corp_name_en"]
-            ret["religious_family"] = self._religious_family_mapping(this_corp["religious_family"][0])
-        except KeyError:
-            pass
-
-        return ret
-
-    def add_geo_inst(self, inst_id, rec):
+    def add_geo(self, geo, rec):
         """
-        Fetch geographical coordinates for this record via the Institution that
-        it corresponds to.
+        Given a list of geographical data, create unique records for each data point.
         """
 
         ret = []
-
-        current_institution = self.institution_table[inst_id]
-        rec["institution_name"] = current_institution["inst_id"].lower()
-        rec["tradition"] = self.tradition_mapping(current_institution)
-
-        geo = current_institution["geography"]
 
         for g in geo:
 
             rec_copy = copy.deepcopy(rec)
             geo_rec = self.fetch_geo(g)
 
-            rec_copy["coords"]["lat"] = geo_rec["coords"]["lat"]
-            rec_copy["coords"]["lon"] = geo_rec["coords"]["lon"]
-            rec_copy["loc"]["location_type"] = geo_rec["loc"]["location_type"]
-            rec_copy["loc"]["location_name"] = geo_rec["loc"]["location_name"]
-
             if geo_rec is not None:
+
+                rec_copy["coords"]["lat"] = geo_rec["coords"]["lat"]
+                rec_copy["coords"]["lon"] = geo_rec["coords"]["lon"]
+                rec_copy["loc"]["location_type"] = geo_rec["loc"]["location_type"]
+                rec_copy["loc"]["location_name"] = geo_rec["loc"]["location_name"]
                 ret.append(rec_copy)
 
         return ret
 
-    def add_geo_corp(self, corp_id, rec):
+    def corp_type_mapping(self, type_id):
+
+        return self.corporate_entity_type_table[type_id]["type_en"]
+
+    def tradition_mapping(self, inst_rec):
         """
-        Fetch geographical coordinates for this record via the Corporate
-        Entity that it corresponds to.
+        Map an Institution record to it's corresponding Religious Family.
+        """
+
+        ret = \
+            {
+                "religious_family": "N/A",
+                "corp_name": "N/A",
+                "denomination": "N/A"
+            }
+
+        try:
+            org_org_id = inst_rec["organization_organization"][0]
+        except KeyError:
+            return ret
+
+        rel_record = self.org_org_table[org_org_id]
+        corp_rel = rel_record["corp_id_2"][0]
+        this_corp = self.corporate_entity_table[corp_rel]
+        ret["corp_name"] = this_corp["corp_name_en"]
+
+        try:
+            type_id = this_corp["corporate_entity_type"][0]
+            ret["denomination"] = self.corp_type_mapping(type_id)
+        except KeyError:
+            pass
+
+        try:
+            family_id = this_corp["religious_family"][0]
+            ret["religious_family"] = self._religious_family_mapping(family_id)
+        except KeyError:
+            pass
+
+        return ret
+
+    def add_recs_inst(self, inst_id, rec):
+        """
+        Create a list of unique records, given an inst_id.
+        """
+
+        current_institution = self.institution_table[inst_id]
+        rec["institution_name"] = current_institution["inst_id"].lower()
+        rec["tradition"] = self.tradition_mapping(current_institution)
+
+        geo = current_institution["geography"]
+        geo_recs = self.add_geo(geo, rec)
+
+        return geo_recs
+
+    def add_recs_corp(self, corp_id, rec):
+        """
+        Create a list of unique records, given a corp_id.
         """
 
         ret = []
 
         current_corp = self.corporate_entity_table[corp_id]
 
+        rec["tradition"]["corp_name"] = \
+            current_corp["corp_name_en"]
+
+        try:
+            rec["tradition"]["religious_family"] = \
+                self._religious_family_mapping(current_corp["religious_family"][0])
+        except KeyError:
+            pass
+
+        try:
+            type_id = current_corp["corporate_entity_type"][0]
+            rec["tradition"]["denomination"] = self.corp_type_mapping(type_id)
+        except KeyError:
+            pass
+
         try:
             org_org_ids = current_corp["organization_organization 2"]
-            corp_name = current_corp["corp_name_en"]
-            religious_family = self._religious_family_mapping(current_corp["religious_family"][0])
         except KeyError:
+            # if the above entries don't exist, skip this record
             return []
 
         for ooid in org_org_ids:
 
             try:
                 inst_id = self.org_org_table[ooid]["inst_id_1"][0]
-                inst_name = self.institution_table[inst_id]["name"]
+                rec["institution_name"] = self.institution_table[inst_id]["name"]
+
                 geo = self.institution_table[inst_id]["geography"]
-
-                rec["institution_name"] = inst_name
-                rec["tradition"]["corp_name"] = corp_name
-                rec["tradition"]["religious_family"] = religious_family
-
-                for g in geo:
-
-                    rec_copy = copy.deepcopy(rec)
-                    geo_rec = self.fetch_geo(g)
-
-                    if geo_rec is not None:
-
-                        rec_copy["coords"]["lat"] = geo_rec["coords"]["lat"]
-                        rec_copy["coords"]["lon"] = geo_rec["coords"]["lon"]
-                        rec_copy["loc"]["location_type"] = geo_rec["loc"]["location_type"]
-                        rec_copy["loc"]["location_name"] = geo_rec["loc"]["location_name"]
-                        ret.append(rec_copy)
+                geo_recs = self.add_geo(geo, rec)
+                ret.extend(geo_recs)
 
             except KeyError:
                 continue
@@ -177,7 +202,8 @@ class PersonParser(Parser):
                     "tradition":
                         {
                             "religious_family": "N/A",
-                            "corp_name": "N/A"
+                            "corp_name": "N/A",
+                            "denomination": "N/A"
                         },
                     "type": "person",
                     "nationality": "N/A",
@@ -229,7 +255,7 @@ class PersonParser(Parser):
 
                 try:
                     inst_id = current_org["inst_id"][0]
-                    recs = self.add_geo_inst(inst_id, p_ret)
+                    recs = self.add_recs_inst(inst_id, p_ret)
                     if len(recs) > 0:
                         ret.extend(recs)
                 except KeyError:
@@ -237,7 +263,7 @@ class PersonParser(Parser):
 
                 try:
                     corp_id = current_org["corp_id"][0]
-                    recs = self.add_geo_corp(corp_id, p_ret)
+                    recs = self.add_recs_corp(corp_id, p_ret)
                     if len(recs) > 0:
                         ret.extend(recs)
                 except KeyError:
