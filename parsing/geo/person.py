@@ -68,7 +68,7 @@ class PersonParser(Parser):
 
     def tradition_mapping(self, inst_rec):
         """
-        Map an Institution record to it's corresponding Religious Family.
+        Map an Institution record to it's corresponding Religious Family and Denomination.
         """
 
         ret = \

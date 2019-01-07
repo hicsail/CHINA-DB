@@ -69,6 +69,8 @@ class InstitutionParser(Parser):
         is related to, and then return a dict of the Corporate Entity
         types whose values are lists of their corresponding Corporate
         Entities.
+
+        TODO: denomination stuff for related corp entities
         """
 
         ret = {}
@@ -78,7 +80,7 @@ class InstitutionParser(Parser):
             rel_record = self.org_org_table[oid]
 
             try:
-                corp_rel = rel_record["corp_id_2"]
+                corp_rel = rel_record["corp_id_2"][0]
                 this_corp = self.corporate_entity_table[corp_rel]
                 corp_name = this_corp["corp_name_en"]
                 corp_family = self._religious_family_mapping(this_corp["religious_family"][0])
@@ -147,8 +149,12 @@ class InstitutionParser(Parser):
                     "type": "institution",
                     "institution_type": "N/A",
                     "nationality": "N/A",
-                    "religious_family": {},
-                    "association": "N/A",
+                    "tradition":
+                        {
+                            "religious_family": "N/A",
+                            "corp_name": "N/A",
+                            "denomination": "N/A"
+                        },
                     "name": "N/A",
                 }
 
