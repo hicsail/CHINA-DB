@@ -1,11 +1,17 @@
 <template>
     <div>
-        <div class="row title-two ">
-            <div class="col-md-10 my-auto grey-text padding-left"  >
+        <div class="row large-padding-top-and-bottom">
+            <div class="col-md-8 my-auto grey-text padding-left"  >
                 <h3>Shanxi Province, China</h3>
             </div>
 
-            <div class="col-md-1 my-auto center-grey-text center-item" >
+            <div class="col-md-1 my-auto center-grey-text center-item">
+                <div v-on:click="resetData()" class=" display-flex">
+                    <div class="white-btn display-flex">Refresh</div>
+                </div>
+            </div>
+
+            <div class="col-md-2 my-auto center-grey-text center-item" >
                 <div v-on:click="openOverlay = !openOverlay" class=" display-flex">
                     <div class="white-btn display-flex">Filter</div>
                     <div class="display-flex">
@@ -15,133 +21,44 @@
             </div>
         </div>
 
+
         <!-- FILTER BOX OVERLAY -->
         <div v-if="openOverlay" class="overlay-top transparent-background padding">
             <b-container>
 
                 <!--INDIVIDUALS -->
-                <!-- TODO: format input field size, gender buttons -->
-                <div class="row">
+                    <div class="row">
 
-                    <div v-b-toggle.collapse1 class="row center-button drop-down-div"  v-on:click="individualsSelected = !individualsSelected" >
-                        <div class="col-md-1 row-one-color center-item align-middle">
-                            <font-awesome-icon icon="male" size="2x"></font-awesome-icon>
+                        <div v-b-toggle.collapse1 class="row center-button drop-down-div"  v-on:click="individualsSelected = !individualsSelected" >
+                            <div class="col-md-1 row-one-color center-item align-middle">
+                                <font-awesome-icon icon="male" size="2x"></font-awesome-icon>
+                            </div>
+
+                            <div class="col-md-9 drop-down-title-text">Individuals</div>
+                            <div class="col-md-2 center-item">
+                                <font-awesome-icon v-if="!individualsSelected" icon="chevron-down" class="grey" size="2x"></font-awesome-icon>
+                                <font-awesome-icon v-if="individualsSelected" icon="chevron-up"  class="grey" size="2x"></font-awesome-icon>
+                            </div>
                         </div>
 
-                        <div class="col-md-9 drop-down-title-text">Individuals</div>
-                        <div class="col-md-2 center-item">
-                            <font-awesome-icon v-if="!individualsSelected" icon="chevron-down" class="grey" size="2x"></font-awesome-icon>
-                            <font-awesome-icon v-if="individualsSelected" icon="chevron-up"  class="grey" size="2x"></font-awesome-icon>
-                        </div>
+                        <div class="col-md-12">
+                            <b-collapse id="collapse1" class="white-background grey-border">
+
+                               <Individuals
+                                    :individualsSelected="individualsSelected"
+                                    :openOverlay="openOverlay"
+                                    :filters="filters"
+                                    @individualLocationChanged="changeIndividualLocation"
+                                    @individualYearChanged="changeIndividualYear"
+                                    />
+
+                            </b-collapse>
+                         </div>
                     </div>
-
-
-                    <div class="col-md-12">
-
-                        <b-collapse id="collapse1" class="white-background grey-border">
-
-                            <!-- year -->
-                            <div class="row padding-top-only">
-                                <div class="col-md-1" ></div>
-                                <div class="col-md-10" >
-                                    <b-form-group class="padding-top-only"
-                                                  id="yearFilterSlider"
-                                                  v-if="openOverlay && individualsSelected"
-                                                  >
-                                        <vue-slider class="style-slider"
-                                                    v-model="filters.sliderVals.value"
-                                                    v-bind="filters.sliderVals"
-                                        />
-                                    </b-form-group>
-                                </div>
-                                <div class="col-md-1" ></div>
-                            </div>
-                            <div class="row grey-text center-item padding-top-neg" >Years</div>
-
-
-                            <!-- title and nationality-->
-                            <div class="row padding-top-only">
-                                <div class="col-md-1"></div>
-                                <div class="col-md-4">
-                                    <b-form-group
-                                            style="align-items: left"
-                                            id="titleFilter"
-                                            label-for="titleFilterBox">
-                                        <b-form-input
-                                                id="titleFilterBox"
-                                                size="sm"
-                                                type="text"
-                                                v-model="filters.searchTitles"
-                                                placeholder="">
-                                        </b-form-input>
-                                    </b-form-group>
-                                </div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-4">
-                                    <b-form-group
-                                            id="nationalityFilter"
-                                            label-for="nationalityFilterBox">
-                                        <b-form-input
-                                                id="nationalityFilterBox"
-                                                size="sm"
-                                                type="text"
-                                                v-model="filters.searchNationality"
-                                                placeholder="">
-                                        </b-form-input>
-                                    </b-form-group>
-                                </div>
-                                <div class="col-md-1"></div>
-                            </div>
-                            <div class="row padding-neg">
-                                <div class="col-md-1"></div>
-                                <div class="col-md-4 grey-text" >Name</div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-4 grey-text">Nationality</div>
-                                <div class="col-md-1"></div>
-                            </div>
-
-                            <!-- gender and location-->
-                            <div class="row padding-top-only">
-                                <div class="col-md-1"></div>
-                                <div class="col-md-4">
-                                    <b-form-group
-                                            id="locFilter"
-                                            label-for="locFilterBox">
-                                        <b-form-input
-                                                id="locFilterBox"
-                                                size="sm"
-                                                type="text"
-                                                v-model="filters.searchLocation"
-                                                placeholder="name or type"
-                                                @click.native="formatData"
-                                        >
-                                        </b-form-input>
-                                    </b-form-group>
-                                </div>
-
-                                <div class="col-md-6 grey-text" style="margin-left:40px">
-                                    <b-form-radio-group id="btnRadios"
-                                                        sz="sm"
-                                                        button-variant="outline-secondary"
-                                                        v-model="filters.searchGender"
-                                                        :options="genderOptions"
-                                    ></b-form-radio-group>
-                                </div>
-                            </div>
-
-                            <div class="row padding-bottom-only">
-                                <div class="col-md-1"></div>
-                                <div class="col-md-4 grey-text">Location</div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-4 grey-text">Gender</div>
-                            </div>
-
-                        </b-collapse>
-                    </div>
-                </div>
 
 
                 <!-- INSTITUTIONS -->
+                <!-- 1)type, 2)nationality, 3) religious family, 4) denomination, 5) name, and 6) where and when it existed. -->
                 <div class="row padding-neg">
 
                     <div v-b-toggle.collapse2 class="row center-button drop-down-div"  v-on:click="institutionsSelected = !institutionsSelected" >
@@ -241,10 +158,6 @@
 
     </div>
 </template>
-
-
-
-
 <script>
 
 	import { LMap, LTileLayer, LMarker, LIcon, LLayerGroup, LPopup } from 'vue2-leaflet';
@@ -254,24 +167,23 @@
 	import 'bootstrap-vue/dist/bootstrap-vue.css'
     import "leaflet/dist/leaflet.css"
     import LRectangle from "../../node_modules/vue2-leaflet/src/components/LRectangle.vue";
-
-
+    import Individuals from "./Individuals.vue";
 
 
 	export default {
 		name: "shanxiMap",
 		components: {
-          LRectangle,
-          LMap,
-			LTileLayer,
+            LRectangle,
+            LMap,
+            LTileLayer,
 			LMarker,
 			vueSlider,
             LIcon,
             LLayerGroup,
-            LPopup
+            LPopup,
+            Individuals
 		},
-      data: function () {
-        return {
+      data: () => ({
           selected: null,
           orangeIcon: L.AwesomeMarkers.icon({
             prefix: 'fa',
@@ -324,27 +236,12 @@
           individualsSelected: false,
           institutionsSelected: false,
           corporateEntitiesSelected: false,
-          eventsSelected: false,
-          genderOptions: [
-            {text: 'M', value: 'Men'},
-            {text: 'W', value: 'Women'},
-            {text: 'Both', value: 'Both'}
-          ]
-        }
+          eventsSelected: false
+        }),
+      beforeMount(){
+        this.filterData();
       },
-        watch: {
-            'filters.sliderVals.value': function (val){
-              this.indivFilterYear = true;
-              this.filterData();
-            },
-            'filters.searchLocation': function(v) {
-              this.indivFilterLocation = true;
-              this.filterData();
-            }
-        },
-        beforeMount(){
-		  this.filterData();
-        },
+
 		methods: {
 			refresh()
             {
@@ -463,7 +360,7 @@
             },
             buildIndivChecks(featureEntry)
             {
-              console.log("featureEntry is ", featureEntry);
+              //console.log("featureEntry is ", featureEntry);
               let checks =
                 {
                   "years": false,
@@ -524,10 +421,19 @@
                 }
               }
             },
-          openFilter() {
-            console.log(this.$refs);
-            this.$refs.popz.mapObject.openPopup([28.026413, 111.007530]);
-          }
+            resetData(){
+                this.refresh();
+            },
+            changeIndividualLocation(newLocation){
+              this.filters.searchLocation = newLocation;
+              this.indivFilterLocation = true;
+              this.filterData();
+            },
+            changeIndividualYear(newYears){
+              this.filters.sliderVals.value = newYears;
+              this.indivFilterYear = true;
+              this.filterData();
+            }
 		}
 	}
 </script>
@@ -548,10 +454,6 @@
     .awesome-marker i {
         font-size: 18px;
         margin-top: 12px;
-    }
-
-    #results-box {
-        border: 3px solid #101010;
     }
 
     .overlay-top {
@@ -582,12 +484,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-
-    .left-item {
-        display: flex;
-        align-items: left;
-        justify-content: flex-end;
     }
 
 
@@ -655,9 +551,6 @@
 
 
     /* TITLE ROW WITH FILTER BUTTON */
-    .title-row {
-        margin-left: 25px;
-    }
 
     .filter-button .icon {
         vertical-align: middle;
@@ -681,8 +574,6 @@
     }
 
 
-
-
     /* PADDING TODO - rework layout to use less padding */
     .form-group {
         margin-bottom: 0rem !important;
@@ -698,25 +589,7 @@
         padding-bottom: -20px;
     }
 
-    .padding-top-neg {
-        padding-top: -20px;
-    }
-
-    .padding-top-only {
-        padding-top: 20px;
-    }
-    .padding-bottom-only {
-        padding-bottom: 10px;
-    }
-
-
-    .blue {
-        background-color: #0033FF;
-        color: #fff;
-    }
-
-
-    .title-two {
+    .large-padding-top-and-bottom {
         padding-top: 20px;
         padding-bottom: 20px;
     }
