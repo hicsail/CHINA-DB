@@ -46,11 +46,11 @@ class Parser:
 
     def _religious_family_mapping(self, fam_id):
 
-        return self.religious_family_table[fam_id]["name_en"]
+        return self.religious_family_table[fam_id]["name_en"].lower()
 
     def _corp_type_mapping(self, type_id):
 
-        return self.corporate_entity_type_table[type_id]["type_en"]
+        return self.corporate_entity_type_table[type_id]["type_en"].lower()
 
     def fetch_geo(self, g):
         """
