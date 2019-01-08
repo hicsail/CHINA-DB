@@ -36,7 +36,6 @@ class InstitutionParser(Parser):
                 continue
 
             for i in institutions:
-                # TODO: there's a type_zh field too, could add later
                 ret[i] = this_record["type_en"]
 
         return ret
@@ -63,34 +62,38 @@ class InstitutionParser(Parser):
 
         return ret
 
-    def religious_family_mapping(self, org_org_id_list):
+    def corp_relation_mapping(self, ooid):
         """
-        Map an Institution to a list of Corporate Entities that it
-        is related to, and then return a dict of the Corporate Entity
-        types whose values are lists of their corresponding Corporate
-        Entities.
-
-        TODO: denomination stuff for related corp entities
+        Map an Institution to the Corporate Entity that it's related to,
+        and that Corporate Entity's religious family.
         """
 
-        ret = {}
+        ret = \
+            {
+                "religious_family": "N/A",
+                "corp_name": "N/A",
+                "denomination": "N/A"
+            }
 
-        for oid in org_org_id_list:
+        rel_record = self.org_org_table[ooid]
 
-            rel_record = self.org_org_table[oid]
+        try:
+            corp_id = rel_record["corp_id_2"][0]
+        except KeyError:
+            return ret
 
-            try:
-                corp_rel = rel_record["corp_id_2"][0]
-                this_corp = self.corporate_entity_table[corp_rel]
-                corp_name = this_corp["corp_name_en"]
-                corp_family = self._religious_family_mapping(this_corp["religious_family"][0])
-            except KeyError:
-                continue
+        this_corp = self.corporate_entity_table[corp_id]
+        ret["corp_name"] = this_corp["corp_name_en"]
 
-            if corp_family not in ret.keys():
-                ret[corp_family] = [corp_name]
-            else:
-                ret[corp_family].append(corp_name)
+        try:
+            ret["religious_family"] = self._religious_family_mapping(this_corp["religious_family"][0])
+        except KeyError:
+            pass
+
+        try:
+            ret["denomination"] = self._corp_type_mapping(this_corp["corporate_entity_type"][0])
+        except KeyError:
+            pass
 
         return ret
 
@@ -149,7 +152,7 @@ class InstitutionParser(Parser):
                     "type": "institution",
                     "institution_type": "N/A",
                     "nationality": "N/A",
-                    "tradition":
+                    "corp_relations":
                         {
                             "religious_family": "N/A",
                             "corp_name": "N/A",
@@ -174,8 +177,8 @@ class InstitutionParser(Parser):
                 pass
 
             try:
-                org_org_ids = self.institution_table[i]["organization_organization"]
-                i_rec["religious_family"] = self.religious_family_mapping(org_org_ids)
+                org_org_id = self.institution_table[i]["organization_organization"][0]
+                i_rec["corp_relations"] = self.corp_relation_mapping(org_org_id)
             except KeyError:
                 pass
 

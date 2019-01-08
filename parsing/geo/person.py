@@ -62,10 +62,6 @@ class PersonParser(Parser):
 
         return ret
 
-    def corp_type_mapping(self, type_id):
-
-        return self.corporate_entity_type_table[type_id]["type_en"]
-
     def tradition_mapping(self, inst_rec):
         """
         Map an Institution record to it's corresponding Religious Family and Denomination.
@@ -90,7 +86,7 @@ class PersonParser(Parser):
 
         try:
             type_id = this_corp["corporate_entity_type"][0]
-            ret["denomination"] = self.corp_type_mapping(type_id)
+            ret["denomination"] = self._corp_type_mapping(type_id)
         except KeyError:
             pass
 
@@ -136,7 +132,7 @@ class PersonParser(Parser):
 
         try:
             type_id = current_corp["corporate_entity_type"][0]
-            rec["tradition"]["denomination"] = self.corp_type_mapping(type_id)
+            rec["tradition"]["denomination"] = self._corp_type_mapping(type_id)
         except KeyError:
             pass
 

@@ -48,6 +48,10 @@ class Parser:
 
         return self.religious_family_table[fam_id]["name_en"]
 
+    def _corp_type_mapping(self, type_id):
+
+        return self.corporate_entity_type_table[type_id]["type_en"]
+
     def fetch_geo(self, g):
         """
         Map location of a record to a township / county / prefecture / province
