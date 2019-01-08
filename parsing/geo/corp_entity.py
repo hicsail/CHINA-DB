@@ -71,6 +71,26 @@ class CorpEntityParser(Parser):
         except KeyError:
             return ''
 
+    def corp_relation_mapping(self, corp_rec):
+
+        ret = \
+            {
+                "religious_family": "N/A",
+                "association": "N/A"
+            }
+
+        try:
+            ret["religious_family"] = self._religious_family_mapping(corp_rec["religious_family"][0])
+        except KeyError:
+            pass
+
+        try:
+            ret["association"] = self._corp_type_mapping(corp_rec["corporate_entity_type"][0])
+        except KeyError:
+            pass
+
+        return ret
+
     def add_geo(self, org_org_ids, rec):
         """
         Since Corporate Entities have no geographical data, grab
@@ -84,8 +104,7 @@ class CorpEntityParser(Parser):
 
             try:
                 inst_id = self.org_org_table[ooid]["inst_id_1"][0]
-                inst_name = self.institution_table[inst_id]["name"]
-                rec["child_inst_name"] = inst_name
+                rec["child_inst_name"] = self.institution_table[inst_id]["inst_name"].lower()
                 geo = self.institution_table[inst_id]["geography"]
 
                 for g in geo:
@@ -110,7 +129,6 @@ class CorpEntityParser(Parser):
         ret = []
 
         corp_to_nationality = self.nationality_dict()
-        corp_to_type = self.type_dict()
 
         for c in self.corporate_entity_table:
 
@@ -132,10 +150,12 @@ class CorpEntityParser(Parser):
                             "location_name": "N/A"
                         },
                     "type": "corporate entity",
-                    "corp_entity_type": [],
                     "nationality": "N/A",
-                    "tradition": "N/A",
-                    "denomination": "N/A",
+                    "corp_relations":
+                        {
+                            "religious_family": "N/A",
+                            "association": "N/A"
+                        },
                     "name": "N/A",
                     "child_inst_name": "N/A"
                 }
@@ -150,12 +170,7 @@ class CorpEntityParser(Parser):
             except KeyError:
                 pass
 
-            try:
-                corp_type_rec = c["corporate_entity_type"]
-                for t in corp_type_rec:
-                    c_rec["corp_entity_type"].append(corp_to_type[t])
-            except KeyError:
-                pass
+            c_rec["corp_relations"] = self.corp_relation_mapping(self.corporate_entity_table[c])
 
             try:
                 org_org_ids = self.corporate_entity_table[c]["organization_organization 2"]
