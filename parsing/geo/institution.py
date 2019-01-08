@@ -72,7 +72,7 @@ class InstitutionParser(Parser):
             {
                 "religious_family": "N/A",
                 "corp_name": "N/A",
-                "denomination": "N/A"
+                "association": "N/A"
             }
 
         rel_record = self.org_org_table[ooid]
@@ -91,7 +91,7 @@ class InstitutionParser(Parser):
             pass
 
         try:
-            ret["denomination"] = self._corp_type_mapping(this_corp["corporate_entity_type"][0])
+            ret["association"] = self._corp_type_mapping(this_corp["corporate_entity_type"][0])
         except KeyError:
             pass
 
@@ -122,7 +122,7 @@ class InstitutionParser(Parser):
     def map_to_coords(self):
         """
         For each Institution record, build a record of it's type, nationality,
-        religious family, denomination, name, and where and when it existed.
+        religious family, association, name, and where and when it existed.
         """
 
         ret = []
@@ -156,7 +156,7 @@ class InstitutionParser(Parser):
                         {
                             "religious_family": "N/A",
                             "corp_name": "N/A",
-                            "denomination": "N/A"
+                            "association": "N/A"
                         },
                     "name": "N/A",
                 }
@@ -183,7 +183,7 @@ class InstitutionParser(Parser):
                 pass
 
             try:
-                i_rec["name"] = self.institution_table[i]["inst_name"]
+                i_rec["name"] = self.institution_table[i]["inst_name"].lower()
             except KeyError:
                 # no name for this entry, skip to next one
                 continue
