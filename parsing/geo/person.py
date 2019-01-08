@@ -71,7 +71,7 @@ class PersonParser(Parser):
             {
                 "religious_family": "N/A",
                 "corp_name": "N/A",
-                "denomination": "N/A"
+                "association": "N/A"
             }
 
         try:
@@ -86,7 +86,7 @@ class PersonParser(Parser):
 
         try:
             type_id = this_corp["corporate_entity_type"][0]
-            ret["denomination"] = self._corp_type_mapping(type_id)
+            ret["association"] = self._corp_type_mapping(type_id)
         except KeyError:
             pass
 
@@ -132,7 +132,7 @@ class PersonParser(Parser):
 
         try:
             type_id = current_corp["corporate_entity_type"][0]
-            rec["tradition"]["denomination"] = self._corp_type_mapping(type_id)
+            rec["tradition"]["association"] = self._corp_type_mapping(type_id)
         except KeyError:
             pass
 
@@ -199,7 +199,7 @@ class PersonParser(Parser):
                         {
                             "religious_family": "N/A",
                             "corp_name": "N/A",
-                            "denomination": "N/A"
+                            "association": "N/A"
                         },
                     "type": "person",
                     "nationality": "N/A",
