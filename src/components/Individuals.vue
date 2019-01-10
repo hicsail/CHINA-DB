@@ -97,6 +97,10 @@
             <div class="col-md-4 grey-text">Gender</div>
         </div>
 
+        <div class="row padding-bottom-only center-item">
+            <b-button size="small" variant="primary" v-on:click="submit(filters)">Submit</b-button>
+        </div>
+
     </div>
 </template>
 
@@ -120,14 +124,41 @@
           'openOverlay',
           'filters'
         ],
-        watch: {
-            'filters.sliderVals.value': function(v) {
-             this.$emit('individualYearChanged', this.filters.sliderVals.value);
-            },
-            'filters.searchLocation': function(v) {
-              this.$emit('individualLocationChanged', this.filters.searchLocation);
+        methods: {
+          submit(filters){
+
+            // if 'true', user selected the filter attribute
+            let attributesSelected = {
+                "years": false,
+                "nationality": false,
+                "title": false,
+                "gender": false,
+                "location": false
+            };
+
+            //TODO: find a way for user to view all individual records
+            if ( filters.sliderVals.values !== [1600, 1930] ){ //[0,0]){ //
+              attributesSelected.years = true;
             }
+            if (filters.searchNationality !== ""){
+              attributesSelected.nationality = true;
+            }
+            if (filters.searchTitles !== ""){
+              attributesSelected.title = true;
+            }
+            if (filters.searchGender !== "Both"){
+              attributesSelected.gender = true;
+            }
+            if (filters.searchLocation !== ""){
+              attributesSelected.location = true;
+            }
+
+            let filterResults = { filters: filters, userSelections: attributesSelected};
+
+            this.$emit('filterIndividual', filterResults);
+          }
         }
+
     };
 </script>
 
@@ -146,10 +177,6 @@
         text-align: left;
     }
 
-    .form-group {
-        margin-bottom: 0rem !important;
-    }
-
     .padding-neg {
         padding-top: -20px;
         padding-bottom: -20px;
@@ -165,5 +192,6 @@
     .padding-bottom-only {
         padding-bottom: 10px;
     }
+
 
 </style>
