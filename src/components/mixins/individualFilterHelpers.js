@@ -22,7 +22,7 @@ export const IndividualFilterHelpers = {
           // if user selected a filter that has matching attribute data
           if (this.userSelectedAndFilterMatches(matches, userSelections))
           {
-            //make a marker for match
+            //make a new marker 
             markerData=this.getMarkerData(featureArray[i], j);
             markersToPush.push(markerData);
           }
@@ -81,12 +81,6 @@ export const IndividualFilterHelpers = {
         matches.location = true;
       }
 
-
-      // if(featureEntry.titles.family_name_en.includes('lyons')){
-      //   console.log("lyons matche: ", matches);
-      // }
-
-
       return matches;
     },
     filterByYears(thisYear, filters)
@@ -107,7 +101,6 @@ export const IndividualFilterHelpers = {
       {
         if (thisTitles[key].includes(filters.searchTitles.toLowerCase()))
         {
-          //console.log(thisTitles[key], " is in ", filters.searchTitles.toLowerCase());
           return true;
         }
       }

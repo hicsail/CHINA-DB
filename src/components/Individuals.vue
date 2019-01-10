@@ -142,8 +142,8 @@
               searchLocation: "",
             },
           genderOptions: [
-            {text: 'M', value: 'Men'},
-            {text: 'W', value: 'Women'},
+            {text: 'M', value: 'male'},
+            {text: 'W', value: 'female'},
             {text: 'Both', value: 'Both'}
           ]
         }),
