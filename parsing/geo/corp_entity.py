@@ -149,7 +149,7 @@ class CorpEntityParser(Parser):
                             "location_type": "N/A",
                             "location_name": "N/A"
                         },
-                    "type": "corporate entity",
+                    "type": "corporate_entity",
                     "nationality": "N/A",
                     "corp_relations":
                         {
