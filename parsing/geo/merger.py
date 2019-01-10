@@ -28,21 +28,24 @@ class MergeParser:
         Generate all records
         """
 
+        '''
         self.corp_parser.build_records()
         self.inst_parser.build_records()
         self.person_parser.build_records()
+        '''
 
-        return self
+        corp_recs = self.corp_parser.map_to_coords()
+        inst_recs = self.inst_parser.map_to_coords()
+        person_recs = self.person_parser.map_to_coords()
+
+        return corp_recs + inst_recs + person_recs
 
     def merge_all(self):
         """
         Merge all records into a single list of point records
         """
 
-        if self.records is None:
-            self.create_all()
-
-        all_records = self.corp_parser.records + self.inst_parser.records + self.person_parser.records
+        all_records = self.create_all()
 
         ret = {}
         all_coords = set()
