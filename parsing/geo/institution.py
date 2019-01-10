@@ -71,7 +71,6 @@ class InstitutionParser(Parser):
         ret = \
             {
                 "religious_family": "N/A",
-                "corp_name": "N/A",
                 "association": "N/A"
             }
 
@@ -83,7 +82,6 @@ class InstitutionParser(Parser):
             return ret
 
         this_corp = self.corporate_entity_table[corp_id]
-        ret["corp_name"] = this_corp["corp_name_en"]
 
         try:
             ret["religious_family"] = self._religious_family_mapping(this_corp["religious_family"][0])
@@ -91,7 +89,7 @@ class InstitutionParser(Parser):
             pass
 
         try:
-            ret["association"] = self._corp_type_mapping(this_corp["corporate_entity_type"][0])
+            ret["association"] = this_corp["corp_name_en"]
         except KeyError:
             pass
 
@@ -122,7 +120,7 @@ class InstitutionParser(Parser):
     def map_to_coords(self):
         """
         For each Institution record, build a record of it's type, nationality,
-        religious family, association, name, and where and when it existed.
+        religious family, association, and where and when it existed.
         """
 
         ret = []
@@ -155,7 +153,6 @@ class InstitutionParser(Parser):
                     "corp_relations":
                         {
                             "religious_family": "N/A",
-                            "corp_name": "N/A",
                             "association": "N/A"
                         },
                     "name": "N/A",
