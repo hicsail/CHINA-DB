@@ -1,7 +1,40 @@
+
 export const IndividualFilterHelpers = {
 
   methods: {
+    filterIndividualHelper(filters, userSelections, featureArray)
+    {
 
+      let pointData = {};
+      let markersToPush = [];
+      let newMarker = true;
+
+      for (let i = 0; i < featureArray.length; i++)
+      {
+        let dataArray = featureArray[i].properties.objects;
+        newMarker = true;
+
+        for (let j = 0; j < dataArray.length; j++)
+        {
+          let matches = this.dataMatchesFilter(featureArray[i].properties.objects[j], filters);
+
+          if (this.userSelectedAndFilterMatches(matches, userSelections))
+          {
+            //console.log("has smith ", featureArray[i].properties.objects[j].titles);
+
+            if (newMarker)
+            {
+              pointData[featureArray[i].id] = [];
+              markersToPush.push(featureArray[i]);
+              newMarker = false;
+            }
+            pointData[featureArray[i].id].push(featureArray[i].properties.objects[j]);
+          }
+        }
+      }
+
+      return {markersToPush:markersToPush, pointData:pointData};
+    },
     dataMatchesFilter(featureEntry, filters) {
     /*
      *  Checks whether DB entry (featureEntry) matches any filter selection.

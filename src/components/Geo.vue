@@ -1,20 +1,14 @@
 <template>
     <div>
         <div class="row large-padding-top-and-bottom">
-            <div class="col-md-8 my-auto grey-text padding-left"  >
+            <div class="col-md-10 my-auto grey-text padding-left"  >
                 <h3>Shanxi Province, China</h3>
             </div>
 
-            <div class="col-md-1 my-auto center-grey-text center-item">
-                <div v-on:click="resetData()" class=" display-flex">
-                    <div class="white-btn display-flex">Refresh</div>
-                </div>
-            </div>
-
             <div class="col-md-2 my-auto center-grey-text center-item" >
-                <div v-on:click="openOverlay = !openOverlay" class=" display-flex">
+                <div v-if="!openOverlay" v-on:click="openOverlay = true" class=" display-flex">
                     <div class="white-btn display-flex">Filter</div>
-                    <div class="display-flex">
+                    <div class="display-flex align-right">
                         <font-awesome-icon icon="filter" size="2x"></font-awesome-icon>
                     </div>
                 </div>
@@ -25,6 +19,24 @@
         <!-- FILTER BOX OVERLAY -->
         <div v-if="openOverlay" class="overlay-top transparent-background padding">
             <b-container>
+
+                <!-- CLEAR FILTERS, CLOSE OVERLAY -->
+                <div class="row padding-neg">
+                    <div class="row center-button drop-down-div" >
+                        <div  class="col-md-1 center-item align-middle grey">
+                            <font-awesome-icon v-if="!filtersCleared" v-on:click="resetFilters" icon="redo" size="2x"></font-awesome-icon>
+                        </div>
+
+                        <div class="col-md-9 refresh-text">
+                            <div v-if="!filtersCleared" v-on:click="resetFilters" >Clear Filters</div>
+
+                        </div>
+                        <div class="col-md-2 center-item">
+                            <font-awesome-icon v-on:click="openOverlay = false"  icon="times" class="grey" size="2x"></font-awesome-icon>
+                        </div>
+                    </div>
+
+                </div>
 
                 <!--INDIVIDUALS -->
                     <div class="row">
@@ -44,12 +56,12 @@
                         <div class="col-md-12">
                             <b-collapse id="collapse1" class="white-background grey-border">
 
+                                <!-- TODO: name, nationality, gender -->
                                <Individuals
+                                       ref="individualComponent"
                                     :individualsSelected="individualsSelected"
                                     :openOverlay="openOverlay"
-                                    :filters="filters"
-                                    @individualLocationChanged="changeIndividualLocation"
-                                    @individualYearChanged="changeIndividualYear"
+                                    @filterIndividual="filterIndividual"
                                     />
 
                             </b-collapse>
@@ -58,7 +70,7 @@
 
 
                 <!-- INSTITUTIONS -->
-                <!-- 1)type, 2)nationality, 3) religious family, 4) denomination, 5) name, and 6) where and when it existed. -->
+                <!-- TODO 1)type, 2)nationality, 3) religious family, 4) denomination, 5) name, and 6) where and when it existed. -->
                 <div class="row padding-neg">
 
                     <div v-b-toggle.collapse2 class="row center-button drop-down-div"  v-on:click="institutionsSelected = !institutionsSelected" >
@@ -140,15 +152,17 @@
                                 :url="url"
                                 :attribution="attribution"/>
 
-                        <!-- TODO - drop pins with matching color/icon for institutions, entities, etc. -->
                         <l-marker
                                 v-for="marker in markers"
                                 :key="marker.id"
                                 :lat-lng="marker.position"
                                 :visible="marker.visible"
                                 :icon="personDropPin"
-                                @click="pushPoints(marker)"
-                        />
+                                @click="pushPoints(marker)">
+                                <l-popup
+                                    :content="marker.popupContent"
+                                />
+                        </l-marker>
                     </l-map>
                 </div>
             </div>
@@ -161,14 +175,14 @@
 <script>
 
 	import { LMap, LTileLayer, LMarker, LIcon, LLayerGroup, LPopup } from 'vue2-leaflet';
-	import vueSlider from 'vue-slider-component'
 	import {default as geoData} from "../assets/geo.js";
 	import 'bootstrap/dist/css/bootstrap.css'
 	import 'bootstrap-vue/dist/bootstrap-vue.css'
     import "leaflet/dist/leaflet.css"
     import LRectangle from "../../node_modules/vue2-leaflet/src/components/LRectangle.vue";
     import Individuals from "./Individuals.vue";
-
+    import  { PopupContent }  from "./mixins/popupContent";
+    import  { IndividualFilterHelpers }  from "./mixins/individualFilterHelpers";
 
 	export default {
 		name: "shanxiMap",
@@ -177,13 +191,13 @@
             LMap,
             LTileLayer,
 			LMarker,
-			vueSlider,
             LIcon,
             LLayerGroup,
             LPopup,
-            Individuals
+            Individuals,
+            PopupContent,
 		},
-      data: () => ({
+        data: () => ({
           selected: null,
           orangeIcon: L.AwesomeMarkers.icon({
             prefix: 'fa',
@@ -191,34 +205,7 @@
             markerColor: 'orange',
             iconColor: 'black'
           }),
-          filters:
-            {
-              sliderVals:
-                {
-                  min: 1600,
-                  max: 1930,
-                  value: [1600, 1930],
-                  formatter: "{value}",
-                  mergeFormatter: "{value1} ~ {value2}",
-                  tooltip: "always",
-                  enableCross: false,
-                  bgStyle: {
-                    "backgroundColor": "#fff",
-                    "boxShadow": "inset 0.5px 0.5px 3px 1px rgba(0,0,0,.36)"
-                  },
-                  tooltipStyle: {
-                    "backgroundColor": "#0033FF",
-                    "borderColor": "#0033FF"
-                  },
-                  processStyle: {
-                    "backgroundColor": '#0033FF'
-                  }
-                },
-              searchTitles: "",
-              searchNationality: "",
-              searchGender: "Both",
-              searchLocation: "",
-            },
+          filters: {},
           personDropPin : L.AwesomeMarkers.icon({
             markerColor: 'green',
             prefix: 'fas fa-male',
@@ -231,17 +218,13 @@
           markers: [],
           pointData: {},
           renderedData: [],
-          selectedAFilter: false,
           openOverlay: false,
           individualsSelected: false,
           institutionsSelected: false,
           corporateEntitiesSelected: false,
-          eventsSelected: false
+          eventsSelected: false,
+          filtersCleared: true
         }),
-      beforeMount(){
-        this.filterData();
-      },
-
 		methods: {
 			refresh()
             {
@@ -250,13 +233,6 @@
                 this.institutionsSelected = false;
                 this.corporateEntitiesSelected = false;
                 this.eventsSelected = false;
-
-                this.indivFilterYear = true;
-                this.indivFilterTitle = false;
-                this.indivFilterNationality = false;
-                this.indivFilterGender = false;
-                this.indivFilterLocation = false;
-
             },
 			pushPoints(pt)
 			{
@@ -265,180 +241,43 @@
 				// push new data
 				this.renderedData = this.pointData[pt.id];
 			},
-            pushMarker(featureArrayEntry)
-            {
+          pushMarker(featureArrayEntry)
+          {
+            let newLon = featureArrayEntry.geometry.coordinates[0];
+            let newLat = featureArrayEntry.geometry.coordinates[1];
 
-              //let type = featureArrayEntry.properties.objects[0].type;
-
-              let pointId = featureArrayEntry.id;
-              this.pointData[pointId] = [];
-
-              let newLon = featureArrayEntry.geometry.coordinates[0];
-              let newLat = featureArrayEntry.geometry.coordinates[1];
-
-              let newMarker =
-                {
-                  id: pointId,
-                  position: [newLat, newLon],
-                  visible: true,
-                };
-
-              this.markers.push(newMarker);
-            },
-            filterByYears(thisYear)
-            {
-              let yearLower = this.filters.sliderVals.value[0];
-              let yearUpper = this.filters.sliderVals.value[1];
-
-              return (thisYear > yearLower && thisYear < yearUpper);
-            },
-            filterByTitle(thisTitles)
-            {
-              for (let key in thisTitles)
-              {
-                if (thisTitles[key].includes(this.filters.searchTitles.toLowerCase()))
-                {
-                  return true;
-                }
-              }
-              return false;
-            },
-            filterByNationality(thisNationality)
-            {
-            	return (thisNationality === this.filters.searchNationality.toLowerCase());
-            },
-            filterByGender(thisGender)
-            {
-            	return (thisGender === this.filters.searchGender.toLowerCase());
-            },
-            filterByLocation(thisLocationType, thisLocationName)
-            {
-
-               return (thisLocationType === this.filters.searchLocation.toLowerCase()
-                  || thisLocationName === this.filters.searchLocation.toLowerCase());
-            },
-            checkIndivFilters(checks)
-            {
-            	// TODO: hack, there's probably a better way to do this
-              // if user selected years,
-                if (this.indivFilterYear)
-                {
-                  if (!checks.years)
+            let newMarker =
                   {
-                    return false;
-                  }
-                }
-                if (this.indivFilterTitle)
-                {
-                  if (!checks.title)
-                  {
-                    return false;
-                  }
-                }
-                if (this.indivFilterNationality)
-                {
-                  if (!checks.nationality)
-                  {
-                    return false;
-                  }
-                }
-                if (this.indivFilterGender)
-                {
-                  if (!checks.gender)
-                  {
-                    return false;
-                  }
-                }
-                if (this.indivFilterLocation)
-                {
-                  if (!checks.location)
-                  {
-                    return false;
-                  }
-                }
-                return true;
-            },
-            buildIndivChecks(featureEntry)
-            {
-              //console.log("featureEntry is ", featureEntry);
-              let checks =
-                {
-                  "years": false,
-                  "nationality": false,
-                  "title": false,
-                  "gender": false,
-                  "location": false
-                };
+                    id: featureArrayEntry.id,
+                    position: [newLat, newLon],
+                    visible: true,
+                    popupContent: this.getPopupContent(featureArrayEntry)
+                  };
 
-              if (this.filterByYears(featureEntry.time.start_year))
-              {
-                checks.years = true;
-              }
-              if (this.filterByTitle(featureEntry.titles))
-              {
-                checks.title = true;
-              }
-              if (this.filterByNationality(featureEntry.nationality))
-              {
-                checks.nationality = true;
-              }
-              if (this.filterByGender(featureEntry.gender))
-              {
-                checks.gender = true;
-              }
-              if (this.filterByLocation(featureEntry.loc.location_type, featureEntry.loc.location_name))
-              {
-                checks.location = true;
-              }
+            this.markers.push(newMarker);
+          },
+          filterIndividual(data){
+			  this.filtersCleared = false;
+            let featureArray = geoData.coords.features;
+            let filterResults = this.filterIndividualHelper(data.filters, data.userSelections, featureArray);
+            this.pointData = filterResults.pointData;
 
-              return checks;
-            },
-            filterData()
-            {
-              this.markers = [];
-              let featureArray = geoData.coords.features;
-              let newMarker = true;
+            filterResults.markersToPush.forEach((m)=> {
+			    this.pushMarker(m);
+            })
+          },
+          resetFilters(){
+            this.$refs.individualComponent.resetFilters();
+            this.filtersCleared = true;
+          }
+        },
+           mixins: [
+             PopupContent,
+             IndividualFilterHelpers
+           ]
 
-              for (let i = 0; i < featureArray.length; i++)
-              {
-                let dataArray = featureArray[i].properties.objects;
-                newMarker = true;
-
-                for (let j = 0; j < dataArray.length; j++)
-                {
-
-                  	let checks = this.buildIndivChecks(featureArray[i].properties.objects[j]);
-
-                  	if (this.checkIndivFilters(checks))
-                    {
-                    	if (newMarker)
-                        {
-                          this.pushMarker(featureArray[i]);
-                          newMarker = false;
-                        }
-                        this.pointData[featureArray[i].id].push(featureArray[i].properties.objects[j]);
-                    }
-                }
-              }
-            },
-            resetData(){
-                this.refresh();
-            },
-            changeIndividualLocation(newLocation){
-              this.filters.searchLocation = newLocation;
-              this.indivFilterLocation = true;
-              this.filterData();
-            },
-            changeIndividualYear(newYears){
-              this.filters.sliderVals.value = newYears;
-              this.indivFilterYear = true;
-              this.filterData();
-            }
-		}
 	}
 </script>
-
-
 
 <style>
 
@@ -451,11 +290,7 @@
         border: 3px solid #101010;
     }
 
-    .awesome-marker i {
-        font-size: 18px;
-        margin-top: 12px;
-    }
-
+    /* POP-UP WITH FILTER OPTIONS */
     .overlay-top {
 
         position: absolute;
@@ -472,28 +307,6 @@
         height:100%;
         z-index: 1;
     }
-
-    .center-button {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-
-    .center-item {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-    .grey-text {
-        color: #101010;
-        text-align: left;
-    }
-
-
-    /* POP-UP WITH FILTER OPTIONS */
 
     .drop-down-div {
         border: 2px solid #D3D3D3;
@@ -528,6 +341,12 @@
         font-size: 22px;
     }
 
+    .refresh-text {
+        color: #D3D3D3;
+        text-align: left;
+        font-size: 22px;
+    }
+
     .grey {
         color: #D3D3D3;
     }
@@ -549,23 +368,13 @@
         background-color: blue;
     }
 
-
-    /* TITLE ROW WITH FILTER BUTTON */
-
-    .filter-button .icon {
-        vertical-align: middle;
-        margin-right: 0.5rem;
-    }
-    .filter-button .icon:last-child {
-        margin-right: 0;
-    }
-
     .display-flex {
         display: flex;
     }
 
-
-    /* SUBMIT ROW */
+    .align-right{
+        text-align:right;
+    }
 
     .white-btn {
         color: #101010;
@@ -594,6 +403,29 @@
         padding-bottom: 20px;
     }
 
+    .awesome-marker i {
+        font-size: 18px;
+        margin-top: 12px;
+    }
+
+    .center-button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .center-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .grey-text {
+        color: #101010;
+        text-align: left;
+    }
 
 
 </style>

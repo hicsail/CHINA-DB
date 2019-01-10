@@ -113,6 +113,34 @@
             vueSlider
         },
         data: () => ({
+          filters:
+            {
+              sliderVals:
+                {
+                  min: 1600,
+                  max: 1930,
+                  value: [1600, 1930],
+                  formatter: "{value}",
+                  mergeFormatter: "{value1} ~ {value2}",
+                  tooltip: "always",
+                  enableCross: false,
+                  bgStyle: {
+                    "backgroundColor": "#fff",
+                    "boxShadow": "inset 0.5px 0.5px 3px 1px rgba(0,0,0,.36)"
+                  },
+                  tooltipStyle: {
+                    "backgroundColor": "#0033FF",
+                    "borderColor": "#0033FF"
+                  },
+                  processStyle: {
+                    "backgroundColor": '#0033FF'
+                  }
+                },
+              searchTitles: "",
+              searchNationality: "",
+              searchGender: "Both",
+              searchLocation: "",
+            },
           genderOptions: [
             {text: 'M', value: 'Men'},
             {text: 'W', value: 'Women'},
@@ -121,8 +149,7 @@
         }),
         props: [
           'individualsSelected',
-          'openOverlay',
-          'filters'
+          'openOverlay'
         ],
         methods: {
           submit(filters){
@@ -156,6 +183,13 @@
             let filterResults = { filters: filters, userSelections: attributesSelected};
 
             this.$emit('filterIndividual', filterResults);
+          },
+          resetFilters(){
+            this.filters.sliderVals.values = [1600, 1930];
+            this.filters.searchNationality= "";
+            this.filters.searchTitles= "";
+            this.filters.searchGender= "Both";
+            this.filters.searchLocation= "";
           }
         }
 
