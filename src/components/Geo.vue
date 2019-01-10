@@ -20,7 +20,7 @@
         <div v-if="openOverlay" class="overlay-top transparent-background padding">
             <b-container>
 
-                <!-- CLEAR FILTERS, CLOSE OVERLAY -->
+                <!-- CLEAR FILTERS, CLOSE FILTER BOX -->
                 <div class="row padding-neg">
                     <div class="row center-button drop-down-div" >
                         <div  class="col-md-1 center-item align-middle grey">
@@ -58,7 +58,7 @@
 
                                 <!-- TODO: name, nationality, gender -->
                                <Individuals
-                                       ref="individualComponent"
+                                    ref="individualComponent"
                                     :individualsSelected="individualsSelected"
                                     :openOverlay="openOverlay"
                                     @filterIndividual="filterIndividual"
@@ -157,8 +157,7 @@
                                 :key="marker.id"
                                 :lat-lng="marker.position"
                                 :visible="marker.visible"
-                                :icon="personDropPin"
-                                @click="pushPoints(marker)">
+                                :icon="personDropPin">
                                 <l-popup
                                     :content="marker.popupContent"
                                 />
@@ -168,7 +167,7 @@
             </div>
         </div>
 
-
+        <!--@click="pushPoints(marker)"-->
 
     </div>
 </template>
@@ -216,7 +215,6 @@
           url: 'https://api.tiles.mapbox.com/v4/mapbox.light/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWJvdWNoYXVkIiwiYSI6ImNpdTA5bWw1azAyZDIyeXBqOWkxOGJ1dnkifQ.qha33VjEDTqcHQbibgHw3w',
           attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
           markers: [],
-          pointData: {},
           renderedData: [],
           openOverlay: false,
           individualsSelected: false,
@@ -226,55 +224,37 @@
           filtersCleared: true
         }),
 		methods: {
-			refresh()
-            {
-                this.openOverlay = false;
-                this.individualsSelected = false;
-                this.institutionsSelected = false;
-                this.corporateEntitiesSelected = false;
-                this.eventsSelected = false;
-            },
-			pushPoints(pt)
-			{
-				// refresh renderedData
-				this.renderedData = [];
-				// push new data
-				this.renderedData = this.pointData[pt.id];
-			},
-          pushMarker(featureArrayEntry)
+          pushMarker(markerData)
           {
-            let newLon = featureArrayEntry.geometry.coordinates[0];
-            let newLat = featureArrayEntry.geometry.coordinates[1];
 
             let newMarker =
                   {
-                    id: featureArrayEntry.id,
-                    position: [newLat, newLon],
+                    id: markerData.id,
+                    position: [markerData.lat, markerData.lon],
                     visible: true,
-                    popupContent: this.getPopupContent(featureArrayEntry)
+                    popupContent: this.getPopupContent(markerData.data)
                   };
 
             this.markers.push(newMarker);
           },
           filterIndividual(data){
-			  this.filtersCleared = false;
-            let featureArray = geoData.coords.features;
-            let filterResults = this.filterIndividualHelper(data.filters, data.userSelections, featureArray);
-            this.pointData = filterResults.pointData;
-
-            filterResults.markersToPush.forEach((m)=> {
+            this.markers = [];
+            let markersToPush = this.filterIndividualHelper(data.filters, data.userSelections, geoData.coords.features);
+            markersToPush.forEach((m)=> {
 			    this.pushMarker(m);
-            })
+            });
+            this.filtersCleared = false;
           },
           resetFilters(){
             this.$refs.individualComponent.resetFilters();
+            //TODO - reset filters for Corporate Entities, Institutions, etc.
             this.filtersCleared = true;
           }
         },
-           mixins: [
-             PopupContent,
-             IndividualFilterHelpers
-           ]
+        mixins: [
+          PopupContent,
+          IndividualFilterHelpers
+        ]
 
 	}
 </script>

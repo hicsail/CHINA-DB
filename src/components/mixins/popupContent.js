@@ -1,9 +1,9 @@
 export const PopupContent = {
   methods: {
     getPopupContent(data){
-      let type = data.properties.objects[0].type;
+      let type = data.type;
       if (type === 'person') {
-        return this.getPopupIndividual(data.properties.objects[0])
+        return this.getPopupIndividual(data)
       }
 
       //TODO popup content for other types besides 'person'
@@ -40,9 +40,15 @@ export const PopupContent = {
     capitalize(string){
       let capitalized = "";
       let words = string.split(" ");
-      words.forEach( (w) =>
-        capitalized += w.charAt(0).toUpperCase() + w.slice(1) + " "
-      )
+
+      // capitalize each word in string (eg, "nettie m" => "Nettie M"),
+      for (let i = 0; i < words.length; i++){
+        capitalized += words[i].charAt(0).toUpperCase() + words[i].slice(1);
+        if (i < words.length - 1){
+          capitalized += " ";
+        }
+      }
+
       return capitalized;
     }
   }
