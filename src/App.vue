@@ -6,7 +6,7 @@
             </div>
 
 
-            <div class="col-md-1 my-auto center-grey-text" >
+            <div class="col-md-2 my-auto center-grey-text" >
                 <nav>
                     <div role='navigation' aria-label='main navigation' >
                         <router-link to="/geo" class="routerlink center-item" v-on:click="this.$parent.onHomePage = true">
@@ -47,9 +47,7 @@ export default {
 </script>
 
 
-
 <style>
-
 
     .title {
         padding-top: 20px;

@@ -7,13 +7,13 @@ import App from './App';
 import router from './router';
 import BootstrapVue from 'bootstrap-vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faBars, faBuilding, faChevronDown, faChevronUp, faChurch, faFilter, faMale, faMapMarker, faTimes, faUniversity } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faBuilding, faChevronDown, faChevronUp, faChurch, faFilter, faMale, faMapMarker, faRedo, faTimes, faUniversity } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import './assets/leaflet.awesome-markers.css';
 import './assets/leaflet.awesome-markers.js';
 
 
-library.add(faBars, faBuilding, faChevronDown, faChevronUp, faChurch, faFilter, faMale, faMapMarker, faTimes, faUniversity);
+library.add(faBars, faBuilding, faChevronDown, faChevronUp, faChurch, faFilter, faMale, faMapMarker, faRedo, faTimes, faUniversity);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
