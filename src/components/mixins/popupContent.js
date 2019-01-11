@@ -2,7 +2,7 @@ export const PopupContent = {
   methods: {
     getPopupContent(data){
       let type = data.type;
-     
+
       if (type === 'person') {
         return this.getPopupIndividual(data)
       }

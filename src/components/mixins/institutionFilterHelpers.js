@@ -85,7 +85,7 @@ export const InstitutionFilterHelpers = {
       }
       if (this.filterByNameInst(featureEntry.name, filters))
       {
-        matches.nationality = true;
+        matches.name = true;
       }
       if (this.filterByTypeInst(featureEntry.institution_type, filters))
       {
@@ -93,7 +93,7 @@ export const InstitutionFilterHelpers = {
       }
       if (this.filterByLocationInst(featureEntry.loc.location_name, featureEntry.loc.location_type, filters))
       {
-        matches.title = true;
+        matches.location= true;
       }
       if (this.filterByAssociationInst(featureEntry.corp_relations.association, filters))
       {
@@ -117,21 +117,34 @@ export const InstitutionFilterHelpers = {
     },
     filterByNationalityInst(thisNationality, filters) {
 
-      if (thisNationality.indexOf(filters.searchNationality) > -1){
+      if (filters.searchNationality == ''){
+        return false;
+      }
+
+      if (thisNationality.includes(filters.searchNationality)){
         return true;
       }
 
       return false;
     },
     filterByNameInst(thisName, filters) {
-      if (thisName.indexOf(filters.searchName) > -1){
+      if (filters.searchName == ''){
+        return false;
+      }
+
+      if (thisName.includes(filters.searchName)){
         return true;
       }
 
       return false;
     },
     filterByTypeInst(thisType, filters) {
-      if (thisType.indexOf(filters.searchType) > -1){
+      if (filters.searchType == ''){
+        return false;
+      }
+
+
+      if (thisType.includes(filters.searchType)){
         return true;
       }
 
@@ -139,18 +152,35 @@ export const InstitutionFilterHelpers = {
     },
     filterByLocationInst(thisLocationType, thisLocationName, filters) {
 
-      return (thisLocationType === filters.searchLocation.toLowerCase()
-        || thisLocationName === filters.searchLocation.toLowerCase());
+      if (filters.searchLocation == ''){
+        return false;
+      }
+
+      if(thisLocationType.includes(filters.searchLocation.toLowerCase())
+        || thisLocationName.includes(filters.searchLocation.toLowerCase())){
+        return true;
+      }
+
+      return false;
     },
     filterByAssociationInst(thisAssoc, filters) {
-      if (thisAssoc.indexOf(filters.searchAssociation) > -1){
+      if (filters.searchAssociation == ''){
+        return false;
+      }
+
+      if (thisAssoc.includes(filters.searchAssociation)){
         return true;
       }
 
       return false;
     },
     filterByReligiousFamilyInst(thisReligion, filters) {
-      if (thisReligion.indexOf(filters.searchReligiousFam) > -1){
+      if (filters.searchReligiousFam == ''){
+        return false;
+      }
+
+
+      if (thisReligion.includes(filters.searchReligiousFam)){
         return true;
       }
 
@@ -203,10 +233,13 @@ export const InstitutionFilterHelpers = {
       }
       if (attributesSelected.location)
       {
+
         if (!matches.location)
         {
+
           return false;
         }
+
       }
       if (attributesSelected.association)
       {
