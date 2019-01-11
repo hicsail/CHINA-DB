@@ -23,7 +23,7 @@ export const IndividualFilterHelpers = {
           // if user selected a filter that has matching attribute data
           if (this.userSelectedAndFilterMatches(matches, userSelections))
           {
-            let uniqId = getUniqueId(featureArray[i]);
+            let uniqId = this.getUniqueId(featureArray[i]);
 
             // if not added yet, add new marker
             if (markersAddedSoFar.indexOf(uniqId) === -1){
@@ -34,7 +34,7 @@ export const IndividualFilterHelpers = {
           }
         }
       }
-      
+
       return markersToPush;
     },
     getMarkerData(featureArrayEntry, j){
