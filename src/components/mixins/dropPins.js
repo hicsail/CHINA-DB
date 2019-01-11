@@ -9,7 +9,7 @@ export const DropPins = {
     },
     getInstitutionPin() {
       return L.AwesomeMarkers.icon({
-        markerColor: 'orange',
+        markerColor: 'purple',
         prefix: 'fas fa-university',
         icon: 'university'
       })
