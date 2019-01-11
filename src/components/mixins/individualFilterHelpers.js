@@ -6,6 +6,7 @@ export const IndividualFilterHelpers = {
     {
       let markerData={};
       let markersToPush = [];
+      let markersAddedSoFar = [];
 
       //for each location (i)
       for (let i = 0; i < featureArray.length; i++)
@@ -22,13 +23,18 @@ export const IndividualFilterHelpers = {
           // if user selected a filter that has matching attribute data
           if (this.userSelectedAndFilterMatches(matches, userSelections))
           {
-            //make a new marker
-            markerData=this.getMarkerData(featureArray[i], j);
-            markersToPush.push(markerData);
+            let uniqId = getUniqueId(featureArray[i]);
+
+            // if not added yet, add new marker
+            if (markersAddedSoFar.indexOf(uniqId) === -1){
+              markersAddedSoFar.push(uniqId);
+              markerData=this.getMarkerData(featureArray[i], j);
+              markersToPush.push(markerData);
+            }
           }
         }
       }
-
+      
       return markersToPush;
     },
     getMarkerData(featureArrayEntry, j){
@@ -38,6 +44,12 @@ export const IndividualFilterHelpers = {
       markerData.lat = featureArrayEntry.geometry.coordinates[1];
       markerData.data = featureArrayEntry.properties.persons[j];
       return markerData;
+    },
+    getUniqueId(featureArrayEntry){
+      let lastName = featureArrayEntry.properties.persons[j].titles.family_name_en;
+      let firstName = featureArrayEntry.properties.persons[j].titles.given_name_en;
+      let birthYear = featureArrayEntry.properties.persons[j].time.birth_year;
+      return lastName + firstName + birthYear;
     },
     dataMatchesFilter(featureEntry, filters) {
     /*
