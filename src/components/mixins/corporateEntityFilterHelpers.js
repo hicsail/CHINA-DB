@@ -1,9 +1,10 @@
 
-export const IndividualFilterHelpers = {
+export const CorporateEntityFilterHelpers = {
 
   methods: {
-    filterIndividualHelper(filters, userSelections, featureArray)
+    filterCorporateEntityHelper(filtersCorp, userSelections, featureArray)
     {
+
       let markerData={};
       let markersToPush = [];
       let markersAddedSoFar = [];
@@ -12,25 +13,25 @@ export const IndividualFilterHelpers = {
       for (let i = 0; i < featureArray.length; i++)
       {
 
-        let dataArray = featureArray[i].properties.persons;
+        let dataArray = featureArray[i].properties.corporate_entities;
 
         // for each object entry in location (i)
         for (let j = 0; j < dataArray.length; j++)
         {
 
-          let uniqId = this.getUniqueId(featureArray[i], j);
+          let uniqId = this.getUniqueIdCorp(featureArray[i], j);
 
           // check if any object attributes (time, loc, etc.) matches any filter
-          let matches = this.dataMatchesFilter(dataArray[j], filters, uniqId);
+          let matches = this.dataMatchesFilterCorp(dataArray[j], filtersCorp, uniqId);
 
           // if user selected a filter that has matching attribute data
-          if (this.userSelectedAndFilterMatches(matches, userSelections))
+          if (this.userSelectedAndFilterMatchesCorp(matches, userSelections))
           {
 
             // if not added yet, add new marker
             if (markersAddedSoFar.indexOf(uniqId) === -1){
               markersAddedSoFar.push(uniqId);
-              markerData=this.getMarkerData(featureArray[i], j);
+              markerData=this.getMarkerDataCorp(featureArray[i], j);
               markersToPush.push(markerData);
             }
           }
@@ -39,99 +40,101 @@ export const IndividualFilterHelpers = {
 
       return markersToPush;
     },
-    getMarkerData(featureArrayEntry, j, uniqId){
+    getMarkerDataCorp(featureArrayEntry, j, uniqId){
       let markerData={};
       markerData.id = uniqId;
       markerData.lon = featureArrayEntry.geometry.coordinates[0];
       markerData.lat = featureArrayEntry.geometry.coordinates[1];
-      markerData.data = featureArrayEntry.properties.persons[j];
+      markerData.data = featureArrayEntry.properties.corporate_entities[j];
       return markerData;
     },
-    getUniqueId(featureArrayEntry,j){
-      let lastName = featureArrayEntry.properties.persons[j].titles.family_name_en;
-      let firstName = featureArrayEntry.properties.persons[j].titles.given_name_en;
-      let birthYear = featureArrayEntry.properties.persons[j].time.birth_year;
-      return lastName + firstName + birthYear;
+    getUniqueIdCorp(featureArrayEntry,j){
+      let nationality = featureArrayEntry.properties.corporate_entities[j].nationality;
+      let loc = featureArrayEntry.properties.corporate_entities[j].loc.location_name;
+      let assoc = featureArrayEntry.properties.corporate_entities[j].corp_relations.association;
+      return nationality + loc + assoc;
     },
-    dataMatchesFilter(featureEntry, filters) {
+    dataMatchesFilterCorp(featureEntry, filtersCorp) {
     /*
      *  Checks whether DB entry (featureEntry) matches any filter selection.
      *
-     *  @param  featureEntry   Object  one DB entry for a person
+     *  @param  featureEntry   Object  one DB entry for a corporate entity
      *  @param  filters        Object  filters set by user
      *  @return matches        Object  for each attribute (eg, 'years'),
      *                                  'true' if DB entry matches selection
      */
 
+
       // for each attribute, store whether the DB entry is a match
       let matches =
             {
               "years": false,
+              "location": false,
               "nationality": false,
-              "title": false,
-              "gender": false,
-              "location": false
+              "association": false,
+              "name": false
             };
 
       // call helper methods to determine if DB entry matches each filter
-      if (this.filterByYears(featureEntry.time.start_year, filters))
+      if (this.filterByYearsCorp(featureEntry.time.start_year, filtersCorp))
       {
         matches.years = true;
       }
-      if (this.filterByTitle(featureEntry.titles, filters))
+      if (this.filterByLocationCorp(featureEntry.loc.location_name, featureEntry.loc.location_type, filtersCorp))
       {
         matches.title = true;
       }
-      if (this.filterByNationality(featureEntry.nationality, filters))
+      if (this.filterByNationalityCorp(featureEntry.nationality, filtersCorp))
       {
         matches.nationality = true;
       }
-      if (this.filterByGender(featureEntry.gender, filters))
+      if (this.filterByAssociationCorp(featureEntry.corp_relations.association, filtersCorp))
       {
-        matches.gender = true;
+        matches.association = true;
       }
-      if (this.filterByLocation(featureEntry.loc.location_type, featureEntry.loc.location_name, filters))
+      if (this.filterByNameCorp(featureEntry.name, filtersCorp))
       {
-        matches.location = true;
+        matches.name = true;
       }
 
       return matches;
     },
-    filterByYears(thisYear, filters)
+    filterByYearsCorp(thisYear, filtersCorp)
     {
 
-      let yearLower = filters.sliderVals.value[0];
-      let yearUpper = filters.sliderVals.value[1];
+      let yearLower = filtersCorp.sliderVals.value[0];
+      let yearUpper = filtersCorp.sliderVals.value[1];
 
       return (thisYear > yearLower && thisYear < yearUpper);
     },
-    filterByTitle(thisTitles, filters) {
+    filterByLocationCorp(thisLocationName, thisLocationType, filtersCorp) {
 
-      if (filters.searchTitles === ''){
-        return false;
+      if (thisLocationType === filtersCorp.searchLocation.toLowerCase()
+          || thisLocationName.includes(filtersCorp.searchLocation.toLowerCase())){
+        return true;
       }
 
-      for (let key in thisTitles)
-      {
-        if (thisTitles[key].includes(filters.searchTitles.toLowerCase()))
-        {
-          return true;
-        }
+      return false;
+    },
+    filterByNationalityCorp(thisNationality, filtersCorp) {
+      if (thisNationality.includes(filtersCorp.searchNationality.toLowerCase())){
+        return true;
       }
       return false;
     },
-    filterByNationality(thisNationality, filters) {
-      return (thisNationality === filters.searchNationality.toLowerCase());
+    filterByAssociationCorp(thisAssociation, filtersCorp) {
+      if (thisAssociation.includes(filtersCorp.searchAssociation.toLowerCase())){
+        return true;
+      }
+      return false;
     },
-    filterByGender(thisGender, filters) {
-      return (thisGender === filters.searchGender.toLowerCase());
+    filterByNameCorp(thisName, filtersCorp) {
+      if (thisName.includes(filtersCorp.searchName.toLowerCase())){
+        return true;
+      }
+      return false;
     },
-    filterByLocation(thisLocationType, thisLocationName, filters) {
-
-      return (thisLocationType === filters.searchLocation.toLowerCase()
-        || thisLocationName === filters.searchLocation.toLowerCase());
-    },
-    userSelectedAndFilterMatches(matches, attributesSelected) {
+    userSelectedAndFilterMatchesCorp(matches, attributesSelected) {
       /*
        * For each attribute, return false if:
        *   1) user requested to filter based on that attribute, and
@@ -155,9 +158,16 @@ export const IndividualFilterHelpers = {
           return false;
         }
       }
-      if (attributesSelected.title)
+      if (attributesSelected.location)
       {
-        if (!matches.title)
+        if (!matches.location)
+        {
+          return false;
+        }
+      }
+      if (attributesSelected.institution_type)
+      {
+        if (!matches.institution_type)
         {
           return false;
         }
@@ -169,16 +179,16 @@ export const IndividualFilterHelpers = {
           return false;
         }
       }
-      if (attributesSelected.gender)
+      if (attributesSelected.association)
       {
-        if (!matches.gender)
+        if (!matches.association)
         {
           return false;
         }
       }
-      if (attributesSelected.location)
+      if (attributesSelected.name)
       {
-        if (!matches.location)
+        if (!matches.name)
         {
           return false;
         }

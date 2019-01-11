@@ -41,7 +41,7 @@
                 <!--INDIVIDUALS -->
                     <div class="row">
 
-                        <div v-b-toggle.collapse1 class="row center-button drop-down-div"  v-on:click="individualsSelected = !individualsSelected" >
+                        <div v-b-toggle.accordion1 class="row center-button drop-down-div"  v-on:click="individualsSelected = !individualsSelected" >
                             <div class="col-md-1 row-one-color center-item align-middle">
                                 <font-awesome-icon icon="male" size="2x"></font-awesome-icon>
                             </div>
@@ -54,7 +54,7 @@
                         </div>
 
                         <div class="col-md-12">
-                            <b-collapse id="collapse1" class="white-background grey-border">
+                            <b-collapse id="accordion1" accordion="my-accordion" class="white-background grey-border">
 
                                <Individuals
                                     ref="individualComponent"
@@ -72,7 +72,7 @@
                 <!-- TODO 1)type, 2)nationality, 3) religious family, 4) denomination, 5) name, and 6) where and when it existed. -->
                 <div class="row padding-neg">
 
-                    <div v-b-toggle.collapse2 class="row center-button drop-down-div"  v-on:click="institutionsSelected = !institutionsSelected" >
+                    <div v-b-toggle.accordion2 class="row center-button drop-down-div"  v-on:click="institutionsSelected = !institutionsSelected" >
                         <div class="col-md-1 row-two-color center-item align-middle">
                             <font-awesome-icon icon="university" size="2x"></font-awesome-icon>
                         </div>
@@ -84,7 +84,7 @@
                     </div>
 
                     <div class="col-md-12">
-                        <b-collapse id="collapse2" class="white-background grey-border">
+                        <b-collapse id="accordion2" accordion="my-accordion" class="white-background grey-border">
                             <div class="grey-text center-item">TODO</div>
                         </b-collapse>
                     </div>
@@ -94,7 +94,7 @@
                 <!-- CORPORATE ENTITIES -->
                 <div class="row padding-neg">
 
-                    <div v-b-toggle.collapse3 class="row center-button drop-down-div"  v-on:click="corporateEntitiesSelected = !corporateEntitiesSelected" >
+                    <div v-b-toggle.accordion3 class="row center-button drop-down-div"  v-on:click="corporateEntitiesSelected = !corporateEntitiesSelected" >
                         <div class="col-md-1 row-three-color center-item align-middle">
                             <font-awesome-icon icon="building" size="2x"></font-awesome-icon>
                         </div>
@@ -105,8 +105,15 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <b-collapse id="collapse3" class=" white-background grey-border">
-                           <div class="grey-text center-item">TODO</div>
+                        <b-collapse id="accordion3" accordion="my-accordion" class=" white-background grey-border">
+
+                            <CorporateEntities
+                                    ref="corporateEntitiesComponent"
+                                    :corporateEntitiesSelected="corporateEntitiesSelected"
+                                    :openOverlay="openOverlay"
+                                    @filterCorporateEntities="filterCorporateEntities"
+                            />
+
                         </b-collapse>
                     </div>
                 </div>
@@ -115,7 +122,7 @@
                 <!-- EVENTS -->
                 <div class="row padding-neg">
 
-                    <div v-b-toggle.collapse4 class="row center-button drop-down-div"  v-on:click="eventsSelected = !eventsSelected" >
+                    <div v-b-toggle.accordion4 class="row center-button drop-down-div"  v-on:click="eventsSelected = !eventsSelected" >
                         <div class="col-md-1 row-four-color center-item align-middle">
                             <font-awesome-icon icon="church" size="2x"></font-awesome-icon>
                         </div>
@@ -127,7 +134,7 @@
                     </div>
 
                     <div class="col-md-12">
-                        <b-collapse id="collapse4" class="white-background grey-border">
+                        <b-collapse id="accordion4" accordion="my-accordion" class="white-background grey-border">
                             <div class="grey-text center-item">TODO</div>
                         </b-collapse>
                     </div>
@@ -156,7 +163,7 @@
                                     :key="marker.id"
                                     :lat-lng="marker.position"
                                     :visible="marker.visible"
-                                    :icon="personDropPin">
+                                    :icon="dropPin">
                                 <l-popup
                                         :content="marker.popupContent"
                                 />
@@ -179,8 +186,11 @@
 	import 'bootstrap-vue/dist/bootstrap-vue.css'
     import "leaflet/dist/leaflet.css"
     import Individuals from "./Individuals.vue";
+    import CorporateEntities from "./CorporateEntities.vue";
     import  { PopupContent }  from "./mixins/popupContent";
+    import  { DropPins }  from "./mixins/dropPins";
     import  { IndividualFilterHelpers }  from "./mixins/individualFilterHelpers";
+    import  { CorporateEntityFilterHelpers }  from "./mixins/corporateEntityFilterHelpers";
 
 	export default {
 		name: "shanxiMap",
@@ -193,6 +203,7 @@
           LPopup,
           LRectangle,
           Individuals,
+          CorporateEntities,
           PopupContent,
           'l-marker-cluster': Vue2LeafletMarkercluster
 		},
@@ -205,11 +216,7 @@
             iconColor: 'black'
           }),
           filters: {},
-          personDropPin : L.AwesomeMarkers.icon({
-            markerColor: 'green',
-            prefix: 'fas fa-male',
-            icon: 'male'
-          }),
+          dropPin:{},
           zoom: 7,
           center: [35.026413, 111.007530],
           url: 'https://api.tiles.mapbox.com/v4/mapbox.light/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWJvdWNoYXVkIiwiYSI6ImNpdTA5bWw1azAyZDIyeXBqOWkxOGJ1dnkifQ.qha33VjEDTqcHQbibgHw3w',
@@ -228,18 +235,16 @@
 		methods: {
           pushMarker(markerData)
           {
-
-            let newMarker =
-                  {
-                    id: markerData.id,
-                    position: [markerData.lat, markerData.lon],
-                    visible: true,
-                    popupContent: this.getPopupContent(markerData.data)
-                  };
-
+            let newMarker = {
+                  id: markerData.id,
+                  position: [markerData.lat, markerData.lon],
+                  visible: true,
+                  popupContent: this.getPopupContent(markerData.data)
+                };
             this.markers.push(newMarker);
           },
           filterIndividual(data){
+            this.dropPin = this.getIndividualPin();
             this.markers = [];
             let markersToPush = this.filterIndividualHelper(data.filters, data.userSelections, geoData.coords.features);
             markersToPush.forEach((m)=> {
@@ -247,23 +252,33 @@
             });
             this.filtersCleared = false;
           },
+          filterCorporateEntities(data){
+
+            this.dropPin = this.getCorporateEntityPin();
+            this.markers = [];
+            let markersToPush = this.filterCorporateEntityHelper(data.filtersCorp, data.userSelections, geoData.coords.features);
+            markersToPush.forEach((m)=> {
+              this.pushMarker(m);
+            });
+            this.filtersCleared = false;
+          },
           resetFilters(){
             this.$refs.individualComponent.resetFilters();
-            //TODO - reset filters for Corporate Entities, Institutions, etc.
+            this.$refs.corporateEntitiesComponent.resetFiltersCorp();
             this.filtersCleared = true;
           }
         },
         mixins: [
           PopupContent,
-          IndividualFilterHelpers
+          DropPins,
+          IndividualFilterHelpers,
+          CorporateEntityFilterHelpers
         ]
 
 	}
 </script>
 
 <style>
-
-    /* TODO clean up CSS */
 
     @import "../../node_modules/leaflet/dist/leaflet.css";
     @import "~leaflet.markercluster/dist/MarkerCluster.css";
