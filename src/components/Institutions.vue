@@ -6,7 +6,7 @@
             <div class="col-md-1" ></div>
             <div class="col-md-10" >
                 <b-form-group class="padding-top-only"
-                              id="yearFilterSlider"
+                              id="yearFilterSliderInst"
                               v-if="openOverlay && institutionsSelected"
                 >
                     <vue-slider class="style-slider"
@@ -26,10 +26,10 @@
             <div class="col-md-4">
                 <b-form-group
                         style="align-items: left"
-                        id="nameFilter"
-                        label-for="nameFilterBox">
+                        id="nameFilterInst"
+                        label-for="nameFilterBoxInst">
                     <b-form-input
-                            id="nameFilterBox"
+                            id="nameFilterBoxInst"
                             size="sm"
                             type="text"
                             v-model="filters.searchName"
@@ -40,10 +40,10 @@
             <div class="col-md-1"></div>
             <div class="col-md-4">
                 <b-form-group
-                        id="nationalityFilter"
-                        label-for="nationalityFilterBox">
+                        id="nationalityFilterInst"
+                        label-for="nationalityFilterBoxInst">
                     <b-form-input
-                            id="nationalityFilterBox"
+                            id="nationalityFilterBoxInst"
                             size="sm"
                             type="text"
                             v-model="filters.searchNationality"
@@ -66,10 +66,10 @@
             <div class="col-md-1"></div>
             <div class="col-md-4">
                 <b-form-group
-                        id="locFilter"
+                        id="locFilterInst"
                         label-for="locFilterBox">
                     <b-form-input
-                            id="locFilterBox"
+                            id="locFilterBoxInst"
                             size="sm"
                             type="text"
                             v-model="filters.searchLocation"
@@ -82,10 +82,10 @@
             <div class="col-md-1"></div>
             <div class="col-md-4">
                 <b-form-group
-                        id="typeFilter"
-                        label-for="typeFilterBox">
+                        id="typeFilterInst"
+                        label-for="typeFilterBoxInst">
                     <b-form-input
-                        id="typeFilterBox"
+                        id="typeFilterBoxInst"
                         size="sm"
                         type="text"
                         v-model="filters.searchType"
@@ -124,10 +124,10 @@
             <div class="col-md-1"></div>
             <div class="col-md-4">
                 <b-form-group
-                        id="associationFilter"
-                        label-for="associationFilterBox">
+                        id="associationFilterInst"
+                        label-for="associationFilterBoxInst">
                     <b-form-input
-                            id="associationFilterBox"
+                            id="associationFilterBoxInst"
                             size="sm"
                             type="text"
                             v-model="filters.searchAssociation"
@@ -146,7 +146,7 @@
         </div>
 
         <div class="row padding-bottom-only center-item">
-            <b-button size="small" variant="primary" v-on:click="submit(filters)">Submit</b-button>
+            <b-button size="small" variant="primary" v-on:click="submitInst(filters)">Submit</b-button>
         </div>
 
     </div>
@@ -190,14 +190,14 @@
                 searchReligiousFam: "",
                 searchName: "",
                 searchType: ""
-              },
-            props: [
-                'institutionsSelected',
-                'openOverlay'
-            ],
+              }
         }),
+        props: [
+            'institutionsSelected',
+            'openOverlay'
+        ],
         methods: {
-          submit(filters){
+          submitInst(filters){
 
             // if 'true', user selected the filter attribute
             let attributesSelected = {
@@ -237,7 +237,7 @@
 
             this.$emit('filterInstitution', filterResults);
           },
-          resetFilters(){
+          resetFiltersInst(){
             this.filters.sliderVals.values = [1600, 1930];
             this.filters.searchNationality = "";
             this.filters.searchName = "";

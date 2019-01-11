@@ -85,7 +85,14 @@
 
                     <div class="col-md-12">
                         <b-collapse id="accordion2" accordion="my-accordion" class="white-background grey-border">
-                            <div class="grey-text center-item">TODO</div>
+
+                            <Institutions
+                                    ref="institutionComponent"
+                                    :institutionsSelected="institutionsSelected"
+                                    :openOverlay="openOverlay"
+                                    @filterInstitutions="filterInstitutions"
+                            />
+
                         </b-collapse>
                     </div>
                 </div>
@@ -186,6 +193,7 @@
 	import 'bootstrap-vue/dist/bootstrap-vue.css'
     import "leaflet/dist/leaflet.css"
     import Individuals from "./Individuals.vue";
+    import Institutions from "./Institutions.vue";
     import CorporateEntities from "./CorporateEntities.vue";
     import  { PopupContent }  from "./mixins/popupContent";
     import  { DropPins }  from "./mixins/dropPins";
@@ -203,6 +211,7 @@
           LPopup,
           LRectangle,
           Individuals,
+          Institutions,
           CorporateEntities,
           PopupContent,
           'l-marker-cluster': Vue2LeafletMarkercluster
@@ -248,7 +257,16 @@
             this.markers = [];
             let markersToPush = this.filterIndividualHelper(data.filters, data.userSelections, geoData.coords.features);
             markersToPush.forEach((m)=> {
-			    this.pushMarker(m);
+              this.pushMarker(m);
+            });
+            this.filtersCleared = false;
+          },
+          filterInstitutions(data){
+            this.dropPin = this.getInstitutionPin();
+            this.markers = [];
+            let markersToPush = this.filterInstitutionHelper(data.filters, data.userSelections, geoData.coords.features);
+            markersToPush.forEach((m)=> {
+              this.pushMarker(m);
             });
             this.filtersCleared = false;
           },
@@ -264,6 +282,7 @@
           },
           resetFilters(){
             this.$refs.individualComponent.resetFilters();
+            this.$refs.institutionComponent.resetFiltersInst();
             this.$refs.corporateEntitiesComponent.resetFiltersCorp();
             this.filtersCleared = true;
           }
