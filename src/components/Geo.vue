@@ -198,6 +198,7 @@
     import  { PopupContent }  from "./mixins/popupContent";
     import  { DropPins }  from "./mixins/dropPins";
     import  { IndividualFilterHelpers }  from "./mixins/individualFilterHelpers";
+    import  { InstitutionFilterHelpers }  from "./mixins/institutionFilterHelpers";
     import  { CorporateEntityFilterHelpers }  from "./mixins/corporateEntityFilterHelpers";
 
 	export default {
@@ -291,6 +292,7 @@
           PopupContent,
           DropPins,
           IndividualFilterHelpers,
+          InstitutionFilterHelpers,
           CorporateEntityFilterHelpers
         ]
 

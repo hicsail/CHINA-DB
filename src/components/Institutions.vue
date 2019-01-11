@@ -235,7 +235,7 @@
 
             let filterResults = { filters: filters, userSelections: attributesSelected};
 
-            this.$emit('filterInstitution', filterResults);
+            this.$emit('filterInstitutions', filterResults);
           },
           resetFiltersInst(){
             this.filters.sliderVals.values = [1600, 1930];
