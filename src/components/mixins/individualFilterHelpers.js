@@ -11,18 +11,18 @@ export const IndividualFilterHelpers = {
       for (let i = 0; i < featureArray.length; i++)
       {
 
-        let dataArray = featureArray[i].properties.objects;
+        let dataArray = featureArray[i].properties.persons;
 
         // for each object entry in location (i)
         for (let j = 0; j < dataArray.length; j++)
         {
           // check if any object attributes (time, loc, etc.) matches any filter
-          let matches = this.dataMatchesFilter(featureArray[i].properties.objects[j], filters);
+          let matches = this.dataMatchesFilter(dataArray[j], filters);
 
           // if user selected a filter that has matching attribute data
           if (this.userSelectedAndFilterMatches(matches, userSelections))
           {
-            //make a new marker 
+            //make a new marker
             markerData=this.getMarkerData(featureArray[i], j);
             markersToPush.push(markerData);
           }
@@ -36,7 +36,7 @@ export const IndividualFilterHelpers = {
       markerData.id = featureArrayEntry.id;
       markerData.lon = featureArrayEntry.geometry.coordinates[0];
       markerData.lat = featureArrayEntry.geometry.coordinates[1];
-      markerData.data = featureArrayEntry.properties.objects[j];
+      markerData.data = featureArrayEntry.properties.persons[j];
       return markerData;
     },
     dataMatchesFilter(featureEntry, filters) {
