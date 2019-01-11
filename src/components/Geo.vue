@@ -56,7 +56,6 @@
                         <div class="col-md-12">
                             <b-collapse id="collapse1" class="white-background grey-border">
 
-                                <!-- TODO: name, nationality, gender -->
                                <Individuals
                                     ref="individualComponent"
                                     :individualsSelected="individualsSelected"
@@ -151,34 +150,34 @@
                         <l-tile-layer
                                 :url="url"
                                 :attribution="attribution"/>
-
-                        <l-marker
-                                v-for="marker in markers"
-                                :key="marker.id"
-                                :lat-lng="marker.position"
-                                :visible="marker.visible"
-                                :icon="personDropPin">
+                        <l-marker-cluster :options="clusterOptions">
+                            <l-marker
+                                    v-for="marker in markers"
+                                    :key="marker.id"
+                                    :lat-lng="marker.position"
+                                    :visible="marker.visible"
+                                    :icon="personDropPin">
                                 <l-popup
-                                    :content="marker.popupContent"
+                                        :content="marker.popupContent"
                                 />
-                        </l-marker>
+                            </l-marker>
+                        </l-marker-cluster>
                     </l-map>
                 </div>
             </div>
         </div>
 
-        <!--@click="pushPoints(marker)"-->
-
     </div>
 </template>
+
 <script>
 
-	import { LMap, LTileLayer, LMarker, LIcon, LLayerGroup, LPopup } from 'vue2-leaflet';
+	import { LMap, LTileLayer, LMarker, LIcon, LLayerGroup, LPopup, LRectangle } from 'vue2-leaflet';
+    import Vue2LeafletMarkercluster from 'vue2-leaflet-markercluster';
 	import {default as geoData} from "../assets/geo.js";
 	import 'bootstrap/dist/css/bootstrap.css'
 	import 'bootstrap-vue/dist/bootstrap-vue.css'
     import "leaflet/dist/leaflet.css"
-    import LRectangle from "../../node_modules/vue2-leaflet/src/components/LRectangle.vue";
     import Individuals from "./Individuals.vue";
     import  { PopupContent }  from "./mixins/popupContent";
     import  { IndividualFilterHelpers }  from "./mixins/individualFilterHelpers";
@@ -186,15 +185,16 @@
 	export default {
 		name: "shanxiMap",
 		components: {
-            LRectangle,
-            LMap,
-            LTileLayer,
-			LMarker,
-            LIcon,
-            LLayerGroup,
-            LPopup,
-            Individuals,
-            PopupContent,
+          LMap,
+          LTileLayer,
+          LMarker,
+          LIcon,
+          LLayerGroup,
+          LPopup,
+          LRectangle,
+          Individuals,
+          PopupContent,
+          'l-marker-cluster': Vue2LeafletMarkercluster
 		},
         data: () => ({
           selected: null,
@@ -221,7 +221,9 @@
           institutionsSelected: false,
           corporateEntitiesSelected: false,
           eventsSelected: false,
-          filtersCleared: true
+          filtersCleared: true,
+          clusterOptions: {disableClusteringAtZoom: 11}
+
         }),
 		methods: {
           pushMarker(markerData)
@@ -264,6 +266,8 @@
     /* TODO clean up CSS */
 
     @import "../../node_modules/leaflet/dist/leaflet.css";
+    @import "~leaflet.markercluster/dist/MarkerCluster.css";
+    @import "~leaflet.markercluster/dist/MarkerCluster.Default.css";
 
     #map {
         height: 600px;
