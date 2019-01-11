@@ -89,7 +89,6 @@
                             size="sm"
                             type="text"
                             v-model="filtersCorp.searchAssociation"
-                            placeholder="name or type"
                     >
                     </b-form-input>
                 </b-form-group>
