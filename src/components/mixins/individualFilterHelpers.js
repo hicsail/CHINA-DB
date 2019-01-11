@@ -23,7 +23,7 @@ export const IndividualFilterHelpers = {
           // if user selected a filter that has matching attribute data
           if (this.userSelectedAndFilterMatches(matches, userSelections))
           {
-            let uniqId = this.getUniqueId(featureArray[i]);
+            let uniqId = this.getUniqueId(featureArray[i], j);
 
             // if not added yet, add new marker
             if (markersAddedSoFar.indexOf(uniqId) === -1){
@@ -45,7 +45,7 @@ export const IndividualFilterHelpers = {
       markerData.data = featureArrayEntry.properties.persons[j];
       return markerData;
     },
-    getUniqueId(featureArrayEntry){
+    getUniqueId(featureArrayEntry,j){
       let lastName = featureArrayEntry.properties.persons[j].titles.family_name_en;
       let firstName = featureArrayEntry.properties.persons[j].titles.given_name_en;
       let birthYear = featureArrayEntry.properties.persons[j].time.birth_year;
