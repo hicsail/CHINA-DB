@@ -33,7 +33,7 @@
                             size="sm"
                             type="text"
                             v-model="filters.searchName"
-                            placeholder="">
+                            placeholder="name">
                     </b-form-input>
                 </b-form-group>
             </div>
@@ -47,7 +47,7 @@
                             size="sm"
                             type="text"
                             v-model="filters.searchNationality"
-                            placeholder="">
+                            placeholder="nationality">
                     </b-form-input>
                 </b-form-group>
             </div>
