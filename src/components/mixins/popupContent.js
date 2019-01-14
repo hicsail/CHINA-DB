@@ -81,32 +81,53 @@ export const PopupContent = {
        * @return       an HTML string to use as popup content
        */
 
-      let instName = this.capitalize(data.name);
-      let location = this.capitalize(data.loc.location_name);
-      let origin = this.capitalize(data.nationality);
-      let religion = this.capitalize(data.corp_relations.religious_family);
-      let association = 'Association: ' + this.capitalize(data.corp_relations.association);
-
       let start = '<div><table><tbody>';
-      let name = '<tr><td>' + instName + '</td></tr>';
-      let loc_and_time = '<tr><td>' + location + ', ' + data.time.start_year + '</td></tr>';
-      let nationality = '<tr><td>' + origin + '</td></tr>';
-      let relig = '<tr><td>' + religion + '</td></tr>';
-      if (religion.indexOf('N/A') > -1){
-        relig = '';
+      let name =
+				"<tr><td>"
+				+ this.capitalize(data.name)
+				+ "</td></tr>";
+      let type =
+				"<tr><td>Type: "
+				+ this.capitalize(data.institution_type)
+				+ "</td></tr>";
+      let loc =
+				"<tr><td>Location: "
+				+ this.capitalize(data.loc.location_name)
+				+ "</td></tr>";
+      let time =
+				"<tr><td>Start Year: "
+				+ data.time.start_year
+				+ "</td></tr>";
+      let nationality =
+				"<tr><td>Nationality: "
+				+ this.capitalize(data.nationality)
+				+ "</td></tr>";
+      let relig = "Religious Family: ";
+			if (!(this.capitalize(data.corp_relations.religious_family).indexOf('N/A') > -1))
+			{
+				relig =
+					"<tr><td>Religious Family: "
+					+ this.capitalize(data.corp_relations.religious_family)
+					+ "</td></tr>";
+			}
+			let assoc = "Association: ";
+      if (!(this.capitalize(data.corp_relations.association).indexOf('N/A') > -1))
+      {
+				assoc =
+					"<tr><td>Association: "
+					+ this.capitalize(data.corp_relations.association)
+					+ "</td></tr>";
       }
-      let assoc = '<tr><td>' + association + '</td></tr>';
-      if (association.indexOf('N/A') > -1){
-        assoc = '';
-      }
-      let end = '</tbody></table></div>';
+      let end = "</tbody></table></div>";
 
-      let popupContent = start + name + loc_and_time + nationality + relig + assoc + end;
-      popupContent = popupContent
+      let popupContent = start + name + type
+				+ loc + time + nationality
+				+ relig + assoc + end;
+
+      return popupContent
 				.replace(/, N\/A/g, '')
 				.replace(/N\/A-N\/A/g, '')
 				.replace(/N\/A/g, '');
-      return popupContent;
     },
     getPopupCorporateEntity(data){
       /*
