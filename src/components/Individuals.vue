@@ -156,17 +156,13 @@
 
             // if 'true', user selected the filter attribute
             let attributesSelected = {
-                "years": false,
+                "years": true,
                 "nationality": false,
                 "title": false,
                 "gender": false,
                 "location": false
             };
 
-            //TODO: find a way for user to view all individual records
-            if ( filters.sliderVals.values !== [1600, 1930] ){ //[0,0]){ //
-              attributesSelected.years = true;
-            }
             if (filters.searchNationality !== ""){
               attributesSelected.nationality = true;
             }
