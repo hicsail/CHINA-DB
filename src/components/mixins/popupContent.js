@@ -21,36 +21,59 @@ export const PopupContent = {
        * @return       an HTML string to use as popup content
        */
 
-      let lastName = this.capitalize(data.titles.family_name_en);
-      let firstName = this.capitalize(data.titles.given_name_en);
-      let sex = this.capitalize(data.gender);
-      let origin = this.capitalize(data.nationality);
-      let location = this.capitalize(data.loc.location_name);
-      let inst = this.capitalize(data.institution_name);
-      let relFam = this.capitalize(data.tradition.religious_family);
-      let corpName = this.capitalize(data.tradition.association);
+      let start = "<div><table><tbody>";
+      let name =
+				"<tr><td> Name: "
+				+ this.capitalize(data.titles.given_name_en)
+				+ this.capitalize(data.titles.family_name_en)
+				+ "</td></tr>";
+      let gender =
+				"<tr><td>Gender: "
+				+ this.capitalize(data.gender)
+				+ "</td></tr>";
+      let nationality =
+				"<tr><td>Nationality: "
+				+ this.capitalize(data.nationality)
+				+ "</td></tr>";
+			let startYear =
+				"<tr><td>Start Year: "
+				+ data.time.start_year
+				+ "</td></tr>";
+      let loc =
+				"<tr><td>Location: "
+				+ this.capitalize(data.loc.location_name)
+				+ "</td></tr>";
+      let time =
+				"<tr><td>Lived: "
+				+ data.time.birth_year
+				+ "-"
+				+ data.time.death_year
+				+ "</td></tr>";
+			let instName =
+				"<tr><td>Institution Name: "
+				+ this.capitalize(data.institution_name)
+				+ "</td></tr>";
+			let corp =
+				"<tr><td>Corporate Entity: "
+				+ this.capitalize(data.tradition.association)
+				+ "</td></tr>";
+			let rel =
+				"<tr><td>Religious Family: "
+				+ this.capitalize(data.tradition.religious_family)
+				+ "</td></tr>";
+      let end =
+				"</tbody></table> </div>";
 
-      let start = '<div><table><tbody>';
-      let name = "<tr><td> Name: " + firstName + lastName + "</td></tr>";
-      let gender = '<tr><td>Gender: ' + sex + '</td></tr>';
-      let nationality = '<tr><td>Nationality: ' + origin + '</td></tr>';
-			let startYear = "<tr><td>Start Year: " + data.time.start_year + "</td></tr>";
-      let loc = '<tr><td>Location: ' + location + '</td></tr>';
-      let time = '<tr><td>Lived: ' + data.time.birth_year + '-' + data.time.death_year + '</td></tr>';
-			let instName = "<tr><td>Institution Name: " + inst +  "</td></tr>";
-			let corp = "<tr><td>Corporate Entity: " + corpName + "</td></tr>";
-			let rel = "<tr><td>Religious Family: " + relFam + "</td></tr>";
-      let end = '</tbody></table> </div>';
-
-      let popupContent = start + name + gender
+      let popupContent =
+				start + name + gender
 				+ nationality + instName + startYear
 				+ loc + time + instName
 			  + corp + rel + end;
-      popupContent = popupContent
+
+      return popupContent
 				.replace(/, N\/A/g, '')
 				.replace(/N\/A-N\/A/g, '')
 				.replace(/N\/A/g, '');
-      return popupContent;
     },
     getPopupInstitution(data){
       /*
