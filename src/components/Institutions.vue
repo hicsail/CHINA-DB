@@ -201,7 +201,7 @@
 
             // if 'true', user selected the filter attribute
             let attributesSelected = {
-              "years": false,
+              "years": true,
               "nationality": false,
               "name": false,
               "type": false,
@@ -210,17 +210,13 @@
               "religious_family": false
             };
 
-            //TODO: find a way for user to view all individual records
-            if ( filters.sliderVals.values !== [1600, 1930] ){ //[0,0]){ //
-              attributesSelected.years = true;
-            }
             if (filters.searchNationality !== ""){
               attributesSelected.nationality = true;
             }
             if (filters.searchName !== ""){
               attributesSelected.title = true;
             }
-            if (filters.searchType !== "Both"){
+            if (filters.searchType !== ""){
               attributesSelected.gender = true;
             }
             if (filters.searchLocation !== ""){
@@ -280,5 +276,5 @@
     .padding-bottom-only {
         padding-bottom: 10px;
     }
-    
+
 </style>
