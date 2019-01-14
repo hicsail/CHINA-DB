@@ -160,17 +160,13 @@
 
             // if 'true', user selected the filter attribute
             let attributesSelected = {
-                "years": false,
+                "years": true,
                 "location": false,
                 "nationality": false,
                 "association": false,
                 "name": false
             };
 
-
-            if ( filtersCorp.sliderVals.values !== [1600, 1930] ){
-              attributesSelected.years = true;
-            }
             if (filtersCorp.searchLocation !== ""){
               attributesSelected.location = true;
             }
