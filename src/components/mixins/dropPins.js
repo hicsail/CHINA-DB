@@ -7,6 +7,13 @@ export const DropPins = {
         icon: 'male'
       })
     },
+    getInstitutionPin() {
+      return L.AwesomeMarkers.icon({
+        markerColor: 'purple',
+        prefix: 'fas fa-university',
+        icon: 'university'
+      })
+    },
     getCorporateEntityPin() {
       return L.AwesomeMarkers.icon({
         markerColor: 'orange',
