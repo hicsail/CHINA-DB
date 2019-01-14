@@ -82,11 +82,9 @@ class PersonParser(Parser):
         rel_record = self.org_org_table[org_org_id]
         corp_rel = rel_record["corp_id_2"][0]
         this_corp = self.corporate_entity_table[corp_rel]
-        ret["corp_name"] = this_corp["corp_name_en"]
 
         try:
-            type_id = this_corp["corporate_entity_type"][0]
-            ret["association"] = self._corp_type_mapping(type_id)
+            ret["association"] = this_corp["corp_name_en"]
         except KeyError:
             pass
 
@@ -121,9 +119,6 @@ class PersonParser(Parser):
 
         current_corp = self.corporate_entity_table[corp_id]
 
-        rec["tradition"]["corp_name"] = \
-            current_corp["corp_name_en"]
-
         try:
             rec["tradition"]["religious_family"] = \
                 self._religious_family_mapping(current_corp["religious_family"][0])
@@ -131,8 +126,7 @@ class PersonParser(Parser):
             pass
 
         try:
-            type_id = current_corp["corporate_entity_type"][0]
-            rec["tradition"]["association"] = self._corp_type_mapping(type_id)
+            rec["tradition"]["association"] = current_corp["corp_name_en"]
         except KeyError:
             pass
 
@@ -198,7 +192,6 @@ class PersonParser(Parser):
                     "tradition":
                         {
                             "religious_family": "N/A",
-                            "corp_name": "N/A",
                             "association": "N/A"
                         },
                     "type": "person",
