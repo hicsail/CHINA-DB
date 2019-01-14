@@ -23,24 +23,33 @@ export const PopupContent = {
 
       let lastName = this.capitalize(data.titles.family_name_en);
       let firstName = this.capitalize(data.titles.given_name_en);
-      let lastNamePy = this.capitalize(data.titles.family_name_py);
-      let firstNamePy = this.capitalize(data.titles.given_name_py);
       let sex = this.capitalize(data.gender);
       let origin = this.capitalize(data.nationality);
       let location = this.capitalize(data.loc.location_name);
-
+      let inst = this.capitalize(data.institution_name);
+      let relFam = this.capitalize(data.tradition.religious_family);
+      let corpName = this.capitalize(data.tradition.association);
 
       let start = '<div><table><tbody>';
-      let name =  '<tr><td>' + lastName + ', ' + firstName + '</td></tr>';
-      let name_py = '<tr><td>' + lastNamePy + ', ' + firstNamePy + '</td></tr>';
-      let gender = '<tr><td>' + sex + '</td></tr>';
-      let nationality = '<tr><td>' + origin + '</td></tr>';
-      let loc = '<tr><td>' + location + '</td></tr>';
-      let time = '<tr><td>' + data.time.birth_year + '-' + data.time.death_year + '</td></tr>';
+      let name = "<tr><td> Name: " + firstName + lastName + "</td></tr>";
+      let gender = '<tr><td>Gender: ' + sex + '</td></tr>';
+      let nationality = '<tr><td>Nationality: ' + origin + '</td></tr>';
+			let startYear = "<tr><td>Start Year: " + data.time.start_year + "</td></tr>";
+      let loc = '<tr><td>Location: ' + location + '</td></tr>';
+      let time = '<tr><td>Lived: ' + data.time.birth_year + '-' + data.time.death_year + '</td></tr>';
+			let instName = "<tr><td>Institution Name: " + inst +  "</td></tr>";
+			let corp = "<tr><td>Corporate Entity: " + corpName + "</td></tr>";
+			let rel = "<tr><td>Religious Family: " + relFam + "</td></tr>";
       let end = '</tbody></table> </div>';
 
-      let popupContent = start + name + name_py + gender + nationality + loc + time + end;
-      popupContent = popupContent.replace(/, N\/A/g, '').replace(/N\/A-N\/A/g, '').replace(/N\/A/g, '');
+      let popupContent = start + name + gender
+				+ nationality + instName + startYear
+				+ loc + time + instName
+			  + corp + rel + end;
+      popupContent = popupContent
+				.replace(/, N\/A/g, '')
+				.replace(/N\/A-N\/A/g, '')
+				.replace(/N\/A/g, '');
       return popupContent;
     },
     getPopupInstitution(data){
@@ -70,7 +79,10 @@ export const PopupContent = {
       let end = '</tbody></table></div>';
 
       let popupContent = start + name + loc_and_time + nationality + relig + assoc + end;
-      popupContent = popupContent.replace(/, N\/A/g, '').replace(/N\/A-N\/A/g, '').replace(/N\/A/g, '');
+      popupContent = popupContent
+				.replace(/, N\/A/g, '')
+				.replace(/N\/A-N\/A/g, '')
+				.replace(/N\/A/g, '');
       return popupContent;
     },
     getPopupCorporateEntity(data){
@@ -100,7 +112,10 @@ export const PopupContent = {
       let end = '</tbody></table></div>';
 
       let popupContent = start + name + loc_and_time + nationality + relig + assoc + child + end;
-      popupContent = popupContent.replace(/, N\/A/g, '').replace(/N\/A-N\/A/g, '').replace(/N\/A/g, '');
+      popupContent = popupContent
+				.replace(/, N\/A/g, '')
+				.replace(/N\/A-N\/A/g, '')
+				.replace(/N\/A/g, '');
       return popupContent;
     },
     capitalize(string){
@@ -118,7 +133,7 @@ export const PopupContent = {
       return capitalized;
     }
   }
-}
+};
 
 
 
