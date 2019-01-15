@@ -34,8 +34,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -60,8 +59,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -86,8 +84,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -112,8 +109,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -138,8 +134,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -164,8 +159,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -190,8 +184,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -216,8 +209,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -242,8 +234,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -268,8 +259,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -294,8 +284,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -320,8 +309,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -346,8 +334,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -372,8 +359,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -398,8 +384,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -424,8 +409,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -450,8 +434,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -476,8 +459,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -502,8 +484,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -528,8 +509,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -554,8 +534,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -580,8 +559,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -606,8 +584,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -632,8 +609,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -658,8 +634,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -684,8 +659,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -710,8 +684,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -736,8 +709,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -762,8 +734,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -788,8 +759,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -814,8 +784,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -840,7 +809,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -866,8 +834,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -892,8 +859,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -918,8 +884,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -944,8 +909,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -970,8 +934,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -996,8 +959,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1022,8 +984,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1048,8 +1009,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1074,8 +1034,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1100,8 +1059,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1126,8 +1084,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1152,8 +1109,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1178,8 +1134,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1204,8 +1159,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1230,8 +1184,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1344,8 +1297,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1370,8 +1322,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1396,8 +1347,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1422,8 +1372,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1448,8 +1397,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1474,8 +1422,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1500,8 +1447,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1526,8 +1472,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1552,8 +1497,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1578,8 +1522,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1604,8 +1547,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1630,8 +1572,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1710,8 +1651,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1736,8 +1676,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1762,8 +1701,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1788,8 +1726,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1814,8 +1751,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1840,8 +1776,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1866,8 +1801,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1892,8 +1826,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1918,8 +1851,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1944,8 +1876,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1970,8 +1901,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -1996,8 +1926,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2022,8 +1951,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2048,8 +1976,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2074,8 +2001,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2100,8 +2026,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2126,8 +2051,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2152,8 +2076,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2178,8 +2101,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2204,8 +2126,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2230,8 +2151,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2256,8 +2176,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2282,8 +2201,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2308,8 +2226,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2334,8 +2251,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2360,8 +2276,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2386,8 +2301,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2412,8 +2326,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2438,8 +2351,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2464,8 +2376,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2490,8 +2401,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2516,8 +2426,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2542,8 +2451,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2568,8 +2476,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2594,8 +2501,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2620,8 +2526,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2646,8 +2551,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2672,8 +2576,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2698,8 +2601,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2724,8 +2626,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2750,8 +2651,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2776,8 +2676,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2802,8 +2701,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2828,8 +2726,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2854,8 +2751,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2880,8 +2776,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2906,8 +2801,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2932,8 +2826,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2958,8 +2851,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -2984,8 +2876,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3010,8 +2901,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3036,8 +2926,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3062,8 +2951,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3088,8 +2976,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3114,8 +3001,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3140,8 +3026,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3166,8 +3051,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3192,8 +3076,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3218,8 +3101,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3244,8 +3126,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3270,8 +3151,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3296,8 +3176,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3322,8 +3201,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3348,8 +3226,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3374,8 +3251,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3400,8 +3276,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3426,8 +3301,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3452,8 +3326,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3478,8 +3351,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3504,8 +3376,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3530,8 +3401,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3556,8 +3426,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3582,8 +3451,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3608,8 +3476,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3634,8 +3501,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3660,8 +3526,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3686,8 +3551,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3712,8 +3576,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3738,8 +3601,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3764,8 +3626,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3790,8 +3651,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3816,8 +3676,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3842,8 +3701,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3868,8 +3726,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3894,8 +3751,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3920,8 +3776,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3946,8 +3801,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3972,8 +3826,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -3998,8 +3851,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4024,8 +3876,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4050,8 +3901,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4076,8 +3926,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4102,8 +3951,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4128,8 +3976,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4154,8 +4001,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4180,8 +4026,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4206,8 +4051,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4232,8 +4076,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4258,8 +4101,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4284,8 +4126,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4381,8 +4222,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4407,8 +4247,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4433,8 +4272,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4459,8 +4297,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4485,8 +4322,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4511,8 +4347,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4537,8 +4372,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4563,8 +4397,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4589,8 +4422,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4615,8 +4447,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4641,8 +4472,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4667,8 +4497,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4693,8 +4522,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4719,8 +4547,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4745,8 +4572,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4771,8 +4597,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4797,8 +4622,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4823,8 +4647,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4849,8 +4672,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4875,8 +4697,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4901,8 +4722,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4927,8 +4747,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4953,8 +4772,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -4979,8 +4797,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5005,8 +4822,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5031,8 +4847,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5057,8 +4872,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5083,8 +4897,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5109,8 +4922,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5135,8 +4947,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5161,8 +4972,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5187,8 +4997,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5213,8 +5022,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5239,8 +5047,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Mission In China",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Mission In China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5370,8 +5177,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5396,8 +5202,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5422,8 +5227,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5448,8 +5252,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5474,8 +5277,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5500,8 +5302,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5526,8 +5327,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5552,8 +5352,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5578,8 +5377,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5604,8 +5402,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5630,8 +5427,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5656,8 +5452,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5682,8 +5477,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5708,8 +5502,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5734,8 +5527,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5760,8 +5552,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5786,8 +5577,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5812,8 +5602,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5838,8 +5627,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5864,8 +5652,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5890,8 +5677,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5916,8 +5702,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5942,8 +5727,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Free Norwegian Mission",
-                        "association": "protestant - foreign"
+                        "association": "Free Norwegian Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5968,8 +5752,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -5994,8 +5777,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6020,8 +5802,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6046,8 +5827,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6072,8 +5852,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6098,8 +5877,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6124,8 +5902,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6150,8 +5927,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6176,8 +5952,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6202,8 +5977,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6228,8 +6002,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6254,8 +6027,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6280,8 +6052,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6306,8 +6077,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Free Norwegian Mission",
-                        "association": "protestant - foreign"
+                        "association": "Free Norwegian Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6332,8 +6102,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6358,8 +6127,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6384,8 +6152,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6410,8 +6177,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6436,8 +6202,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6462,8 +6227,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6488,8 +6252,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6514,8 +6277,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6540,8 +6302,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6566,8 +6327,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6592,8 +6352,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6618,8 +6377,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6644,8 +6402,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6670,8 +6427,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6696,8 +6452,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6722,8 +6477,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6748,8 +6502,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6774,8 +6527,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6800,8 +6552,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6826,8 +6577,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6852,8 +6602,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6878,8 +6627,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6904,8 +6652,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6930,8 +6677,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6956,8 +6702,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -6982,8 +6727,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7008,8 +6752,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7034,8 +6777,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7182,8 +6924,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7208,8 +6949,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7234,8 +6974,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7260,8 +6999,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7286,8 +7024,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7312,8 +7049,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7338,8 +7074,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7364,8 +7099,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7390,8 +7124,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7416,8 +7149,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7442,8 +7174,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7468,8 +7199,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7494,8 +7224,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7520,8 +7249,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7546,8 +7274,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7572,8 +7299,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7598,8 +7324,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7624,8 +7349,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7650,8 +7374,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7676,8 +7399,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7702,8 +7424,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7728,8 +7449,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7754,8 +7474,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7780,8 +7499,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7806,8 +7524,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7832,8 +7549,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -7980,8 +7696,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8006,8 +7721,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8032,8 +7746,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8058,8 +7771,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8084,8 +7796,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8110,8 +7821,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8136,8 +7846,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8162,8 +7871,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8188,8 +7896,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8214,8 +7921,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8240,8 +7946,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8266,8 +7971,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8292,8 +7996,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8318,8 +8021,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8344,8 +8046,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8370,8 +8071,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8396,8 +8096,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8422,8 +8121,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Church Of The Brethren Mission",
-                        "association": "protestant - foreign"
+                        "association": "Church Of The Brethren Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8502,8 +8200,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8528,8 +8225,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8554,8 +8250,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8580,8 +8275,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8606,8 +8300,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8632,8 +8325,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8658,8 +8350,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8684,8 +8375,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8710,8 +8400,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8736,8 +8425,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8762,8 +8450,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8788,8 +8475,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8814,8 +8500,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8840,8 +8525,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8866,8 +8550,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8892,8 +8575,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8918,8 +8600,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8944,8 +8625,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8970,8 +8650,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -8996,8 +8675,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9022,8 +8700,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9048,8 +8725,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9128,8 +8804,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9154,8 +8829,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9180,8 +8854,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9206,8 +8879,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9232,8 +8904,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9258,8 +8929,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9284,8 +8954,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "holiness",
-                        "corp_name": "Salvation Army",
-                        "association": "protestant - foreign"
+                        "association": "Salvation Army"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9310,8 +8979,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9336,8 +9004,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9362,8 +9029,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9388,8 +9054,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9414,8 +9079,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9440,8 +9104,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9466,8 +9129,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9492,8 +9154,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9518,8 +9179,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9544,8 +9204,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9570,8 +9229,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9596,8 +9254,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9622,8 +9279,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9648,8 +9304,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9674,8 +9329,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9700,8 +9354,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9726,8 +9379,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9752,8 +9404,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9778,8 +9429,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9804,8 +9454,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9830,8 +9479,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9856,8 +9504,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9882,8 +9529,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9908,8 +9554,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9934,8 +9579,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9960,8 +9604,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -9986,8 +9629,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10012,8 +9654,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "holiness",
-                        "corp_name": "Salvation Army",
-                        "association": "protestant - foreign"
+                        "association": "Salvation Army"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10038,8 +9679,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10064,8 +9704,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10090,8 +9729,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10116,8 +9754,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10142,8 +9779,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10168,8 +9804,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10194,8 +9829,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10220,8 +9854,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10246,8 +9879,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10272,8 +9904,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10298,8 +9929,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10324,8 +9954,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10523,8 +10152,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10549,8 +10177,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10575,8 +10202,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10601,8 +10227,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10627,8 +10252,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10653,8 +10277,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10679,8 +10302,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10705,8 +10327,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10731,8 +10352,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10757,8 +10377,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10783,8 +10402,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10809,8 +10427,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10835,8 +10452,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10861,8 +10477,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10887,8 +10502,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10913,8 +10527,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10939,8 +10552,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10965,8 +10577,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -10991,8 +10602,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11017,8 +10627,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11043,8 +10652,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11069,8 +10677,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11095,8 +10702,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11121,8 +10727,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11147,8 +10752,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11173,8 +10777,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11199,8 +10802,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11225,8 +10827,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11251,8 +10852,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11277,8 +10877,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11303,8 +10902,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Alliance Mission",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Alliance Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11329,8 +10927,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11355,8 +10952,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11452,8 +11048,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11532,8 +11127,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11558,8 +11152,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11584,8 +11177,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11610,8 +11202,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11636,8 +11227,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11662,8 +11252,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11688,8 +11277,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11714,8 +11302,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11740,8 +11327,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11766,8 +11352,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11792,8 +11377,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11818,8 +11402,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11844,8 +11427,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11870,8 +11452,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11896,8 +11477,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11922,8 +11502,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11948,8 +11527,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -11974,8 +11552,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12000,8 +11577,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12026,8 +11602,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12052,8 +11627,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12078,8 +11652,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12104,8 +11677,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12130,8 +11702,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12156,8 +11727,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12182,8 +11752,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12208,8 +11777,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12234,8 +11802,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12260,8 +11827,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12286,8 +11852,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12312,8 +11877,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12338,8 +11902,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12364,8 +11927,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12390,8 +11952,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12416,8 +11977,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12442,8 +12002,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12468,8 +12027,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12494,8 +12052,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12520,8 +12077,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12546,8 +12102,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12572,8 +12127,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12598,8 +12152,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12624,8 +12177,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12650,8 +12202,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12730,8 +12281,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12756,8 +12306,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12782,8 +12331,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12808,8 +12356,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12834,8 +12381,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12860,8 +12406,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12886,8 +12431,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12912,8 +12456,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12938,8 +12481,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12964,8 +12506,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -12990,8 +12531,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13016,8 +12556,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13042,8 +12581,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13122,8 +12660,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13148,8 +12685,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13174,8 +12710,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13200,8 +12735,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13226,8 +12760,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13252,8 +12785,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13278,8 +12810,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13304,8 +12835,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13330,8 +12860,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13356,8 +12885,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13382,8 +12910,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13408,8 +12935,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13434,8 +12960,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13460,8 +12985,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13486,8 +13010,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13512,8 +13035,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13538,8 +13060,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Pentecostal Assemblies of the World",
-                        "association": "protestant - foreign"
+                        "association": "Pentecostal Assemblies of the World"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13564,8 +13085,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13590,8 +13110,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13616,8 +13135,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13642,8 +13160,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13668,8 +13185,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13694,8 +13210,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13720,8 +13235,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13746,8 +13260,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13772,8 +13285,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13798,8 +13310,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13824,8 +13335,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13850,8 +13360,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13876,8 +13385,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13902,8 +13410,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13928,8 +13435,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13954,8 +13460,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -13980,8 +13485,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14006,8 +13510,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14032,8 +13535,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14058,8 +13560,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14084,8 +13585,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14110,8 +13610,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14136,8 +13635,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14162,8 +13660,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14188,8 +13685,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14214,8 +13710,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14240,8 +13735,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14266,8 +13760,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14292,8 +13785,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14318,8 +13810,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14344,8 +13835,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14370,8 +13860,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14396,8 +13885,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14422,8 +13910,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14448,8 +13935,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14474,8 +13960,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14500,8 +13985,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14526,8 +14010,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14552,8 +14035,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14578,8 +14060,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14604,8 +14085,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14630,8 +14110,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14656,8 +14135,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14682,8 +14160,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14708,8 +14185,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14734,8 +14210,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14760,8 +14235,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14786,8 +14260,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14812,8 +14285,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14838,8 +14310,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14864,8 +14335,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14890,8 +14360,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14916,8 +14385,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14942,8 +14410,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14968,8 +14435,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -14994,8 +14460,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15020,8 +14485,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15046,8 +14510,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15072,8 +14535,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "holiness",
-                        "corp_name": "Salvation Army",
-                        "association": "protestant - foreign"
+                        "association": "Salvation Army"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15098,8 +14560,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15124,8 +14585,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15150,8 +14610,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15176,8 +14635,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Pentecostal Assemblies of the World",
-                        "association": "protestant - foreign"
+                        "association": "Pentecostal Assemblies of the World"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15202,8 +14660,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15228,8 +14685,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15254,8 +14710,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15280,8 +14735,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15306,8 +14760,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15332,8 +14785,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15358,8 +14810,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15384,8 +14835,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15410,8 +14860,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15436,8 +14885,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15462,8 +14910,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15488,8 +14935,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15514,8 +14960,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15540,8 +14985,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15566,8 +15010,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15592,8 +15035,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15618,8 +15060,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15644,8 +15085,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Pentecostal Assemblies of the World",
-                        "association": "protestant - foreign"
+                        "association": "Pentecostal Assemblies of the World"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15670,8 +15110,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15696,8 +15135,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15722,8 +15160,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15748,8 +15185,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Pentecostal Assemblies of the World",
-                        "association": "protestant - foreign"
+                        "association": "Pentecostal Assemblies of the World"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15774,8 +15210,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15800,8 +15235,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15826,8 +15260,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15852,8 +15285,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15878,8 +15310,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "holiness",
-                        "corp_name": "Salvation Army",
-                        "association": "protestant - foreign"
+                        "association": "Salvation Army"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15904,8 +15335,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "holiness",
-                        "corp_name": "Salvation Army",
-                        "association": "protestant - foreign"
+                        "association": "Salvation Army"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -15930,8 +15360,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16095,8 +15524,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16121,8 +15549,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16147,8 +15574,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16173,8 +15599,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16199,8 +15624,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16225,8 +15649,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16251,8 +15674,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16277,8 +15699,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16303,8 +15724,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16329,8 +15749,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16355,8 +15774,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16381,8 +15799,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16407,8 +15824,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16433,8 +15849,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16513,8 +15928,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16539,8 +15953,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16565,8 +15978,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16591,8 +16003,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16617,8 +16028,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16643,8 +16053,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16669,8 +16078,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16695,8 +16103,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16721,8 +16128,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16747,8 +16153,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16773,8 +16178,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16799,8 +16203,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16825,8 +16228,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16851,8 +16253,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16877,8 +16278,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16903,8 +16303,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16929,8 +16328,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16955,8 +16353,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -16981,8 +16378,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17007,8 +16403,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17033,8 +16428,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17059,8 +16453,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17085,8 +16478,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17111,8 +16503,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17137,8 +16528,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17163,8 +16553,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17189,8 +16578,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17215,8 +16603,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17241,8 +16628,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17267,8 +16653,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17293,8 +16678,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17319,8 +16703,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17433,8 +16816,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17459,8 +16841,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17485,8 +16866,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17511,8 +16891,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17537,8 +16916,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17563,8 +16941,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17589,8 +16966,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17615,8 +16991,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17641,8 +17016,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17667,8 +17041,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17693,8 +17066,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17719,8 +17091,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17745,8 +17116,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17771,8 +17141,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17797,8 +17166,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17823,8 +17191,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17849,8 +17216,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17875,8 +17241,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17901,8 +17266,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17927,8 +17291,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17953,8 +17316,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -17979,8 +17341,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18005,8 +17366,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18031,8 +17391,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18057,8 +17416,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18083,8 +17441,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18109,8 +17466,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18135,8 +17491,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18161,8 +17516,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18187,8 +17541,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18213,8 +17566,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18239,8 +17591,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18265,8 +17616,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18291,8 +17641,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18317,8 +17666,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18343,8 +17691,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18369,8 +17716,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18395,8 +17741,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18421,8 +17766,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18447,8 +17791,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18473,8 +17816,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18499,8 +17841,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18525,8 +17866,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18551,8 +17891,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18577,8 +17916,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18603,8 +17941,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18629,8 +17966,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18655,8 +17991,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18681,8 +18016,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18707,8 +18041,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18733,8 +18066,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18759,8 +18091,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18785,8 +18116,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18811,8 +18141,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18837,8 +18166,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18863,8 +18191,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18889,8 +18216,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Swedish Holiness Union",
-                        "association": "protestant - foreign"
+                        "association": "Swedish Holiness Union"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18969,8 +18295,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -18995,8 +18320,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19021,7 +18345,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -19118,8 +18441,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19144,8 +18466,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19170,8 +18491,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19196,8 +18516,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19222,8 +18541,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19248,8 +18566,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19274,8 +18591,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19300,8 +18616,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19326,8 +18641,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19352,8 +18666,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19378,8 +18691,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19404,7 +18716,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -19430,8 +18741,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19456,8 +18766,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19482,8 +18791,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19508,8 +18816,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19534,8 +18841,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19560,8 +18866,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19586,8 +18891,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19612,8 +18916,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19638,8 +18941,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19664,8 +18966,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19690,8 +18991,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19716,8 +19016,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19742,8 +19041,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19768,8 +19066,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19794,8 +19091,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19820,8 +19116,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19846,8 +19141,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19872,8 +19166,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19898,8 +19191,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19924,8 +19216,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19950,8 +19241,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -19976,8 +19266,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20002,8 +19291,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Young Men's Christian Association",
-                        "association": "protestant - foreign"
+                        "association": "Young Men's Christian Association"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20028,8 +19316,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Young Men's Christian Association",
-                        "association": "protestant - foreign"
+                        "association": "Young Men's Christian Association"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20054,8 +19341,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20080,8 +19366,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20106,8 +19391,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20132,8 +19416,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20158,8 +19441,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20184,8 +19466,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20210,8 +19491,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20236,8 +19516,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20262,8 +19541,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20288,8 +19566,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20314,8 +19591,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20340,8 +19616,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20366,8 +19641,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20392,8 +19666,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20418,8 +19691,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20444,8 +19716,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20470,8 +19741,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20496,8 +19766,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20522,8 +19791,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20548,8 +19816,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20574,8 +19841,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20600,8 +19866,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20626,8 +19891,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20652,8 +19916,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20678,8 +19941,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20704,8 +19966,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20730,8 +19991,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20756,8 +20016,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20782,8 +20041,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20808,8 +20066,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20834,8 +20091,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20860,8 +20116,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20886,8 +20141,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20912,8 +20166,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20938,8 +20191,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20964,8 +20216,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -20990,8 +20241,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21016,8 +20266,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21042,8 +20291,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21068,8 +20316,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21094,8 +20341,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21120,8 +20366,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21146,8 +20391,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Young Men's Christian Association",
-                        "association": "protestant - foreign"
+                        "association": "Young Men's Christian Association"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21172,8 +20416,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Young Men's Christian Association",
-                        "association": "protestant - foreign"
+                        "association": "Young Men's Christian Association"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21198,8 +20441,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21224,8 +20466,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21250,8 +20491,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21276,8 +20516,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21302,8 +20541,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21328,8 +20566,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Young Men's Christian Association",
-                        "association": "protestant - foreign"
+                        "association": "Young Men's Christian Association"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21354,8 +20591,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Young Men's Christian Association",
-                        "association": "protestant - foreign"
+                        "association": "Young Men's Christian Association"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21380,8 +20616,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21406,8 +20641,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21432,8 +20666,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21458,8 +20691,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21484,8 +20716,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21510,8 +20741,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21536,8 +20766,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21562,8 +20791,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21588,8 +20816,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21614,8 +20841,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21640,8 +20866,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21666,8 +20891,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21692,8 +20916,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21718,8 +20941,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21744,8 +20966,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21770,8 +20991,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21796,8 +21016,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21822,8 +21041,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21848,8 +21066,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21874,8 +21091,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21900,8 +21116,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21926,8 +21141,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21952,8 +21166,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -21978,8 +21191,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22004,8 +21216,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22030,8 +21241,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22056,8 +21266,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22082,8 +21291,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22108,8 +21316,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22134,8 +21341,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22160,8 +21366,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22186,8 +21391,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22212,8 +21416,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22238,8 +21441,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22264,8 +21466,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22290,8 +21491,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22316,8 +21516,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22342,8 +21541,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22368,8 +21566,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22394,8 +21591,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22420,8 +21616,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22446,8 +21641,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22472,8 +21666,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22498,8 +21691,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22524,8 +21716,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22550,7 +21741,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -22576,7 +21766,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -22602,7 +21791,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -22628,8 +21816,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22654,8 +21841,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22680,8 +21866,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22706,8 +21891,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22732,8 +21916,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22758,8 +21941,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22784,8 +21966,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22810,8 +21991,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22836,8 +22016,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22862,8 +22041,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22888,8 +22066,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22914,8 +22091,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22940,8 +22116,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22966,8 +22141,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -22992,8 +22166,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23018,8 +22191,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23044,8 +22216,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23070,8 +22241,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23096,8 +22266,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23122,8 +22291,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23148,8 +22316,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23174,8 +22341,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23200,8 +22366,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23226,8 +22391,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23252,8 +22416,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23278,8 +22441,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23304,8 +22466,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23330,8 +22491,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23356,8 +22516,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23382,8 +22541,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23408,8 +22566,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23434,8 +22591,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23460,8 +22616,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23486,8 +22641,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23512,8 +22666,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23538,8 +22691,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23564,8 +22716,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23590,8 +22741,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23616,8 +22766,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23642,8 +22791,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Young Men's Christian Association",
-                        "association": "protestant - foreign"
+                        "association": "Young Men's Christian Association"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23668,8 +22816,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23694,8 +22841,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23720,8 +22866,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23746,8 +22891,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23772,8 +22916,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23798,8 +22941,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23824,8 +22966,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23850,8 +22991,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23876,8 +23016,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23902,8 +23041,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23928,8 +23066,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23954,8 +23091,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -23980,8 +23116,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24006,8 +23141,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24032,8 +23166,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24058,8 +23191,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24084,8 +23216,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24110,8 +23241,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24136,8 +23266,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24162,8 +23291,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24188,8 +23316,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24214,8 +23341,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24240,8 +23366,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24266,8 +23391,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Young Men's Christian Association",
-                        "association": "protestant - foreign"
+                        "association": "Young Men's Christian Association"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24292,8 +23416,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Young Men's Christian Association",
-                        "association": "protestant - foreign"
+                        "association": "Young Men's Christian Association"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24318,8 +23441,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24344,8 +23466,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24370,8 +23491,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24396,8 +23516,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24422,8 +23541,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24448,8 +23566,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Young Men's Christian Association",
-                        "association": "protestant - foreign"
+                        "association": "Young Men's Christian Association"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24474,8 +23591,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24500,8 +23616,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24526,8 +23641,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24552,8 +23666,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Pentecostal Assemblies of the World",
-                        "association": "protestant - foreign"
+                        "association": "Pentecostal Assemblies of the World"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24578,8 +23691,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24604,8 +23716,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24630,8 +23741,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Assemblies Of God Mission",
-                        "association": "protestant - foreign"
+                        "association": "Assemblies Of God Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24656,8 +23766,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "pentecostal",
-                        "corp_name": "Pentecostal Assemblies of the World",
-                        "association": "protestant - foreign"
+                        "association": "Pentecostal Assemblies of the World"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24682,8 +23791,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24708,8 +23816,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24734,8 +23841,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24760,8 +23866,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24786,8 +23891,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24812,8 +23916,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24838,8 +23941,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24864,8 +23966,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24890,8 +23991,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24916,8 +24016,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24942,8 +24041,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24968,8 +24066,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -24994,8 +24091,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25020,8 +24116,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25046,8 +24141,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25072,8 +24166,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25098,8 +24191,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25124,8 +24216,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25150,8 +24241,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25176,8 +24266,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25202,8 +24291,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25228,8 +24316,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25512,8 +24599,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25538,8 +24624,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25564,8 +24649,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25590,8 +24674,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25616,8 +24699,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25642,8 +24724,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25668,8 +24749,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25694,8 +24774,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25720,8 +24799,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25746,8 +24824,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25772,8 +24849,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25798,8 +24874,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25824,8 +24899,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25850,8 +24924,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25876,8 +24949,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25902,8 +24974,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25928,8 +24999,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25954,8 +25024,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -25980,8 +25049,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26006,8 +25074,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26032,8 +25099,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26058,8 +25124,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26084,8 +25149,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26110,8 +25174,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26136,8 +25199,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26162,8 +25224,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26188,8 +25249,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26214,8 +25274,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26240,8 +25299,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26266,8 +25324,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26292,8 +25349,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26318,8 +25374,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26344,8 +25399,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26370,8 +25424,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26396,8 +25449,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26422,8 +25474,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26448,8 +25499,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26474,8 +25524,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26500,8 +25549,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26526,8 +25574,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26552,8 +25599,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26578,8 +25624,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26604,8 +25649,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26630,8 +25674,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26656,8 +25699,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26682,8 +25724,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26708,8 +25749,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26734,8 +25774,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26760,8 +25799,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26786,8 +25824,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26812,8 +25849,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26838,8 +25874,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26864,8 +25899,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26890,8 +25924,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26916,8 +25949,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26942,8 +25974,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26968,8 +25999,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -26994,8 +26024,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27020,8 +26049,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27046,8 +26074,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27072,8 +26099,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27098,8 +26124,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27124,8 +26149,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27150,8 +26174,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27176,8 +26199,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27202,8 +26224,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27228,8 +26249,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27254,8 +26274,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27280,8 +26299,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27306,8 +26324,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27332,8 +26349,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27358,8 +26374,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27384,8 +26399,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27410,8 +26424,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27436,8 +26449,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27462,8 +26474,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27488,8 +26499,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27514,8 +26524,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27540,8 +26549,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27566,8 +26574,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27592,8 +26599,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27618,8 +26624,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27644,8 +26649,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27670,8 +26674,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27696,8 +26699,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27793,8 +26795,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27819,8 +26820,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27845,8 +26845,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27871,8 +26870,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27897,8 +26895,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27923,8 +26920,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27949,8 +26945,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -27975,8 +26970,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28001,8 +26995,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28027,8 +27020,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28053,8 +27045,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28079,8 +27070,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28105,8 +27095,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28131,8 +27120,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28157,8 +27145,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28183,8 +27170,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28209,8 +27195,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28235,8 +27220,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28261,8 +27245,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28287,8 +27270,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28313,8 +27295,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28339,8 +27320,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28365,8 +27345,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28391,8 +27370,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28417,8 +27395,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28443,8 +27420,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28469,8 +27445,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28495,8 +27470,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28521,8 +27495,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28547,8 +27520,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28573,8 +27545,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28599,8 +27570,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28625,8 +27595,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28651,8 +27620,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28677,8 +27645,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28703,8 +27670,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28729,8 +27695,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28755,8 +27720,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28781,8 +27745,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28807,8 +27770,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28833,8 +27795,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28859,8 +27820,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28885,8 +27845,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28911,8 +27870,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28937,8 +27895,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28963,8 +27920,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -28989,8 +27945,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29015,8 +27970,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29041,8 +27995,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29067,8 +28020,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29093,8 +28045,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29119,8 +28070,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29145,8 +28095,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29171,8 +28120,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29197,8 +28145,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29223,8 +28170,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29249,8 +28195,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29275,8 +28220,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29301,8 +28245,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29327,8 +28270,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29353,8 +28295,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29379,8 +28320,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29405,8 +28345,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29431,8 +28370,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29457,8 +28395,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29483,8 +28420,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29509,8 +28445,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29535,8 +28470,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29561,8 +28495,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29587,8 +28520,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29613,8 +28545,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29639,8 +28570,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29665,8 +28595,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29691,8 +28620,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29717,8 +28645,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29743,8 +28670,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29769,8 +28695,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29795,8 +28720,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29821,8 +28745,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29847,8 +28770,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29873,8 +28795,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29899,8 +28820,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29925,8 +28845,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29951,8 +28870,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -29977,8 +28895,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30003,7 +28920,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -30029,8 +28945,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30055,8 +28970,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30081,8 +28995,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30107,8 +29020,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30133,8 +29045,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30159,8 +29070,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30185,8 +29095,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30211,8 +29120,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30237,8 +29145,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30263,8 +29170,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30289,8 +29195,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30315,8 +29220,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30341,8 +29245,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30367,8 +29270,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30393,8 +29295,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30419,8 +29320,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30445,8 +29345,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30471,8 +29370,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30497,8 +29395,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30523,8 +29420,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30549,8 +29445,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30575,8 +29470,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30601,8 +29495,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30627,8 +29520,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30653,8 +29545,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30679,8 +29570,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30705,8 +29595,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30731,8 +29620,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "congregational",
-                        "corp_name": "American Board Of Commissioners For Foreign Missions",
-                        "association": "protestant - foreign"
+                        "association": "American Board Of Commissioners For Foreign Missions"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30828,8 +29716,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30854,8 +29741,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30880,8 +29766,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30906,8 +29791,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30932,8 +29816,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30958,8 +29841,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -30984,8 +29866,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31010,8 +29891,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31036,8 +29916,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31062,8 +29941,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31088,8 +29966,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31114,8 +29991,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31140,8 +30016,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31166,8 +30041,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31192,8 +30066,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31218,8 +30091,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31244,8 +30116,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31270,8 +30141,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31296,8 +30166,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31322,8 +30191,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31348,8 +30216,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31374,8 +30241,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31400,8 +30266,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31426,8 +30291,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31452,8 +30316,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31478,8 +30341,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31504,8 +30366,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31530,8 +30391,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31556,8 +30416,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31582,8 +30441,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31608,8 +30466,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31634,8 +30491,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31660,8 +30516,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31686,8 +30541,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31712,8 +30566,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31738,8 +30591,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31764,8 +30616,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31790,8 +30641,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31816,8 +30666,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31842,8 +30691,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31956,8 +30804,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -31982,8 +30829,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32008,8 +30854,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in Mongolia",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in Mongolia"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32034,8 +30879,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in Mongolia",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in Mongolia"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32060,8 +30904,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in Mongolia",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in Mongolia"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32086,8 +30929,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in Mongolia",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in Mongolia"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32112,8 +30954,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in Mongolia",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in Mongolia"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32138,8 +30979,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in Mongolia",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in Mongolia"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32164,8 +31004,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in Mongolia",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in Mongolia"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32190,8 +31029,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in Mongolia",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in Mongolia"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32216,8 +31054,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in Mongolia",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in Mongolia"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32242,8 +31079,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in Mongolia",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in Mongolia"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32268,8 +31104,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in Mongolia",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in Mongolia"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32294,8 +31129,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in Mongolia",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in Mongolia"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32320,8 +31154,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in Mongolia",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in Mongolia"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32346,8 +31179,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in Mongolia",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in Mongolia"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32372,8 +31204,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in Mongolia",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in Mongolia"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32398,8 +31229,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in Mongolia",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in Mongolia"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32424,8 +31254,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in Mongolia",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in Mongolia"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32450,7 +31279,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -32476,8 +31304,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32502,8 +31329,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32528,8 +31354,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in Mongolia",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in Mongolia"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32659,8 +31484,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32685,8 +31509,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32711,8 +31534,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32737,8 +31559,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32763,8 +31584,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32789,8 +31609,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32815,8 +31634,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32841,7 +31659,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -32867,8 +31684,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32893,8 +31709,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32919,8 +31734,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32945,8 +31759,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32971,8 +31784,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -32997,8 +31809,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33023,8 +31834,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33049,8 +31859,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33075,8 +31884,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33101,8 +31909,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33127,8 +31934,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33224,8 +32030,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33250,8 +32055,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33276,8 +32080,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33302,8 +32105,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33328,8 +32130,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33354,8 +32155,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33451,8 +32251,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33477,8 +32276,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33503,8 +32301,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33529,8 +32326,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33555,8 +32351,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33581,8 +32376,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33607,8 +32401,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33633,8 +32426,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33659,8 +32451,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33685,8 +32476,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33711,8 +32501,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33737,8 +32526,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33763,8 +32551,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33789,8 +32576,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33815,8 +32601,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33841,8 +32626,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33867,8 +32651,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33893,8 +32676,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33919,8 +32701,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33945,8 +32726,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33971,8 +32751,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -33997,8 +32776,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34023,8 +32801,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34049,8 +32826,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34075,8 +32851,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34101,8 +32876,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34181,8 +32955,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34207,8 +32980,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34233,8 +33005,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34259,8 +33030,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34285,8 +33055,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34311,8 +33080,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34337,8 +33105,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34363,8 +33130,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34389,8 +33155,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34415,8 +33180,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34441,8 +33205,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34467,8 +33230,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34493,8 +33255,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34519,8 +33280,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34545,8 +33305,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34571,8 +33330,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34597,8 +33355,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34623,8 +33380,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34649,8 +33405,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34675,8 +33430,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34701,8 +33455,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34781,8 +33534,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34807,8 +33559,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34833,8 +33584,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34859,8 +33609,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34885,8 +33634,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34911,8 +33659,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34937,8 +33684,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34963,8 +33709,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -34989,8 +33734,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35015,8 +33759,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35041,8 +33784,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35067,8 +33809,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35093,8 +33834,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35119,8 +33859,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35145,8 +33884,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35171,8 +33909,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35197,8 +33934,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35223,8 +33959,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35249,8 +33984,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35275,8 +34009,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35301,8 +34034,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35327,8 +34059,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35353,8 +34084,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35379,8 +34109,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35405,8 +34134,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35431,8 +34159,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35457,8 +34184,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35483,8 +34209,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35509,8 +34234,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35535,8 +34259,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35561,8 +34284,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35587,8 +34309,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35613,8 +34334,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35639,8 +34359,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35665,8 +34384,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35691,8 +34409,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35717,8 +34434,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35743,8 +34459,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35769,8 +34484,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35795,8 +34509,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35821,8 +34534,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35847,8 +34559,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35873,8 +34584,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35899,8 +34609,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35925,8 +34634,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35951,8 +34659,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -35977,8 +34684,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36003,8 +34709,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36029,8 +34734,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36055,8 +34759,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36081,8 +34784,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36107,8 +34809,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36133,8 +34834,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36159,8 +34859,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36185,8 +34884,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36211,8 +34909,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36237,8 +34934,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36263,8 +34959,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36289,8 +34984,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36315,8 +35009,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36341,8 +35034,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36367,8 +35059,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36393,7 +35084,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -36419,7 +35109,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -36445,7 +35134,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -36471,7 +35159,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -36497,8 +35184,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36523,8 +35209,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36549,8 +35234,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36575,8 +35259,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36601,8 +35284,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36627,8 +35309,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36653,8 +35334,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36679,8 +35359,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36705,8 +35384,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36870,8 +35548,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36896,8 +35573,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36922,8 +35598,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36948,8 +35623,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -36974,8 +35648,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37000,8 +35673,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37026,8 +35698,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37052,8 +35723,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37078,8 +35748,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37104,8 +35773,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37130,8 +35798,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37156,8 +35823,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37182,8 +35848,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37208,8 +35873,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37234,8 +35898,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37260,8 +35923,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37357,8 +36019,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37383,8 +36044,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37409,8 +36069,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37435,8 +36094,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37461,8 +36119,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37487,8 +36144,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37513,8 +36169,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Norwegian Mission In China ",
-                        "association": "protestant - foreign"
+                        "association": "Norwegian Mission In China "
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37593,8 +36248,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37619,8 +36273,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37645,8 +36298,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37671,8 +36323,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37697,8 +36348,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37723,8 +36373,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37749,8 +36398,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37775,8 +36423,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37801,8 +36448,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37827,8 +36473,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37853,8 +36498,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37879,8 +36523,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37905,8 +36548,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37931,8 +36573,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37957,8 +36598,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -37983,8 +36623,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38009,8 +36648,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38035,8 +36673,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38061,8 +36698,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38087,8 +36723,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38113,8 +36748,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38139,8 +36773,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38165,8 +36798,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38191,8 +36823,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38217,8 +36848,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38297,8 +36927,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38323,8 +36952,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38349,8 +36977,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38375,8 +37002,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38401,8 +37027,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38427,8 +37052,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38453,8 +37077,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38479,8 +37102,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38505,8 +37127,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38531,8 +37152,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38557,8 +37177,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38583,8 +37202,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38609,8 +37227,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38635,8 +37252,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38661,8 +37277,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38687,8 +37302,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38713,8 +37327,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38739,8 +37352,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38765,8 +37377,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38791,8 +37402,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38817,8 +37427,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38843,8 +37452,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38869,8 +37477,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38895,8 +37502,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38921,8 +37527,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38947,8 +37552,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38973,8 +37577,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -38999,8 +37602,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39025,8 +37627,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39051,8 +37652,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39077,8 +37677,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39103,8 +37702,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39129,8 +37727,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39155,8 +37752,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39181,8 +37777,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39207,8 +37802,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39233,8 +37827,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39259,8 +37852,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39285,8 +37877,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39311,8 +37902,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39337,8 +37927,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39363,8 +37952,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39389,8 +37977,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39415,8 +38002,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39441,8 +38027,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39467,8 +38052,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39493,8 +38077,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39519,8 +38102,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39545,8 +38127,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39571,8 +38152,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39597,8 +38177,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39623,8 +38202,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39649,8 +38227,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39675,8 +38252,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "baptist",
-                        "corp_name": "Baptist Missionary Society",
-                        "association": "protestant - foreign"
+                        "association": "Baptist Missionary Society"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -39701,7 +38277,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -39727,7 +38302,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -39753,7 +38327,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -39969,7 +38542,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -39995,7 +38567,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -40021,7 +38592,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -40047,7 +38617,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -40194,7 +38763,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -40220,7 +38788,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -40246,7 +38813,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -40359,7 +38925,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -40438,7 +39003,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -40464,7 +39028,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -40490,7 +39053,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -40516,7 +39078,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -40542,7 +39103,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -40568,7 +39128,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -40594,7 +39153,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -40620,7 +39178,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -40646,7 +39203,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -40672,7 +39228,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -40698,7 +39253,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -41015,8 +39569,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41041,8 +39594,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41067,8 +39619,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41093,8 +39644,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41119,8 +39669,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41145,8 +39694,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41171,8 +39719,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41197,8 +39744,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41223,8 +39769,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41249,8 +39794,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41275,8 +39819,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41301,8 +39844,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41327,8 +39869,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41353,8 +39894,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41379,8 +39919,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41405,8 +39944,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41431,8 +39969,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41457,8 +39994,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41483,8 +40019,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41509,8 +40044,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41535,8 +40069,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41561,8 +40094,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41587,8 +40119,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41613,8 +40144,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41639,8 +40169,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41665,8 +40194,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41691,8 +40219,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41717,8 +40244,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41743,8 +40269,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41769,8 +40294,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41795,8 +40319,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41821,8 +40344,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41847,8 +40369,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41873,8 +40394,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41899,8 +40419,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41925,8 +40444,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41951,8 +40469,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -41977,8 +40494,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42003,8 +40519,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42029,8 +40544,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42055,8 +40569,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42081,8 +40594,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42107,8 +40619,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42133,8 +40644,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42159,8 +40669,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42185,8 +40694,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42211,8 +40719,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42237,8 +40744,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42263,8 +40769,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42289,8 +40794,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42315,8 +40819,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42341,8 +40844,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42367,8 +40869,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42393,8 +40894,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42419,8 +40919,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42445,8 +40944,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42471,8 +40969,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42497,8 +40994,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42523,8 +41019,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42549,8 +41044,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42575,8 +41069,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42601,8 +41094,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42627,8 +41119,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42653,8 +41144,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42679,8 +41169,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42705,8 +41194,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42731,7 +41219,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -42757,7 +41244,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -42783,8 +41269,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42809,8 +41294,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42835,8 +41319,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42861,8 +41344,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -42887,8 +41369,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43017,8 +41498,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43043,8 +41523,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43069,8 +41548,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43095,8 +41573,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43121,8 +41598,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43147,8 +41623,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43173,8 +41648,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43199,8 +41673,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43225,8 +41698,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43251,8 +41723,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43277,8 +41748,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43303,8 +41773,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43329,8 +41798,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43355,8 +41823,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43381,8 +41848,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43407,8 +41873,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43433,8 +41898,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43459,8 +41923,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43485,8 +41948,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43511,8 +41973,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43537,8 +41998,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43563,8 +42023,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43589,8 +42048,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43615,8 +42073,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43641,8 +42098,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43667,8 +42123,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43693,8 +42148,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43719,8 +42173,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43745,8 +42198,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43771,8 +42223,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43797,8 +42248,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43823,8 +42273,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43849,8 +42298,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43875,8 +42323,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43901,8 +42348,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43927,8 +42373,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43953,8 +42398,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -43979,7 +42423,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -44005,8 +42448,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44031,8 +42473,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44057,8 +42498,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44083,8 +42523,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44109,8 +42548,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44135,8 +42573,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44161,8 +42598,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44187,8 +42623,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44213,8 +42648,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44239,8 +42673,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44265,8 +42698,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44291,8 +42723,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44317,8 +42748,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44343,7 +42773,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -44369,7 +42798,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -44395,7 +42823,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -44421,7 +42848,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -44447,8 +42873,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44473,8 +42898,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44499,8 +42923,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44525,8 +42948,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44551,8 +42973,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44577,8 +42998,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44603,8 +43023,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44629,8 +43048,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44655,8 +43073,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44681,8 +43098,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44707,8 +43123,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44733,8 +43148,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44759,8 +43173,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44785,8 +43198,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44811,8 +43223,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44837,8 +43248,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44863,8 +43273,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44889,8 +43298,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44915,8 +43323,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -44941,7 +43348,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -44967,7 +43373,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -45165,8 +43570,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45191,8 +43595,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45217,8 +43620,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45243,8 +43645,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45269,8 +43670,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45295,8 +43695,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Apostolic\n  Faith Mission",
-                        "association": "protestant - foreign"
+                        "association": "Apostolic\n  Faith Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45357,7 +43756,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -45454,8 +43852,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45480,8 +43877,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45506,8 +43902,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45532,8 +43927,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45558,8 +43952,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45584,8 +43977,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45610,8 +44002,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45636,8 +44027,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45662,8 +44052,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45688,8 +44077,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45714,8 +44102,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45740,8 +44127,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45766,8 +44152,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45792,8 +44177,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45818,8 +44202,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45844,8 +44227,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45870,8 +44252,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45896,8 +44277,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45922,8 +44302,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45948,8 +44327,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -45974,8 +44352,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46000,8 +44377,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46026,8 +44402,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46052,8 +44427,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46078,8 +44452,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46104,8 +44477,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46130,8 +44502,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46156,8 +44527,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46182,8 +44552,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46208,8 +44577,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46234,8 +44602,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46260,8 +44627,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46286,8 +44652,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46312,8 +44677,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46338,8 +44702,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46400,8 +44763,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46426,8 +44788,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46452,8 +44813,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46478,8 +44838,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46504,8 +44863,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46530,8 +44888,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46556,7 +44913,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -46582,8 +44938,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46608,8 +44963,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46634,8 +44988,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46660,8 +45013,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46686,8 +45038,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46712,8 +45063,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46738,7 +45088,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -46764,8 +45113,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46790,8 +45138,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46816,8 +45163,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46842,7 +45188,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -46868,7 +45213,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -46894,8 +45238,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46920,8 +45263,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46946,8 +45288,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46972,8 +45313,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -46998,8 +45338,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47024,8 +45363,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47050,8 +45388,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47076,8 +45413,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47102,8 +45438,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47128,8 +45463,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47154,8 +45488,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47180,8 +45513,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47206,8 +45538,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47232,8 +45563,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47258,7 +45588,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -47284,8 +45613,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47310,8 +45638,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47336,8 +45663,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47362,8 +45688,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47388,8 +45713,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47414,8 +45738,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47440,8 +45763,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47466,8 +45788,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47492,7 +45813,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -47518,8 +45838,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47544,8 +45863,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47570,8 +45888,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47596,8 +45913,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47622,7 +45938,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -47648,7 +45963,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -47674,7 +45988,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -47700,7 +46013,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -47726,8 +46038,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47752,8 +46063,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47778,7 +46088,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -47804,8 +46113,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47830,8 +46138,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47856,8 +46163,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47882,8 +46188,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47908,8 +46213,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47934,8 +46238,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47960,8 +46263,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -47986,8 +46288,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48012,8 +46313,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48038,8 +46338,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48064,7 +46363,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -48090,8 +46388,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48116,8 +46413,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48142,8 +46438,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48168,7 +46463,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -48194,8 +46488,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48220,8 +46513,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48246,8 +46538,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48272,8 +46563,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48298,8 +46588,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48324,8 +46613,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48350,8 +46638,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48376,8 +46663,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48402,8 +46688,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48428,8 +46713,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48454,8 +46738,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48480,8 +46763,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48506,8 +46788,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48532,8 +46813,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48558,8 +46838,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48584,8 +46863,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48610,8 +46888,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48636,8 +46913,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48662,8 +46938,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48688,8 +46963,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48714,8 +46988,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48740,8 +47013,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48766,8 +47038,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48792,8 +47063,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48818,8 +47088,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48844,8 +47113,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48870,8 +47138,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48896,8 +47163,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -48922,8 +47188,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Scandinavian Alliance Mission in China",
-                        "association": "protestant - foreign"
+                        "association": "Scandinavian Alliance Mission in China"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49086,7 +47351,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -49148,8 +47412,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49174,8 +47437,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49200,8 +47462,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49226,8 +47487,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49288,8 +47548,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49314,8 +47573,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49340,8 +47598,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49366,8 +47623,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49392,8 +47648,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49418,8 +47673,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49444,8 +47698,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49470,8 +47723,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49496,8 +47748,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49522,8 +47773,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49548,8 +47798,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49574,8 +47823,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49600,8 +47848,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49626,8 +47873,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49652,8 +47898,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49678,8 +47923,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49704,8 +47948,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49730,8 +47973,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49756,8 +47998,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49782,8 +48023,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49808,8 +48048,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49834,8 +48073,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49860,8 +48098,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49886,7 +48123,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -49912,8 +48148,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49938,8 +48173,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49964,8 +48198,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -49990,8 +48223,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -50016,8 +48248,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -50042,8 +48273,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -50068,8 +48298,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -50094,8 +48323,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -50120,8 +48348,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -50146,8 +48373,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -50172,8 +48398,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -50198,7 +48423,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -50224,8 +48448,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -50320,7 +48543,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -50346,7 +48568,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -50372,7 +48593,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -50398,7 +48618,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -50424,7 +48643,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -50450,7 +48668,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -50476,7 +48693,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -50502,7 +48718,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -50528,8 +48743,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -50554,8 +48768,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -50580,8 +48793,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -50606,8 +48818,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -50632,8 +48843,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -50658,8 +48868,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -50684,8 +48893,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -50710,8 +48918,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -50736,7 +48943,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -50762,7 +48968,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -50788,7 +48993,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -51054,8 +49258,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Tsehchowfu Mission",
-                        "association": "protestant - foreign"
+                        "association": "Tsehchowfu Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51080,8 +49283,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "Tsehchowfu Mission",
-                        "association": "protestant - foreign"
+                        "association": "Tsehchowfu Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51177,7 +49379,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -51256,8 +49457,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51282,8 +49482,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51308,8 +49507,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51334,8 +49532,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51360,8 +49557,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51386,8 +49582,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51412,8 +49607,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51438,8 +49632,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51464,8 +49657,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51490,8 +49682,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51516,8 +49707,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51542,8 +49732,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51568,8 +49757,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51594,8 +49782,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51620,7 +49807,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -51646,8 +49832,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51672,8 +49857,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51698,8 +49882,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51724,8 +49907,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51750,8 +49932,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51776,8 +49957,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51802,8 +49982,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51828,8 +50007,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51854,8 +50032,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51880,8 +50057,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51906,8 +50082,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51932,8 +50107,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51958,8 +50132,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -51984,8 +50157,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52010,8 +50182,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52036,8 +50207,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52062,8 +50232,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52088,8 +50257,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52114,8 +50282,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52140,8 +50307,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52166,8 +50332,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52192,8 +50357,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52218,7 +50382,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -52244,7 +50407,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -52270,8 +50432,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52296,8 +50457,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52322,8 +50482,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52348,8 +50507,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52374,8 +50532,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52504,8 +50661,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52530,8 +50686,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52556,8 +50711,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52582,8 +50736,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52608,8 +50761,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52634,8 +50786,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52660,8 +50811,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52686,8 +50836,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52712,8 +50861,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52738,8 +50886,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52764,8 +50911,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52790,8 +50936,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52816,8 +50961,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52842,8 +50986,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52868,8 +51011,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52894,8 +51036,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52920,8 +51061,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52946,8 +51086,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -52972,8 +51111,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -53034,7 +51172,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53096,7 +51233,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53158,7 +51294,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53272,7 +51407,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53298,7 +51432,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53324,7 +51457,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53350,7 +51482,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53376,7 +51507,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53402,7 +51532,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53428,7 +51557,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53454,7 +51582,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53480,7 +51607,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53506,7 +51632,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53532,7 +51657,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53558,7 +51682,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53584,7 +51707,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53610,7 +51732,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53636,7 +51757,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53662,7 +51782,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53688,7 +51807,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53714,7 +51832,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53740,7 +51857,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53766,7 +51882,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -53828,8 +51943,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -53854,8 +51968,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -53880,8 +51993,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -53906,8 +52018,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -53932,8 +52043,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -53958,8 +52068,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -53984,8 +52093,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54010,8 +52118,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54036,8 +52143,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54062,8 +52168,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54088,8 +52193,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54114,8 +52218,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54140,8 +52243,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54166,8 +52268,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54192,8 +52293,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54218,8 +52318,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54244,8 +52343,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54270,8 +52368,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54296,8 +52393,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54322,8 +52418,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54348,8 +52443,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54374,8 +52468,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54400,8 +52493,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54426,8 +52518,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54452,8 +52543,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54478,8 +52568,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54504,8 +52593,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54530,8 +52618,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54609,7 +52696,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -54635,7 +52721,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -54697,8 +52782,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54723,8 +52807,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54749,8 +52832,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54775,8 +52857,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54801,8 +52882,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54827,8 +52907,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54853,8 +52932,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54879,8 +52957,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54905,8 +52982,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54931,8 +53007,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54957,8 +53032,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -54983,8 +53057,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55009,8 +53082,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55035,8 +53107,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55061,8 +53132,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55087,8 +53157,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55113,8 +53182,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55139,8 +53207,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55165,8 +53232,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55191,8 +53257,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55217,8 +53282,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55243,8 +53307,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55269,8 +53332,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55295,8 +53357,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55321,8 +53382,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55347,8 +53407,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55373,8 +53432,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55399,8 +53457,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55425,8 +53482,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55487,7 +53543,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -55549,7 +53604,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -55575,7 +53629,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -55637,8 +53690,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55663,8 +53715,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55689,8 +53740,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55715,8 +53765,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55741,8 +53790,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55767,8 +53815,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55793,8 +53840,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55819,8 +53865,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55845,8 +53890,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55871,8 +53915,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55897,8 +53940,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55923,8 +53965,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55949,8 +53990,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -55975,8 +54015,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56001,8 +54040,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56027,8 +54065,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56053,8 +54090,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56079,8 +54115,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56105,8 +54140,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56131,8 +54165,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56157,8 +54190,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56183,8 +54215,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56209,8 +54240,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56235,8 +54265,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56261,8 +54290,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56287,8 +54315,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56313,8 +54340,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56339,8 +54365,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56365,8 +54390,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56391,8 +54415,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56417,8 +54440,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56443,8 +54465,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56469,8 +54490,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56495,8 +54515,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56521,8 +54540,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56547,8 +54565,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56573,8 +54590,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56635,8 +54651,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56661,8 +54676,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56687,8 +54701,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56713,8 +54726,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56739,8 +54751,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56765,8 +54776,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56791,8 +54801,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56817,8 +54826,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56843,8 +54851,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56869,8 +54876,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56895,8 +54901,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56921,8 +54926,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56947,8 +54951,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56973,8 +54976,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -56999,8 +55001,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57025,8 +55026,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57051,8 +55051,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57077,8 +55076,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57103,8 +55101,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57129,8 +55126,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57155,8 +55151,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57181,8 +55176,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57207,8 +55201,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57233,8 +55226,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57259,8 +55251,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57285,8 +55276,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57311,8 +55301,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57337,8 +55326,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57363,8 +55351,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57389,8 +55376,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57415,8 +55401,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57441,8 +55426,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57467,8 +55451,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57493,8 +55476,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57519,8 +55501,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57581,8 +55562,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57607,8 +55587,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57633,8 +55612,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57659,8 +55637,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57685,8 +55662,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57711,8 +55687,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57737,8 +55712,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57763,8 +55737,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57789,8 +55762,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57815,8 +55787,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57841,8 +55812,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57867,8 +55837,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57893,8 +55862,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57919,8 +55887,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57945,8 +55912,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57971,8 +55937,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -57997,8 +55962,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58023,8 +55987,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58049,8 +56012,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58075,8 +56037,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58101,8 +56062,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58127,8 +56087,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58153,8 +56112,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58179,8 +56137,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58205,8 +56162,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58231,8 +56187,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58257,8 +56212,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58283,8 +56237,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58309,8 +56262,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58335,8 +56287,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58361,8 +56312,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58387,8 +56337,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58413,8 +56362,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58439,8 +56387,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58465,8 +56412,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58491,8 +56437,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58517,8 +56462,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58543,8 +56487,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58569,8 +56512,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58595,8 +56537,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58621,8 +56562,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58647,8 +56587,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58673,8 +56612,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58699,8 +56637,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58725,8 +56662,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58751,8 +56687,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58777,8 +56712,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58803,8 +56737,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58829,8 +56762,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58855,8 +56787,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58881,8 +56812,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58907,8 +56837,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58933,8 +56862,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58959,8 +56887,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -58985,8 +56912,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59011,8 +56937,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59037,8 +56962,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59063,8 +56987,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59089,8 +57012,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59115,8 +57037,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59141,8 +57062,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59167,8 +57087,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59193,8 +57112,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59219,8 +57137,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59245,8 +57162,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59271,8 +57187,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59297,8 +57212,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59323,8 +57237,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59349,8 +57262,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59375,8 +57287,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59401,8 +57312,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59427,8 +57337,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59453,8 +57362,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59479,8 +57387,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59505,8 +57412,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59531,8 +57437,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59557,8 +57462,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59583,8 +57487,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59609,8 +57512,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59635,8 +57537,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59661,8 +57562,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59687,8 +57587,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59713,8 +57612,7 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "China\n  Inland Mission",
-                        "association": "protestant - foreign"
+                        "association": "China\n  Inland Mission"
                     },
                     "type": "person",
                     "nationality": "N/A",
@@ -59775,7 +57673,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -59837,7 +57734,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
@@ -59899,7 +57795,6 @@ export default
                     },
                     "tradition": {
                         "religious_family": "N/A",
-                        "corp_name": "N/A",
                         "association": "N/A"
                     },
                     "type": "person",
