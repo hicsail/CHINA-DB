@@ -70,7 +70,6 @@ class PersonParser(Parser):
         ret = \
             {
                 "religious_family": "N/A",
-                "corp_name": "N/A",
                 "association": "N/A"
             }
 
