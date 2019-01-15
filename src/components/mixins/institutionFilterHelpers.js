@@ -5,37 +5,27 @@ export const InstitutionFilterHelpers = {
     {
       let markerData={};
       let markersToPush = [];
-      let markersAddedSoFar = [];
+      let uniqId = 0;
 
       //for each location (i)
       for (let i = 0; i < featureArray.length; i++)
       {
-
         let dataArray = featureArray[i].properties.institutions;
-
         // for each object entry in location (i)
         for (let j = 0; j < dataArray.length; j++)
         {
-
-          let uniqId = this.getUniqueIdInst(featureArray[i], j);
-
           // check if any object attributes (time, loc, etc.) matches any filter
-          let matches = this.dataMatchesFilterInst(dataArray[j], filters, uniqId);
+          let matches = this.dataMatchesFilterInst(dataArray[j], filters);
 
           // if user selected a filter that has matching attribute data
           if (this.userSelectedAndFilterMatchesInst(matches, userSelections))
           {
-
-            // if not added yet, add new marker
-            if (markersAddedSoFar.indexOf(uniqId) === -1){
-              markersAddedSoFar.push(uniqId);
-              markerData=this.getMarkerDataInst(featureArray[i], j);
-              markersToPush.push(markerData);
-            }
+          	markerData=this.getMarkerDataInst(featureArray[i], j, uniqId);
+          	uniqId++;
+          	markersToPush.push(markerData);
           }
         }
       }
-
       return markersToPush;
     },
     getMarkerDataInst(featureArrayEntry, j, uniqId){
@@ -45,12 +35,6 @@ export const InstitutionFilterHelpers = {
       markerData.lat = featureArrayEntry.geometry.coordinates[1];
       markerData.data = featureArrayEntry.properties.institutions[j];
       return markerData;
-    },
-    getUniqueIdInst(featureArrayEntry,j){
-      let name = featureArrayEntry.properties.institutions[j].name;
-      let startName = featureArrayEntry.properties.institutions[j].start_year;
-      let location = featureArrayEntry.properties.institutions[j].loc.location_name;
-      return name + startName + location;
     },
     dataMatchesFilterInst(featureEntry, filters) {
       /*

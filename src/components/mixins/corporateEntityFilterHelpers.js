@@ -7,37 +7,26 @@ export const CorporateEntityFilterHelpers = {
 
       let markerData={};
       let markersToPush = [];
-      let markersAddedSoFar = [];
+      let uniqId = 0;
 
       //for each location (i)
       for (let i = 0; i < featureArray.length; i++)
       {
-
         let dataArray = featureArray[i].properties.corporate_entities;
-
         // for each object entry in location (i)
         for (let j = 0; j < dataArray.length; j++)
         {
-
-          let uniqId = this.getUniqueIdCorp(featureArray[i], j);
-
           // check if any object attributes (time, loc, etc.) matches any filter
-          let matches = this.dataMatchesFilterCorp(dataArray[j], filtersCorp, uniqId);
-
+          let matches = this.dataMatchesFilterCorp(dataArray[j], filtersCorp);
           // if user selected a filter that has matching attribute data
           if (this.userSelectedAndFilterMatchesCorp(matches, userSelections))
           {
-
-            // if not added yet, add new marker
-            if (markersAddedSoFar.indexOf(uniqId) === -1){
-              markersAddedSoFar.push(uniqId);
-              markerData=this.getMarkerDataCorp(featureArray[i], j);
-              markersToPush.push(markerData);
-            }
+          	markerData=this.getMarkerDataCorp(featureArray[i], j, uniqId);
+          	uniqId++;
+          	markersToPush.push(markerData);
           }
         }
       }
-
       return markersToPush;
     },
     getMarkerDataCorp(featureArrayEntry, j, uniqId){
