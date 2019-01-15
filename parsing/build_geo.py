@@ -15,4 +15,4 @@ base_dir_path = "/".join(dir_path.split("/")[:-1])
 
 cmd = "mv /tmp/geo_all.js {}/src/assets/geo.js".format(base_dir_path)
 
-call(["/bin/bash", cmd], shell=True)
+call(cmd, shell=True)
