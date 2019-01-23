@@ -181,10 +181,3 @@ class CorpEntityParser(Parser):
                 continue
 
         return ret
-
-
-
-
-
-
-

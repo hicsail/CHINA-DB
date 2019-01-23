@@ -132,8 +132,8 @@ class Parser:
 
     def build_records(self):
         """
-        Maps each Person record to its set of institutions / coordinates / time data,
-        then consolidates that list into a GeoJson formatted list of points with all
+        Maps each record to its set of filter data, then consolidates
+        that list into a GeoJson formatted list of points with all
         matching objects for each point stored in a list on that point.
         """
 
