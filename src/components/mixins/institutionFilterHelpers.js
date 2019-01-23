@@ -101,7 +101,7 @@ export const InstitutionFilterHelpers = {
     },
     filterByNationalityInst(thisNationality, filters) {
 
-      if (filters.searchNationality == ''){
+      if (filters.searchNationality === ''){
         return false;
       }
 
@@ -112,7 +112,7 @@ export const InstitutionFilterHelpers = {
       return false;
     },
     filterByNameInst(thisName, filters) {
-      if (filters.searchName == ''){
+      if (filters.searchName === ''){
         return false;
       }
 
@@ -123,7 +123,7 @@ export const InstitutionFilterHelpers = {
       return false;
     },
     filterByTypeInst(thisType, filters) {
-      if (filters.searchType == ''){
+      if (filters.searchType === ''){
         return false;
       }
 
@@ -136,7 +136,7 @@ export const InstitutionFilterHelpers = {
     },
     filterByLocationInst(thisLocationType, thisLocationName, filters) {
 
-      if (filters.searchLocation == ''){
+      if (filters.searchLocation === ''){
         return false;
       }
 
@@ -148,7 +148,7 @@ export const InstitutionFilterHelpers = {
       return false;
     },
     filterByAssociationInst(thisAssoc, filters) {
-      if (filters.searchAssociation == ''){
+      if (filters.searchAssociation === ''){
         return false;
       }
 
@@ -159,7 +159,7 @@ export const InstitutionFilterHelpers = {
       return false;
     },
     filterByReligiousFamilyInst(thisReligion, filters) {
-      if (filters.searchReligiousFam == ''){
+      if (filters.searchReligiousFam === ''){
         return false;
       }
 
