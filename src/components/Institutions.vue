@@ -1,3 +1,4 @@
+<!-- Shows institution filter options and filtered markers. -->
 <template>
     <div>
 

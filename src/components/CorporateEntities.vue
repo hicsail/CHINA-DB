@@ -1,3 +1,4 @@
+<!-- Shows corporate entity filter options and filtered markers. -->
 <template>
     <div>
 
@@ -180,9 +181,12 @@
               attributesSelected.name = true;
             }
 
-            let filterResultsCorp = { filtersCorp: filtersCorp, userSelections: attributesSelected};
+            let filterResultsCorp = {
+              filtersCorp: filtersCorp,
+              userSelections: attributesSelected,
+            clear:true};
 
-            this.$emit('filterCorporateEntities', filterResultsCorp);
+            this.$emit('filterCorporateEntities', (filterResultsCorp, true));
           },
           resetFiltersCorp(){
 

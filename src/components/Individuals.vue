@@ -1,6 +1,6 @@
+<!-- Shows individual filter options and filtered markers. -->
 <template>
     <div>
-
         <!-- year  -->
         <div class="row padding-top-only">
             <div class="col-md-1" ></div>
@@ -176,9 +176,12 @@
               attributesSelected.location = true;
             }
 
-            let filterResults = { filters: filters, userSelections: attributesSelected};
+            let filterResults = {
+              filters: filters,
+              userSelections: attributesSelected,
+              clear:true};
 
-            this.$emit('filterIndividual', filterResults);
+            this.$emit('filterIndividual', (filterResults, true));
           },
           resetFilters(){
             this.filters.sliderVals.values = [1600, 1930];

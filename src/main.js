@@ -15,6 +15,8 @@ import './assets/leaflet.awesome-markers.js';
 
 library.add(faBars, faBuilding, faChevronDown, faChevronUp, faChurch, faFilter, faMale, faMapMarker, faRedo, faTimes, faUniversity);
 
+window.EventBus = new Vue();
+
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.use(BootstrapVue);

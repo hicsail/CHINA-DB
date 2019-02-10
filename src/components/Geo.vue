@@ -16,6 +16,8 @@
         </div>
 
 
+
+
         <!-- FILTER BOX OVERLAY -->
         <div v-if="openOverlay" class="overlay-top transparent-background padding">
             <b-container>
@@ -37,6 +39,7 @@
                     </div>
 
                 </div>
+
 
                 <!--INDIVIDUALS -->
                     <div class="row">
@@ -69,7 +72,6 @@
 
 
                 <!-- INSTITUTIONS -->
-                <!-- TODO 1)type, 2)nationality, 3) religious family, 4) denomination, 5) name, and 6) where and when it existed. -->
                 <div class="row padding-neg">
 
                     <div v-b-toggle.accordion2 class="row center-button drop-down-div"  v-on:click="institutionsSelected = !institutionsSelected" >
@@ -151,6 +153,17 @@
         </div>
 
 
+        <IndividualsOnLoad
+                ref="individualOnLoadComponent"
+                @filterIndividual="filterIndividual"/>
+        <InstitutionsOnLoad
+                ref="corporateEntitiesOnLoadComponent"
+                @filterInstitutions="filterInstitutions"/>
+        <CorporateEntitiesOnLoad
+                ref="corporateEntitiesOnLoadComponent"
+                @filterCorporateEntities="filterCorporateEntities"/>
+
+
 
         <!---- MAP ----->
         <div class="row overlay-bottom">
@@ -193,8 +206,11 @@
 	import 'bootstrap-vue/dist/bootstrap-vue.css'
     import "leaflet/dist/leaflet.css"
     import Individuals from "./Individuals.vue";
+    import IndividualsOnLoad from "./IndividualsOnLoad.vue";
     import Institutions from "./Institutions.vue";
+    import InstitutionsOnLoad from "./InstitutionsOnLoad.vue";
     import CorporateEntities from "./CorporateEntities.vue";
+    import CorporateEntitiesOnLoad from "./CorporateEntitiesOnLoad.vue";
     import  { PopupContent }  from "./mixins/popupContent";
     import  { DropPins }  from "./mixins/dropPins";
     import  { IndividualFilterHelpers }  from "./mixins/individualFilterHelpers";
@@ -212,8 +228,11 @@
           LPopup,
           LRectangle,
           Individuals,
+          IndividualsOnLoad,
           Institutions,
+          InstitutionsOnLoad,
           CorporateEntities,
+          CorporateEntitiesOnLoad,
           PopupContent,
           'l-marker-cluster': Vue2LeafletMarkercluster
 		},
@@ -242,6 +261,12 @@
           clusterOptions: {disableClusteringAtZoom: 11}
 
         }),
+        mounted() {
+		  //Show all markers for each data type
+          EventBus.$emit('showIndivOnLoad');
+          EventBus.$emit('showInstitutionsOnLoad');
+          EventBus.$emit('showCorporateEntitiesOnLoad');
+        },
 		methods: {
           pushMarker(markerData)
           {
@@ -253,18 +278,23 @@
                 };
             this.markers.push(newMarker);
           },
-          filterIndividual(data){
+          filterIndividual(data, clearMarkers){
             this.dropPin = this.getIndividualPin();
-            this.markers = [];
+            if (clearMarkers) {
+              this.markers = [];
+            }
+
             let markersToPush = this.filterIndividualHelper(data.filters, data.userSelections, geoData.coords.features);
             markersToPush.forEach((m)=> {
               this.pushMarker(m);
             });
             this.filtersCleared = false;
           },
-          filterInstitutions(data){
+          filterInstitutions(data, clearMarkers){
             this.dropPin = this.getInstitutionPin();
-            this.markers = [];
+            if (clearMarkers) {
+              this.markers = [];
+            }
             let markersToPush = this.filterInstitutionHelper(data.filters, data.userSelections, geoData.coords.features);
             markersToPush.forEach((m)=> {
               this.pushMarker(m);
@@ -274,13 +304,43 @@
           filterCorporateEntities(data){
 
             this.dropPin = this.getCorporateEntityPin();
-            this.markers = [];
+            if (data.clear) {
+              console.log("CLEARING MARKERS.");
+              this.markers = [];
+            } else {
+              console.log("not clearing markers.");
+            }
             let markersToPush = this.filterCorporateEntityHelper(data.filtersCorp, data.userSelections, geoData.coords.features);
             markersToPush.forEach((m)=> {
               this.pushMarker(m);
             });
             this.filtersCleared = false;
           },
+          // showAllMarkers(data){
+          //
+          //
+          //   // this.markers = [];
+          //   if (data.type === "individuals"){
+          //     this.markers = [];
+          //     this.dropPin = this.getIndividualPin();
+          //     let markersToPush = this.filterIndividualHelper(data.filters, data.userSelections, geoData.coords.features);
+          //     markersToPush.forEach((m)=> {
+          //       this.pushMarker(m);
+          //     });
+          //   }
+          //
+          //   if (data.type === "corporate") {
+          //     this.dropPin = this.getCorporateEntityPin();
+          //     let markersToPush = this.filterCorporateEntityHelper(data.filtersCorp, data.userSelections, geoData.coords.features);
+          //     markersToPush.forEach((m)=> {
+          //       this.pushMarker(m);
+          //     });
+          //   }
+          //
+          //
+          //
+          //   this.filtersCleared = false;
+          // },
           resetFilters(){
             this.$refs.individualComponent.resetFilters();
             this.$refs.institutionComponent.resetFiltersInst();
