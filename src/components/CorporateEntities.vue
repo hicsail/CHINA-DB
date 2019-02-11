@@ -184,9 +184,9 @@
             let filterResultsCorp = {
               filtersCorp: filtersCorp,
               userSelections: attributesSelected,
-            clear:true};
+              clear:true};
 
-            this.$emit('filterCorporateEntities', (filterResultsCorp, true));
+            this.$emit('filterCorporateEntities', filterResultsCorp);
           },
           resetFiltersCorp(){
 

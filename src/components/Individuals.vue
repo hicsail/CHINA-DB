@@ -181,7 +181,7 @@
               userSelections: attributesSelected,
               clear:true};
 
-            this.$emit('filterIndividual', (filterResults, true));
+            this.$emit('filterIndividual', filterResults);
           },
           resetFilters(){
             this.filters.sliderVals.values = [1600, 1930];

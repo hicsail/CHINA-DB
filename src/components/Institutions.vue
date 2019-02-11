@@ -230,7 +230,10 @@
               attributesSelected.religious_family = true;
             }
 
-            let filterResults = { filters: filters, userSelections: attributesSelected};
+            let filterResults = {
+              filters: filters,
+              userSelections: attributesSelected,
+              clear: true};
 
             this.$emit('filterInstitutions', filterResults);
           },

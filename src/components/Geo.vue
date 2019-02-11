@@ -152,17 +152,18 @@
             </b-container>
         </div>
 
-
-        <IndividualsOnLoad
-                ref="individualOnLoadComponent"
-                @filterIndividual="filterIndividual"/>
-        <InstitutionsOnLoad
-                ref="corporateEntitiesOnLoadComponent"
-                @filterInstitutions="filterInstitutions"/>
-        <CorporateEntitiesOnLoad
-                ref="corporateEntitiesOnLoadComponent"
-                @filterCorporateEntities="filterCorporateEntities"/>
-
+        <!-- If user is not filtering data, show all markers on map. -->
+        <div v-if="(!individualsSelected && !institutionsSelected && !corporateEntitiesSelected)">
+            <IndividualsOnLoad
+                    ref="individualOnLoadComponent"
+                    @filterIndividual="filterIndividual"/>
+            <InstitutionsOnLoad
+                    ref="corporateEntitiesOnLoadComponent"
+                    @filterInstitutions="filterInstitutions"/>
+            <CorporateEntitiesOnLoad
+                    ref="corporateEntitiesOnLoadComponent"
+                    @filterCorporateEntities="filterCorporateEntities"/>
+        </div>
 
 
         <!---- MAP ----->
@@ -183,7 +184,7 @@
                                     :key="marker.id"
                                     :lat-lng="marker.position"
                                     :visible="marker.visible"
-                                    :icon="dropPin">
+                                    :icon="marker.icon">
                                 <l-popup
                                         :content="marker.popupContent"
                                 />
@@ -193,6 +194,7 @@
                 </div>
             </div>
         </div>
+
 
     </div>
 </template>
@@ -246,6 +248,7 @@
           }),
           filters: {},
           dropPin:{},
+          dropPins:[],
           zoom: 7,
           center: [35.026413, 111.007530],
           url: 'https://api.tiles.mapbox.com/v4/mapbox.light/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWJvdWNoYXVkIiwiYSI6ImNpdTA5bWw1azAyZDIyeXBqOWkxOGJ1dnkifQ.qha33VjEDTqcHQbibgHw3w',
@@ -268,79 +271,53 @@
           EventBus.$emit('showCorporateEntitiesOnLoad');
         },
 		methods: {
-          pushMarker(markerData)
+          pushMarker(markerData, dropPin)
           {
             let newMarker = {
                   id: markerData.id,
                   position: [markerData.lat, markerData.lon],
                   visible: true,
-                  popupContent: this.getPopupContent(markerData.data)
+                  popupContent: this.getPopupContent(markerData.data),
+                  icon: dropPin
                 };
             this.markers.push(newMarker);
           },
-          filterIndividual(data, clearMarkers){
+          filterIndividual(data){
             this.dropPin = this.getIndividualPin();
-            if (clearMarkers) {
+            if (data.clear) {
               this.markers = [];
             }
 
             let markersToPush = this.filterIndividualHelper(data.filters, data.userSelections, geoData.coords.features);
             markersToPush.forEach((m)=> {
-              this.pushMarker(m);
+              this.pushMarker(m, this.dropPin);
             });
             this.filtersCleared = false;
           },
-          filterInstitutions(data, clearMarkers){
+          filterInstitutions(data){
             this.dropPin = this.getInstitutionPin();
-            if (clearMarkers) {
+            if (data.clear) {
               this.markers = [];
             }
+
             let markersToPush = this.filterInstitutionHelper(data.filters, data.userSelections, geoData.coords.features);
             markersToPush.forEach((m)=> {
-              this.pushMarker(m);
+              this.pushMarker(m, this.dropPin);
             });
             this.filtersCleared = false;
           },
           filterCorporateEntities(data){
-
             this.dropPin = this.getCorporateEntityPin();
             if (data.clear) {
-              console.log("CLEARING MARKERS.");
               this.markers = [];
-            } else {
-              console.log("not clearing markers.");
             }
+
             let markersToPush = this.filterCorporateEntityHelper(data.filtersCorp, data.userSelections, geoData.coords.features);
             markersToPush.forEach((m)=> {
-              this.pushMarker(m);
+              this.pushMarker(m, this.dropPin);
             });
             this.filtersCleared = false;
           },
-          // showAllMarkers(data){
-          //
-          //
-          //   // this.markers = [];
-          //   if (data.type === "individuals"){
-          //     this.markers = [];
-          //     this.dropPin = this.getIndividualPin();
-          //     let markersToPush = this.filterIndividualHelper(data.filters, data.userSelections, geoData.coords.features);
-          //     markersToPush.forEach((m)=> {
-          //       this.pushMarker(m);
-          //     });
-          //   }
-          //
-          //   if (data.type === "corporate") {
-          //     this.dropPin = this.getCorporateEntityPin();
-          //     let markersToPush = this.filterCorporateEntityHelper(data.filtersCorp, data.userSelections, geoData.coords.features);
-          //     markersToPush.forEach((m)=> {
-          //       this.pushMarker(m);
-          //     });
-          //   }
-          //
-          //
-          //
-          //   this.filtersCleared = false;
-          // },
           resetFilters(){
             this.$refs.individualComponent.resetFilters();
             this.$refs.institutionComponent.resetFiltersInst();
