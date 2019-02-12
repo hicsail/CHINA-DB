@@ -154,15 +154,24 @@
 
         <!-- If user is not filtering data, show all markers on map. -->
         <div v-if="(!individualsSelected && !institutionsSelected && !corporateEntitiesSelected)">
-            <IndividualsOnLoad
-                    ref="individualOnLoadComponent"
-                    @filterIndividual="filterIndividual"/>
-            <InstitutionsOnLoad
-                    ref="corporateEntitiesOnLoadComponent"
-                    @filterInstitutions="filterInstitutions"/>
-            <CorporateEntitiesOnLoad
-                    ref="corporateEntitiesOnLoadComponent"
-                    @filterCorporateEntities="filterCorporateEntities"/>
+            <Individuals
+                    ref="individualComponent"
+                    :individualsSelected="individualsSelected"
+                    :openOverlay="openOverlay"
+                    @filterIndividual="filterIndividual"
+            />
+            <Institutions
+                    ref="institutionComponent"
+                    :institutionsSelected="institutionsSelected"
+                    :openOverlay="openOverlay"
+                    @filterInstitutions="filterInstitutions"
+            />
+            <CorporateEntities
+                    ref="corporateEntitiesComponent"
+                    :corporateEntitiesSelected="corporateEntitiesSelected"
+                    :openOverlay="openOverlay"
+                    @filterCorporateEntities="filterCorporateEntities"
+            />
         </div>
 
 
@@ -208,11 +217,8 @@
 	import 'bootstrap-vue/dist/bootstrap-vue.css'
     import "leaflet/dist/leaflet.css"
     import Individuals from "./Individuals.vue";
-    import IndividualsOnLoad from "./IndividualsOnLoad.vue";
     import Institutions from "./Institutions.vue";
-    import InstitutionsOnLoad from "./InstitutionsOnLoad.vue";
     import CorporateEntities from "./CorporateEntities.vue";
-    import CorporateEntitiesOnLoad from "./CorporateEntitiesOnLoad.vue";
     import  { PopupContent }  from "./mixins/popupContent";
     import  { DropPins }  from "./mixins/dropPins";
     import  { IndividualFilterHelpers }  from "./mixins/individualFilterHelpers";
@@ -230,11 +236,8 @@
           LPopup,
           LRectangle,
           Individuals,
-          IndividualsOnLoad,
           Institutions,
-          InstitutionsOnLoad,
           CorporateEntities,
-          CorporateEntitiesOnLoad,
           PopupContent,
           'l-marker-cluster': Vue2LeafletMarkercluster
 		},
@@ -265,10 +268,9 @@
 
         }),
         mounted() {
-		  //Show all markers for each data type
-          EventBus.$emit('showIndivOnLoad');
-          EventBus.$emit('showInstitutionsOnLoad');
-          EventBus.$emit('showCorporateEntitiesOnLoad');
+		  // Show all markers for each data type
+          EventBus.$emit('showAllMarkers');
+
         },
 		methods: {
           pushMarker(markerData, dropPin)

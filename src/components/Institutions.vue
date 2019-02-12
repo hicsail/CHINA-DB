@@ -1,6 +1,5 @@
-<!-- Shows institution filter options and filtered markers. -->
 <template>
-    <div>
+    <div v-if="institutionsSelected">
 
         <!-- year  -->
         <div class="row padding-top-only">
@@ -246,7 +245,29 @@
             this.filters.searchReligiousFam = "";
             this.filters.searchAssociation = "";
           }
-        }
+        },
+      created() {
+
+        EventBus.$on('showAllMarkers', () => {
+
+          let attributesSelected = {
+            "years": true,
+            "nationality": false,
+            "name": false,
+            "type": false,
+            "location": false,
+            "association": false,
+            "religious_family": false
+          };
+
+          let filterResults = {
+            filters: this.filters,
+            userSelections: attributesSelected,
+            clear:false};
+
+          this.$emit('filterInstitutions', filterResults);
+        });
+      }
 	}
 </script>
 

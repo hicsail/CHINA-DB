@@ -1,6 +1,5 @@
-<!-- Shows corporate entity filter options and filtered markers. -->
 <template>
-    <div>
+    <div v-if="corporateEntitiesSelected">
 
         <!-- year  -->
         <div class="row padding-top-only">
@@ -196,7 +195,28 @@
             this.filtersCorp.searchAssociation= "";
             this.filtersCorp.searchName= "";
           }
-        }
+        },
+      created() {
+        console.log("in CE - created.");
+
+        EventBus.$on('showAllMarkers', () => {
+
+          let attributesSelected = {
+            "years": true,
+            "nationality": false,
+            "title": false,
+            "gender": false,
+            "location": false
+          };
+
+          let filterResultsCorp = {
+            filtersCorp: this.filtersCorp,
+            userSelections: attributesSelected,
+            clear:false};
+          this.$emit('filterCorporateEntities', filterResultsCorp);
+
+        });
+      }
 
     };
 </script>
