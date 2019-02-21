@@ -1,106 +1,108 @@
 <template>
     <div>
 
-        <!-- year  -->
-        <div class="row padding-top-only">
-            <div class="col-md-1" ></div>
-            <div class="col-md-10" >
-                <b-form-group class="padding-top-only"
-                              id="yearFilterSlider"
-                              v-if="openOverlay && individualsSelected"
-                              >
-                    <vue-slider class="style-slider"
-                                v-model="filters.sliderVals.value"
-                                v-bind="filters.sliderVals"
-                    />
-                </b-form-group>
+        <div v-if="(individualsSelected)">
+            <!-- year  -->
+            <div class="row padding-top-only">
+                <div class="col-md-1" ></div>
+                <div class="col-md-10" >
+                    <b-form-group class="padding-top-only"
+                                  id="yearFilterSlider"
+                                  v-if="openOverlay && individualsSelected"
+                                  >
+                        <vue-slider class="style-slider"
+                                    v-model="filters.sliderVals.value"
+                                    v-bind="filters.sliderVals"
+                        />
+                    </b-form-group>
+                </div>
+                <div class="col-md-1" ></div>
             </div>
-            <div class="col-md-1" ></div>
-        </div>
-        <div class="row grey-text center-item padding-top-neg" >Years</div>
+            <div class="row grey-text center-item padding-top-neg" >Years</div>
 
 
-        <!-- title and nationality-->
-        <div class="row padding-top-only">
-            <div class="col-md-1"></div>
-            <div class="col-md-4">
-                <b-form-group
-                        style="align-items: left"
-                        id="titleFilter"
-                        label-for="titleFilterBox">
-                    <b-form-input
-                            id="titleFilterBox"
-                            size="sm"
-                            type="text"
-                            v-model="filters.searchTitles"
-                            placeholder="">
-                    </b-form-input>
-                </b-form-group>
+            <!-- title and nationality-->
+            <div class="row padding-top-only">
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                    <b-form-group
+                            style="align-items: left"
+                            id="titleFilter"
+                            label-for="titleFilterBox">
+                        <b-form-input
+                                id="titleFilterBox"
+                                size="sm"
+                                type="text"
+                                v-model="filters.searchTitles"
+                                placeholder="">
+                        </b-form-input>
+                    </b-form-group>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                    <b-form-group
+                            id="nationalityFilter"
+                            label-for="nationalityFilterBox">
+                        <b-form-input
+                                id="nationalityFilterBox"
+                                size="sm"
+                                type="text"
+                                v-model="filters.searchNationality"
+                                placeholder="">
+                        </b-form-input>
+                    </b-form-group>
+                </div>
+                <div class="col-md-1"></div>
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-4">
-                <b-form-group
-                        id="nationalityFilter"
-                        label-for="nationalityFilterBox">
-                    <b-form-input
-                            id="nationalityFilterBox"
-                            size="sm"
-                            type="text"
-                            v-model="filters.searchNationality"
-                            placeholder="">
-                    </b-form-input>
-                </b-form-group>
-            </div>
-            <div class="col-md-1"></div>
-        </div>
-        <div class="row padding-neg">
-            <div class="col-md-1"></div>
-            <div class="col-md-4 grey-text" >Name</div>
-            <div class="col-md-1"></div>
-            <div class="col-md-4 grey-text">Nationality</div>
-            <div class="col-md-1"></div>
-        </div>
-
-        <!-- gender and location-->
-        <div class="row padding-top-only">
-            <div class="col-md-1"></div>
-            <div class="col-md-4">
-                <b-form-group
-                        id="locFilter"
-                        label-for="locFilterBox">
-                    <b-form-input
-                            id="locFilterBox"
-                            size="sm"
-                            type="text"
-                            v-model="filters.searchLocation"
-                            placeholder="name or type"
-
-                    >
-                    </b-form-input>
-                </b-form-group>
+            <div class="row padding-neg">
+                <div class="col-md-1"></div>
+                <div class="col-md-4 grey-text" >Name</div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4 grey-text">Nationality</div>
+                <div class="col-md-1"></div>
             </div>
 
-            <div class="col-md-6 grey-text" style="margin-left:40px">
-                <b-form-radio-group id="btnRadios"
-                                    sz="sm"
-                                    button-variant="outline-secondary"
-                                    v-model="filters.searchGender"
-                                    :options="genderOptions"
-                ></b-form-radio-group>
+            <!-- gender and location-->
+            <div class="row padding-top-only">
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                    <b-form-group
+                            id="locFilter"
+                            label-for="locFilterBox">
+                        <b-form-input
+                                id="locFilterBox"
+                                size="sm"
+                                type="text"
+                                v-model="filters.searchLocation"
+                                placeholder="name or type"
+
+                        >
+                        </b-form-input>
+                    </b-form-group>
+                </div>
+
+                <div class="col-md-6 grey-text" style="margin-left:40px">
+                    <b-form-radio-group id="btnRadios"
+                                        sz="sm"
+                                        button-variant="outline-secondary"
+                                        v-model="filters.searchGender"
+                                        :options="genderOptions"
+                    ></b-form-radio-group>
+                </div>
             </div>
-        </div>
 
-        <div class="row padding-bottom-only">
-            <div class="col-md-1"></div>
-            <div class="col-md-4 grey-text">Location</div>
-            <div class="col-md-1"></div>
-            <div class="col-md-4 grey-text">Gender</div>
-        </div>
+            <div class="row padding-bottom-only">
+                <div class="col-md-1"></div>
+                <div class="col-md-4 grey-text">Location</div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4 grey-text">Gender</div>
+            </div>
 
-        <div class="row padding-bottom-only center-item">
-            <b-button size="small" variant="primary" v-on:click="submit(filters)">Submit</b-button>
-        </div>
+            <div class="row padding-bottom-only center-item">
+                <b-button size="small" variant="primary" v-on:click="submit(filters)">Submit</b-button>
+            </div>
 
+        </div>
     </div>
 </template>
 
@@ -176,7 +178,10 @@
               attributesSelected.location = true;
             }
 
-            let filterResults = { filters: filters, userSelections: attributesSelected};
+            let filterResults = {
+              filters: filters,
+              userSelections: attributesSelected,
+              clear:true};
 
             this.$emit('filterIndividual', filterResults);
           },
@@ -187,7 +192,27 @@
             this.filters.searchGender= "Both";
             this.filters.searchLocation= "";
           }
-        }
+        },
+        created() {
+
+            EventBus.$on('showAllMarkers', () => {
+
+              let attributesSelected = {
+                "years": true,
+                "nationality": false,
+                "title": false,
+                "gender": false,
+                "location": false
+              };
+
+              let filterResults = {
+                filters: this.filters,
+                userSelections: attributesSelected,
+                clear:false};
+
+              this.$emit('filterIndividual', filterResults);
+            });
+      }
 
     };
 </script>

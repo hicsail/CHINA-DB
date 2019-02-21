@@ -16,6 +16,8 @@
         </div>
 
 
+
+
         <!-- FILTER BOX OVERLAY -->
         <div v-if="openOverlay" class="overlay-top transparent-background padding">
             <b-container>
@@ -37,6 +39,7 @@
                     </div>
 
                 </div>
+
 
                 <!--INDIVIDUALS -->
                     <div class="row">
@@ -69,7 +72,6 @@
 
 
                 <!-- INSTITUTIONS -->
-                <!-- TODO 1)type, 2)nationality, 3) religious family, 4) denomination, 5) name, and 6) where and when it existed. -->
                 <div class="row padding-neg">
 
                     <div v-b-toggle.accordion2 class="row center-button drop-down-div"  v-on:click="institutionsSelected = !institutionsSelected" >
@@ -150,6 +152,27 @@
             </b-container>
         </div>
 
+        <!-- If user is not filtering data, show all markers on map. -->
+        <div v-if="(!individualsSelected && !institutionsSelected && !corporateEntitiesSelected)">
+            <Individuals
+                    ref="individualComponent"
+                    :individualsSelected="individualsSelected"
+                    :openOverlay="openOverlay"
+                    @filterIndividual="filterIndividual"
+            />
+            <Institutions
+                    ref="institutionComponent"
+                    :institutionsSelected="institutionsSelected"
+                    :openOverlay="openOverlay"
+                    @filterInstitutions="filterInstitutions"
+            />
+            <CorporateEntities
+                    ref="corporateEntitiesComponent"
+                    :corporateEntitiesSelected="corporateEntitiesSelected"
+                    :openOverlay="openOverlay"
+                    @filterCorporateEntities="filterCorporateEntities"
+            />
+        </div>
 
 
         <!---- MAP ----->
@@ -170,7 +193,7 @@
                                     :key="marker.id"
                                     :lat-lng="marker.position"
                                     :visible="marker.visible"
-                                    :icon="dropPin">
+                                    :icon="marker.icon">
                                 <l-popup
                                         :content="marker.popupContent"
                                 />
@@ -180,6 +203,7 @@
                 </div>
             </div>
         </div>
+
 
     </div>
 </template>
@@ -227,6 +251,7 @@
           }),
           filters: {},
           dropPin:{},
+          dropPins:[],
           zoom: 7,
           center: [35.026413, 111.007530],
           url: 'https://api.tiles.mapbox.com/v4/mapbox.light/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWJvdWNoYXVkIiwiYSI6ImNpdTA5bWw1azAyZDIyeXBqOWkxOGJ1dnkifQ.qha33VjEDTqcHQbibgHw3w',
@@ -242,42 +267,56 @@
           clusterOptions: {disableClusteringAtZoom: 11}
 
         }),
+        mounted() {
+		  // Show all markers for each data type
+          EventBus.$emit('showAllMarkers');
+
+        },
 		methods: {
-          pushMarker(markerData)
+          pushMarker(markerData, dropPin)
           {
             let newMarker = {
                   id: markerData.id,
                   position: [markerData.lat, markerData.lon],
                   visible: true,
-                  popupContent: this.getPopupContent(markerData.data)
+                  popupContent: this.getPopupContent(markerData.data),
+                  icon: dropPin
                 };
             this.markers.push(newMarker);
           },
           filterIndividual(data){
             this.dropPin = this.getIndividualPin();
-            this.markers = [];
+            if (data.clear) {
+              this.markers = [];
+            }
+
             let markersToPush = this.filterIndividualHelper(data.filters, data.userSelections, geoData.coords.features);
             markersToPush.forEach((m)=> {
-              this.pushMarker(m);
+              this.pushMarker(m, this.dropPin);
             });
             this.filtersCleared = false;
           },
           filterInstitutions(data){
             this.dropPin = this.getInstitutionPin();
-            this.markers = [];
+            if (data.clear) {
+              this.markers = [];
+            }
+
             let markersToPush = this.filterInstitutionHelper(data.filters, data.userSelections, geoData.coords.features);
             markersToPush.forEach((m)=> {
-              this.pushMarker(m);
+              this.pushMarker(m, this.dropPin);
             });
             this.filtersCleared = false;
           },
           filterCorporateEntities(data){
-
             this.dropPin = this.getCorporateEntityPin();
-            this.markers = [];
+            if (data.clear) {
+              this.markers = [];
+            }
+
             let markersToPush = this.filterCorporateEntityHelper(data.filtersCorp, data.userSelections, geoData.coords.features);
             markersToPush.forEach((m)=> {
-              this.pushMarker(m);
+              this.pushMarker(m, this.dropPin);
             });
             this.filtersCleared = false;
           },

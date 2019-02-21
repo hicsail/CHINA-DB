@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div v-if="institutionsSelected">
 
         <!-- year  -->
         <div class="row padding-top-only">
@@ -229,7 +229,10 @@
               attributesSelected.religious_family = true;
             }
 
-            let filterResults = { filters: filters, userSelections: attributesSelected};
+            let filterResults = {
+              filters: filters,
+              userSelections: attributesSelected,
+              clear: true};
 
             this.$emit('filterInstitutions', filterResults);
           },
@@ -242,7 +245,29 @@
             this.filters.searchReligiousFam = "";
             this.filters.searchAssociation = "";
           }
-        }
+        },
+      created() {
+
+        EventBus.$on('showAllMarkers', () => {
+
+          let attributesSelected = {
+            "years": true,
+            "nationality": false,
+            "name": false,
+            "type": false,
+            "location": false,
+            "association": false,
+            "religious_family": false
+          };
+
+          let filterResults = {
+            filters: this.filters,
+            userSelections: attributesSelected,
+            clear:false};
+
+          this.$emit('filterInstitutions', filterResults);
+        });
+      }
 	}
 </script>
 

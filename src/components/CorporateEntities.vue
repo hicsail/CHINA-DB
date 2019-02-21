@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div v-if="corporateEntitiesSelected">
 
         <!-- year  -->
         <div class="row padding-top-only">
@@ -180,7 +180,10 @@
               attributesSelected.name = true;
             }
 
-            let filterResultsCorp = { filtersCorp: filtersCorp, userSelections: attributesSelected};
+            let filterResultsCorp = {
+              filtersCorp: filtersCorp,
+              userSelections: attributesSelected,
+              clear:true};
 
             this.$emit('filterCorporateEntities', filterResultsCorp);
           },
@@ -192,7 +195,28 @@
             this.filtersCorp.searchAssociation= "";
             this.filtersCorp.searchName= "";
           }
-        }
+        },
+      created() {
+        console.log("in CE - created.");
+
+        EventBus.$on('showAllMarkers', () => {
+
+          let attributesSelected = {
+            "years": true,
+            "nationality": false,
+            "title": false,
+            "gender": false,
+            "location": false
+          };
+
+          let filterResultsCorp = {
+            filtersCorp: this.filtersCorp,
+            userSelections: attributesSelected,
+            clear:false};
+          this.$emit('filterCorporateEntities', filterResultsCorp);
+
+        });
+      }
 
     };
 </script>
