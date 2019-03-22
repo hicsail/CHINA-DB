@@ -119,9 +119,9 @@
             {
               sliderVals:
                 {
-                  min: 1600,
-                  max: 1930,
-                  value: [1600, 1930],
+                  min: 1500,
+                  max: 1950,
+                  value: [1500, 1950],
                   formatter: "{value}",
                   mergeFormatter: "{value1} ~ {value2}",
                   tooltip: "always",

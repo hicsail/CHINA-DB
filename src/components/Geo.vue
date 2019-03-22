@@ -101,53 +101,53 @@
 
 
                 <!-- CORPORATE ENTITIES -->
-                <div class="row padding-neg">
+                <!--<div class="row padding-neg">-->
 
-                    <div v-b-toggle.accordion3 class="row center-button drop-down-div"  v-on:click="corporateEntitiesSelected = !corporateEntitiesSelected" >
-                        <div class="col-md-1 row-three-color center-item align-middle">
-                            <font-awesome-icon icon="building" size="2x"></font-awesome-icon>
-                        </div>
-                        <div class="col-md-9 drop-down-title-text">Corporate Entities</div>
-                        <div class="col-md-2 center-item">
-                            <font-awesome-icon v-if="!corporateEntitiesSelected" icon="chevron-down" class="grey" size="2x"></font-awesome-icon>
-                            <font-awesome-icon v-if="corporateEntitiesSelected" icon="chevron-up"  class="grey" size="2x"></font-awesome-icon>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <b-collapse id="accordion3" accordion="my-accordion" class=" white-background grey-border">
+                    <!--<div v-b-toggle.accordion3 class="row center-button drop-down-div"  v-on:click="corporateEntitiesSelected = !corporateEntitiesSelected" >-->
+                        <!--<div class="col-md-1 row-three-color center-item align-middle">-->
+                            <!--<font-awesome-icon icon="building" size="2x"></font-awesome-icon>-->
+                        <!--</div>-->
+                        <!--<div class="col-md-9 drop-down-title-text">Corporate Entities</div>-->
+                        <!--<div class="col-md-2 center-item">-->
+                            <!--<font-awesome-icon v-if="!corporateEntitiesSelected" icon="chevron-down" class="grey" size="2x"></font-awesome-icon>-->
+                            <!--<font-awesome-icon v-if="corporateEntitiesSelected" icon="chevron-up"  class="grey" size="2x"></font-awesome-icon>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-12">-->
+                        <!--<b-collapse id="accordion3" accordion="my-accordion" class=" white-background grey-border">-->
 
-                            <CorporateEntities
-                                    ref="corporateEntitiesComponent"
-                                    :corporateEntitiesSelected="corporateEntitiesSelected"
-                                    :openOverlay="openOverlay"
-                                    @filterCorporateEntities="filterCorporateEntities"
-                            />
+                            <!--<CorporateEntities-->
+                                    <!--ref="corporateEntitiesComponent"-->
+                                    <!--:corporateEntitiesSelected="corporateEntitiesSelected"-->
+                                    <!--:openOverlay="openOverlay"-->
+                                    <!--@filterCorporateEntities="filterCorporateEntities"-->
+                            <!--/>-->
 
-                        </b-collapse>
-                    </div>
-                </div>
+                        <!--</b-collapse>-->
+                    <!--</div>-->
+                <!--</div>-->
 
 
                 <!-- EVENTS -->
-                <div class="row padding-neg">
+                <!--<div class="row padding-neg">-->
 
-                    <div v-b-toggle.accordion4 class="row center-button drop-down-div"  v-on:click="eventsSelected = !eventsSelected" >
-                        <div class="col-md-1 row-four-color center-item align-middle">
-                            <font-awesome-icon icon="church" size="2x"></font-awesome-icon>
-                        </div>
-                        <div class="col-md-9 drop-down-title-text">Historical Events</div>
-                        <div class="col-md-2 center-item">
-                            <font-awesome-icon v-if="!eventsSelected" icon="chevron-down" class="grey" size="2x"></font-awesome-icon>
-                            <font-awesome-icon v-if="eventsSelected" icon="chevron-up"  class="grey" size="2x"></font-awesome-icon>
-                        </div>
-                    </div>
+                    <!--<div v-b-toggle.accordion4 class="row center-button drop-down-div"  v-on:click="eventsSelected = !eventsSelected" >-->
+                        <!--<div class="col-md-1 row-four-color center-item align-middle">-->
+                            <!--<font-awesome-icon icon="church" size="2x"></font-awesome-icon>-->
+                        <!--</div>-->
+                        <!--<div class="col-md-9 drop-down-title-text">Historical Events</div>-->
+                        <!--<div class="col-md-2 center-item">-->
+                            <!--<font-awesome-icon v-if="!eventsSelected" icon="chevron-down" class="grey" size="2x"></font-awesome-icon>-->
+                            <!--<font-awesome-icon v-if="eventsSelected" icon="chevron-up"  class="grey" size="2x"></font-awesome-icon>-->
+                        <!--</div>-->
+                    <!--</div>-->
 
-                    <div class="col-md-12">
-                        <b-collapse id="accordion4" accordion="my-accordion" class="white-background grey-border">
-                            <div class="grey-text center-item">TODO</div>
-                        </b-collapse>
-                    </div>
-                </div>
+                    <!--<div class="col-md-12">-->
+                        <!--<b-collapse id="accordion4" accordion="my-accordion" class="white-background grey-border">-->
+                            <!--<div class="grey-text center-item">TODO</div>-->
+                        <!--</b-collapse>-->
+                    <!--</div>-->
+                <!--</div>-->
 
             </b-container>
         </div>

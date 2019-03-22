@@ -21,12 +21,25 @@ export const PopupContent = {
        * @return       an HTML string to use as popup content
        */
 
-      let start = "<div><table><tbody>";
+
+      let start = "<div><h5>INDIVIDUAL</h5><table><tbody>";
+      let title = "Mr.";
+      if (data.gender === "female"){
+      	title = "Mrs."
+			}
+
       let name =
-				"<tr><td> Name: "
+				"<tr><td> Name: " + title + " "
 				+ this.capitalize(data.titles.given_name_en)
-				+ this.capitalize(data.titles.family_name_en)
+				+ " " + this.allCaps(data.titles.family_name_en)
+				+ " ( family_name_zh + given_name_zh) "
 				+ "</td></tr>";
+			let time =
+						"<tr><td>Lived: "
+						+ data.time.birth_year
+						+ "-"
+						+ data.time.death_year
+						+ "</td></tr>";
       let gender =
 				"<tr><td>Gender: "
 				+ this.capitalize(data.gender)
@@ -34,20 +47,6 @@ export const PopupContent = {
       let nationality =
 				"<tr><td>Nationality: "
 				+ this.capitalize(data.nationality)
-				+ "</td></tr>";
-			let startYear =
-				"<tr><td>Start Year: "
-				+ data.time.start_year
-				+ "</td></tr>";
-      let loc =
-				"<tr><td>Location: "
-				+ this.capitalize(data.loc.location_name)
-				+ "</td></tr>";
-      let time =
-				"<tr><td>Lived: "
-				+ data.time.birth_year
-				+ "-"
-				+ data.time.death_year
 				+ "</td></tr>";
 			let instName =
 				"<tr><td>Institution Name: "
@@ -61,14 +60,27 @@ export const PopupContent = {
 				"<tr><td>Religious Family: "
 				+ this.capitalize(data.tradition.religious_family)
 				+ "</td></tr>";
+			let startYear =
+						"<tr><td>Start Year: "
+						+ data.time.start_year
+						+ "</td></tr>";
+			let endYear =
+						"<tr><td>End Year: "
+						// + data.time.end_year TODO - new data will have this
+						+ "</td></tr>";
+			let loc =
+						"<tr><td>Location: "
+						+ this.capitalize(data.loc.location_name)
+						+ " ( name_zh ) "
+						+ "</td></tr>";
       let end =
 				"</tbody></table> </div>";
 
       let popupContent =
-				start + name + gender
-				+ nationality + instName + startYear
-				+ loc + time + instName
-			  + corp + rel + end;
+				start + name + time + gender
+				+ nationality + instName + corp
+				+ rel	+ startYear + endYear
+				+ loc + end;
 
       return popupContent
 				.replace(/, N\/A/g, '')
@@ -81,28 +93,17 @@ export const PopupContent = {
        * @return       an HTML string to use as popup content
        */
 
-      let start = '<div><table><tbody>';
+      let start = '<div><h5>INSTITUTION</h5><table><tbody>';
       let name =
 				"<tr><td>Name: "
 				+ this.capitalize(data.name)
+				+ " ( inst_name_zh ) "
 				+ "</td></tr>";
       let type =
 				"<tr><td>Type: "
 				+ this.capitalize(data.institution_type)
 				+ "</td></tr>";
-      let loc =
-				"<tr><td>Location: "
-				+ this.capitalize(data.loc.location_name)
-				+ "</td></tr>";
-      let time =
-				"<tr><td>Start Year: "
-				+ data.time.start_year
-				+ "</td></tr>";
-      let nationality =
-				"<tr><td>Nationality: "
-				+ this.capitalize(data.nationality)
-				+ "</td></tr>";
-      let relig = "<tr><td>Religious Family: </td></tr>";
+			let relig = "<tr><td>Religious Family: </td></tr>";
 			if (!(this.capitalize(data.corp_relations.religious_family).indexOf('N/A') > -1))
 			{
 				relig =
@@ -111,18 +112,35 @@ export const PopupContent = {
 					+ "</td></tr>";
 			}
 			let assoc = "<tr><td>Association:</td></tr> ";
-      if (!(this.capitalize(data.corp_relations.association).indexOf('N/A') > -1))
-      {
+			if (!(this.capitalize(data.corp_relations.association).indexOf('N/A') > -1))
+			{
 				assoc =
 					"<tr><td>Association: "
 					+ this.capitalize(data.corp_relations.association)
 					+ "</td></tr>";
-      }
+			}
+			let nationality =
+						"<tr><td>Nationality: "
+						+ this.capitalize(data.nationality)
+						+ "</td></tr>";
+      let loc =
+				"<tr><td>Location: "
+				+ this.capitalize(data.loc.location_name)
+				+ "</td></tr>";
+      let startYear =
+				"<tr><td>Start Year: "
+				+ data.time.start_year
+				+ "</td></tr>";
+			let endYear =
+						"<tr><td>End Year: "
+						// + data.time.end_year TODO new data will have this
+						+ "</td></tr>";
+
       let end = "</tbody></table></div>";
 
       let popupContent = start + name + type
-				+ loc + time + nationality
-				+ relig + assoc + end;
+				+ relig + assoc + nationality
+				+ loc + startYear + endYear + end;
 
       return popupContent
 				.replace(/, N\/A/g, '')
@@ -193,7 +211,14 @@ export const PopupContent = {
       }
 
       return capitalized;
-    }
+    },
+		allCaps(string){
+    	let allCaps = "";
+			for (let i = 0; i < string.length; i++){
+				allCaps += string.charAt(i).toUpperCase();
+			}
+			return allCaps;
+		}
   }
 };
 

@@ -5,7 +5,7 @@ export const InstitutionFilterHelpers = {
     {
       let markerData={};
       let markersToPush = [];
-      let uniqId = 0;
+      let markersAddedSoFar = [];
 
       //for each location (i)
       for (let i = 0; i < featureArray.length; i++)
@@ -20,9 +20,14 @@ export const InstitutionFilterHelpers = {
           // if user selected a filter that has matching attribute data
           if (this.userSelectedAndFilterMatchesInst(matches, userSelections))
           {
-          	markerData=this.getMarkerDataInst(featureArray[i], j, uniqId);
-          	uniqId++;
-          	markersToPush.push(markerData);
+
+            let uniqId = this.getUniqueInstId(featureArray[i], j);
+
+            if (markersAddedSoFar.indexOf(uniqId) === -1) {
+              markersAddedSoFar.push(uniqId);
+              markerData = this.getMarkerDataInst(featureArray[i], j, uniqId);
+              markersToPush.push(markerData);
+            }
           }
         }
       }
@@ -35,6 +40,12 @@ export const InstitutionFilterHelpers = {
       markerData.lat = featureArrayEntry.geometry.coordinates[1];
       markerData.data = featureArrayEntry.properties.institutions[j];
       return markerData;
+    },
+    getUniqueInstId(featureArrayEntry,j){
+      let name = featureArrayEntry.properties.institutions[j].name;
+      let time = featureArrayEntry.properties.institutions[j].time.start_year;
+      let type = featureArrayEntry.properties.institutions[j].institution_type;
+      return name + time + type;
     },
     dataMatchesFilterInst(featureEntry, filters) {
       /*
