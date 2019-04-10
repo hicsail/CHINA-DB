@@ -52,6 +52,75 @@ class Parser:
 
         return self.corporate_entity_type_table[type_id]["type_en"].lower()
 
+    def grab_province_from_township(self, t_rec):
+
+        try:
+            county_rec = t_rec["county_id"][0]
+            c_rec = self.county_table[county_rec]
+            pref_rec = c_rec["prefecture_id"][0]
+            p_rec = self.prefecture_table[pref_rec]
+            prov_rec = p_rec["province_id"][0]
+            province_record = self.province_table[prov_rec]
+            try:
+                name_en = province_record["name_en"]
+            except KeyError:
+                name_en = "N/A"
+            try:
+                name_py = province_record["name_py"]
+            except KeyError:
+                name_py = "N/A"
+            try:
+                name_zh = province_record["name_zh"]
+            except KeyError:
+                name_zh = "N/A"
+            return {"name_en": name_en, "name_py": name_py, "name_zh": name_zh}
+        except KeyError:
+            return {"name_en": "N/A", "name_py": "N/A", "name_zh": "N/A"}
+
+    def grab_province_from_county(self, c_rec):
+
+        try:
+            pref_rec = c_rec["prefecture_id"][0]
+            p_rec = self.prefecture_table[pref_rec]
+            prov_rec = p_rec["province_id"][0]
+            province_record = self.province_table[prov_rec]
+            try:
+                name_en = province_record["name_en"]
+            except KeyError:
+                name_en = "N/A"
+            try:
+                name_py = province_record["name_py"]
+            except KeyError:
+                name_py = "N/A"
+            try:
+                name_zh = province_record["name_zh"]
+            except KeyError:
+                name_zh = "N/A"
+            return {"name_en": name_en, "name_py": name_py, "name_zh": name_zh}
+        except KeyError:
+            return {"name_en": "N/A", "name_py": "N/A", "name_zh": "N/A"}
+
+    def grab_province_from_prefecture(self, p_rec):
+
+        try:
+            prov_rec = p_rec["province_id"][0]
+            province_record = self.province_table[prov_rec]
+            try:
+                name_en = province_record["name_en"]
+            except KeyError:
+                name_en = "N/A"
+            try:
+                name_py = province_record["name_py"]
+            except KeyError:
+                name_py = "N/A"
+            try:
+                name_zh = province_record["name_zh"]
+            except KeyError:
+                name_zh = "N/A"
+            return {"name_en": name_en, "name_py": name_py, "name_zh": name_zh}
+        except KeyError:
+            return {"name_en": "N/A", "name_py": "N/A", "name_zh": "N/A"}
+
     def fetch_geo(self, g):
         """
         Map location of a record to a township / county / prefecture / province
@@ -68,7 +137,8 @@ class Parser:
                 "loc":
                     {
                         "location_type": "N/A",
-                        "location_name": "N/A"
+                        "location_name": "N/A",
+                        "province_name": {}
                     }
             }
 
@@ -80,6 +150,7 @@ class Parser:
             rec["coords"]["lon"] = t_rec["longitude"]
             rec["loc"]["location_type"] = "township"
             rec["loc"]["location_name"] = t_rec["township_id"].lower()
+            rec["loc"]["province_name"] = self.grab_province_from_township(t_rec)
 
             return rec
 
@@ -94,6 +165,7 @@ class Parser:
             rec["coords"]["lon"] = c_rec["longitude"]
             rec["loc"]["location_type"] = "county"
             rec["loc"]["location_name"] = c_rec["county_id"].lower()
+            rec["loc"]["province_name"] = self.grab_province_from_county(c_rec)
 
             return rec
 
@@ -108,6 +180,7 @@ class Parser:
             rec["coords"]["lon"] = p_rec["longitude"]
             rec["loc"]["location_type"] = "prefecture"
             rec["loc"]["location_name"] = p_rec["prefecture_id"].lower()
+            rec["loc"]["province_name"] = self.grab_province_from_prefecture(p_rec)
 
             return rec
 
@@ -122,6 +195,24 @@ class Parser:
             rec["coords"]["lon"] = p_rec["longitude"]
             rec["loc"]["location_type"] = "province"
             rec["loc"]["location_name"] = p_rec["province_id"].lower()
+            try:
+                name_en = p_rec["name_en"]
+            except KeyError:
+                name_en = "N/A"
+            try:
+                name_py = p_rec["name_py"]
+            except KeyError:
+                name_py = "N/A"
+            try:
+                name_zh = p_rec["name_zh"]
+            except KeyError:
+                name_zh = "N/A"
+            rec["loc"]["province_name"] = \
+                {
+                    "name_en": name_en,
+                    "name_py": name_py,
+                    "name_zh": name_zh
+                }
 
             return rec
 

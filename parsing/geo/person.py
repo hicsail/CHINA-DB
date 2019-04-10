@@ -58,6 +58,7 @@ class PersonParser(Parser):
                 rec_copy["coords"]["lon"] = geo_rec["coords"]["lon"]
                 rec_copy["loc"]["location_type"] = geo_rec["loc"]["location_type"]
                 rec_copy["loc"]["location_name"] = geo_rec["loc"]["location_name"]
+                rec_copy["loc"]["province_name"] = geo_rec["loc"]["province_name"]
                 ret.append(rec_copy)
 
         return ret
@@ -179,14 +180,17 @@ class PersonParser(Parser):
                     "loc":
                         {
                             "location_type": "N/A",
-                            "location_name": "N/A"
+                            "location_name": "N/A",
+                            "province_name": {}
                         },
                     "titles":
                         {
                             "family_name_en": "N/A",
                             "given_name_en": "N/A",
                             "family_name_py": "N/A",
-                            "given_name_py": "N/A"
+                            "given_name_py": "N/A",
+                            "family_name_zh": "N/A",
+                            "given_name_zh": "N/A"
                         },
                     "tradition":
                         {

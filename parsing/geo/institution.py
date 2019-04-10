@@ -113,6 +113,7 @@ class InstitutionParser(Parser):
                 rec_copy["coords"]["lon"] = geo_rec["coords"]["lon"]
                 rec_copy["loc"]["location_type"] = geo_rec["loc"]["location_type"]
                 rec_copy["loc"]["location_name"] = geo_rec["loc"]["location_name"]
+                rec_copy["loc"]["province_name"] = geo_rec["loc"]["province_name"]
                 ret.append(rec_copy)
 
         return ret
@@ -145,7 +146,8 @@ class InstitutionParser(Parser):
                     "loc":
                         {
                             "location_type": "N/A",
-                            "location_name": "N/A"
+                            "location_name": "N/A",
+                            "province_name": {}
                         },
                     "type": "institution",
                     "institution_type": "N/A",

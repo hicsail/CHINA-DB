@@ -62,7 +62,8 @@ class EventParser(Parser):
                     "loc":
                         {
                             "location_type": "N/A",
-                            "location_name": "N/A"
+                            "location_name": "N/A",
+                            "province_name": "N/A"
                         },
                     "type": "event",
                     "event_type": "N/A",
