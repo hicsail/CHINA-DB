@@ -86,7 +86,8 @@ export const InstitutionFilterHelpers = {
       {
         matches.type = true;
       }
-      if (this.filterByLocationInst(featureEntry.loc.location_name, featureEntry.loc.location_type, filters))
+      if (this.filterByLocationInst(featureEntry.loc.location_name, featureEntry.loc.location_type,
+				featureEntry.loc.province_name.name_en, filters))
       {
         matches.location= true;
       }
@@ -145,14 +146,15 @@ export const InstitutionFilterHelpers = {
 
       return false;
     },
-    filterByLocationInst(thisLocationType, thisLocationName, filters) {
+    filterByLocationInst(thisLocationType, thisLocationName, thisProvinceName, filters) {
 
       if (filters.searchLocation === ''){
         return false;
       }
 
       if(thisLocationType.includes(filters.searchLocation.toLowerCase())
-        || thisLocationName.includes(filters.searchLocation.toLowerCase())){
+        || thisLocationName.includes(filters.searchLocation.toLowerCase())
+				|| thisProvinceName.includes(filters.searchLocation.toLowerCase())){
         return true;
       }
 
