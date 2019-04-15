@@ -102,7 +102,7 @@ class PersonParser(Parser):
         """
 
         current_institution = self.institution_table[inst_id]
-        rec["institution_name"] = current_institution["inst_id"]
+        rec["institution_name"] = current_institution["inst_name"]
         rec["tradition"] = self.tradition_mapping(current_institution)
 
         geo = current_institution["geography"]

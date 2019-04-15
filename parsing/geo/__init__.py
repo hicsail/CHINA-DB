@@ -73,7 +73,7 @@ class Parser:
                 name_zh = province_record["name_zh"]
             except KeyError:
                 name_zh = "N/A"
-            return {"name_en": name_en, "name_py": name_py, "name_zh": name_zh}
+            return {"name_en": name_en.lower(), "name_py": name_py.lower(), "name_zh": name_zh}
         except KeyError:
             return {"name_en": "N/A", "name_py": "N/A", "name_zh": "N/A"}
 
@@ -96,7 +96,7 @@ class Parser:
                 name_zh = province_record["name_zh"]
             except KeyError:
                 name_zh = "N/A"
-            return {"name_en": name_en, "name_py": name_py, "name_zh": name_zh}
+            return {"name_en": name_en.lower(), "name_py": name_py.lower(), "name_zh": name_zh}
         except KeyError:
             return {"name_en": "N/A", "name_py": "N/A", "name_zh": "N/A"}
 
@@ -117,7 +117,7 @@ class Parser:
                 name_zh = province_record["name_zh"]
             except KeyError:
                 name_zh = "N/A"
-            return {"name_en": name_en, "name_py": name_py, "name_zh": name_zh}
+            return {"name_en": name_en.lower(), "name_py": name_py.lower(), "name_zh": name_zh}
         except KeyError:
             return {"name_en": "N/A", "name_py": "N/A", "name_zh": "N/A"}
 
@@ -209,8 +209,8 @@ class Parser:
                 name_zh = "N/A"
             rec["loc"]["province_name"] = \
                 {
-                    "name_en": name_en,
-                    "name_py": name_py,
+                    "name_en": name_en.lower(),
+                    "name_py": name_py.lower(),
                     "name_zh": name_zh
                 }
 
