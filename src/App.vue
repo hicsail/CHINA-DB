@@ -35,12 +35,21 @@
 </template>
 
 <script>
+import Geo from './components/Geo'
+import Individual from './components/IndividualDetail'
+import Institution from './components/InstitutionDetail'
+
 export default {
   name: 'App',
   methods: {
     setHomePage(status){
       this.$parent.onHomePage = status;
     }
+  },
+  components: {
+    Geo,
+    Individual,
+    Institution
   }
 }
 

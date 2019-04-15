@@ -21,7 +21,6 @@ export const PopupContent = {
        * @return       an HTML string to use as popup content
        */
 
-
       let start = "<div><h5>INDIVIDUAL</h5><table><tbody>";
       let title = "Mr.";
       if (data.gender === "female"){
@@ -32,7 +31,7 @@ export const PopupContent = {
 				"<tr><td> Name: " + title + " "
 				+ this.capitalize(data.titles.given_name_en)
 				+ " " + this.allCaps(data.titles.family_name_en)
-				+ " ( family_name_zh + given_name_zh) "
+				// + " ( family_name_zh + given_name_zh) " TODO
 				+ "</td></tr>";
 			let time =
 						"<tr><td>Lived: "
@@ -66,15 +65,16 @@ export const PopupContent = {
 						+ "</td></tr>";
 			let endYear =
 						"<tr><td>End Year: "
-						// + data.time.end_year TODO - new data will have this
+						// + data.time.end_year TODO
 						+ "</td></tr>";
 			let loc =
 						"<tr><td>Location: "
 						+ this.capitalize(data.loc.location_name)
-						+ " ( name_zh ) "
+						// + " ( name_zh ) " TODO
 						+ "</td></tr>";
-      let end =
-				"</tbody></table> </div>";
+
+			let end =
+						"</tbody></table> </div>";
 
       let popupContent =
 				start + name + time + gender
@@ -97,7 +97,7 @@ export const PopupContent = {
       let name =
 				"<tr><td>Name: "
 				+ this.capitalize(data.name)
-				+ " ( inst_name_zh ) "
+				// + " ( inst_name_zh ) "  // TODO
 				+ "</td></tr>";
       let type =
 				"<tr><td>Type: "
@@ -209,7 +209,6 @@ export const PopupContent = {
           capitalized += " ";
         }
       }
-
       return capitalized;
     },
 		allCaps(string){

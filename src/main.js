@@ -11,11 +11,9 @@ import { faBars, faBuilding, faChevronDown, faChevronUp, faChurch, faFilter, faM
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import './assets/leaflet.awesome-markers.css';
 import './assets/leaflet.awesome-markers.js';
-
+import store from './store/store'
 
 library.add(faBars, faBuilding, faChevronDown, faChevronUp, faChurch, faFilter, faMale, faMapMarker, faRedo, faTimes, faUniversity);
-
-window.EventBus = new Vue();
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
@@ -26,6 +24,7 @@ Vue.config.productionTip = false;
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  store,
   router,
   components: { App },
   template: '<App/>',

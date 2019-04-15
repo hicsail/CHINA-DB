@@ -98,57 +98,6 @@
                         </b-collapse>
                     </div>
                 </div>
-
-
-                <!-- CORPORATE ENTITIES -->
-                <!--<div class="row padding-neg">-->
-
-                    <!--<div v-b-toggle.accordion3 class="row center-button drop-down-div"  v-on:click="corporateEntitiesSelected = !corporateEntitiesSelected" >-->
-                        <!--<div class="col-md-1 row-three-color center-item align-middle">-->
-                            <!--<font-awesome-icon icon="building" size="2x"></font-awesome-icon>-->
-                        <!--</div>-->
-                        <!--<div class="col-md-9 drop-down-title-text">Corporate Entities</div>-->
-                        <!--<div class="col-md-2 center-item">-->
-                            <!--<font-awesome-icon v-if="!corporateEntitiesSelected" icon="chevron-down" class="grey" size="2x"></font-awesome-icon>-->
-                            <!--<font-awesome-icon v-if="corporateEntitiesSelected" icon="chevron-up"  class="grey" size="2x"></font-awesome-icon>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                    <!--<div class="col-md-12">-->
-                        <!--<b-collapse id="accordion3" accordion="my-accordion" class=" white-background grey-border">-->
-
-                            <!--<CorporateEntities-->
-                                    <!--ref="corporateEntitiesComponent"-->
-                                    <!--:corporateEntitiesSelected="corporateEntitiesSelected"-->
-                                    <!--:openOverlay="openOverlay"-->
-                                    <!--@filterCorporateEntities="filterCorporateEntities"-->
-                            <!--/>-->
-
-                        <!--</b-collapse>-->
-                    <!--</div>-->
-                <!--</div>-->
-
-
-                <!-- EVENTS -->
-                <!--<div class="row padding-neg">-->
-
-                    <!--<div v-b-toggle.accordion4 class="row center-button drop-down-div"  v-on:click="eventsSelected = !eventsSelected" >-->
-                        <!--<div class="col-md-1 row-four-color center-item align-middle">-->
-                            <!--<font-awesome-icon icon="church" size="2x"></font-awesome-icon>-->
-                        <!--</div>-->
-                        <!--<div class="col-md-9 drop-down-title-text">Historical Events</div>-->
-                        <!--<div class="col-md-2 center-item">-->
-                            <!--<font-awesome-icon v-if="!eventsSelected" icon="chevron-down" class="grey" size="2x"></font-awesome-icon>-->
-                            <!--<font-awesome-icon v-if="eventsSelected" icon="chevron-up"  class="grey" size="2x"></font-awesome-icon>-->
-                        <!--</div>-->
-                    <!--</div>-->
-
-                    <!--<div class="col-md-12">-->
-                        <!--<b-collapse id="accordion4" accordion="my-accordion" class="white-background grey-border">-->
-                            <!--<div class="grey-text center-item">TODO</div>-->
-                        <!--</b-collapse>-->
-                    <!--</div>-->
-                <!--</div>-->
-
             </b-container>
         </div>
 
@@ -194,9 +143,14 @@
                                     :lat-lng="marker.position"
                                     :visible="marker.visible"
                                     :icon="marker.icon">
-                                <l-popup
-                                        :content="marker.popupContent"
-                                />
+                                <l-popup>
+                                    <div v-html=marker.popupContent></div>
+                                    <button v-if="marker.type==='person' || marker.type==='institution'"
+                                            class="btn btn-primary btn-sm"
+                                            @click="openDetailTab(marker.data)">VIEW DETAIL
+                                    </button>
+
+                                </l-popup>
                             </l-marker>
                         </l-marker-cluster>
                     </l-map>
@@ -224,6 +178,7 @@
     import  { IndividualFilterHelpers }  from "./mixins/individualFilterHelpers";
     import  { InstitutionFilterHelpers }  from "./mixins/institutionFilterHelpers";
     import  { CorporateEntityFilterHelpers }  from "./mixins/corporateEntityFilterHelpers";
+    import EventBus from './eventBus';
 
 	export default {
 		name: "shanxiMap",
@@ -280,7 +235,9 @@
                   position: [markerData.lat, markerData.lon],
                   visible: true,
                   popupContent: this.getPopupContent(markerData.data),
-                  icon: dropPin
+                  icon: dropPin,
+                  data: markerData.data,
+                  type: markerData.data.type
                 };
             this.markers.push(newMarker);
           },
@@ -325,6 +282,20 @@
             this.$refs.institutionComponent.resetFiltersInst();
             this.$refs.corporateEntitiesComponent.resetFiltersCorp();
             this.filtersCleared = true;
+          },
+          // Open new detail tab, update shared data across tabs in Vuex store
+          openDetailTab(data){
+
+            if (data.type.trim().includes('person')){
+              let route = this.$router.resolve({path: '/individual'});
+              window.open(route.href, '_blank');
+              this.$store.commit('setIndividualData', data);
+
+            } else if (data.type.trim().includes('institution')){
+              let route = this.$router.resolve({path: '/institution'});
+              window.open(route.href, '_blank');
+              this.$store.commit('setInstitutionData', data);
+            }
           }
         },
         mixins: [

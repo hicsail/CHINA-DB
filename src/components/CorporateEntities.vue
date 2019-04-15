@@ -114,7 +114,7 @@
 
 <script>
 	import vueSlider from 'vue-slider-component';
-
+    import EventBus from './eventBus'
     export default {
         name: 'CorporateEntities',
         components: {
