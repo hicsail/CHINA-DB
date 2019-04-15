@@ -84,7 +84,8 @@ export const IndividualFilterHelpers = {
       {
         matches.gender = true;
       }
-      if (this.filterByLocation(featureEntry.loc.location_type, featureEntry.loc.location_name, filters))
+      if (this.filterByLocation(featureEntry.loc.location_type, featureEntry.loc.location_name,
+				featureEntry.loc.province_name.name_en, filters))
       {
         matches.location = true;
       }
@@ -120,10 +121,11 @@ export const IndividualFilterHelpers = {
     filterByGender(thisGender, filters) {
       return (thisGender === filters.searchGender.toLowerCase());
     },
-    filterByLocation(thisLocationType, thisLocationName, filters) {
+    filterByLocation(thisLocationType, thisLocationName, thisProvinceName, filters) {
 
       return (thisLocationType === filters.searchLocation.toLowerCase()
-        || thisLocationName === filters.searchLocation.toLowerCase());
+        || thisLocationName === filters.searchLocation.toLowerCase()
+				|| thisProvinceName === filters.searchLocation.toLowerCase());
     },
     userSelectedAndFilterMatches(matches, attributesSelected) {
       /*
