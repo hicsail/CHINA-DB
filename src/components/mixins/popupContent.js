@@ -21,6 +21,8 @@ export const PopupContent = {
        * @return       an HTML string to use as popup content
        */
 
+      console.log(data);
+
       let start = "<div><h5>INDIVIDUAL</h5><table><tbody>";
       let title = "Mr.";
       if (data.gender === "female"){
@@ -31,7 +33,7 @@ export const PopupContent = {
 				"<tr><td> Name: " + title + " "
 				+ this.capitalize(data.titles.given_name_en)
 				+ " " + this.allCaps(data.titles.family_name_en)
-				// + " ( family_name_zh + given_name_zh) " TODO
+				 + " (" + data.titles.family_name_zh + " " + data.titles.given_name_zh + ")"
 				+ "</td></tr>";
 			let time =
 						"<tr><td>Lived: "
@@ -70,7 +72,7 @@ export const PopupContent = {
 			let loc =
 						"<tr><td>Location: "
 						+ this.capitalize(data.loc.location_name)
-						// + " ( name_zh ) " TODO
+						+ " (" + data.loc.location_name_zh + ")"
 						+ "</td></tr>";
 
 			let end =
@@ -97,7 +99,7 @@ export const PopupContent = {
       let name =
 				"<tr><td>Name: "
 				+ this.capitalize(data.name)
-				// + " ( inst_name_zh ) "  // TODO
+				+ " (" + data.name_zh + ")"
 				+ "</td></tr>";
       let type =
 				"<tr><td>Type: "
@@ -126,6 +128,7 @@ export const PopupContent = {
       let loc =
 				"<tr><td>Location: "
 				+ this.capitalize(data.loc.location_name)
+				+ " (" + data.loc.location_name_zh + ")"
 				+ "</td></tr>";
       let startYear =
 				"<tr><td>Start Year: "
