@@ -188,8 +188,6 @@ class PersonParser(Parser):
                         {
                             "family_name_en": "N/A",
                             "given_name_en": "N/A",
-                            "family_name_py": "N/A",
-                            "given_name_py": "N/A",
                             "family_name_zh": "N/A",
                             "given_name_zh": "N/A"
                         },
