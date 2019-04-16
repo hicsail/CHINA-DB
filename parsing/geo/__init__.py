@@ -138,6 +138,7 @@ class Parser:
                     {
                         "location_type": "N/A",
                         "location_name": "N/A",
+                        "location_name_zh": "N/A",
                         "province_name": {}
                     }
             }
@@ -149,7 +150,8 @@ class Parser:
             rec["coords"]["lat"] = t_rec["latitude"]
             rec["coords"]["lon"] = t_rec["longitude"]
             rec["loc"]["location_type"] = "township"
-            rec["loc"]["location_name"] = t_rec["township_id"].lower()
+            rec["loc"]["location_name"] = t_rec["name_en"].lower()
+            rec["loc"]["location_name_zh"] = t_rec["name_zh"]
             rec["loc"]["province_name"] = self.grab_province_from_township(t_rec)
 
             return rec
@@ -164,7 +166,8 @@ class Parser:
             rec["coords"]["lat"] = c_rec["latitude"]
             rec["coords"]["lon"] = c_rec["longitude"]
             rec["loc"]["location_type"] = "county"
-            rec["loc"]["location_name"] = c_rec["county_id"].lower()
+            rec["loc"]["location_name"] = c_rec["name_en"].lower()
+            rec["loc"]["location_name_zh"] = c_rec["name_zh"]
             rec["loc"]["province_name"] = self.grab_province_from_county(c_rec)
 
             return rec
@@ -179,7 +182,8 @@ class Parser:
             rec["coords"]["lat"] = p_rec["latitude"]
             rec["coords"]["lon"] = p_rec["longitude"]
             rec["loc"]["location_type"] = "prefecture"
-            rec["loc"]["location_name"] = p_rec["prefecture_id"].lower()
+            rec["loc"]["location_name"] = p_rec["name_en"].lower()
+            rec["loc"]["location_name_zh"] = p_rec["name_zh"]
             rec["loc"]["province_name"] = self.grab_province_from_prefecture(p_rec)
 
             return rec
@@ -194,7 +198,8 @@ class Parser:
             rec["coords"]["lat"] = p_rec["latitude"]
             rec["coords"]["lon"] = p_rec["longitude"]
             rec["loc"]["location_type"] = "province"
-            rec["loc"]["location_name"] = p_rec["province_id"].lower()
+            rec["loc"]["location_name"] = p_rec["name_en"].lower()
+            rec["loc"]["location_name_zh"] = p_rec["name_zh"]
             try:
                 name_en = p_rec["name_en"]
             except KeyError:

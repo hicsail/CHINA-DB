@@ -113,6 +113,7 @@ class InstitutionParser(Parser):
                 rec_copy["coords"]["lon"] = geo_rec["coords"]["lon"]
                 rec_copy["loc"]["location_type"] = geo_rec["loc"]["location_type"]
                 rec_copy["loc"]["location_name"] = geo_rec["loc"]["location_name"]
+                rec_copy["loc"]["location_name_zh"] = geo_rec["loc"]["location_name_zh"]
                 rec_copy["loc"]["province_name"] = geo_rec["loc"]["province_name"]
                 ret.append(rec_copy)
 
@@ -158,7 +159,19 @@ class InstitutionParser(Parser):
                             "association": "N/A"
                         },
                     "name": "N/A",
+                    "name_zh": "N/A"
                 }
+
+            try:
+                i_rec["name"] = self.institution_table[i]["inst_name"].lower()
+            except KeyError:
+                # no name for this entry, skip to next one
+                continue
+
+            try:
+                i_rec["name_zh"] = self.institution_table[i]["inst_name_zh"]
+            except KeyError:
+                pass
 
             try:
                 i_rec["institution_type"] = institution_to_type[i].lower()
@@ -180,12 +193,6 @@ class InstitutionParser(Parser):
                 i_rec["corp_relations"] = self.corp_relation_mapping(org_org_id)
             except KeyError:
                 pass
-
-            try:
-                i_rec["name"] = self.institution_table[i]["inst_name"].lower()
-            except KeyError:
-                # no name for this entry, skip to next one
-                continue
 
             try:
                 geo = self.institution_table[i]["geography"]

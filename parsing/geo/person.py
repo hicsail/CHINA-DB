@@ -58,6 +58,7 @@ class PersonParser(Parser):
                 rec_copy["coords"]["lon"] = geo_rec["coords"]["lon"]
                 rec_copy["loc"]["location_type"] = geo_rec["loc"]["location_type"]
                 rec_copy["loc"]["location_name"] = geo_rec["loc"]["location_name"]
+                rec_copy["loc"]["location_name_zh"] = geo_rec["loc"]["location_name_zh"]
                 rec_copy["loc"]["province_name"] = geo_rec["loc"]["province_name"]
                 ret.append(rec_copy)
 
