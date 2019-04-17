@@ -159,7 +159,8 @@ class InstitutionParser(Parser):
                             "association": "N/A"
                         },
                     "name": "N/A",
-                    "name_zh": "N/A"
+                    "name_zh": "N/A",
+                    "rec_id": i
                 }
 
             try:

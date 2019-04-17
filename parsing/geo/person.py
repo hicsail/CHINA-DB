@@ -199,7 +199,8 @@ class PersonParser(Parser):
                     "type": "person",
                     "nationality": "N/A",
                     "gender": "N/A",
-                    "institution_name": "N/A"
+                    "institution_name": "N/A",
+                    "rec_id": p
                 }
 
             for e in p_ret["titles"]:
