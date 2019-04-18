@@ -141,7 +141,7 @@ class PersonParser(Parser):
 
             try:
                 inst_id = self.org_org_table[ooid]["inst_id_1"][0]
-                rec["institution_name"] = self.institution_table[inst_id]["name"]
+                rec["institution_name"] = self.institution_table[inst_id]["inst_name"]
 
                 geo = self.institution_table[inst_id]["geography"]
                 geo_recs = self.add_geo(geo, rec)
@@ -200,6 +200,8 @@ class PersonParser(Parser):
                     "nationality": "N/A",
                     "gender": "N/A",
                     "institution_name": "N/A",
+                    "pers_org_id": "N/A",
+                    "pers_org_type": "N/A",
                     "rec_id": p
                 }
 
@@ -237,7 +239,7 @@ class PersonParser(Parser):
 
             for org in orgs:
 
-                # org can correspond to an institution or a corporate entity
+                p_ret["pers_org_id"] = org
                 current_org = self.person_org_table[org]
 
                 try:
@@ -245,8 +247,19 @@ class PersonParser(Parser):
                 except KeyError:
                     pass
 
+                '''
+                NOTE: using "pers_org_type" flag here because there is no way to map
+                an individual to their roles in a corporate entity given their role in
+                an institution. The person-organization mappings are stored with insititutions
+                and corporate entities together in the same table, so we can only say, from an
+                individual's role in an institution, that they were also a member of a corporate 
+                entity by extension. We can't infer from that membership that they had any particular
+                role in that corporate entity except via an explicit entry.
+                '''
+
                 try:
                     inst_id = current_org["inst_id"][0]
+                    p_ret["pers_org_type"] = "institution"
                     recs = self.add_recs_inst(inst_id, p_ret)
                     if len(recs) > 0:
                         ret.extend(recs)
@@ -255,6 +268,7 @@ class PersonParser(Parser):
 
                 try:
                     corp_id = current_org["corp_id"][0]
+                    p_ret["pers_org_type"] = "corporate"
                     recs = self.add_recs_corp(corp_id, p_ret)
                     if len(recs) > 0:
                         ret.extend(recs)
