@@ -21,8 +21,6 @@ export const PopupContent = {
        * @return       an HTML string to use as popup content
        */
 
-      console.log(data);
-
       let start = "<div><h5>INDIVIDUAL</h5><table><tbody>";
       let title = "Mr.";
       if (data.gender === "female"){

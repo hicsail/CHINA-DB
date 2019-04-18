@@ -4,12 +4,12 @@
     <br>
     <b-container>
         <h3>Biographical Data</h3>
-            <span class="subTitle">Name:</span> {{ name }}
-            <br><span class="subTitle">Alternate names:</span> {{ chineseName }}
-            <br><span class="subTitle">Titles:</span> {{ titles }}
-            <br><span class="subTitle">Birth-Death:</span> {{ birthDeath }}
-            <br><span class="subTitle">Nationality:</span> {{ nationality }}
-            <br><span class="subTitle">Gender:</span> {{ gender }}
+            <span class="subTitle">Name:</span> {{ personal.name }}
+            <br><span class="subTitle">Alternate names:</span> {{ personal.chineseName }}
+            <br><span class="subTitle">Titles:</span> {{ personal.titles }}
+            <br><span class="subTitle">Birth-Death:</span> {{ personal.birthDeath }}
+            <br><span class="subTitle">Nationality:</span> {{ personal.nationality }}
+            <br><span class="subTitle">Gender:</span> {{ personal.gender }}
             <br>
     </b-container>
 
@@ -17,35 +17,34 @@
     <hr>
     <b-container>
         <h3>Interpersonal Connections</h3>
-            <span class="subTitle">Parent to:</span> {{ children }}
-            <br><span class="subTitle">Child of:</span> {{ parents }}
-            <br><span class="subTitle">Confessor to:</span> {{ confesee, confeseeYear }}
+            <span class="subTitle">Parent to:</span> {{ interpersonal.children }}
+            <br><span class="subTitle">Child of:</span> {{ interpersonal.parents }}
+            <br><span class="subTitle">Confessor to:</span> {{ interpersonal.confessorTo }} ({{ interpersonal.confessorYear }})
     </b-container>
 
 
     <hr>
     <b-container>
         <h3>Institutional Relationships</h3>
-            <span class="subTitle">Pastor/Minister of:</span> {{ institution, institutionYear }}
-            <br><span class="subTitle">Principal of:</span> {{ principalOf, principalOfYear }}
+            <span class="subTitle">Present at:</span> {{ institutional.institution }} ({{ institutional.institutionYear }})
+            <br><span class="subTitle">Participation Type:</span> {{ institutional.participationType }}
     </b-container>
 
 
     <hr>
     <b-container>
         <h3>Corporate Entity Relationships</h3>
-            <span class="subTitle">Jinshi in:</span> {{ jinshi, jinshiDate }}
-            <br><span class="subTitle">Member of:</span> {{ membership, membershipYear }}
-            <br><span class="subTitle">Minister of:</span> {{ corporateEntityMinister, corporateEntityMinisterYear }}
+            <span class="subTitle">Member of:</span> {{ corporate.membership }} ({{ corporate.time }})
+            <br><span class="subTitle">Role:</span> {{ corporate.role }}
     </b-container>
 
 
     <hr>
     <b-container>
         <h3>Participation in Special Events</h3>
-            <span class="subTitle">Participant at:</span> {{ participant, participantYear }}
-            <br><span class="subTitle">Chairperson at:</span> {{ chair, chairYear }}
-            <br><span class="subTitle">Disembarked on:</span> {{ disembarked, disembarkedYear }}
+            <span class="subTitle">Participant at:</span> {{ this.events.participant }} ({{ this.events.participantYear }})
+            <br><span class="subTitle">Chairperson at:</span> {{ this.events.chair }}  ({{ this.events.chairYear }})
+            <br><span class="subTitle">Disembarked on:</span> {{ this.events.disembarked }} ({{ this.events.disembarkedYear }})
     </b-container>
 
     </div>
@@ -54,81 +53,31 @@
 <script>
   import vueSlider from 'vue-slider-component';
   import  { PopupContent }  from "./mixins/popupContent";
+  import { IndividualQueries} from "./mixins/individualDetailQueries";
 
   export default {
     name: 'Individual',
     components: {
       vueSlider,
-      PopupContent
+      PopupContent,
+      IndividualQueries
     },
     data: () => ({
       individual: {},
-      name: '',
-      chineseName: '',
-      titles: '',
-      birthDeath: '',
-      nationality: '',
-      gender: '',
-      children: '',
-      parents: '',
-      confesee: '',
-      confeseeYear: '',
-      institution: '',
-      institutionYear: '',
-      principalOf: '',
-      principalOfYear: '',
-      jinshi: '',
-      jinshiDate: '',
-      membership: '',
-      membershipYear: '',
-      corporateEntityMinister: '',
-      corporateEntityMinisterYear: '',
-      participant: '',
-      participantYear: '',
-      chair: '',
-      chairYear: '',
-      disembarked: '',
-      disembarkedYear: ''
+      personal: {},
+      interpersonal: {},
+      institutional: {},
+      corporate: {},
+      events: {}
     }),
     mounted() {
       this.individual = this.$store.getters.individualData;
-      console.log('the individual detail data is:');
-      console.log(this.individual);
 
-      this.name =  this.capitalize(this.individual.titles.given_name_en) + " " + this.capitalize(this.individual.titles.family_name_en);
-      //this.chineseName = this.capitalize(this.individual.titles.family_name_zh) + " " + this.capitalize(this.individual.titles.given_name_zh);
-      this.titles = this.individual.gender === 'male' ? 'Mr.' : 'Ms.';
-      this.birthDeath = this.getBirthDeath();
-      this.nationality = this.individual.nationality !== 'N/A' ? this.individual.nationality : 'unknown';
-      this.gender = this.individual.gender;
-
-      // Interpersonal Connections
-      // this.children: ;
-      // this.parents: '';
-      // this.confesee: '';
-      // this.confeseeYear: '';
-
-      // Institutional Relationships
-      this.institution = this.capitalize(this.individual.institution_name);
-      // this.institutionYear: '';
-      // this.principalOf= '';
-      // this.principalOfYear= '';
-
-      // Corporate Entity Relationships
-      // this.jinshi = '';
-      // this.jinshiDate= '';
-      this.membership = this.capitalize(this.individual.tradition.association);
-      // this.membershipYear= '';
-      // this.corporateEntityMinister= '';
-      // this.corporateEntityMinisterYear= '';
-
-      // Participation in Special Events
-      // this.participant= '';
-      // this.participantYear= '';
-      // this.chair= '';
-      // this.chairYear= '';
-      // this.disembarked= '';
-      // this.disembarkedYear= '';
+      this.resolvePersonal();
+      this.resolveInterpersonal();
+      this.resolveInstitutional();
+      this.resolveCorporate();
+      this.resolveEvents()
 
     },
     methods: {
@@ -141,11 +90,59 @@
           years += this.individual.time.end_year.toString()
         }
         return years;
+      },
+      resolvePersonal() {
+        this.personal.name =
+          this.capitalize(this.individual.titles.given_name_en)
+          + " " + this.capitalize(this.individual.titles.family_name_en);
+        this.personal.chineseName =
+          this.capitalize(this.individual.titles.family_name_zh)
+          + " " + this.capitalize(this.individual.titles.given_name_zh);
+        this.personal.titles = this.individual.gender === 'male' ? 'Mr.' : 'Ms.';
+        this.personal.birthDeath = this.getBirthDeath();
+        this.personal.nationality = this.individual.nationality !== 'N/A' ? this.individual.nationality : 'unknown';
+        this.personal.gender = this.individual.gender;
+      },
+      async resolveInterpersonal() {
+        let obj = await this.interpersonalConnections(this.individual.rec_id);
+        this.interpersonal = obj.data
+      },
+      async resolveInstitutional() {
+      	let obj = await this.institutionalConnections(this.individual.rec_id);
+      	this.institutional = obj.data;
+      },
+      async resolveCorporate() {
+
+      	console.log(this.individual);
+        if (this.individual.pers_org_type === "corporate")
+        {
+            let obj = await this.corporateConnections(this.individual.pers_org_id);
+            this.corporate = obj.data;
+        }
+        else
+        {
+          this.corporate = {
+            membership: this.capitalize(this.individual.tradition.association),
+            role: "Member",
+            time: this.individual.time.start_year
+          }
+        }
+      },
+      resolveEvents() {
+      	this.events = {
+          participant: "N/A",
+          participantYear: "",
+          chair: "N/A",
+          chairYear: "",
+          disembarked: "N/A",
+          disembarkedYear: ""
+        }
       }
     },
     // Use PopupContent mixin for 'capitalize' function, which capitalizes names
     mixins: [
-      PopupContent
+      PopupContent,
+      IndividualQueries
     ]
 
   };
