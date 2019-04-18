@@ -53,7 +53,7 @@
 <script>
   import vueSlider from 'vue-slider-component';
   import  { PopupContent }  from "./mixins/popupContent";
-  import { IndividualQueries} from "./mixins/individualDetailQueries";
+  import { IndividualQueries } from "./mixins/individualDetailQueries";
 
   export default {
     name: 'Individual',

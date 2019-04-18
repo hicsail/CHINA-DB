@@ -42,12 +42,14 @@
 <script>
   import vueSlider from 'vue-slider-component';
   import  { PopupContent }  from "./mixins/popupContent";
+  import { InstitutionQueries } from "./mixins/institutionDetailQueries"
 
   export default {
     name: 'Institution',
     components: {
       vueSlider,
-      PopupContent
+      PopupContent,
+      InstitutionQueries
     },
     data: () => ({
       institution: {},
@@ -99,6 +101,8 @@
       this.corporateEntityAffiliate= this.institution.corp_relations.association !== 'N/A' ? this.institution.corp_relations.association : '';
       // this.corporateEntityAffiliateYear= '';
 
+      this.resolvePersonnel();
+
     },
     methods: {
       getStartEnd(){
@@ -110,11 +114,16 @@
           years += this.institution.time.end_year.toString()
         }
         return years;
+      },
+      async resolvePersonnel() {
+      	let obj = await this.personnelConnections(this.institution.rec_id);
+      	console.log(obj);
       }
     },
     // Use PopupContent mixin for 'capitalize' function, which capitalizes names
     mixins: [
-      PopupContent
+      PopupContent,
+      InstitutionQueries
     ]
 
   };
