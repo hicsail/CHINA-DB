@@ -67,7 +67,6 @@
       this.resolveInterpersonal();
       this.resolveInstitutional();
       this.resolveCorporate();
-      this.resolveEvents()
 
     },
     methods: {
