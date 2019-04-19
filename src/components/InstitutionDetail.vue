@@ -73,8 +73,6 @@
     }),
     mounted() {
       this.institution = this.$store.getters.institutionData;
-      console.log('the institution detail data is:');
-      console.log(this.institution);
 
       // Institutional Data
       this.name= this.capitalize(this.institution.name);
@@ -102,6 +100,8 @@
       // this.corporateEntityAffiliateYear= '';
 
       this.resolvePersonnel();
+      this.resolveInstitutional();
+      this.resolveCorporate();
 
     },
     methods: {
@@ -117,6 +117,17 @@
       },
       async resolvePersonnel() {
       	let obj = await this.personnelConnections(this.institution.rec_id);
+      	console.log("Personnel data: ");
+      	console.log(obj)
+      },
+      async resolveInstitutional() {
+      	let obj = await this.institutionalConnections(this.institution.rec_id);
+      	console.log("Institutional data: ");
+      	console.log(obj);
+      },
+      async resolveCorporate() {
+      	let obj = await this.corporateConnections(this.institution.rec_id);
+      	console.log("Corporate data");
       	console.log(obj);
       }
     },
