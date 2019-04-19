@@ -77,9 +77,6 @@ export const InstitutionQueries = {
 					}
 
 					let orgOrgIds = record.get('organization_organization');
-
-					console.log("orgOrgIds: ");
-					console.log(orgOrgIds);
 					if (orgOrgIds)
 					{
 						for (let i = 0; i < orgOrgIds.length; i++) {

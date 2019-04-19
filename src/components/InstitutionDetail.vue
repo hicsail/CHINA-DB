@@ -16,24 +16,30 @@
     <hr>
     <b-container>
         <h3>Personnel</h3>
-            <span class="subTitle">President:</span> {{ president1, president1Year }}
-            <br><span class="subTitle">Teacher:</span> {{ teacher, teacherYear }}
+            <tr v-for="row in personell">
+                <br><span class="subTitle">Name: </span> {{ row.personName }}
+                <br><span class="subTitle">Role: </span> {{ row.personRole }}
+            </tr>
     </b-container>
 
 
     <hr>
     <b-container>
         <h3>Institutional Relationships</h3>
-            <span class="subTitle">Partner with:</span> {{ partner, partnerYear }}
-            <br><span class="subTitle">Overseen by:</span> {{ overseer, overseerYear }}
+            <tr v-for="row in institutional">
+                <br><span class="subTitle">Name: </span> {{ row.orgName }}
+                <br><span class="subTitle">Relationship: </span> {{ row.parentOrgRole }} - {{ row.orgRole }}
+            </tr>
     </b-container>
 
 
     <hr>
     <b-container>
         <h3>Corporate Entity Relationships</h3>
-            <span class="subTitle">Overseen by:</span> {{ corporateEntityOverseer, corporateEntityOverseerYear }}
-            <br><span class="subTitle">Affiliated with:</span> {{ corporateEntityAffiliate, corporateEntityAffiliateYear }}
+            <tr v-for="row in corporate">
+                <br><span class="subTitle">Name: </span> {{row.orgName }}
+                <br><span class="subTitle">Relationship: </span> {{ row.parentOrgRole }} - {{ row.orgRole }}
+            </tr>
     </b-container>
 
     </div>
@@ -53,6 +59,9 @@
     },
     data: () => ({
       institution: {},
+      personell: [],
+      institutional: [],
+      corporate: [],
       name: '',
       alternateName: '',
       type: '',
@@ -119,16 +128,19 @@
       	let obj = await this.personnelConnections(this.institution.rec_id);
       	console.log("Personnel data: ");
       	console.log(obj)
+        this.personell = obj.data;
       },
       async resolveInstitutional() {
       	let obj = await this.institutionalConnections(this.institution.rec_id);
       	console.log("Institutional data: ");
       	console.log(obj);
+      	this.institutional = obj.data;
       },
       async resolveCorporate() {
       	let obj = await this.corporateConnections(this.institution.rec_id);
-      	console.log("Corporate data");
+      	console.log("Corporate data: ");
       	console.log(obj);
+      	this.corporate = obj.data;
       }
     },
     // Use PopupContent mixin for 'capitalize' function, which capitalizes names
