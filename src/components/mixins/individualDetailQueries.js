@@ -27,81 +27,75 @@ export const IndividualQueries = {
 			},
 			institutionalConnections(recId) {
 				return new Promise(function(resolve, reject) {
-					base('person').find(recId, function(err, record) {
-						if (err) {
-							console.error(err);
-							return;
-						}
 
-						let returnObj = {
-							institution: "N/A",
-							institutionYear: "N/A",
-							participationType: "N/A"
-						};
+					let returnObj = {
+						institution: "N/A",
+						institutionYear: "N/A",
+						participationType: "N/A"
+					};
 
-						let personOrganizationIds = record.get('person_organization');
-						base('person_organization').find(personOrganizationIds[0], function(err, record) {
-							if (err) {
-								console.log(err);
-								return;
-							}
-
-							let startYear = record.get('start_year');
-							if (startYear)
-							{
-								returnObj.institutionYear = startYear;
-							}
-
-							let instId = record.get('inst_id');
-							if (instId)
-							{
-								base('institution').find(instId[0], function(err, record) {
-									let instName = record.get('inst_name');
-									if (instName)
-									{
-										returnObj.institution = instName;
-									}
-								})
-							}
-							else
-							{
-								resolve({"data": returnObj});
-							}
-
-							let relTypeId = record.get('pers_role_id');
-							if (relTypeId)
-							{
-								base('person_organization_role').find(relTypeId[0], function(err, record) {
-									if (err) {
-										console.log(err);
-										return;
-									}
-
-									let relType = record.get('pers_org_role_en');
-									if (relType)
-									{
-										returnObj.participationType = relType;
-									}
-								});
-							}
-							resolve({"data": returnObj});
-						})
-					})
-				})
-			},
-			corporateConnections(recId) {
-				return new Promise(function(resolve, reject) {
 					base('person_organization').find(recId, function(err, record) {
 						if (err) {
 							console.log(err);
 							return;
 						}
 
-						let returnObj = {
-							membership: "N/A",
-							role: "N/A",
-							time: "N/A"
-						};
+						let startYear = record.get('start_year');
+						if (startYear)
+						{
+							returnObj.institutionYear = startYear;
+						}
+
+						let instId = record.get('inst_id');
+						if (instId)
+						{
+							base('institution').find(instId[0], function(err, record) {
+								let instName = record.get('inst_name');
+								if (instName)
+								{
+									returnObj.institution = instName;
+								}
+							})
+						}
+						else
+							{
+								resolve({"data": returnObj});
+							}
+
+						let relTypeId = record.get('pers_role_id');
+						if (relTypeId)
+						{
+							base('person_organization_role').find(relTypeId[0], function(err, record) {
+								if (err) {
+									console.log(err);
+									return;
+								}
+
+								let relType = record.get('pers_org_role_en');
+								if (relType)
+								{
+									returnObj.participationType = relType;
+								}
+							});
+						}
+					});
+					resolve({"data": returnObj});
+				})
+			},
+			corporateConnections(recId) {
+				return new Promise(function(resolve, reject) {
+
+					let returnObj = {
+						membership: "N/A",
+						role: "N/A",
+						time: "N/A"
+					};
+
+					base('person_organization').find(recId, function(err, record) {
+						if (err) {
+							console.log(err);
+							return;
+						}
 
 						let corpId = record.get('corp_id');
 						if (corpId)

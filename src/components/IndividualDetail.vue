@@ -108,7 +108,7 @@
         this.interpersonal = obj.data
       },
       async resolveInstitutional() {
-      	let obj = await this.institutionalConnections(this.individual.rec_id);
+      	let obj = await this.institutionalConnections(this.individual.pers_org_id);
       	this.institutional = obj.data;
       },
       async resolveCorporate() {
