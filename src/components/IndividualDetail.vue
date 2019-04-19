@@ -13,13 +13,13 @@
             <br>
     </b-container>
 
-
     <hr>
     <b-container>
         <h3>Interpersonal Connections</h3>
-            <span class="subTitle">Parent to:</span> {{ interpersonal.children }}
-            <br><span class="subTitle">Child of:</span> {{ interpersonal.parents }}
-            <br><span class="subTitle">Confessor to:</span> {{ interpersonal.confessorTo }} ({{ interpersonal.confessorYear }})
+        <tr v-for="row in interpersonal">
+            <br><span class="subTitle">Name: </span> {{ row.personName}}
+            <br><span class="subTitle">Relationship: </span> {{ row.relationshipOne }} - {{ row.relationshipTwo }}
+        </tr>
     </b-container>
 
 
@@ -36,15 +36,6 @@
         <h3>Corporate Entity Relationships</h3>
             <span class="subTitle">Member of:</span> {{ corporate.membership }} ({{ corporate.time }})
             <br><span class="subTitle">Role:</span> {{ corporate.role }}
-    </b-container>
-
-
-    <hr>
-    <b-container>
-        <h3>Participation in Special Events</h3>
-            <span class="subTitle">Participant at:</span> {{ this.events.participant }} ({{ this.events.participantYear }})
-            <br><span class="subTitle">Chairperson at:</span> {{ this.events.chair }}  ({{ this.events.chairYear }})
-            <br><span class="subTitle">Disembarked on:</span> {{ this.events.disembarked }} ({{ this.events.disembarkedYear }})
     </b-container>
 
     </div>
@@ -64,11 +55,10 @@
     },
     data: () => ({
       individual: {},
-      personal: {},
+      personal: [],
       interpersonal: {},
       institutional: {},
-      corporate: {},
-      events: {}
+      corporate: {}
     }),
     mounted() {
       this.individual = this.$store.getters.individualData;
@@ -105,6 +95,8 @@
       },
       async resolveInterpersonal() {
         let obj = await this.interpersonalConnections(this.individual.rec_id);
+        console.log("Interpersonal Connections: ");
+        console.log(obj.data);
         this.interpersonal = obj.data
       },
       async resolveInstitutional() {
@@ -128,16 +120,6 @@
           }
         }
       },
-      resolveEvents() {
-      	this.events = {
-          participant: "N/A",
-          participantYear: "",
-          chair: "N/A",
-          chairYear: "",
-          disembarked: "N/A",
-          disembarkedYear: ""
-        }
-      }
     },
     // Use PopupContent mixin for 'capitalize' function, which capitalizes names
     mixins: [

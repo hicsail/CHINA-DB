@@ -97,7 +97,7 @@ export const InstitutionQueries = {
 
 								if (orgIdOne && orgIdTwo)
 								{
-									if (orgIdOne === recId)
+									if (orgIdOne[0] === recId)
 									{
 
 										let orgRoleOne = record.get("org_role_id_1");
@@ -119,7 +119,7 @@ export const InstitutionQueries = {
 											currentRel.orgRole = record.get('org_org_role_en');
 										});
 
-										base('institution').find(orgIdTwo, function(err, record) {
+										base('institution').find(orgIdTwo[0], function(err, record) {
 											if (err) {
 												console.log(err);
 												return;
@@ -148,7 +148,7 @@ export const InstitutionQueries = {
 											currentRel.orgRole = record.get('org_org_role_en');
 										});
 
-										base('institution').find(orgIdOne, function(err, record) {
+										base('institution').find(orgIdOne[0], function(err, record) {
 											if (err) {
 												console.log(err);
 												return;

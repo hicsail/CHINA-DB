@@ -6,23 +6,99 @@ export const IndividualQueries = {
 		{
 			interpersonalConnections(recId) {
 				return new Promise(function(resolve, reject) {
+
+					let returnObj = [];
+
 					base('person').find(recId, function (err, record) {
 						if (err) {
 							console.error(err);
 							return;
 						}
 
-						// these relationships don't exist in the DB yet, returning an empty obj
+						let personPersonIds = record.get('person_person');
+						console.log("PersonPerson Ids: ");
+						console.log(personPersonIds);
+						if (personPersonIds)
+						{
+							for (let i = 0; i < personPersonIds.length; i++)
+							{
+								let currentRel = {
+									personName: "",
+									relationshipOne: "",
+									relationshipTwo: ""
+								};
 
-						let returnObj = {
-							children: "N/A",
-							parents: "N/A",
-							confessorTo: "N/A",
-							confessorYear: "N/A"
+								base('person_person').find(personPersonIds[i], function(err, record) {
+									let personIdOne = record.get('person_id_1');
+									let personIdTwo = record.get('person_id_2');
 
-						};
-						resolve({"data": returnObj});
+									if (personIdOne[0] === recId)
+									{
+										base('person').find(personIdTwo[0], function(err, record) {
+											if (err) {
+												console.log(err);
+												return;
+											}
+
+											currentRel.personName = record.get('given_name_en') + " " + record.get('family_name_en');
+										});
+
+										let thisPersonRoleId = record.get('person_1_role_id');
+										base('person_person_role').find(thisPersonRoleId[0], function(err, record) {
+											if (err) {
+												console.log(err);
+												return;
+											}
+											currentRel.relationshipOne = record.get('pers_pers_role_en');
+										});
+
+										let otherPersonRoleId = record.get('person_2_role_id');
+										base('person_person_role').find(otherPersonRoleId[0], function(err, record) {
+											if (err) {
+												console.log(err);
+												return;
+											}
+											currentRel.relationshipTwo= record.get('pers_pers_role_en');
+										});
+									}
+									else
+									{
+										base('person').find(personIdOne[0], function(err, record) {
+											if (err) {
+												console.log(err);
+												return;
+											}
+
+											currentRel.personName = record.get('given_name_en') + " " + record.get('family_name_en');
+										});
+
+										let thisPersonRoleId = record.get('person_2_role_id');
+										base('person_person_role').find(thisPersonRoleId[0], function(err, record) {
+											if (err) {
+												console.log(err);
+												return;
+											}
+
+											currentRel.relationshipOne = record.get('pers_pers_role_en');
+										});
+
+										let otherPersonRoleId = record.get('person_1_role_id');
+										base('person_person_role').find(otherPersonRoleId[0], function(err, record) {
+											if (err) {
+												console.log(err);
+												return;
+											}
+
+											currentRel.relationShipTwo = record.get('pers_pers_role_en');
+										});
+									}
+								});
+								returnObj.push(currentRel);
+							}
+						}
+
 					});
+					resolve({"data": returnObj});
 				});
 			},
 			institutionalConnections(recId) {
